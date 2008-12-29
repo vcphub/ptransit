@@ -1,0 +1,26 @@
+
+---------------------------------------------------------------------
+README 
+Author: Vijay C Patil
+---------------------------------------------------------------------
+
+This directory contain prototype software related to Pune transit 
+project.
+
+To compile and execute use following instructions. This software is 
+tested only on GNU/Linux Ubuntu 8.10.
+
+$ make
+g++ -Wall -g main.cpp routes.cpp -o rgen.exe
+
+You can use sample input data set files, 
+Sample routes data = routes-sample.csv
+Sample trips data = trips-sample.csv
+
+$ ./rgen.exe routes-sample.csv trips-sample.csv 
+
+If program exits successfully, it will generated a HTML page, which
+can be viewed in a browser.
+
+$ firefox output.html &
+

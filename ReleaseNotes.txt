@@ -1,0 +1,17 @@
+
+---------------------------------------------------------------------
+					Release Notes :: ptransit project
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+Date: Monday, 29 December 2008. Version 0.1 Released.
+
+Initial release.
+
+Container program 'rgen' to convert schedule data into suitable HTML
+pages. These HTML pages could be used in public transit authorities
+website.
+
+---------------------------------------------------------------------
+					START
+---------------------------------------------------------------------

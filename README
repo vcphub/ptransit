@@ -1,0 +1,22 @@
+
+---------------------------------------------------------------------
+README 
+Author: Vijay C Patil 
+---------------------------------------------------------------------
+
+You have downloaded source code (tarball) of 'ptransit' project.
+This directory contain software programs/tools which are part of this
+project.
+
+Typically each tool has its own sub-directory, as described below.
+You should find a separate README in each of the sub-directories.
+The README files contain instructions to build and use programs.
+
++ sub-dir: rgen
+Contains program to convert routes and trips data to HTML pages.
+
+For more information and project documentation, please visit project 
+webpage:
+
+http://code.google.com/p/ptransit
+
