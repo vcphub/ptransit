@@ -42,6 +42,9 @@ void print_html()
 		// Open output HTML file
 		fout.open(filename.c_str());
 
+		fout<<"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\">";
+		fout<<endl<<endl;
+
 		fout<<"<html>"<<endl;
 		fout<<"<title>PMPML Bus Schedule</title>"<<endl<<endl;
 		fout<<"<header> </header>"<<endl;
