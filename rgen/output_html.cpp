@@ -46,8 +46,12 @@ void print_html()
 		fout<<endl<<endl;
 
 		fout<<"<html>"<<endl;
+
+		fout<<"<head>"<<endl;
 		fout<<"<title>PMPML Bus Schedule</title>"<<endl<<endl;
-		fout<<"<header> </header>"<<endl;
+		fout<<"<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">"<<endl;
+		fout<<"</head>"<<endl;
+
 		fout<<"<body>"<<endl;
 		fout<<"<h6> Disclaimer: About stop time accuracy. ";
 		fout<< "Actual stop times depend on many uncontrollable factors like \
