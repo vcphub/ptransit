@@ -128,7 +128,9 @@ Route * find_route(string short_name, string bus_id)
 	return route;
 }
 
-// Read trips data file in CSV format.
+// Description: Read trips data file in CSV format.
+// Arguments: trip data file name
+// Return value: void
 void read_trips_file(string filename)
 {
 	ifstream fin(filename.c_str());
@@ -143,17 +145,26 @@ void read_trips_file(string filename)
 		string token;
 		Route * route = NULL;
 
+		// check string
+		assert(buffer.length() != 0);
+
+		//cout << linecnt << " " << buffer << endl;
+		
 		// tokenize line string
 		curr_pos = buffer.find_first_of(',', prev_pos);
-		//cout << linecnt << " " << buffer << endl;
 
-		while(curr_pos != string::npos) {
+		while(1) {
 
-			if(curr_pos == prev_pos)
-				break;
+			if(curr_pos == string::npos)
+				curr_pos = buffer.length();
 
+			// It is possible to get empty token
 			token = buffer.substr(prev_pos, curr_pos-prev_pos);
 			tokenlist.push_back(token);
+
+			if(curr_pos == buffer.length())
+				break;
+
 			prev_pos = curr_pos+1;
 			curr_pos = buffer.find_first_of(',', prev_pos);
 		} 
@@ -163,10 +174,18 @@ void read_trips_file(string filename)
 		route = find_route(tokenlist[0], tokenlist[1]);
 
 		if(route != NULL) {
+			//  Correct Route found.
+			
 			route->estimated_time = atoi(tokenlist[4].c_str());
+			// TODO: Check bus stop count.
 
 			for(size_t i = 5; i < tokenlist.size(); i++) {
 				int start_time = 0;
+
+				// ignore empty token because it is useless.
+				if(tokenlist[i].length() == 0)
+					continue;
+
 				start_time = time_string_to_mins(tokenlist[i]);
 				route->start_time_list.push_back(start_time);
 			}
@@ -193,27 +212,45 @@ void read_routes_file(string filename)
 	Route * route = NULL;
 
 	getline(fin, buffer);
+
 	while(!fin.eof())
 	{
 		size_t prev_pos = 0, curr_pos = 0;
 		vector<string> tokenlist;
 		string token; 
 
-		// tokenize line string
-		curr_pos = buffer.find_first_of(',', prev_pos);
+		// check string
+		assert(buffer.length() != 0);
 		//cout << linecnt << " " << buffer << endl;
+		
+		// tokenize string buffer.
+		curr_pos = buffer.find(',', prev_pos);
 
-		while(curr_pos != string::npos) {
+		while(1) {
 
-			token = buffer.substr(prev_pos, curr_pos-prev_pos);
+			if(curr_pos == string::npos)
+				curr_pos = buffer.length();
+
+			int token_length = curr_pos-prev_pos;
+
+			if(token_length == 0) 
+				cout << "Warning: line " << linecnt << "missing cell value."<<endl;
+
+			// create new token and add it to tokenlist.
+			token = buffer.substr(prev_pos, token_length);
 			tokenlist.push_back(token);
 
+			// reached end of the line
+			if(curr_pos == buffer.length())
+				break;
+
 			prev_pos = curr_pos+1;
-			curr_pos = buffer.find_first_of(',', prev_pos);
+			curr_pos = buffer.find(',', prev_pos);
 		} 
 
 		// Use token list to create and populate Route object
-		if((last_route_name == tokenlist[0]) && (last_bus_id == tokenlist[1])) {
+		if((last_route_name == tokenlist[0]) && 
+						(last_bus_id == tokenlist[1])) {
 
 			// Add stop name to existing route object
 			assert(route != NULL);
