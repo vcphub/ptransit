@@ -7,4 +7,4 @@ run: main.cpp routes.cpp output_html.cpp utils.cpp
 PHONY:
 
 clean:
-	rm rgen.exe output.html
+	rm rgen.exe r*.html

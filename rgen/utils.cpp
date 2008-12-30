@@ -22,8 +22,6 @@ string time_mins_to_hhmm(int total_mins)
 	hrs = total_mins/60;
 	mins = total_mins % 60; // remainder
 	
-	
-
 	if(hrs >= 12) {
 
 		hrs -= 12;
@@ -44,7 +42,6 @@ string time_mins_to_hhmm(int total_mins)
 	output = temp.str();	
 
 	//cout << "output = " << output << endl;
-	//getchar();
 
 	return output;
 }

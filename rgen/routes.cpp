@@ -1,13 +1,10 @@
-/*
- * Program Description: 
- * Read PMT routes data. Count total number of bus stops.
- *
- */
-
+// File: routes.cpp
+// Description: File containers class Route member function definitions.
 
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <sstream>
 #include <vector>
 #include <cassert>
 #include <cstdlib>
@@ -17,6 +14,19 @@ using namespace std;
 
 // Global objects
 RouteContainer RoutesList;
+// Static objects
+int Route::route_count = 0;
+
+// Constructor
+Route::Route()
+{
+	ostringstream ss;
+
+	Route::route_count++;
+	ss << "r" << route_count;
+
+	this->route_id = ss.str();
+}
 
 // Given short name and bus id, find matching route object.
 // Arguments: route short name, route bus id

@@ -24,9 +24,7 @@ int main(int argc, char * argv[])
 	// second argument: trips-file
 	read_trips_file(argv[2]);
 
-	getchar();
 	print_html();
-
 
 	return 0;
 }

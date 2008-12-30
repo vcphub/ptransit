@@ -4,6 +4,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <sstream>
 #include <vector>
 #include <cassert>
 #include <cstdlib>
@@ -18,36 +19,47 @@ extern RouteContainer RoutesList;
 // Use interpolation
 void print_html()
 {
-	ofstream fout("output.html");
 
-	fout<<"<html>"<<endl;
-	fout<<"<title>PMPML Bus Schedule</title>"<<endl<<endl;
-
-	fout<<"<header>"<<endl;
-	fout<<"<h3> PMPML Schedule </h3>"<< endl;
-	fout<<"</header>"<<endl;
-
-	fout<<"<body>"<<endl;
-
+	int count = 0;
 	// For each route in RoutesList.
-	int print_count = 0;
 	RouteIterator iter = RoutesList.begin();
 	for(; iter != RoutesList.end(); iter++) {
 
+		ostringstream ss;
+		string filename;
+		ofstream fout;
 		Route * route = (*iter);
+
 		int stop_count = route->stop_list.size();
 		int trip_count = route->start_time_list.size();
-
-		double interval = 0; // must be double for accurate calculation
-
-		// Interpolation
 		if(stop_count == 0 || trip_count == 0)
 			continue;
 
+		// construct output file name for this route.
+		ss<< route->get_route_id() <<".html";
+		filename = ss.str();
+
+		// Open output HTML file
+		fout.open(filename.c_str());
+
+		fout<<"<html>"<<endl;
+		fout<<"<title>PMPML Bus Schedule</title>"<<endl<<endl;
+		fout<<"<header> </header>"<<endl;
+		fout<<"<body>"<<endl;
+		fout<<"<h6> Disclaimer: About stop time accuracy. ";
+		fout<< "Actual stop times depend on many uncontrollable factors like \
+		bus breakdowns, traffic conditions etc. \
+		We will try our best to provide you most accurate schedule. </h6>"<< endl;
+
+		// Interpolation
+		double interval = 0; // must be double for accurate calculation
 		interval = (double)route->estimated_time/(double)(stop_count-1); // mins
 
 		// Part 1: Print basic information about route.
-		fout << "<h4> Route " << route->short_name <<"</h4>"<< endl;
+		fout<<"<h4> Route = " << route->short_name <<"</h4>"<< endl;
+		fout<<"<h4> Direction = " << route->stop_list[0]<<" --> ";
+	   	fout<< route->stop_list[stop_count-1] <<"</h4>"<< endl;
+
 		fout << "<h4> Number of stops = " << stop_count <<"</h4>"<< endl;
 		fout << "<h4> Estimated time = " << route->estimated_time <<" Minutes </h4>"<< endl;
 
@@ -84,13 +96,14 @@ void print_html()
 
 		fout<<endl;
 		fout<<"</table>"<<endl;
-		getchar();
-		print_count++;
+		fout << "</body>" << endl;
+		fout << "</html>" << endl;
 
-		break;
+		count++;
+		cout<<"Generated output file "<< filename << endl; 
 	}
 
-	fout << "</body>" << endl;
-	fout << "</html>" << endl;
+	cout<<"Total HTML files generated = " << count << endl;
+
 }
 
