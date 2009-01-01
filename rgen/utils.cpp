@@ -6,6 +6,8 @@
 #include <sstream>
 #include <iostream>
 #include <cassert>
+#include <cctype>
+#include "utils.h"
 
 using namespace std;
 
@@ -46,6 +48,24 @@ string time_mins_to_hhmm(int total_mins)
 	return output;
 }
 
+// Remove alphabets from the string
+string remove_alpha(string s)
+{
+	string output;
+
+	int length = s.length();
+
+	for(int i = 0; i < length; i++) {
+		char c = s[i];
+		if(isdigit(c) || (c == '.'))
+			output.push_back(c);
+		// else ignore
+	}
+
+	return output;
+}
+
+
 // Utility Function
 int time_string_to_mins(string input)
 {
@@ -53,6 +73,9 @@ int time_string_to_mins(string input)
 	string str_hours, str_mins;
 	int hours = 0, mins = 0;
 	size_t prev_pos = 0, curr_pos = 0;
+
+	// make input ready for conversion.
+	input = remove_alpha(input);
 
 	curr_pos = input.find_first_of('.', 0);
 	str_hours = input.substr(prev_pos, curr_pos-prev_pos);

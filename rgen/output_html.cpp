@@ -9,6 +9,7 @@
 #include <cassert>
 #include <cstdlib>
 #include "route.h"
+#include "utils.h"
 
 using namespace std;
 

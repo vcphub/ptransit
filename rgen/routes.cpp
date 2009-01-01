@@ -10,6 +10,7 @@
 #include <cstdlib>
 #include <iomanip>
 #include "route.h"
+#include "utils.h"
 
 using namespace std;
 
@@ -64,7 +65,7 @@ void read_trips_file(string filename)
 	ifstream fin(filename.c_str());
 	int linecnt = 0;
 	
-	cout<<"Reading trips data file .. "<<endl;
+	cout<<"Reading trips data file "<<filename<<" ... "<<endl;
 	string buffer;
 	getline(fin, buffer);
 	linecnt++;
@@ -143,7 +144,7 @@ void read_routes_file(string filename)
 	string last_bus_id = "";
 	Route * route = NULL;
 
-	cout<<"Reading routes data file .. "<<endl;
+	cout<<"Reading routes data file "<<filename<<" ... "<<endl;
 	getline(fin, buffer);
 	linecnt++;
 
