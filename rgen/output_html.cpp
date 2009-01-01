@@ -107,7 +107,7 @@ void print_html()
 		fout << "</html>" << endl;
 
 		count++;
-		cout<<"Generated output file "<< filename << endl; 
+		//cout<<"Generated output file "<< filename << endl; 
 	}
 
 	cout<<"Total HTML files generated = " << count << endl;

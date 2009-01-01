@@ -8,6 +8,7 @@
 #include <vector>
 #include <cassert>
 #include <cstdlib>
+#include <iomanip>
 #include "route.h"
 
 using namespace std;
@@ -26,6 +27,8 @@ Route::Route()
 	ss << "r" << route_count;
 
 	this->route_id = ss.str();
+	this->stop_count = 0;
+	this->distance = 0.0;
 }
 
 // Given short name and bus id, find matching route object.
@@ -53,6 +56,7 @@ Route * find_route(string short_name, string bus_id)
 }
 
 // Description: Read trips data file in CSV format.
+// “route-number”, “bus-id”, “no-of-stops”, “distance”, “estimated-time”, “start-times”
 // Arguments: trip data file name
 // Return value: void
 void read_trips_file(string filename)
@@ -60,8 +64,10 @@ void read_trips_file(string filename)
 	ifstream fin(filename.c_str());
 	int linecnt = 0;
 	
+	cout<<"Reading trips data file .. "<<endl;
 	string buffer;
 	getline(fin, buffer);
+	linecnt++;
 	while(!fin.eof())
 	{
 		size_t prev_pos = 0, curr_pos = 0;
@@ -93,16 +99,19 @@ void read_trips_file(string filename)
 			curr_pos = buffer.find_first_of(',', prev_pos);
 		} 
 
-		// Use token list to update Route object
+		// Use token list to find and update Route object
 		route = NULL;
+		// Use short name and bus id to find route.
 		route = find_route(tokenlist[0], tokenlist[1]);
 
 		if(route != NULL) {
 			//  Correct Route found.
 			
+			route->stop_count = atoi(tokenlist[2].c_str());
+			route->distance = atof(tokenlist[3].c_str());
 			route->estimated_time = atoi(tokenlist[4].c_str());
-			// TODO: Check bus stop count.
 
+			// Read start times
 			for(size_t i = 5; i < tokenlist.size(); i++) {
 				int start_time = 0;
 
@@ -118,14 +127,13 @@ void read_trips_file(string filename)
 		// get next line
 		getline(fin, buffer);
 		linecnt++;
-		cout << "Tokens read = " << tokenlist.size() << endl;
 	}
 
-	cout << "Total lines read = " << linecnt << endl;
-
+	cout << "Total lines read = " << linecnt << endl << endl;
 }
 
 // Read routes data file in CSV format.
+// “route-number”, “bus-id”, “stop-name”, “stage-number”, “stop-sequence”, “up-direction”
 void read_routes_file(string filename)
 {
 	ifstream fin(filename.c_str());
@@ -135,7 +143,9 @@ void read_routes_file(string filename)
 	string last_bus_id = "";
 	Route * route = NULL;
 
+	cout<<"Reading routes data file .. "<<endl;
 	getline(fin, buffer);
+	linecnt++;
 
 	while(!fin.eof())
 	{
@@ -158,7 +168,7 @@ void read_routes_file(string filename)
 			int token_length = curr_pos-prev_pos;
 
 			if(token_length == 0) 
-				cout << "Warning: line " << linecnt << "missing cell value."<<endl;
+				cout << "Warning: line " << linecnt << " missing cell value."<<endl;
 
 			// create new token and add it to tokenlist.
 			token = buffer.substr(prev_pos, token_length);
@@ -173,13 +183,15 @@ void read_routes_file(string filename)
 		} 
 
 		// Use token list to create and populate Route object
-		if((last_route_name == tokenlist[0]) && (last_bus_id == tokenlist[1])) {
+		if(string_compare(last_route_name, tokenlist[0]) && 
+			string_compare(last_bus_id, tokenlist[1])) {
 
 			// Add stop name to existing route object
 			assert(route != NULL);
 			route->stop_list.push_back(tokenlist[2]);
 
 		} else {
+			// Create new route
 			route = new Route();
 			route->short_name = tokenlist[0];
 			route->bus_id = tokenlist[1];
@@ -199,6 +211,7 @@ void read_routes_file(string filename)
 	}
 
 	cout << "Total lines read = " << linecnt << endl;
-	cout << "Total routes = " << RoutesList.size() << endl;
+	cout << "Total routes = " << RoutesList.size() << endl << endl;
 }
+
 

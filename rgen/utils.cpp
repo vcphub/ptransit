@@ -63,7 +63,7 @@ int time_string_to_mins(string input)
 	hours = atoi(str_hours.c_str());
 	mins = atoi(str_mins.c_str());
 
-	cout << "hours = "<< hours <<", mins = "<< mins << endl;
+	//cout << "hours = "<< hours <<", mins = "<< mins << endl;
 	output = hours * 60 + mins;
 
 	return output;

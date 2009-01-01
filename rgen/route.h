@@ -16,6 +16,7 @@ class Route
 		std::string short_name;
 		std::string bus_id;		// indicates UP/DOWN/Extended direction
 		int stop_count;
+		double distance; 		// In Kms (start to end bus stop).
 		int estimated_time;		// in minutes		
 		static int route_count;
 
@@ -35,6 +36,8 @@ typedef std::vector<Route*>::iterator RouteIterator;
 
 void read_routes_file(std::string filename);
 void read_trips_file(std::string filename);
+void check_data();
+
 bool string_compare(std::string& s1, std::string& s2);
 void print_html();
 
