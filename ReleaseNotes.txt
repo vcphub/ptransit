@@ -4,6 +4,16 @@
 ---------------------------------------------------------------------
 
 ---------------------------------------------------------------------
+Date: Thursday, 1 January 2009. Version 0.2 Released.
+
+Contains improved version of 'rgen' to convert schedule data into 
+HTML pages. Program 'rgen' also generates files errors.txt and 
+warnings.txt. These files contain information about missing data and 
+data inconsistencies in input schedule data.
+
+This version also contains a bug (in reading routes data) fix.
+
+---------------------------------------------------------------------
 Date: Tuesday, 30 December 2008. Version 0.1 Released.
 
 Contains one program 'rgen' to convert schedule data into suitable HTML
