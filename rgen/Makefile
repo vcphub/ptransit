@@ -1,6 +1,6 @@
 
 CFLAGS = -Wall -g
-OBJS = main.o routes.o output_html.o utils.o check_data.o
+OBJS = main.o routes.o trips.o output_html.o utils.o check_data.o
 
 run: $(OBJS)
 	g++ $(CFLAGS) $(OBJS) -o rgen.exe
@@ -10,6 +10,9 @@ main.o : main.cpp route.h
 
 routes.o : routes.cpp route.h utils.h
 	g++ $(CFLAGS) -c routes.cpp
+
+trips.o : trips.cpp route.h utils.h
+	g++ $(CFLAGS) -c trips.cpp
 
 output_html.o : output_html.cpp route.h utils.h
 	g++ $(CFLAGS) -c output_html.cpp

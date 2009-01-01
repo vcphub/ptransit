@@ -13,14 +13,18 @@
 using namespace std;
 
 extern RouteContainer RoutesList;
+extern ofstream ferr;
 
 // Check input data for errors and inconsistencies.
 void check_data()
 {
-	ofstream fout("check.txt");
-
 	Route * route = NULL;	
 	int error_cnt = 0, total_cnt = 0;
+
+	cout<<"Checking routes data for inconsistencies ...";
+	ferr<<endl<<endl;
+	ferr<<"Routes data inconsistency errors"<<endl<<endl;
+
 	// For each object in RoutesList.
 	RouteIterator iter = RoutesList.begin();
 	for(; iter != RoutesList.end(); iter++) {
@@ -29,23 +33,24 @@ void check_data()
 		int master_cnt = route->stop_list.size();
 		int depot_cnt =  route->stop_count;
 
+		// TODO: why?
 		if(route->stop_count == 0) continue;
 
 		if(route->stop_count != (int)route->stop_list.size()) {
 			// Data mismatch
-			fout<<"Route = "<<setw(6)<<route->short_name;
-			fout<<", Bus id = "<<setw(4)<<route->bus_id; 
-			fout<<", master = "<<setw(4)<<route->stop_list.size();
-			fout<<", depot = "<<setw(4)<<route->stop_count;
-			fout<<", diff = "<<setw(4)<<(master_cnt-depot_cnt)<<endl;
+			ferr<<"Route = "<<setw(6)<<route->short_name;
+			ferr<<", Bus id = "<<setw(4)<<route->bus_id; 
+			ferr<<", master = "<<setw(4)<<route->stop_list.size();
+			ferr<<", depot = "<<setw(4)<<route->stop_count;
+			ferr<<", diff = "<<setw(4)<<(master_cnt-depot_cnt)<<endl;
 			error_cnt++;
 		}
 		total_cnt++;
 	}
-	fout << endl;
-	fout << "Total routes = " << total_cnt << endl;
-	fout << "Mismatch count = " << error_cnt << endl;
-
-	fout.close();
+	ferr << endl;
+	ferr << "Total routes = " << total_cnt << endl;
+	ferr << "Mismatch count = " << error_cnt << endl;
+	ferr<<endl<<endl;
+	cout << " Done."<<endl;
 }
 

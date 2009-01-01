@@ -36,9 +36,9 @@ typedef std::vector<Route*>::iterator RouteIterator;
 
 void read_routes_file(std::string filename);
 void read_trips_file(std::string filename);
-void check_data();
+Route * find_route(std::string short_name, std::string bus_id);
 
-bool string_compare(std::string& s1, std::string& s2);
+void check_data();
 void print_html();
 
 
