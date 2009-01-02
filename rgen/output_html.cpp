@@ -8,6 +8,7 @@
 #include <vector>
 #include <cassert>
 #include <cstdlib>
+#include <iomanip>
 #include "route.h"
 #include "utils.h"
 
@@ -16,12 +17,78 @@ using namespace std;
 // Global objects
 extern RouteContainer RoutesList;
 
-// Description: Print HTML page for each page
-// Use interpolation
-void print_html()
+// Description: Print index page. 
+// Index page lists all routes and has references to route pages.
+void print_index_page()
 {
 
+	ofstream fout;
 	int count = 0;
+
+	fout.open("index.html");
+
+	fout<<"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\">";
+	fout<<endl<<endl;
+
+	fout<<"<html>"<<endl;
+
+	fout<<"<head>"<<endl;
+	fout<<"<title>PMPML Bus Schedule</title>"<<endl<<endl;
+	fout<<"<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">"<<endl;
+	fout<<"</head>"<<endl;
+
+	fout<<"<body>"<<endl;
+
+	// For each route in RoutesList.
+	RouteIterator iter = RoutesList.begin();
+	string last_route_name = "";
+	for(; iter != RoutesList.end(); iter++) {
+
+		ostringstream ss;
+		string filename;
+		Route * route = (*iter);
+
+		int stop_count = route->stop_list.size();
+		int trip_count = route->start_time_list.size();
+		if(stop_count == 0 || trip_count == 0)
+			continue;
+
+		// construct output file name for this route.
+		ss<< route->get_route_id() <<".html";
+		filename = ss.str();
+
+		// Create a link another page which has route details.
+		if(!string_compare(last_route_name, route->short_name))
+			fout<<"<br />"<<endl;
+
+		fout<<"<a href=\""<<filename<<"\">";
+		fout<<"Route "<<route->short_name<<" ";
+		fout<<route->stop_list[0]<<" to "<<route->stop_list[stop_count-1];
+		fout<<"</a><br />"<<endl;
+
+		last_route_name = route->short_name;
+		count++;
+	}
+
+	fout<<"<h5> Total links displayed above = "<<count<<"</h5>"<<endl;
+	fout<<"<h5> Note: Not all PMPML routes are displayed.</h5>"<<endl;
+	fout<<"<h5> Note: Shuttles operated by depots are not displayed.</h5>"<<endl;
+
+	fout << "</body>" << endl;
+	fout << "</html>" << endl;
+	fout.close();
+	cout << "Index page generated."<<endl;
+}
+
+
+// Description: Print HTML page for each route name and bus id pair.
+// Calculate interval and use interpolation for obtaining stop times.
+void print_html()
+{
+	int count = 0;
+
+	print_index_page();
+
 	// For each route in RoutesList.
 	RouteIterator iter = RoutesList.begin();
 	for(; iter != RoutesList.end(); iter++) {
