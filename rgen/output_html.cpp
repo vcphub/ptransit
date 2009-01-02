@@ -138,12 +138,13 @@ void print_html()
 		fout << "<h4> Number of stops = " << stop_count <<"</h4>"<< endl;
 		fout << "<h4> Estimated time = " << route->estimated_time <<" Minutes </h4>"<< endl;
 
-		fout << "<table border=\"1\">" << endl;
+		fout << "<table border=1px bordercolor=gray cellpadding=2px cellspacing=0px >" << endl;
 		// TODO: Use bus id
 		
 		// Part 2: Print Header
 		// For each stop print stop name
-		fout<<"<tr>"<<endl;
+		fout<<"<tr alight='center' >"<<endl;
+		fout<<"<tr align='center' style='color:blue; font-family:Verdana; font-size:12px'>"<<endl;
 		vector<string>::iterator stop_iter = route->stop_list.begin();
 		for(; stop_iter != route->stop_list.end(); stop_iter++) 
 			fout<<"\t<th>"<< (*stop_iter) << "</th>" << endl;
@@ -151,17 +152,18 @@ void print_html()
 
 		// Part 3: Print trips
 		// For each trip	
+
 		vector<int>::iterator st_iter = route->start_time_list.begin();
 		for(; st_iter != route->start_time_list.end(); st_iter++) {
 			
-			fout<<"<tr>"<<endl;
+			fout<<"<tr align='center' style='font-family:Verdana; font-size:12px'>"<<endl;
 			// For each stop
 			vector<string>::iterator stop_iter = route->stop_list.begin();
 
 			double time_mins = (*st_iter);
 			for(; stop_iter != route->stop_list.end(); stop_iter++) {
 
-				fout<<"\t<td>"<< time_mins_to_hhmm((int)time_mins) <<"</td>"<<endl;
+				fout<<"\t<td nowrap=nowrap>"<< time_mins_to_hhmm((int)time_mins) <<"</td>"<<endl;
 
 				time_mins += interval; // datatypes are double, for accuracy
 			}
