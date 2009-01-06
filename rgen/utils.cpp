@@ -69,25 +69,34 @@ string remove_alpha(string s)
 // Utility Function
 int time_string_to_mins(string input)
 {
-	int output;
+	int output = -1;
 	string str_hours, str_mins;
 	int hours = 0, mins = 0;
 	size_t prev_pos = 0, curr_pos = 0;
 
 	// make input ready for conversion.
 	input = remove_alpha(input);
+	// Invalid cell value
+	if(input.length() == 0)
+		return output;
 
 	curr_pos = input.find_first_of('.', 0);
 	str_hours = input.substr(prev_pos, curr_pos-prev_pos);
 
-	curr_pos += 1;
-	str_mins = input.substr(curr_pos, input.size()-curr_pos);
+	// minutes will be always 2 digits
+	prev_pos = curr_pos + 1;
+	str_mins = input.substr(prev_pos, 2);
 
 	hours = atoi(str_hours.c_str());
 	mins = atoi(str_mins.c_str());
 
 	//cout << "hours = "<< hours <<", mins = "<< mins << endl;
 	output = hours * 60 + mins;
+
+	if(output > 1440) {
+		//cout << "Invalid start time = "<<input<<" "<<output<< endl;
+		output = output - 1440; // wrap around
+	}
 
 	return output;
 }

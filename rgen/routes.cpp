@@ -9,6 +9,7 @@
 #include <cassert>
 #include <cstdlib>
 #include <iomanip>
+#include <algorithm>
 #include "route.h"
 #include "utils.h"
 
@@ -33,6 +34,13 @@ Route::Route()
 	this->route_id = ss.str();
 	this->stop_count = 0;
 	this->distance = 0.0;
+}
+
+// Sort container start_time_list.
+void Route::sort_start_times()
+{
+	// sort start_time_list
+	sort(start_time_list.begin(), start_time_list.end());
 }
 
 // Given short name and bus id, find matching route object.

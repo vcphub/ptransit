@@ -39,10 +39,12 @@ void check_trip_tokenlist(string& filename, int linecnt, vector<string> tokenlis
 // “route-number”, “bus-id”, “no-of-stops”, “distance”, “estimated-time”, “start-times”
 // Arguments: trip data file name
 // Return value: void
+int missing_route_count = 0;
 void read_trips_file(string filename)
 {
 	ifstream fin(filename.c_str());
 	int linecnt = 0;
+	bool cflag = false;
 	
 	cout<<"Reading trips data file "<<filename<<" ... "<<endl;
 	string buffer;
@@ -93,6 +95,7 @@ void read_trips_file(string filename)
 			route->estimated_time = atoi(tokenlist[4].c_str());
 
 			// Read start times
+			int last_start_time = 0, correction = 0;
 			for(size_t i = 5; i < tokenlist.size(); i++) {
 				int start_time = 0;
 
@@ -101,10 +104,31 @@ void read_trips_file(string filename)
 					continue;
 
 				start_time = time_string_to_mins(tokenlist[i]);
+				if(start_time == -1)
+					continue;
+				assert(start_time <= 1440);
+
+				// Handle 12 hour format, used in pune station data.
+				if((correction == 0) && (last_start_time != 0) && 
+					((last_start_time-start_time) > 500) && (start_time < 720)) {
+					correction = 720;
+					cflag = true;
+				}
+
+				if(start_time < 720)
+					start_time += correction;
+
+				if(start_time > 1440) {
+					cout << "start time = " << start_time << endl;
+					exit(-1);
+				}
+
 				route->start_time_list.push_back(start_time);
+				last_start_time = start_time;
 			}
 		} else {
 			// report error
+			missing_route_count++;
 			ferr<<filename<<": route not found, "<<tokenlist[0]<<", "<<tokenlist[1]<<endl;
 		}
 
@@ -112,6 +136,7 @@ void read_trips_file(string filename)
 		getline(fin, buffer);
 	}
 
+	if(cflag) cout << "Correction used. " << endl;
 	cout << "Total lines read = " << linecnt << endl << endl;
 }
 

@@ -25,6 +25,7 @@ class Route
 
 		// trip start times. Minutes [0, 1439]
 		std::vector<int> start_time_list;
+		void sort_start_times();
 
 		// Member functions.
 		std::string get_route_id() { return route_id; }

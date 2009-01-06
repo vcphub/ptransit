@@ -20,13 +20,23 @@ void check_data()
 {
 	Route * route = NULL;	
 	int error_cnt = 0, total_cnt = 0;
+	RouteIterator iter;
+
+	// For each object in RoutesList.
+	cout<<"Sort start times ... ";
+	iter = RoutesList.begin();
+	for(; iter != RoutesList.end(); iter++) {
+		route = (*iter);
+		route->sort_start_times();
+	}
+	cout<<"Done."<<endl;
 
 	cout<<"Checking routes data for inconsistencies ...";
 	ferr<<endl<<endl;
 	ferr<<"Routes data inconsistency errors"<<endl<<endl;
 
 	// For each object in RoutesList.
-	RouteIterator iter = RoutesList.begin();
+	iter = RoutesList.begin();
 	for(; iter != RoutesList.end(); iter++) {
 		route = (*iter);
 
