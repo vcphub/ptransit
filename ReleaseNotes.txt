@@ -4,6 +4,13 @@
 ---------------------------------------------------------------------
 
 ---------------------------------------------------------------------
+Date: Tuesday, 6 January 2009. Version 0.3 Released.
+
+Major improvements in quality of output HTML pages and error reports.
+Changes were are made to parse and fix as much input data as possible.
+Updated sample HTML page.
+
+---------------------------------------------------------------------
 Date: Thursday, 1 January 2009. Version 0.2 Released.
 
 Contains improved version of 'rgen' to convert schedule data into 
