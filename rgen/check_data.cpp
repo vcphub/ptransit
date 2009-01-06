@@ -44,7 +44,8 @@ void check_data()
 		int depot_cnt =  route->stop_count;
 
 		// TODO: why?
-		if(route->stop_count == 0) continue;
+		if(route->stop_count == 0)
+			continue;
 
 		if(route->stop_count != (int)route->stop_list.size()) {
 			// Data mismatch
@@ -58,9 +59,30 @@ void check_data()
 		total_cnt++;
 	}
 	ferr << endl;
-	ferr << "Total routes = " << total_cnt << endl;
-	ferr << "Mismatch count = " << error_cnt << endl;
+	ferr << "# Total routes = " << total_cnt << endl;
+	ferr << "# Mismatch count = " << error_cnt << endl;
 	ferr<<endl<<endl;
+
+	// Check for unused routes
+	// For each object in RoutesList.
+	iter = RoutesList.begin();
+	int unused_count = 0;
+	for(; iter != RoutesList.end(); iter++) {
+		route = (*iter);
+
+		int depot_cnt =  route->stop_count;
+
+		// TODO: why?
+		if((depot_cnt == 0) || (route->start_time_list.size() == 0)) {
+			ferr<<"Unused Route = "<<setw(6)<<route->short_name;
+			ferr<<", Bus id = "<<setw(4)<<route->bus_id << endl; 
+			unused_count++;
+			continue;
+		}
+	}
+
+	ferr << endl;
+	ferr << "# Unused routes = " << unused_count << endl;
 	cout << " Done."<<endl;
 }
 

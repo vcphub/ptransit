@@ -23,7 +23,7 @@ extern ofstream fwarn;
 // Static objects
 int Route::route_count = 0;
 
-// Constructor
+// Route Constructor
 Route::Route()
 {
 	ostringstream ss;
@@ -34,6 +34,7 @@ Route::Route()
 	this->route_id = ss.str();
 	this->stop_count = 0;
 	this->distance = 0.0;
+	assert(this->depot_name.length() == 0);
 }
 
 // Sort container start_time_list.
@@ -83,6 +84,22 @@ void check_route_tokenlist(string& filename, int linecnt, vector<string> tokenli
 	if(tokenlist[5].length() == 0)	
 		fwarn<<filename<<": line "<<linecnt<<" missing UP direction."<<endl;
 	
+}
+
+int count_shuttle_routes()
+{
+	int count = 0;
+	string s1 = "Shuttal";
+	string s2 = "Shuttle";
+	RouteIterator iter = RoutesList.begin();
+	for(; iter != RoutesList.end(); iter++) {
+		if(string_compare((*iter)->short_name, s1)) {
+			count++;
+		} else if(string_compare((*iter)->short_name, s2)) {
+			count++;
+		}
+	}
+	return count;
 }
 
 // Read routes data file in CSV format.
@@ -163,6 +180,7 @@ void read_routes_file(string filename)
 	}
 
 	cout << "Total lines read = " << linecnt << endl;
+	cout << "Shuttle routes = " << count_shuttle_routes() << endl;
 	cout << "Total routes = " << RoutesList.size() << endl << endl;
 }
 

@@ -40,7 +40,7 @@ void check_trip_tokenlist(string& filename, int linecnt, vector<string> tokenlis
 // Arguments: trip data file name
 // Return value: void
 int missing_route_count = 0;
-void read_trips_file(string filename)
+void read_trips_file(string filename, string depot_name)
 {
 	ifstream fin(filename.c_str());
 	int linecnt = 0;
@@ -82,14 +82,20 @@ void read_trips_file(string filename)
 		// trips data check
 		check_trip_tokenlist(filename, linecnt, tokenlist);
 
-		// Use token list to find and update Route object
+		// Use short name and bus id to find route object.
 		route = NULL;
-		// Use short name and bus id to find route.
 		route = find_route(tokenlist[0], tokenlist[1]);
 
 		if(route != NULL) {
-			//  Correct Route found.
-			
+			//  Correct Route found, set its properties.
+			if(route->depot_name.length() == 0) 
+				route->depot_name = depot_name;
+			else if(route->depot_name != depot_name) {
+				ferr<<"Error: Route cannot belong to two depots: ";
+				ferr<<route->depot_name<<" "<<depot_name<<", ";
+				ferr<<"Route = "<<route->short_name<<endl;
+			}
+
 			route->stop_count = atoi(tokenlist[2].c_str());
 			route->distance = atof(tokenlist[3].c_str());
 			route->estimated_time = atoi(tokenlist[4].c_str());
