@@ -13,7 +13,9 @@
 
 using namespace std;
 
+// Global objects
 extern RouteContainer RoutesList;
+extern RouteContainer MissingRoutesList;
 ofstream ferr;
 ofstream fwarn;
 extern int missing_route_count;
@@ -44,9 +46,11 @@ int main(int argc, char * argv[])
 	read_trips_file("fixed-trips-sadgurunagar-bhosari.csv", "Bhosari");
 	read_trips_file("fixed-trips-swargate.csv", "Swargate");
 	read_trips_file("fixed-trips-tukaramnagar-pimpri.csv", "Tukaramnagar");
-	cout << "Missing route count = " << missing_route_count << endl;
 
-	// Check data
+	cout << "Missing route count = " << MissingRoutesList.size() << endl;
+
+	// process and check data. Report errors.
+	process_data();
 	check_data();
 
 	print_html();

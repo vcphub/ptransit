@@ -16,6 +16,7 @@ using namespace std;
 
 // Global objects
 extern RouteContainer RoutesList;
+RouteContainer MissingRoutesList;
 extern ofstream ferr;
 extern ofstream fwarn;
 
@@ -35,11 +36,10 @@ void check_trip_tokenlist(string& filename, int linecnt, vector<string> tokenlis
 		ferr<<filename<<": line "<<linecnt<<" missing estimated time."<<endl;
 }
 	
-// Description: Read trips data file in CSV format.
+// # Description: Read trips data file in CSV format.
 // “route-number”, “bus-id”, “no-of-stops”, “distance”, “estimated-time”, “start-times”
-// Arguments: trip data file name
-// Return value: void
-int missing_route_count = 0;
+// # Arguments: trip data file name
+// # Return value: void
 void read_trips_file(string filename, string depot_name)
 {
 	ifstream fin(filename.c_str());
@@ -88,6 +88,9 @@ void read_trips_file(string filename, string depot_name)
 
 		if(route != NULL) {
 			//  Correct Route found, set its properties.
+			route->add_depot(depot_name);
+
+			/*
 			if(route->depot_name.length() == 0) 
 				route->depot_name = depot_name;
 			else if(route->depot_name != depot_name) {
@@ -95,6 +98,7 @@ void read_trips_file(string filename, string depot_name)
 				ferr<<route->depot_name<<" "<<depot_name<<", ";
 				ferr<<"Route = "<<route->short_name<<endl;
 			}
+			*/
 
 			route->stop_count = atoi(tokenlist[2].c_str());
 			route->distance = atof(tokenlist[3].c_str());
@@ -134,8 +138,13 @@ void read_trips_file(string filename, string depot_name)
 			}
 		} else {
 			// report error
-			missing_route_count++;
-			ferr<<filename<<": route not found, "<<tokenlist[0]<<", "<<tokenlist[1]<<endl;
+			Route * miss_route = new Route();
+			miss_route->add_depot(depot_name);
+			miss_route->short_name = tokenlist[0];
+			miss_route->bus_id = tokenlist[1];
+			MissingRoutesList.push_back(miss_route);
+
+			//ferr<<filename<<": route not found, "<<tokenlist[0]<<", "<<tokenlist[1]<<endl;
 		}
 
 		// get next line

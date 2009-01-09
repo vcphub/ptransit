@@ -13,7 +13,9 @@ class Route
 	public:
 		Route();
 
-		std::string depot_name;	// Route belongs to a depot.
+		// Route belongs to one or more depots.
+		std::vector<std::string> depot_list;	
+
 		std::string short_name;
 		std::string bus_id;		// indicates UP/DOWN/Extended direction
 		int stop_count;
@@ -30,6 +32,7 @@ class Route
 
 		// Member functions.
 		std::string get_route_id() { return route_id; }
+		void add_depot(std::string depot_name);
 
 };
 
@@ -40,6 +43,7 @@ void read_routes_file(std::string filename);
 void read_trips_file(std::string filename, std::string depot_name);
 Route * find_route(std::string short_name, std::string bus_id);
 
+void process_data();
 void check_data();
 void print_html();
 

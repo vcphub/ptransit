@@ -30,11 +30,10 @@ Route::Route()
 
 	Route::route_count++;
 	ss << "r" << route_count;
-
 	this->route_id = ss.str();
+
 	this->stop_count = 0;
 	this->distance = 0.0;
-	assert(this->depot_name.length() == 0);
 }
 
 // Sort container start_time_list.
@@ -42,6 +41,24 @@ void Route::sort_start_times()
 {
 	// sort start_time_list
 	sort(start_time_list.begin(), start_time_list.end());
+}
+
+// Add new depot name only. 
+// Note: For PMPML, some routes are operated by more than one depot. 
+void Route::add_depot(std::string depot_name)
+{
+	// check depot name
+	assert(depot_name.length() != 0);
+
+	// itearate over existing list
+	vector<string>::iterator iter = depot_list.begin();
+	for(; iter != depot_list.end(); iter++) {
+		if(string_compare((*iter), depot_name)) 
+			return; // do not add depot_name
+	}
+
+	// depot_name is new, add it
+	depot_list.push_back(depot_name);
 }
 
 // Given short name and bus id, find matching route object.
@@ -66,15 +83,22 @@ Route * find_route(string short_name, string bus_id)
 }
 
 // Check single line of routes data file.
-void check_route_tokenlist(string& filename, int linecnt, vector<string> tokenlist)
+bool check_route_tokenlist(string& filename, int linecnt, vector<string> tokenlist)
 {
+	bool good_flag = true; // Good to create route
 	// Errors
-	if(tokenlist[0].length() == 0)	
-		ferr<<filename<<": line "<<linecnt<<" missing route name."<<endl;
-	if(tokenlist[1].length() == 0)	
-		ferr<<filename<<": line "<<linecnt<<" missing bus id."<<endl;
-	if(tokenlist[2].length() == 0)	
-		ferr<<filename<<": line "<<linecnt<<" missing bus stop name."<<endl;
+	if(tokenlist[0].length() == 0){	
+		ferr<<"Master "<<filename<<": line "<<setw(6)<<linecnt<<" missing route name."<<endl;
+		good_flag = false;
+	} 
+	if(tokenlist[1].length() == 0) {	
+		ferr<<"Master "<<filename<<": line "<<setw(6)<<linecnt<<" missing bus id."<<endl;
+		good_flag = false;
+	} 
+	if(tokenlist[2].length() == 0) {
+		ferr<<"Master "<<filename<<": line "<<setw(6)<<linecnt<<" missing bus stop name."<<endl;
+		good_flag = false;
+	}
 
 	// Warnings 
 	if(tokenlist[3].length() == 0)	
@@ -84,8 +108,10 @@ void check_route_tokenlist(string& filename, int linecnt, vector<string> tokenli
 	if(tokenlist[5].length() == 0)	
 		fwarn<<filename<<": line "<<linecnt<<" missing UP direction."<<endl;
 	
+	return good_flag;
 }
 
+// Utility function
 int count_shuttle_routes()
 {
 	int count = 0;
@@ -150,7 +176,13 @@ void read_routes_file(string filename)
 		} 
 
 		// check all tokens.
-		check_route_tokenlist(filename, linecnt, tokenlist);
+		bool status = check_route_tokenlist(filename, linecnt, tokenlist);
+		if(status == false) {
+			// this line is not good, read next line
+			getline(fin, buffer);
+			continue;
+		}
+
 
 		// Use 'tokenlist' to create and populate Route object
 		if(string_compare(last_route_name, tokenlist[0]) && 
@@ -175,7 +207,6 @@ void read_routes_file(string filename)
 		}
 
 		// get next line
-		tokenlist.clear();
 		getline(fin, buffer);
 	}
 

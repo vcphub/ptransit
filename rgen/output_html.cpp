@@ -140,7 +140,12 @@ void print_html()
 	   	fout<< route->stop_list[stop_count-1] << endl;
 		fout<<"</span></center>"<<endl;
 
-		fout<<"<h5> Depot = " << route->depot_name <<"</h5>"<< endl;
+		fout<<"<h5> Depot = ";
+		for(size_t i = 0; i < route->depot_list.size(); i++) {
+			fout<<route->depot_list[i]<<", ";
+		}
+		fout<<"</h5>"<<endl;
+
 		fout<<"<h5> Number of stops = "<<stop_count; 
 		fout<<", Number of trips = "<<trip_count<<"</h5>"<< endl;
 		fout << "<h5> Estimated time = " << route->estimated_time <<" Minutes </h5>"<< endl;
