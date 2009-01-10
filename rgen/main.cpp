@@ -10,6 +10,7 @@
 #include <cstdio>
 
 #include "route.h"
+#include "output_html.h"
 
 using namespace std;
 

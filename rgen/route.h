@@ -45,7 +45,6 @@ Route * find_route(std::string short_name, std::string bus_id);
 
 void process_data();
 void check_data();
-void print_html();
 
 
 #endif
