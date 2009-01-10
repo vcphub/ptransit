@@ -18,7 +18,7 @@ class Route
 
 		std::string short_name;
 		std::string bus_id;		// indicates UP/DOWN/Extended direction
-		int stop_count;
+		int stop_count;			// Bus stop count
 		double distance; 		// In Kms (start to end bus stop).
 		int estimated_time;		// in minutes		
 		static int route_count;

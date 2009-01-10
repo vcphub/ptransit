@@ -23,9 +23,10 @@ void print_index_page()
 {
 
 	ofstream fout;
-	int count = 0;
 
+	cout << "Generating index page ...";
 	fout.open("index.html");
+	assert(fout);
 
 	fout<<"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\">";
 	fout<<endl<<endl;
@@ -49,9 +50,9 @@ void print_index_page()
 		Route * route = (*iter);
 
 		int stop_count = route->stop_list.size();
+		assert(stop_count > 0);
 		int trip_count = route->start_time_list.size();
-		if(stop_count == 0 || trip_count == 0)
-			continue;
+		/* trip count could be 0. */
 
 		// construct output file name for this route.
 		ss<< route->get_route_id() <<".html";
@@ -63,36 +64,39 @@ void print_index_page()
 
 		fout<<"<a href=\""<<filename<<"\">";
 		fout<<"Route "<<route->short_name<<" ";
+		// print direction
 		fout<<route->stop_list[0]<<" to "<<route->stop_list[stop_count-1];
-		fout<<"</a><br />"<<endl;
+		fout<<"</a>";
+
+		if(trip_count == 0)
+			fout<<"  <font color=\"#FF0000\">(Trips times not available.)</font>" << endl;
+		fout<<"<br />"<<endl;
+
 
 		last_route_name = route->short_name;
-		count++;
 	}
 
 	fout<<"<h5> One link for each pair of route name and bus id.</h5>"<<endl;
-	fout<<"<h5> Total links displayed above = "<<count<<"</h5>"<<endl;
-	fout<<"<h5> Percentage of master data = "<< (float)count/RoutesList.size()*100<<" %.</h5>"<<endl;
-
 	fout<<"<h5> Note: Not all PMPML routes are displayed.</h5>"<<endl;
-	fout<<"<h5> Note: Shuttles operated by depots are not displayed.</h5>"<<endl;
 
 	fout << "</body>" << endl;
 	fout << "</html>" << endl;
 	fout.close();
-	cout << "Index page generated."<<endl;
+	cout << " Done."<<endl;
 }
 
 
-// Description: Print HTML page for each route name and bus id pair.
+// # Description: Print HTML page for each route name and bus id pair.
 // Calculate interval and use interpolation for obtaining stop times.
+// Print basic information about the route.
 void print_html()
 {
-	int count = 0;
 
 	print_index_page();
+	cout << "Generating route HTML pages ...";
 
 	// For each route in RoutesList.
+	int empty_count = 0;
 	RouteIterator iter = RoutesList.begin();
 	for(; iter != RoutesList.end(); iter++) {
 
@@ -102,9 +106,9 @@ void print_html()
 		Route * route = (*iter);
 
 		int stop_count = route->stop_list.size();
+		assert(stop_count > 0);
 		int trip_count = route->start_time_list.size();
-		if(stop_count == 0 || trip_count == 0)
-			continue;
+		/* trip count could be 0. */
 
 		// construct output file name for this route.
 		ss<< route->get_route_id() <<".html";
@@ -124,6 +128,7 @@ void print_html()
 		fout<<"</head>"<<endl;
 
 		fout<<"<body>"<<endl;
+
 		fout<<"<h6> Disclaimer: About stop time accuracy. ";
 		fout<< "Actual stop times depend on many uncontrollable factors like \
 		bus breakdowns, traffic conditions etc. \
@@ -147,11 +152,17 @@ void print_html()
 		fout<<"</h5>"<<endl;
 
 		fout<<"<h5> Number of stops = "<<stop_count; 
-		fout<<", Number of trips = "<<trip_count<<"</h5>"<< endl;
-		fout << "<h5> Estimated time = " << route->estimated_time <<" Minutes </h5>"<< endl;
+		if(trip_count == 0)
+			fout<<", Number of trips = Not Available </h5>"<< endl;
+		else 
+			fout<<", Number of trips = "<<trip_count<<"</h5>"<< endl;
+
+		if(route->estimated_time == 0)
+			fout << "<h5> Estimated time = Not Available </h5>" << endl;
+		else
+			fout << "<h5> Estimated time = " << route->estimated_time <<" Minutes </h5>"<< endl;
 
 		fout << "<table border=1px bordercolor=gray cellpadding=2px cellspacing=0px >" << endl;
-		// TODO: Use bus id
 		
 		// Part 2: Print Header
 		// For each stop print stop name
@@ -172,7 +183,6 @@ void print_html()
 
 		// Part 3: Print trips
 		// For each trip	
-
 		vector<int>::iterator st_iter = route->start_time_list.begin();
 		for(int trip_cnt = 1; st_iter != route->start_time_list.end(); st_iter++) {
 			
@@ -196,14 +206,23 @@ void print_html()
 
 		fout<<endl;
 		fout<<"</table>"<<endl;
-		fout << "</body>" << endl;
-		fout << "</html>" << endl;
 
-		count++;
-		//cout<<"Generated output file "<< filename << endl; 
-	}
+		// Shuttle may not have trip information.
+		if(route->start_time_list.empty()) {
+			fout<<"<h5>We are sorry, trips times for this route are not available.</h5>";
+			fout<<"<h5>We are trying our best to make it available to passengers.</h5>";
+			empty_count++;
+		}
 
-	cout<<"Total HTML files generated = " << count << endl;
+		fout<<"</body>"<<endl;
+		fout<<"</html>"<<endl;
+		fout.close();
+
+	} // next route
+
+	float pcnt = (float)empty_count/RoutesList.size() * 100.0; 
+	cout<<" Done." << endl;
+   	cout<<"Start times not available for " << pcnt << " % routes."<<endl;
 
 }
 

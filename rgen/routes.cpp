@@ -33,7 +33,8 @@ Route::Route()
 	this->route_id = ss.str();
 
 	this->stop_count = 0;
-	this->distance = 0.0;
+	this->distance = 0.0; // kms
+	this->estimated_time = 0; // mins
 }
 
 // Sort container start_time_list.

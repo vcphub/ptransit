@@ -32,8 +32,8 @@ int main(int argc, char * argv[])
 	fwarn<<"# Warnings Report"<<endl<<endl;
 
 	// first argument: routes-file
-	read_routes_file("pmt-routes.csv");
-	read_routes_file("pcmt-routes.csv");
+	read_routes_file("fixed-routes-pmt.csv");
+	read_routes_file("fixed-routes-pcmt.csv");
 
 	// second argument: trips-file
 	read_trips_file("fixed-trips-bhakti-shakti-nigdi.csv", "Bhakti-Shakti");
