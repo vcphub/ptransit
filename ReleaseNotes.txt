@@ -4,6 +4,27 @@
 ---------------------------------------------------------------------
 
 ---------------------------------------------------------------------
+Date: Monday, 12 January 2009. Version 0.4 Released.
+
+Following new features are available in this release.
+
+1. Improved error report 'errors.txt'.
+
+2. All html output is now generated in subdirectory 'html'.
+
+3. Code is refactored and now very easy to understand. 
+
+4. All routes from master files are included in index page. Some routes
+(like Shuttle) do not have trip time information are also shown, with
+relevant note.
+
+5. Testing: Lots of formatting errors were removed from PMPML data and 
+test runs were made.
+
+6. Sample index page and sample route are available in the project 
+website.
+
+---------------------------------------------------------------------
 Date: Tuesday, 6 January 2009. Version 0.3 Released.
 
 Major improvements in quality of output HTML pages and error reports.
