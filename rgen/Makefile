@@ -26,4 +26,4 @@ check_data.o: check_data.cpp
 PHONY:
 
 clean:
-	rm $(OBJS) rgen.exe r*.html
+	rm $(OBJS) rgen.exe html/r*.html

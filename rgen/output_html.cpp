@@ -48,7 +48,7 @@ void print_html()
 		fout.open(filename.c_str());
 		if(!fout) {
 			cout<<endl;
-			cout<<"Error: please create sub-directory 'html'."<<endl;
+			cout<<"Error: please create sub-directory 'html'."<<endl<<endl;
 			exit(-1);
 		}
 
@@ -163,7 +163,7 @@ void print_index_page()
 	fout.open("html/index.html");
 	if(!fout) {
 		cout<<endl;
-		cout<<"Error: please create sub-directory 'html'."<<endl;
+		cout<<"Error: please create sub-directory 'html'."<<endl<<endl;
 		exit(-1);
 	}
 

@@ -17,8 +17,11 @@ Keep all input data set files in same directory as executable.
 
 $ ./rgen.exe 
 
-If program exits successfully, it will generated HTML pages, which
-can be viewed in a web browser.
+If program exits successfully, it will generated HTML pages 
+(one index.html page and many routes pages) in subdirectory 'html'. 
+You can open index.html in your favorite web browser.
 
 $ firefox index.html &
 
+Subdirectory 'html' also contain sample HTML pages 'sample_index.html'
+and 'sample_route.html'.

@@ -59,6 +59,7 @@ int main(int argc, char * argv[])
 	// Clean up
 	ferr.close();
 	fwarn.close();
+	cout<<"Program existing successfully."<<endl<<endl;
 
 	return 0;
 }
