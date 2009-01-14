@@ -20,7 +20,7 @@ extern RouteContainer RoutesList;
 
 // + Description: Print table containing stop names and numbers.
 // Used for generating compact output.
-void print_stop_table(ofstream& fout, Route * route)
+void print_stops_table(ofstream& fout, Route * route)
 {
 	// 6 is estimated number.
 	int col_cnt = route->stop_list.size()/6; 
@@ -42,10 +42,11 @@ void print_stop_table(ofstream& fout, Route * route)
 	fout<<"<br />"<<endl;
 }
 
-// Print HTML output.
+// Print different types of HTML output pages.
 void print_html()
 {
 	print_index_page();
+	print_compact_route_pages();
 	print_route_pages();
 }
 
@@ -128,7 +129,8 @@ void print_trip_rows(ofstream& fout, Route * route)
 	}
 }
 
-// # Description: Print HTML page for each route name and bus id pair.
+// # Description: Normal route table.
+// Print HTML page for each route name and bus id pair.
 // Print basic information about the route.
 // Note: For some routes, trip count could be zero.
 void print_route_pages() 
@@ -139,22 +141,19 @@ void print_route_pages()
 	RouteIterator iter = RoutesList.begin();
 	for(; iter != RoutesList.end(); iter++) {
 
-		ostringstream ss;
-		string filename;
-		ofstream fout;
 		Route * route = (*iter);
 
-		// construct output file name for this route.
-		ss<< route->get_route_id() <<".html";
-		filename = ss.str();
-		// create html files in subdir 'html'
-		filename = "html/" + filename; 
+		// construct output file name (in dir html) for this route. 
+		ostringstream ss;
+		ss<<route->get_route_id() <<".html";
+		string filename = "html/" + ss.str();
+		string comp_filename = "compact-" + ss.str();
 
 		// Open output HTML file
+		ofstream fout;
 		fout.open(filename.c_str());
 		if(!fout) {
-			cout<<endl;
-			cout<<"Error: please create sub-directory 'html'."<<endl<<endl;
+			cout<<endl<<"Error: please create sub-directory 'html'."<<endl<<endl;
 			exit(-1);
 		}
 
@@ -165,6 +164,8 @@ void print_route_pages()
 		fout<<"<body>"<<endl;
 
 		print_disclaimer(fout);
+		fout<<"<a href=\""<< comp_filename <<"\" target=\"_blank\">";
+		fout<<"Printer Friendly Page"<<"</a>"<<endl;
 
 		// Part 1: Print basic information about route.
 		print_basic_route_info(fout, route);
@@ -202,6 +203,71 @@ void print_route_pages()
 	float pcnt = (float)empty_count/RoutesList.size() * 100.0; 
 	cout<<" Done." << endl;
    	cout<<"Start times not available for " << pcnt << " % routes."<<endl;
+}
+
+// + Description: Compact route table.
+// For each route in RoutesList print compact route page.
+void print_compact_route_pages() 
+{
+	cout << "Generating compact table for each route ...";
+	RouteIterator iter = RoutesList.begin();
+	for(; iter != RoutesList.end(); iter++) {
+
+		Route * route = (*iter);
+
+		// construct output file name (in dir html) for this route. 
+		ostringstream ss;
+		ss<<"compact-"<< route->get_route_id() <<".html";
+		string filename = "html/" + ss.str();
+
+		// Open output HTML file
+		ofstream fout;
+		fout.open(filename.c_str());
+		if(!fout) {
+			cout<<endl<<"Error: please create sub-directory 'html'."<<endl<<endl;
+			exit(-1);
+		}
+
+		fout<<"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\">";
+		fout<<endl<<endl;
+		fout<<"<html>"<<endl;
+		print_head(fout);
+		fout<<"<body>"<<endl;
+
+		print_disclaimer(fout);
+
+		// Part 1: Print basic information about route.
+		print_basic_route_info(fout, route);
+
+		// Part 2: Print table containing stop names and ids.
+		print_stops_table(fout, route);
+		
+		// Part 3: Print table header
+		fout << "<table border=1px bordercolor=gray cellpadding=1px cellspacing=0px >" << endl;
+
+		print_row_stop_ids(fout, route);	
+
+		// Part 4: Print trips
+		print_trip_rows(fout, route);
+
+		// Part 5: Print table footer
+		print_row_stop_ids(fout, route);	
+
+		fout<<endl;
+		fout<<"</table>"<<endl;
+
+		// Shuttle may not have trip information.
+		if(route->start_time_list.empty()) {
+			fout<<"<h5>We are sorry, trips times for this route are not available.</h5>";
+			fout<<"<h5>We are trying our best to make it available to passengers.</h5>";
+		}
+
+		fout<<"</body>"<<endl;
+		fout<<"</html>"<<endl;
+		fout.close();
+	} // next route
+
+	cout<<" Done." << endl;
 }
 
 // Description: Print index page. 
@@ -245,7 +311,7 @@ void print_index_page()
 		if(!string_compare(last_route_name, route->short_name))
 			fout<<"<br />"<<endl;
 
-		fout<<"<a href=\""<<filename<<"\">";
+		fout<<"<a href=\""<<filename<<"\">"<<"\" target=\"_blank\">";
 		fout<<"Route "<<route->short_name<<" ";
 		// print direction
 		fout<<route->stop_list[0]<<" to "<<route->stop_list[stop_count-1];
