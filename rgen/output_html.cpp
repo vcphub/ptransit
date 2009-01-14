@@ -42,15 +42,97 @@ void print_stop_table(ofstream& fout, Route * route)
 	fout<<"<br />"<<endl;
 }
 
-// # Description: Print HTML page for each route name and bus id pair.
-// Calculate interval and use interpolation for obtaining stop times.
-// Print basic information about the route.
-// Note: For some routes, trip count could be zero.
+// Print HTML output.
 void print_html()
 {
-
 	print_index_page();
+	print_route_pages();
+}
 
+// Print route name and basic route information.
+void print_basic_route_info(ofstream& fout, Route * route)
+{
+	int stop_count = route->stop_list.size();
+	assert(stop_count > 0);
+
+	fout<<"<center><span style='font-size: 20px; font-weight:bold; font-family:Verdana'>";
+	fout<<"Route = " << route->short_name <<", All days of week <br />"<< endl;
+	fout<<route->stop_list[0]<<" -- to --> ";
+	fout<< route->stop_list[stop_count-1] << endl;
+	fout<<"</span></center>"<<endl;
+
+	fout<<"<h5> Depot = ";
+	for(size_t i = 0; i < route->depot_list.size(); i++) {
+		fout<<route->depot_list[i]<<", ";
+	}
+	fout<<"</h5>"<<endl;
+
+	fout<<"<h5> Number of stops = "<<stop_count; 
+	if(route->start_time_list.empty())
+		fout<<", Number of trips = Not Available </h5>"<<endl;
+	else 
+		fout<<", Number of trips = "<< route->start_time_list.size() <<"</h5>"<<endl;
+
+	if(route->estimated_time == 0)
+		fout<<"<h5> Estimated time = Not Available </h5>"<< endl;
+	else
+		fout<<"<h5> Estimated time = "<< route->estimated_time <<" Minutes </h5>"<<endl;
+
+}
+
+// Print a route table row (bus stop ids).
+void print_row_stop_ids(ofstream& fout, Route * route) 
+{
+	fout<<"<tr align='center' style='color:blue; font-family:Verdana; font-size:12px'>"<<endl;
+	fout<<"\t<th>"<<""<<"</th>" << endl;
+	for(size_t i = 1; i <= route->stop_list.size(); i++) 
+		fout<<"\t<th>"<< "Stop "<<setw(2)<<(i)<< "</th>" << endl;
+	fout<<"</tr>"<<endl;
+}
+
+// Print a route table row (bus stop names).
+void print_row_stop_names(ofstream& fout, Route * route) 
+{
+	fout<<"<tr align='center' style='color:blue; font-family:Verdana; font-size:12px'>"<<endl;
+	fout<<"\t<th>"<<""<<"</th>" << endl;
+	for(size_t i = 0; i < route->stop_list.size(); i++) 
+		fout<<"\t<th>"<< route->stop_list[i] << "</th>" << endl;
+	fout<<"</tr>"<<endl;
+}
+
+// Route table: Print one row for each trip.
+// Calculate interval and use interpolation for obtaining stop times.
+void print_trip_rows(ofstream& fout, Route * route) 
+{
+	// Interpolation
+	double interval = 0; // must be double for accurate calculation
+	int stop_count = route->stop_list.size();
+	assert(stop_count > 0);
+	interval = (double)route->estimated_time/(double)(stop_count-1); // mins
+
+	for(size_t trip_cnt = 0; trip_cnt < route->start_time_list.size(); trip_cnt++) {
+			
+		fout<<"<tr align='center' style='font-family:Verdana; font-size:12px'>"<<endl;
+		double time_mins = route->start_time_list[trip_cnt];
+		// Trip no.
+		fout<<"\t<td nowrap=nowrap>"<<"Trip "<< (trip_cnt+1) <<"</td>"<<endl;
+
+		// For a trip, print stop times.
+		for(size_t stop_cnt = 0; stop_cnt < route->stop_list.size(); stop_cnt++) {
+			fout<<"\t<td nowrap=nowrap>"<< time_mins_to_hhmm((int)time_mins) <<"</td>"<<endl;
+
+			time_mins += interval; // datatypes are double, for accuracy
+		}
+
+		fout<<"</tr>"<<endl;
+	}
+}
+
+// # Description: Print HTML page for each route name and bus id pair.
+// Print basic information about the route.
+// Note: For some routes, trip count could be zero.
+void print_route_pages() 
+{
 	cout << "Generating table for each route ...";
 	// For each route in RoutesList.
 	int empty_count = 0;
@@ -84,70 +166,22 @@ void print_html()
 
 		print_disclaimer(fout);
 
-		// Interpolation
-		double interval = 0; // must be double for accurate calculation
-		int stop_count = route->stop_list.size();
-		assert(stop_count > 0);
-		interval = (double)route->estimated_time/(double)(stop_count-1); // mins
-
 		// Part 1: Print basic information about route.
-		fout<<"<center><span style='font-size: 20px; font-weight:bold; font-family:Verdana'>";
-		fout<<"Route = " << route->short_name <<", All days of week <br />"<< endl;
-		fout<<route->stop_list[0]<<" -- to --> ";
-	   	fout<< route->stop_list[stop_count-1] << endl;
-		fout<<"</span></center>"<<endl;
+		print_basic_route_info(fout, route);
 
-		fout<<"<h5> Depot = ";
-		for(size_t i = 0; i < route->depot_list.size(); i++) {
-			fout<<route->depot_list[i]<<", ";
-		}
-		fout<<"</h5>"<<endl;
-
-		fout<<"<h5> Number of stops = "<<stop_count; 
-		if(route->start_time_list.empty())
-			fout<<", Number of trips = Not Available </h5>"<<endl;
-		else 
-			fout<<", Number of trips = "<< route->start_time_list.size() <<"</h5>"<<endl;
-
-		if(route->estimated_time == 0)
-			fout<<"<h5> Estimated time = Not Available </h5>"<< endl;
-		else
-			fout<<"<h5> Estimated time = "<< route->estimated_time <<" Minutes </h5>"<<endl;
-
-		// Part 2: Print Header
+		// Part 2: Print table header
 		// For each stop print stop name
-		
 		fout << "<table border=1px bordercolor=gray cellpadding=1px cellspacing=0px >" << endl;
-		fout<<"<tr align='center' style='color:blue; font-family:Verdana; font-size:12px'>"<<endl;
-		fout<<"\t<th>"<<""<<"</th>" << endl;
-		for(size_t i = 1; i <= route->stop_list.size(); i++) 
-			fout<<"\t<th>"<< "Stop "<<setw(2)<<(i)<< "</th>" << endl;
-		fout<<"</tr>"<<endl;
 
-		fout<<"<tr align='center' style='color:blue; font-family:Verdana; font-size:12px'>"<<endl;
-		fout<<"\t<th>"<<""<<"</th>" << endl;
-		for(size_t i = 0; i < route->stop_list.size(); i++) 
-			fout<<"\t<th>"<< route->stop_list[i] << "</th>" << endl;
-		fout<<"</tr>"<<endl;
+		print_row_stop_ids(fout, route);	
+		print_row_stop_names(fout, route);
 
 		// Part 3: Print trips
-		// For each trip	
-		for(size_t trip_cnt = 0; trip_cnt < route->start_time_list.size(); trip_cnt++) {
-			
-			fout<<"<tr align='center' style='font-family:Verdana; font-size:12px'>"<<endl;
-			double time_mins = route->start_time_list[trip_cnt];
-			// Trip no.
-			fout<<"\t<td nowrap=nowrap>"<<"Trip "<< (trip_cnt+1) <<"</td>"<<endl;
+		print_trip_rows(fout, route);
 
-			// For a trip, print stop times.
-			for(size_t stop_cnt = 0; stop_cnt < route->stop_list.size(); stop_cnt++) {
-				fout<<"\t<td nowrap=nowrap>"<< time_mins_to_hhmm((int)time_mins) <<"</td>"<<endl;
-
-				time_mins += interval; // datatypes are double, for accuracy
-			}
-
-			fout<<"</tr>"<<endl;
-		}
+		// Part 4: Print table footer
+		print_row_stop_names(fout, route);
+		print_row_stop_ids(fout, route);	
 
 		fout<<endl;
 		fout<<"</table>"<<endl;
@@ -174,7 +208,6 @@ void print_html()
 // Index page lists all routes and has references to route pages.
 void print_index_page()
 {
-
 	ofstream fout;
 
 	cout << "Generating index page ... ";
