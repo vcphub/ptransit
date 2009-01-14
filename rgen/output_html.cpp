@@ -18,6 +18,30 @@ using namespace std;
 // Global objects
 extern RouteContainer RoutesList;
 
+// + Description: Print table containing stop names and numbers.
+// Used for generating compact output.
+void print_stop_table(ofstream& fout, Route * route)
+{
+	// 6 is estimated number.
+	int col_cnt = route->stop_list.size()/6; 
+
+	if(col_cnt == 0)
+		col_cnt = (int)route->stop_list.size();
+
+	fout<<"<table border=1px bordercolor=gray cellpadding=3px cellspacing=2px >"<<endl;
+
+	for(size_t i = 0; i < route->stop_list.size(); i++) {
+		if((i % col_cnt) == 0)
+			fout<<"<tr align='center' style='color:blue; font-family:Verdana; font-size:12px'>"<<endl;
+		fout<<"\t<th nowrap=nowrap>"<< route->stop_list[i] <<" (Stop "<<(i+1)<<")</th>"<<endl;
+		if(((i+1) % col_cnt) == 0)
+			fout<<"</tr>"<<endl;
+	}
+
+	fout<<"</table>"<<endl;
+	fout<<"<br />"<<endl;
+}
+
 // # Description: Print HTML page for each route name and bus id pair.
 // Calculate interval and use interpolation for obtaining stop times.
 // Print basic information about the route.
@@ -93,36 +117,30 @@ void print_html()
 		// Part 2: Print Header
 		// For each stop print stop name
 		
-		fout << "<table border=1px bordercolor=gray cellpadding=2px cellspacing=0px >" << endl;
+		fout << "<table border=1px bordercolor=gray cellpadding=1px cellspacing=0px >" << endl;
 		fout<<"<tr align='center' style='color:blue; font-family:Verdana; font-size:12px'>"<<endl;
 		fout<<"\t<th>"<<""<<"</th>" << endl;
-		vector<string>::iterator stop_iter = route->stop_list.begin();
-		for(int i = 1; stop_iter != route->stop_list.end(); stop_iter++, i++) 
-			fout<<"\t<th>"<< "Stop "<<(i)<< "</th>" << endl;
+		for(size_t i = 1; i <= route->stop_list.size(); i++) 
+			fout<<"\t<th>"<< "Stop "<<setw(2)<<(i)<< "</th>" << endl;
 		fout<<"</tr>"<<endl;
 
 		fout<<"<tr align='center' style='color:blue; font-family:Verdana; font-size:12px'>"<<endl;
 		fout<<"\t<th>"<<""<<"</th>" << endl;
-		stop_iter = route->stop_list.begin();
-		for(; stop_iter != route->stop_list.end(); stop_iter++) 
-			fout<<"\t<th>"<< (*stop_iter) << "</th>" << endl;
+		for(size_t i = 0; i < route->stop_list.size(); i++) 
+			fout<<"\t<th>"<< route->stop_list[i] << "</th>" << endl;
 		fout<<"</tr>"<<endl;
 
 		// Part 3: Print trips
 		// For each trip	
-		vector<int>::iterator st_iter = route->start_time_list.begin();
-		for(int trip_cnt = 1; st_iter != route->start_time_list.end(); st_iter++) {
+		for(size_t trip_cnt = 0; trip_cnt < route->start_time_list.size(); trip_cnt++) {
 			
 			fout<<"<tr align='center' style='font-family:Verdana; font-size:12px'>"<<endl;
-			// For each stop
-			vector<string>::iterator stop_iter = route->stop_list.begin();
-
-			double time_mins = (*st_iter);
+			double time_mins = route->start_time_list[trip_cnt];
 			// Trip no.
-			fout<<"\t<td nowrap=nowrap>"<<"Trip "<< trip_cnt++ <<"</td>"<<endl;
-			// For a trip, print stop times.
-			for(; stop_iter != route->stop_list.end(); stop_iter++) {
+			fout<<"\t<td nowrap=nowrap>"<<"Trip "<< (trip_cnt+1) <<"</td>"<<endl;
 
+			// For a trip, print stop times.
+			for(size_t stop_cnt = 0; stop_cnt < route->stop_list.size(); stop_cnt++) {
 				fout<<"\t<td nowrap=nowrap>"<< time_mins_to_hhmm((int)time_mins) <<"</td>"<<endl;
 
 				time_mins += interval; // datatypes are double, for accuracy

@@ -11,28 +11,42 @@
 
 using namespace std;
 
-// Utility functions for time.
+// Utility functions for handling time.
 
-// Convert
+// Convert mins into 24 hour HH.MM format
 string time_mins_to_hhmm(int total_mins)
 {
 	string output;
 	ostringstream temp;
 
-	int hrs = 0, mins = 0;
+	int hrs = total_mins/60;
+	int mins = total_mins % 60; // remainder
+	
+	temp.width(2); temp.fill('0');
+	temp << hrs << ":"; 
+	temp.width(2); temp.fill('0');
+	temp << mins;
+	
+	output = temp.str();
+	return output;
+}
 
-	hrs = total_mins/60;
-	mins = total_mins % 60; // remainder
+// Convert mins into 12 hour HH.MM format
+string time_mins_to_twelve_hr_hhmm(int total_mins)
+{
+	string output;
+	ostringstream temp;
+
+	int hrs = total_mins/60;
+	int mins = total_mins % 60; // remainder
 	
 	if(hrs >= 12) {
-
 		hrs -= 12;
 		temp.width(2); temp.fill('0');
 		temp << hrs << ":"; 
 		temp.width(2); temp.fill('0');
 		temp << mins;
 		temp<<" PM";
-
 	} else {
 		temp.width(2); temp.fill('0');
 		temp << hrs << ":"; 
@@ -42,9 +56,6 @@ string time_mins_to_hhmm(int total_mins)
 	}
 	
 	output = temp.str();	
-
-	//cout << "output = " << output << endl;
-
 	return output;
 }
 
