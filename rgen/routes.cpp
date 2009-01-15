@@ -52,9 +52,8 @@ void Route::add_depot(std::string depot_name)
 	assert(depot_name.length() != 0);
 
 	// itearate over existing list
-	vector<string>::iterator iter = depot_list.begin();
-	for(; iter != depot_list.end(); iter++) {
-		if(string_compare((*iter), depot_name)) 
+	for(size_t i = 0; i < depot_list.size(); i++) {
+		if(!string_compare(depot_list[i], depot_name)) 
 			return; // do not add depot_name
 	}
 
@@ -72,8 +71,8 @@ Route * find_route(string short_name, string bus_id)
 	RouteIterator iter = RoutesList.begin();
 	for(; iter != RoutesList.end(); iter++) {
 
-		if(string_compare((*iter)->short_name, short_name) && 
-						string_compare((*iter)->bus_id, bus_id))  
+		if(!string_compare((*iter)->short_name, short_name) && 
+						!string_compare((*iter)->bus_id, bus_id))  
 		{
 			route = *iter;
 			break;
@@ -120,9 +119,9 @@ int count_shuttle_routes()
 	string s2 = "Shuttle";
 	RouteIterator iter = RoutesList.begin();
 	for(; iter != RoutesList.end(); iter++) {
-		if(string_compare((*iter)->short_name, s1)) {
+		if(!string_compare((*iter)->short_name, s1)) {
 			count++;
-		} else if(string_compare((*iter)->short_name, s2)) {
+		} else if(!string_compare((*iter)->short_name, s2)) {
 			count++;
 		}
 	}
@@ -186,8 +185,8 @@ void read_routes_file(string filename)
 
 
 		// Use 'tokenlist' to create and populate Route object
-		if(string_compare(last_route_name, tokenlist[0]) && 
-			string_compare(last_bus_id, tokenlist[1])) {
+		if(!string_compare(last_route_name, tokenlist[0]) && 
+			!string_compare(last_bus_id, tokenlist[1])) {
 
 			// Add stop name to existing route object
 			assert(route != NULL);

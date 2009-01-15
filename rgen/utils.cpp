@@ -115,19 +115,18 @@ int time_string_to_mins(string input)
 
 // Utility function for string handling
 // Comparison function
-bool string_compare(string& s1, string& s2)
+int string_compare(const string& s1, const string& s2)
 {
-	bool result = false;
+	int result = -1;
 	const char * cs1 = s1.c_str();
 	const char * cs2 = s2.c_str();
 	int li = 0, ri = 0;
 	int ci = 0; 
-	int lhs, rhs;
 	char common[256];
 
 	while(1) {
-		lhs = cs1[li++];
-		rhs = cs2[ri++];
+		int lhs = cs1[li++];
+		int rhs = cs2[ri++];
 		
 		while(isalnum(lhs) == 0 && (lhs != '\0')) 
 			lhs = cs1[li++];
@@ -140,17 +139,20 @@ bool string_compare(string& s1, string& s2)
 
 		if((lhs == '\0') && (rhs == '\0')) {
 			common[ci++] = '\0';
-			result = true;
+			result = 0;
 			break;
 		}
 
-		if(lhs != rhs)
+		if(lhs < rhs) {
+			result = -1; // less than
 			break;
-		else
+		} else if(lhs > rhs) {
+			result = 1; // greater than
+			break;
+		} else
 			common[ci++] = lhs;
 	}
 	
-	//cout << "common = " << common << endl;
 	return result;
 }
 

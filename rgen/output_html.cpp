@@ -307,11 +307,12 @@ void print_index_page()
 		ss<< route->get_route_id() <<".html";
 		filename = ss.str();
 
-		// Create a link another page which has route details.
-		if(!string_compare(last_route_name, route->short_name))
+		// Insert line break when last name != short name.
+		if(string_compare(last_route_name, route->short_name) != 0)
 			fout<<"<br />"<<endl;
 
-		fout<<"<a href=\""<<filename<<"\">"<<"\" target=\"_blank\">";
+		// Create a link to another page which has route details.
+		fout<<"<a href=\""<<filename<<"\" target=\"_blank\">";
 		fout<<"Route "<<route->short_name<<" ";
 		// print direction
 		fout<<route->stop_list[0]<<" to "<<route->stop_list[stop_count-1];
