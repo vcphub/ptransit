@@ -17,6 +17,7 @@ using namespace std;
 
 // Global objects
 extern RouteContainer RoutesList;
+extern StopMap StopLookUpTable;
 
 // + Description: Print table containing stop names and numbers.
 // Used for generating compact output.
@@ -48,6 +49,11 @@ void print_html()
 	print_index_page();
 	print_compact_route_pages();
 	print_route_pages();
+
+	StopMapIterator iter = StopLookUpTable.begin();
+	for(; iter != StopLookUpTable.end(); iter++) {
+		iter->second->print_trip_times();
+	}
 }
 
 // Print route name and basic route information.

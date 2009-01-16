@@ -4,6 +4,7 @@
 
 #include <string>
 #include <vector>
+#include "stop.h"
 
 class Route 
 {
@@ -24,7 +25,7 @@ class Route
 		static int route_count;
 
 		// bus stop sequence in important
-		std::vector<std::string> stop_list;
+		StopContainer stop_list;
 
 		// trip start times. Minutes [0, 1439]
 		std::vector<int> start_time_list;
@@ -33,6 +34,7 @@ class Route
 		// Member functions.
 		std::string get_route_id() { return route_id; }
 		void add_depot(std::string depot_name);
+		void add_stop(std::string stop_name);
 
 };
 

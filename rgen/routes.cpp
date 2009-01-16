@@ -10,8 +10,10 @@
 #include <cstdlib>
 #include <iomanip>
 #include <algorithm>
+#include <map>
 #include "route.h"
 #include "utils.h"
+#include "stop.h"
 
 using namespace std;
 
@@ -19,6 +21,9 @@ using namespace std;
 RouteContainer RoutesList;
 extern ofstream ferr;
 extern ofstream fwarn;
+
+// vijay
+StopMap StopLookUpTable;
 
 // Static objects
 int Route::route_count = 0;
@@ -59,6 +64,20 @@ void Route::add_depot(std::string depot_name)
 
 	// depot_name is new, add it
 	depot_list.push_back(depot_name);
+}
+
+// Add stop
+void Route::add_stop(std::string stop_name)
+{
+	Stop * stop = NULL;
+	stop = StopLookUpTable[stop_name];
+
+	if(stop == NULL) {
+		stop = new Stop(stop_name);
+		StopLookUpTable[stop_name] = stop;
+	}
+	this->stop_list.push_back(stop);
+	stop->route_list.push_back(this);
 }
 
 // Given short name and bus id, find matching route object.
@@ -190,14 +209,16 @@ void read_routes_file(string filename)
 
 			// Add stop name to existing route object
 			assert(route != NULL);
-			route->stop_list.push_back(tokenlist[2]);
+			//route->stop_list.push_back(tokenlist[2]);
+			route->add_stop(tokenlist[2]);
 
 		} else {
 			// Create new route
 			route = new Route();
 			route->short_name = tokenlist[0];
 			route->bus_id = tokenlist[1];
-			route->stop_list.push_back(tokenlist[2]);
+			//route->stop_list.push_back(tokenlist[2]);
+			route->add_stop(tokenlist[2]);
 
 			// Add object to global array.
 			RoutesList.push_back(route);
@@ -213,6 +234,7 @@ void read_routes_file(string filename)
 	cout << "Total lines read = " << linecnt << endl;
 	cout << "Shuttle routes = " << count_shuttle_routes() << endl;
 	cout << "Total routes = " << RoutesList.size() << endl << endl;
+	cout << "Total bus stops = " << StopLookUpTable.size() << endl << endl;
 }
 
 
