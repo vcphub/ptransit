@@ -22,6 +22,7 @@ class Route
 		int stop_count;			// Bus stop count
 		double distance; 		// In Kms (start to end bus stop).
 		int estimated_time;		// in minutes		
+		double interval;
 		static int route_count;
 
 		// bus stop sequence in important
@@ -35,7 +36,7 @@ class Route
 		std::string get_route_id() { return route_id; }
 		void add_depot(std::string depot_name);
 		void add_stop(std::string stop_name);
-
+		int get_stop_index(Stop * pstop);
 };
 
 typedef std::vector<Route*> RouteContainer;

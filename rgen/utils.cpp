@@ -156,3 +156,14 @@ int string_compare(const string& s1, const string& s2)
 	return result;
 }
 
+// Utility: Open file stream and check for errors.
+void file_open_write(const char * filename, ofstream& fout)
+{
+	fout.open(filename);
+	if(!fout) {
+		cout<<endl;
+		cout<<"Error: Could not open file '"<< filename <<"' in write mode.";
+		cout<<endl<<endl;
+		exit(-1);
+	}
+}

@@ -80,6 +80,20 @@ void Route::add_stop(std::string stop_name)
 	stop->route_list.push_back(this);
 }
 
+// Find index (sequence number) of given stop object pointer.
+// Used in stop visit time calculation.
+// Valid value of index [0, stop_list.size()-1].
+int Route::get_stop_index(Stop * pstop)
+{
+	// For each stop pointer in this->stop_list.
+	for(size_t sindex = 0; sindex < stop_list.size(); sindex++)
+	{
+		if(stop_list[sindex] == pstop)
+			return sindex;
+	}
+	assert(0);
+}
+
 // Given short name and bus id, find matching route object.
 // Arguments: route short name, route bus id
 // Return value: Route object pointer

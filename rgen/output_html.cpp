@@ -29,6 +29,7 @@ void print_html()
 
 	StopMapIterator iter = StopLookUpTable.begin();
 	for(; iter != StopLookUpTable.end(); iter++) {
+	//for(int i = 0; i < 10; iter++, i++) {
 		iter->second->print_trip_times();
 	}
 }
@@ -40,12 +41,7 @@ void print_index_page()
 	ofstream fout;
 
 	cout << "Generating index page ... ";
-	fout.open("html/index.html");
-	if(!fout) {
-		cout<<endl;
-		cout<<"Error: please create sub-directory 'html'."<<endl<<endl;
-		exit(-1);
-	}
+	file_open_write("html/index.html", fout);
 
 	fout<<"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\">";
 	fout<<endl<<endl;
@@ -98,7 +94,6 @@ void print_index_page()
 	cout << " Done."<<endl;
 }
 
-
 // # Description: Normal route table.
 // Print HTML page for each route name and bus id pair.
 // Print basic information about the route.
@@ -121,11 +116,7 @@ void print_route_pages()
 
 		// Open output HTML file
 		ofstream fout;
-		fout.open(filename.c_str());
-		if(!fout) {
-			cout<<endl<<"Error: please create sub-directory 'html'."<<endl<<endl;
-			exit(-1);
-		}
+		file_open_write(filename.c_str(), fout);
 
 		fout<<"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\">";
 		fout<<endl<<endl;
@@ -192,11 +183,7 @@ void print_compact_route_pages()
 
 		// Open output HTML file
 		ofstream fout;
-		fout.open(filename.c_str());
-		if(!fout) {
-			cout<<endl<<"Error: please create sub-directory 'html'."<<endl<<endl;
-			exit(-1);
-		}
+		file_open_write(filename.c_str(), fout);
 
 		fout<<"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\">";
 		fout<<endl<<endl;

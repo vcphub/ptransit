@@ -1,7 +1,7 @@
 
 // File: check_data.cpp
-// Description: Contains functions to check input data for errors 
-// and inconsistencies.
+// Description: Contains functions to process and check input data 
+// for errors and inconsistencies.
 
 #include <iostream>
 #include <fstream>
@@ -27,6 +27,14 @@ void process_data()
 	for(; iter != RoutesList.end(); iter++) {
 		route = (*iter);
 		route->sort_start_times();
+
+		int stop_count = route->stop_list.size();
+		if(stop_count <= 1) {
+			cout << route->short_name << " " << route->bus_id << endl;
+			exit(-1);
+		}
+		// Calculate interval in mins.
+		route->interval = (double)route->estimated_time/(double)(stop_count-1); 
 	}
 	cout<<"Done."<<endl;
 }
