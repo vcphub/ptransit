@@ -90,16 +90,6 @@ void read_trips_file(string filename, string depot_name)
 			//  Correct Route found, set its properties.
 			route->add_depot(depot_name);
 
-			/*
-			if(route->depot_name.length() == 0) 
-				route->depot_name = depot_name;
-			else if(route->depot_name != depot_name) {
-				ferr<<"Error: Route cannot belong to two depots: ";
-				ferr<<route->depot_name<<" "<<depot_name<<", ";
-				ferr<<"Route = "<<route->short_name<<endl;
-			}
-			*/
-
 			route->stop_count = atoi(tokenlist[2].c_str());
 			route->distance = atof(tokenlist[3].c_str());
 			route->estimated_time = atoi(tokenlist[4].c_str());

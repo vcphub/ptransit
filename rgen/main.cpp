@@ -32,11 +32,13 @@ int main(int argc, char * argv[])
 	ferr<<"# Errors Report"<<endl<<endl;
 	fwarn<<"# Warnings Report"<<endl<<endl;
 
-	// first argument: routes-file
+	// Read routes files. Use routes-sample.csv, if files used
+	// below are not available.
 	read_routes_file("fixed-routes-pmt.csv");
 	read_routes_file("fixed-routes-pcmt.csv");
 
-	// second argument: trips-file
+	// Read trips files. Use trips-sample.csv, if files used
+	// below are not available.
 	read_trips_file("fixed-trips-bhakti-shakti-nigdi.csv", "Bhakti-Shakti");
 	read_trips_file("fixed-trips-hadapsar.csv", "Hadapsar");
 	read_trips_file("fixed-trips-katraj.csv", "Katraj");
@@ -54,6 +56,7 @@ int main(int argc, char * argv[])
 	process_data();
 	check_data();
 
+	// Generate useful output.
 	print_html();
 
 	// Clean up

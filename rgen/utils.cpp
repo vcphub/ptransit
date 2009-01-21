@@ -76,7 +76,6 @@ string remove_alpha(string s)
 	return output;
 }
 
-
 // Utility Function
 int time_string_to_mins(string input)
 {
