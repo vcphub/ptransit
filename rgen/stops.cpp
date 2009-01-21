@@ -1,3 +1,6 @@
+// File: stops.cpp
+// Description: Container member function definitions for class Stop.
+// Also functions for generating output HTML.
 
 #include <string>
 #include <iostream>

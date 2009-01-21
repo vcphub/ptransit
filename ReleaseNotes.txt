@@ -4,6 +4,25 @@
 ---------------------------------------------------------------------
 
 ---------------------------------------------------------------------
+Date: Wednesday, 21 January 2009. Version 0.5 Released.
+
+Following new features are available in this release.
+
+1. Program now generates compact route page, which is also printer
+friendly page.
+
+2. Bus stop page for each bus stop is generated. This pages contains
+list of all routes through the bus stop and arrival times. It also
+shows names of major bus stops on the route. This output is suitable 
+for displaying on bus stop walls.
+
+Since there are no unique ids for bus stops, and stop names are not 
+unique, the usefulness of stop pages is limited. Specifically stops
+with same name on different sides of the road cannot be differentiated.
+
+3. Added test pages to project home page.
+
+---------------------------------------------------------------------
 Date: Monday, 12 January 2009. Version 0.4 Released.
 
 Following new features are available in this release.
