@@ -1,0 +1,15 @@
+# README #
+
+'data' directory should be used to keep input schedule data.
+
++ pmpml
+This subdirectory contains routes and trips files obtained from PMPML.
+
++ xyz
+You can create sub directory with suitable name for public transportation 
+agency you are working for. Copy all input schedule data in the directory.
+Input data will typically consists of routes file(s) and trips file(s).
+
+If input data format is different then you should change 'rgen' source code
+to take care of changes.
+

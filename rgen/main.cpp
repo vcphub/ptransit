@@ -32,23 +32,24 @@ int main(int argc, char * argv[])
 	ferr<<"# Errors Report"<<endl<<endl;
 	fwarn<<"# Warnings Report"<<endl<<endl;
 
-	// Read routes files. Use routes-sample.csv, if files used
-	// below are not available.
-	read_routes_file("fixed-routes-pmt.csv");
-	read_routes_file("fixed-routes-pcmt.csv");
+	// Read routes file(s) from 'data' directory.
+	// For PMPML there are two files because of merger between PCMT and PMT.
+	read_routes_file("../data/pmpml/fixed-routes-pmt.csv");
+	read_routes_file("../data/pmpml/fixed-routes-pcmt.csv");
 
-	// Read trips files. Use trips-sample.csv, if files used
-	// below are not available.
-	read_trips_file("fixed-trips-bhakti-shakti-nigdi.csv", "Bhakti-Shakti");
-	read_trips_file("fixed-trips-hadapsar.csv", "Hadapsar");
-	read_trips_file("fixed-trips-katraj.csv", "Katraj");
-	read_trips_file("fixed-trips-kothrud.csv", "Kothrud");
-	read_trips_file("fixed-trips-marketyard.csv", "Market Yard");
-	read_trips_file("fixed-trips-natawadi.csv", "Na Ta Wadi");
-	read_trips_file("fixed-trips-punestation.csv", "Pune Station");
-	read_trips_file("fixed-trips-sadgurunagar-bhosari.csv", "Bhosari");
-	read_trips_file("fixed-trips-swargate.csv", "Swargate");
-	read_trips_file("fixed-trips-tukaramnagar-pimpri.csv", "Tukaramnagar");
+	// Read trips file(s) from 'data' directory.
+	// For PMPML trips data was collected and stored depot wise. 
+	// There are 10 depots, hence 10 different files.
+	read_trips_file("../data/pmpml/fixed-trips-bhakti-shakti-nigdi.csv", "Bhakti-Shakti");
+	read_trips_file("../data/pmpml/fixed-trips-hadapsar.csv", "Hadapsar");
+	read_trips_file("../data/pmpml/fixed-trips-katraj.csv", "Katraj");
+	read_trips_file("../data/pmpml/fixed-trips-kothrud.csv", "Kothrud");
+	read_trips_file("../data/pmpml/fixed-trips-marketyard.csv", "Market Yard");
+	read_trips_file("../data/pmpml/fixed-trips-natawadi.csv", "Na Ta Wadi");
+	read_trips_file("../data/pmpml/fixed-trips-punestation.csv", "Pune Station");
+	read_trips_file("../data/pmpml/fixed-trips-sadgurunagar-bhosari.csv", "Bhosari");
+	read_trips_file("../data/pmpml/fixed-trips-swargate.csv", "Swargate");
+	read_trips_file("../data/pmpml/fixed-trips-tukaramnagar-pimpri.csv", "Tukaramnagar");
 
 	cout << "Missing route count = " << MissingRoutesList.size() << endl;
 

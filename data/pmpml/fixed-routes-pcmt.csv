@@ -1,0 +1,5413 @@
+301,1,"Pimprigao",1,1,TRUE
+301,1,"Ashok Talkies",1,2,TRUE
+301,1,"Jaihind School",1,3,TRUE
+301,1,"Delux Talkies",2,4,TRUE
+301,1,"Karachi chowk",2,5,TRUE
+301,1,"Lal Mandir",2,6,TRUE
+301,1,"Bhatnagar",2,7,TRUE
+301,1,"Gokul",2,8,TRUE
+301,1,"Bombay-Poona road",2,9,TRUE
+301,1,"Mahendra company",3,10,TRUE
+301,1,"Kamgarnagar",3,11,TRUE
+301,1,"H.A.Corner",3,12,TRUE
+301,1,"Nehrunagar",4,13,TRUE
+301,1,"Jyoti school",4,14,TRUE
+301,1,"Abhi chemical",4,15,TRUE
+301,1,"Jayanand Khira",4,16,TRUE
+301,1,"Tulsi Chemical",4,17,TRUE
+301,1,"Philips",4,18,TRUE
+301,1,"Landewadi",5,19,TRUE
+301,1,"Gawhane Wasti",5,20,TRUE
+301,1,"Bhosari",6,21,TRUE
+301,2,"Bhosari",1,1,FALSE
+301,2,"Gawhane Wasti",1,2,FALSE
+301,2,"Landewadi",1,3,FALSE
+301,2,"Philips",2,4,FALSE
+301,2,"Tulsi Chemical",2,5,FALSE
+301,2,"Jayanand Khira",2,6,FALSE
+301,2,"Abhi chemical",2,7,FALSE
+301,2,"Jyoti school",2,8,FALSE
+301,2,"Nehrunagar",2,9,FALSE
+301,2,"H.A.Corner",3,10,FALSE
+301,2,"Kamgarnagar",3,11,FALSE
+301,2,"Mahendra company",3,12,FALSE
+301,2,"Bombay-Poona road",4,13,FALSE
+301,2,"Gokul",4,14,FALSE
+301,2,"Bhatnagar",4,15,FALSE
+301,2,"Lal Mandir",4,16,FALSE
+301,2,"Karachi chowk",4,17,FALSE
+301,2,"Delux Talkies",4,18,FALSE
+301,2,"Jaihind School",5,19,FALSE
+301,2,"Ashok Talkies",5,20,FALSE
+301,2,"Pimprigao",6,21,FALSE
+302,1,"Alandi",1,1,TRUE
+302,1,"S.T.Stand",1,2,TRUE
+302,1,"Dehu Phata",1,3,TRUE
+302,1,"Paduka Mandir",2,4,TRUE
+302,1,"Charholi Phata",2,5,TRUE
+302,1,"Chincha",2,6,TRUE
+302,1,"Aamba",3,7,TRUE
+302,1,"Tapkir wasti",3,8,TRUE
+302,1,"Dyaneshwar Old House",3,9,TRUE
+302,1,"Saimandir",3,10,TRUE
+302,1,"Magzine",4,11,TRUE
+302,1,"Gajanan mandir",4,12,TRUE
+302,1,"Dighi Corner(Odha)",4,13,TRUE
+302,1,"Shastri Chowk",4,14,TRUE
+302,1,"Bhosari",5,15,TRUE
+302,1,"Atlas",5,16,TRUE
+302,1,"Century enka Company",5,17,TRUE
+302,1,"Empatronics company",5,18,TRUE
+302,1,"Landewadi",6,19,TRUE
+302,1,"Philips",6,20,TRUE
+302,1,"M.I.D.C",7,21,TRUE
+302,1,"Police Station",7,22,TRUE
+302,1,"C.I.R.T",7,23,TRUE
+302,1,"Nashik Phata",7,24,TRUE
+302,1,"Shankarwadi",7,25,TRUE
+302,1,"Wallabhnagar",7,26,TRUE
+302,1,"Indian card Company",8,27,TRUE
+302,1,"H.A.Company",8,28,TRUE
+302,1,"Kharalwadi",8,29,TRUE
+302,1,"Pimpri Road",8,30,TRUE
+302,1,"Phinolex Company",9,31,TRUE
+302,1,"Shagun Chowk",9,32,TRUE
+302,1,"Sai Chowk (Delux)",10,33,TRUE
+302,1,"Vaishnodevi",10,34,TRUE
+302,1,"Shastri Park",10,35,TRUE
+302,1,"Corporation school",10,36,TRUE
+302,1,"Pimpri gao",11,37,TRUE
+302,1,"Nanekar Park",11,38,TRUE
+302,1,"Pimple saudagar",11,39,TRUE
+302,1,"Kate Wasti",12,40,TRUE
+302,1,"Millenium Soc.",12,41,TRUE
+302,1,"Rakshak Society",13,42,TRUE
+302,1,"Pimple Nilakh",14,43,TRUE
+302,2,"Pimple Nilakh",1,1,FALSE
+302,2,"Rakshak Society",1,2,FALSE
+302,2,"Millenium Soc.",1,3,FALSE
+302,2,"Kate Wasti",2,4,FALSE
+302,2,"Pimple saudagar",2,5,FALSE
+302,2,"Nanekar Park",2,6,FALSE
+302,2,"Pimpri gao",3,7,FALSE
+302,2,"Corporation school",3,8,FALSE
+302,2,"Shastri Park",3,9,FALSE
+302,2,"Vaishnodevi",3,10,FALSE
+302,2,"Sai Chowk (Delux)",4,11,FALSE
+302,2,"Shagun Chowk",4,12,FALSE
+302,2,"Phinolex Company",4,13,FALSE
+302,2,"Pimpri Road",4,14,FALSE
+302,2,"Kharalwadi",5,15,FALSE
+302,2,"H.A.Company",5,16,FALSE
+302,2,"Indian card Company",5,17,FALSE
+302,2,"Wallabhnagar",5,18,FALSE
+302,2,"Shankarwadi",6,19,FALSE
+302,2,"Nashik Phata",6,20,FALSE
+302,2,"C.I.R.T",7,21,FALSE
+302,2,"Police Station",7,22,FALSE
+302,2,"M.I.D.C",7,23,FALSE
+302,2,"Philips",7,24,FALSE
+302,2,"Landewadi",7,25,FALSE
+302,2,"Empatronics company",7,26,FALSE
+302,2,"Century enka Company",8,27,FALSE
+302,2,"Atlas",8,28,FALSE
+302,2,"Bhosari",8,29,FALSE
+302,2,"Shastri Chowk",8,30,FALSE
+302,2,"Dighi Corner(Odha)",9,31,FALSE
+302,2,"Gajanan mandir",9,32,FALSE
+302,2,"Magzine",10,33,FALSE
+302,2,"Saimandir",10,34,FALSE
+302,2,"Dyaneshwar Old House",10,35,FALSE
+302,2,"Tapkir wasti",10,36,FALSE
+302,2,"Aamba",11,37,FALSE
+302,2,"Chincha",11,38,FALSE
+302,2,"Charholi Phata",11,39,FALSE
+302,2,"Paduka Mandir",12,40,FALSE
+302,2,"Dehu Phata",12,41,FALSE
+302,2,"S.T.Stand",13,42,FALSE
+302,2,"Alandi",14,43,FALSE
+303,1,"Alandi",1,1,TRUE
+303,1,"S.T.Stand",1,2,TRUE
+303,1,"Dehu Phata",1,3,TRUE
+303,1,"Paduka Mandir",2,4,TRUE
+303,1,"Charholi Phata",2,5,TRUE
+303,1,"Chincha",2,6,TRUE
+303,1,"Aamba",3,7,TRUE
+303,1,"Tapkir wasti",3,8,TRUE
+303,1,"Dyaneshwar Old House",3,9,TRUE
+303,1,"Saimandir",3,10,TRUE
+303,1,"Magzine",4,11,TRUE
+303,1,"Gajanan mandir",4,12,TRUE
+303,1,"Dighi Corner(Odha)",4,13,TRUE
+303,1,"Shastri Chowk",4,14,TRUE
+303,1,"Bhosari",5,15,TRUE
+303,1,"Atlas",5,16,TRUE
+303,1,"Century enka Company",5,17,TRUE
+303,1,"Empatronics company",5,18,TRUE
+303,1,"Landewadi",6,19,TRUE
+303,1,"Philips",6,20,TRUE
+303,1,"M.I.D.C",7,21,TRUE
+303,1,"Police Station",7,22,TRUE
+303,1,"C.I.R.T",7,23,TRUE
+303,1,"Nashik Phata",7,24,TRUE
+303,1,"Shankarwadi",7,25,TRUE
+303,1,"Wallabhnagar",7,26,TRUE
+303,1,"Indian card Company",8,27,TRUE
+303,1,"H.A.Company",8,28,TRUE
+303,1,"Kharalwadi",8,29,TRUE
+303,1,"Pimpri Road",8,30,TRUE
+303,1,"Phinolex Company",9,31,TRUE
+303,1,"Chinchwad Station",9,32,TRUE
+303,1,"Lokmanya Hospital",10,33,TRUE
+303,1,"Auditorium",10,34,TRUE
+303,1,"Lpro Company",10,35,TRUE
+303,1,"Chinchwad Gao",11,36,TRUE
+303,1,"S.K.F.Company",11,37,TRUE
+303,1,"Premlok Park",11,38,TRUE
+303,1,"Bhoirnagar",11,39,TRUE
+303,1,"Ganesh Vision",12,40,TRUE
+303,1,"Khandoba Mal",12,41,TRUE
+303,1,"Bajaj auto",12,42,TRUE
+303,1,"Nigdi Corner",12,43,TRUE
+303,1,"Nigdi",13,44,TRUE
+303,2,"Nigdi",1,1,FALSE
+303,2,"Nigdi Corner",1,2,FALSE
+303,2,"Bajaj auto",1,3,FALSE
+303,2,"Khandoba Mal",2,4,FALSE
+303,2,"Ganesh Vision",2,5,FALSE
+303,2,"Bhoirnagar",2,6,FALSE
+303,2,"Premlok Park",3,7,FALSE
+303,2,"S.K.F.Company",3,8,FALSE
+303,2,"Chinchwad Gao",3,9,FALSE
+303,2,"Lpro Company",3,10,FALSE
+303,2,"Auditorium",4,11,FALSE
+303,2,"Lokmanya Hospital",4,12,FALSE
+303,2,"Chinchwad Station",4,13,FALSE
+303,2,"Phinolex Company",4,14,FALSE
+303,2,"Pimpri Road",5,15,FALSE
+303,2,"Kharalwadi",5,16,FALSE
+303,2,"H.A.Company",5,17,FALSE
+303,2,"Indian card Company",5,18,FALSE
+303,2,"Wallabhnagar",6,19,FALSE
+303,2,"Shankarwadi",6,20,FALSE
+303,2,"Nashik Phata",7,21,FALSE
+303,2,"C.I.R.T",7,22,FALSE
+303,2,"Police Station",7,23,FALSE
+303,2,"M.I.D.C",7,24,FALSE
+303,2,"Philips",7,25,FALSE
+303,2,"Landewadi",7,26,FALSE
+303,2,"Empatronics company",8,27,FALSE
+303,2,"Century enka Company",8,28,FALSE
+303,2,"Atlas",8,29,FALSE
+303,2,"Bhosari",8,30,FALSE
+303,2,"Shastri Chowk",9,31,FALSE
+303,2,"Dighi Corner(Odha)",9,32,FALSE
+303,2,"Gajanan mandir",10,33,FALSE
+303,2,"Magzine",10,34,FALSE
+303,2,"Saimandir",10,35,FALSE
+303,2,"Dyaneshwar Old House",11,36,FALSE
+303,2,"Tapkir wasti",11,37,FALSE
+303,2,"Aamba",11,38,FALSE
+303,2,"Chincha",11,39,FALSE
+303,2,"Charholi Phata",12,40,FALSE
+303,2,"Paduka Mandir",12,41,FALSE
+303,2,"Dehu Phata",12,42,FALSE
+303,2,"S.T.Stand",12,43,FALSE
+303,2,"Alandi",13,44,FALSE
+304,1,"Chinchwad Gao",1,1,TRUE
+304,1,"Lpro Company",1,2,TRUE
+304,1,"Auditorium",1,3,TRUE
+304,1,"Lokmanya Hospital",2,4,TRUE
+304,1,"Chinchwad Station",2,5,TRUE
+304,1,"M.I.D.C",2,6,TRUE
+304,1,"Mohannagar",3,7,TRUE
+304,1,"Morwadi Phata",3,8,TRUE
+304,1,"Sanghvi College",3,9,TRUE
+304,1,"Exide Battery",3,10,TRUE
+304,1,"K.S.B.Chowk",4,11,TRUE
+304,1,"Telco Company",4,12,TRUE
+304,1,"Telco Hostel",4,13,TRUE
+304,1,"Yashwantnagar",4,14,TRUE
+304,1,"Gawali matha",5,15,TRUE
+304,1,"Zenith Company",5,16,TRUE
+304,1,"Power House",5,17,TRUE
+304,1,"Century enka Company",5,18,TRUE
+304,1,"Electronic house",5,19,TRUE
+304,1,"Landewadi",6,20,TRUE
+304,1,"Gawhane Wasti",6,21,TRUE
+304,1,"Bhosari",7,22,TRUE
+304,2,"Bhosari",1,1,FALSE
+304,2,"Gawhane Wasti",2,2,FALSE
+304,2,"Landewadi",2,3,FALSE
+304,2,"Electronic house",3,4,FALSE
+304,2,"Century enka Company",3,5,FALSE
+304,2,"Power House",3,6,FALSE
+304,2,"Zenith Company",3,7,FALSE
+304,2,"Gawali matha",3,8,FALSE
+304,2,"Yashwantnagar",4,9,FALSE
+304,2,"Telco Hostel",4,10,FALSE
+304,2,"Telco Company",4,11,FALSE
+304,2,"K.S.B.Chowk",4,12,FALSE
+304,2,"Exide Battery",5,13,FALSE
+304,2,"Sanghvi College",5,14,FALSE
+304,2,"Morwadi Phata",5,15,FALSE
+304,2,"Mohannagar",5,16,FALSE
+304,2,"M.I.D.C",6,17,FALSE
+304,2,"Chinchwad Station",6,18,FALSE
+304,2,"Lokmanya Hospital",6,19,FALSE
+304,2,"Auditorium",7,20,FALSE
+304,2,"Lpro Company",7,21,FALSE
+304,2,"Chinchwad Gao",7,22,FALSE
+305,1,"Pune Station",1,1,TRUE
+305,1,"Ruby Hall",1,2,TRUE
+305,1,"Wadia College",1,3,TRUE
+305,1,"Bundgarden",2,4,TRUE
+305,1,"Yerawada",2,5,TRUE
+305,1,"Sadalbaba",2,6,TRUE
+305,1,"U.P.Hotel",3,7,TRUE
+305,1,"Deccan college",3,8,TRUE
+305,1,"Sapras Post",3,9,TRUE
+305,1,"Holkar pool corner",3,10,TRUE
+305,1,"Holkar Water Supply",3,11,TRUE
+305,1,"Church",4,12,TRUE
+305,1,"Factory Road",4,13,TRUE
+305,1,"Kharki Bazaar",4,14,TRUE
+305,1,"Alegaonkar school",4,15,TRUE
+305,1,"Kirloskar Oil Engine",4,16,TRUE
+305,1,"Bopodi",5,17,TRUE
+305,1,"Dapodi",5,18,TRUE
+305,1,"Phugewadi",6,19,TRUE
+305,1,"Sandwik Company",6,20,TRUE
+305,1," Alpha laval Company",6,21,TRUE
+305,1,"Marshall Company",6,22,TRUE
+305,1,"Kasarwadi",7,23,TRUE
+305,1,"Nashik Phata",7,24,TRUE
+305,1,"Shankarwadi",7,25,TRUE
+305,1,"Wallabhnagar",7,26,TRUE
+305,1,"Indian card Company",8,27,TRUE
+305,1,"H.A.Company",8,28,TRUE
+305,1,"Kharalwadi",8,29,TRUE
+305,1,"Pimpri road",8,30,TRUE
+305,1,"Phinolex Company",9,31,TRUE
+305,1,"Empire Estate",9,32,TRUE
+305,1,"Chinchwad Station",9,33,TRUE
+305,1,"Jayashri Talkies",9,34,TRUE
+305,1,"Mehta Hospital",9,35,TRUE
+305,1,"Kalbhornagar",9,36,TRUE
+305,1,"Ruston company",10,37,TRUE
+305,1,"Akurdi, Khandobamal",10,38,TRUE
+305,1,"Kohima Line",12,39,TRUE
+305,1,"Vhisab Depo",12,40,TRUE
+305,1,"Kendriya Vidyalaya",12,41,TRUE
+305,1,"Garden city",13,42,TRUE
+305,1,"C.I.S.V",13,43,TRUE
+305,1,"Dehu Phata",13,44,TRUE
+305,1,"Bank Of India",13,45,TRUE
+305,1,"Dehu road Bazaar",13,46,TRUE
+305,1,"Gurudwara",14,47,TRUE
+305,1,"Cantonment Hospital",14,48,TRUE
+305,1,"Dehuroad Police Line",14,49,TRUE
+305,1,"Central Restaurant",14,50,TRUE
+305,1,"KrishnaMandir",14,51,TRUE
+305,1,"Indrayani Darshan",15,52,TRUE
+305,1,"Amarjai Mandir",15,53,TRUE
+305,1,"Shankarwadi",15,54,TRUE
+305,1,"Shelarwadi",15,55,TRUE
+305,1,"Poona Poltry",16,56,TRUE
+305,1,"Somatane Phata",16,57,TRUE
+305,1,"Talegao Khind",16,58,TRUE
+305,1,"Talegao Phata",17,59,TRUE
+305,1,"Bhandari Hospital",17,60,TRUE
+305,1,"Maruti Mandir",17,61,TRUE
+305,1,"Talegao",18,62,TRUE
+305,1,"Talegao Nagarparishad",18,63,TRUE
+305,1,"Talegao Station",19,64,TRUE
+305,1,"Eagle Flask",19,65,TRUE
+305,1,"Petrol Pump",19,66,TRUE
+305,1,"Samartha Vidyalay",19,67,TRUE
+305,1,"Paisa Fund",20,68,TRUE
+305,1,"Wadgao Phata",20,69,TRUE
+305,1,"Deccan Poltry",21,70,TRUE
+305,1,"Wadgao Corner",21,71,TRUE
+305,1,"Maruti Mandir",21,72,TRUE
+305,1,"Wadgao Maval",22,73,TRUE
+305,2,"Wadgao Maval",1,1,FALSE
+305,2,"Maruti Mandir",2,2,FALSE
+305,2,"Wadgao Corner",2,3,FALSE
+305,2,"Deccan Poltry",2,4,FALSE
+305,2,"Wadgao Phata",3,5,FALSE
+305,2,"Paisa Fund",3,6,FALSE
+305,2,"Samartha Vidyalay",4,7,FALSE
+305,2,"Petrol Pump",4,8,FALSE
+305,2,"Eagle Flask",4,9,FALSE
+305,2,"Talegao Station",4,10,FALSE
+305,2,"Talegao Nagarparishad",5,11,FALSE
+305,2,"Talegao",5,12,FALSE
+305,2,"Maruti Mandir",6,13,FALSE
+305,2,"Bhandari Hospital",6,14,FALSE
+305,2,"Talegao Phata",6,15,FALSE
+305,2,"Talegao Khind",7,16,FALSE
+305,2,"Somatane Phata",7,17,FALSE
+305,2,"Poona Poltry",7,18,FALSE
+305,2,"Shelarwadi",8,19,FALSE
+305,2,"Shankarwadi",8,20,FALSE
+305,2,"Amarjai Mandir",8,21,FALSE
+305,2,"Indrayani Darshan",8,22,FALSE
+305,2,"KrishnaMandir",9,23,FALSE
+305,2,"Central Restaurant",9,24,FALSE
+305,2,"Dehuroad Police Line",9,25,FALSE
+305,2,"Cantonment Hospital",9,26,FALSE
+305,2,"Gurudwara",9,27,FALSE
+305,2,"Dehu road Bazaar",10,28,FALSE
+305,2,"Bank Of India",10,29,FALSE
+305,2,"Dehu Phata",10,30,FALSE
+305,2,"C.I.S.V",10,31,FALSE
+305,2,"Garden city",10,32,FALSE
+305,2,"Kendriya Vidyalaya",11,33,FALSE
+305,2,"Vhisab Depo",11,34,FALSE
+305,2,"Kohima Line",11,35,FALSE
+305,2,"Akurdi, Khandobamal",9,36,FALSE
+305,2,"Ruston company",10,37,FALSE
+305,2,"Kalbhornagar",10,38,FALSE
+305,2,"Mehta Hospital",10,39,FALSE
+305,2,"Jayashri Talkies",10,40,FALSE
+305,2,"Chinchwad Station",11,41,FALSE
+305,2,"Empire Estate",11,42,FALSE
+305,2,"Phinolex Company",11,43,FALSE
+305,2,"Pimpri road",12,44,FALSE
+305,2,"Kharalwadi",12,45,FALSE
+305,2,"H.A.Company",12,46,FALSE
+305,2,"Indian card Company",13,47,FALSE
+305,2,"Wallabhnagar",13,48,FALSE
+305,2,"Shankarwadi",14,49,FALSE
+305,2,"Nashik Phata",14,50,FALSE
+305,2,"Kasarwadi",14,51,FALSE
+305,2,"Marshall Company",15,52,FALSE
+305,2," Alpha laval Company",15,53,FALSE
+305,2,"Sandwik Company",15,54,FALSE
+305,2,"Phugewadi",15,55,FALSE
+305,2,"Dapodi",16,56,FALSE
+305,2,"Bopodi",16,57,FALSE
+305,2,"Kirloskar Oil Engine",17,58,FALSE
+305,2,"Alegaonkar school",17,59,FALSE
+305,2,"Kharki Bazaar",17,60,FALSE
+305,2,"Factory Road",17,61,FALSE
+305,2,"Church",17,62,FALSE
+305,2,"Holkar Water Supply",18,63,FALSE
+305,2,"Holkar pool corner",18,64,FALSE
+305,2,"Sapras Post",18,65,FALSE
+305,2,"Deccan college",18,66,FALSE
+305,2,"U.P.Hotel",18,67,FALSE
+305,2,"Sadalbaba",19,68,FALSE
+305,2,"Yerawada",19,69,FALSE
+305,2,"Bundgarden",19,70,FALSE
+305,2,"Wadia College",20,71,FALSE
+305,2,"Ruby Hall",20,72,FALSE
+305,2,"Pune Station",20,73,FALSE
+306,1,"Pimprigao",1,1,TRUE
+306,1,"Ashok Talkies",1,2,TRUE
+306,1,"Jaihind School",1,3,TRUE
+306,1,"Delux Talkies",2,4,TRUE
+306,1,"Karachi chowk",2,5,TRUE
+306,1,"Lal Mandir",2,6,TRUE
+306,1,"Bhatnagar",2,7,TRUE
+306,1,"Gokul",2,8,TRUE
+306,1,"Bombay-Poona road",2,9,TRUE
+306,1,"Mahendra company",3,10,TRUE
+306,1,"Kamgarnagar",3,11,TRUE
+306,1,"H.A.Corner",3,12,TRUE
+306,1,"Nehrunagar",4,13,TRUE
+306,1,"Jyoti school",4,14,TRUE
+306,1,"Abhi chemical",4,15,TRUE
+306,1,"Jayanand Khira",4,16,TRUE
+306,1,"Tulsi Chemical",4,17,TRUE
+306,1,"Philips",4,18,TRUE
+306,1,"Landewadi",5,19,TRUE
+306,1,"Electronic house",5,20,TRUE
+306,1,"Century enka Company",5,21,TRUE
+306,1,"Century enka Corner",6,22,TRUE
+306,1,"Swami Samartha School",6,23,TRUE
+306,1,"Indrayani Nagar",7,24,TRUE
+306,2,"Indrayani Nagar",1,1,FALSE
+306,2,"Swami Samartha School",2,2,FALSE
+306,2,"Century enka Corner",2,3,FALSE
+306,2,"Century enka Company",3,4,FALSE
+306,2,"Electronic house",3,5,FALSE
+306,2,"Landewadi",3,6,FALSE
+306,2,"Philips",4,7,FALSE
+306,2,"Tulsi Chemical",4,8,FALSE
+306,2,"Jayanand Khira",4,9,FALSE
+306,2,"Abhi chemical",4,10,FALSE
+306,2,"Jyoti school",4,11,FALSE
+306,2,"Nehrunagar",4,12,FALSE
+306,2,"H.A.Corner",5,13,FALSE
+306,2,"Kamgarnagar",5,14,FALSE
+306,2,"Mahendra company",5,15,FALSE
+306,2,"Bombay-Poona road",6,16,FALSE
+306,2,"Gokul",6,17,FALSE
+306,2,"Bhatnagar",6,18,FALSE
+306,2,"Lal Mandir",6,19,FALSE
+306,2,"Karachi chowk",6,20,FALSE
+306,2,"Delux Talkies",6,21,FALSE
+306,2,"Jaihind School",7,22,FALSE
+306,2,"Ashok Talkies",7,23,FALSE
+306,2,"Pimprigao",7,24,FALSE
+307,1,"Pune Station",1,1,TRUE
+307,1,"Ruby Hall",1,2,TRUE
+307,1,"Wadia College",1,3,TRUE
+307,1,"Bundgarden",2,4,TRUE
+307,1,"Yerawada",2,5,TRUE
+307,1,"Sadalbaba",2,6,TRUE
+307,1,"U.P.Hotel",3,7,TRUE
+307,1,"Deccan college",3,8,TRUE
+307,1,"Sapras Post",3,9,TRUE
+307,1,"Holkar Pool corner",3,10,TRUE
+307,1,"Holkar Water Supply",3,11,TRUE
+307,1,"Church",4,12,TRUE
+307,1,"Factory Road",4,13,TRUE
+307,1,"Kharki Bazaar",4,14,TRUE
+307,1,"Alegaonkar school",4,15,TRUE
+307,1,"Kirloskar Oil Engine",4,16,TRUE
+307,1,"Bopodi",5,17,TRUE
+307,1,"Dapodi",5,18,TRUE
+307,1,"Phugewadi",6,19,TRUE
+307,1,"Sandwik Company",6,20,TRUE
+307,1,"Alpha Laval Company",6,21,TRUE
+307,1,"Marshall Company",6,22,TRUE
+307,1,"Kasarwadi",7,23,TRUE
+307,1,"Nashik Phata",7,24,TRUE
+307,1,"Shankarwadi",7,25,TRUE
+307,1,"Wallabhnagar",7,26,TRUE
+307,1,"Indian card Company",8,27,TRUE
+307,1,"H.A.Company",8,28,TRUE
+307,1,"Kharalwadi",8,29,TRUE
+307,1,"Pimpri Road",8,30,TRUE
+307,1,"Phinolex Company",9,31,TRUE
+307,1,"Empire Estate",9,32,TRUE
+307,1,"Chinchwad Station",9,33,TRUE
+307,1,"Jayashri Talkies",9,34,TRUE
+307,1,"Mehta Hospital",9,35,TRUE
+307,1,"Kalbhornagar",9,36,TRUE
+307,1,"Ruston company",10,37,TRUE
+307,1,"Akurdi, Khandobamal",10,38,TRUE
+307,1,"Bajaj auto",10,39,TRUE
+307,1,"Nigdi Corner",10,40,TRUE
+307,1,"Nigdi ",11,41,TRUE
+307,1,"Bhakti Shakti ",11,42,TRUE
+307,1,"Cantonment Board",11,43,TRUE
+307,1,"Kohima Line",12,44,TRUE
+307,1,"Vhisab Depo",12,45,TRUE
+307,1,"Kendriya Vidyalaya",12,46,TRUE
+307,1,"Garden city",13,47,TRUE
+307,1,"C.I.S.V",13,48,TRUE
+307,1,"Dehu Phata",13,49,TRUE
+307,1,"Dehu Road Station",14,50,TRUE
+307,1,"Ashok nagar",14,51,TRUE
+307,1,"Chincholi",14,52,TRUE
+307,1,"Paduka Mandir",15,53,TRUE
+307,1,"COD Depo",15,54,TRUE
+307,1,"Zende Mala",15,55,TRUE
+307,1,"Malwadi",16,56,TRUE
+307,1,"Dehugao Grampanchayat",16,57,TRUE
+307,1,"Dehugao ",17,58,TRUE
+307,2,"Dehugao ",1,1,FALSE
+307,2,"Dehugao Grampanchayat",2,2,FALSE
+307,2,"Malwadi",2,3,FALSE
+307,2,"Zende Mala",3,4,FALSE
+307,2,"COD Depo",3,5,FALSE
+307,2,"Paduka Mandir",3,6,FALSE
+307,2,"Chincholi",4,7,FALSE
+307,2,"Ashok nagar",4,8,FALSE
+307,2,"Dehu Road Station",4,9,FALSE
+307,2,"Dehu Phata",5,10,FALSE
+307,2,"C.I.S.V",5,11,FALSE
+307,2,"Garden city",5,12,FALSE
+307,2,"Kendriya Vidyalaya",6,13,FALSE
+307,2,"Vhisab Depo",6,14,FALSE
+307,2,"Kohima Line",6,15,FALSE
+307,2,"Cantonment Board",7,16,FALSE
+307,2,"Bhakti Shakti ",7,17,FALSE
+307,2,"Nigdi ",7,18,FALSE
+307,2,"Nigdi Corner",7,19,FALSE
+307,2,"Bajaj auto",8,20,FALSE
+307,2,"Akurdi, Khandobamal",8,21,FALSE
+307,2,"Ruston company",8,22,FALSE
+307,2,"Kalbhornagar",9,23,FALSE
+307,2,"Mehta Hospital",9,24,FALSE
+307,2,"Jayashri Talkies",9,25,FALSE
+307,2,"Chinchwad Station",9,26,FALSE
+307,2,"Empire Estate",9,27,FALSE
+307,2,"Phinolex Company",9,28,FALSE
+307,2,"Pimpri Road",10,29,FALSE
+307,2,"Kharalwadi",10,30,FALSE
+307,2,"H.A.Company",10,31,FALSE
+307,2,"Indian card Company",10,32,FALSE
+307,2,"Wallabhnagar",11,33,FALSE
+307,2,"Shankarwadi",11,34,FALSE
+307,2,"Nashik Phata",11,35,FALSE
+307,2,"Kasarwadi",11,36,FALSE
+307,2,"Marshall Company",12,37,FALSE
+307,2,"Alpha Laval Company",12,38,FALSE
+307,2,"Sandwik Company",12,39,FALSE
+307,2,"Phugewadi",12,40,FALSE
+307,2,"Dapodi",13,41,FALSE
+307,2,"Bopodi",13,42,FALSE
+307,2,"Kirloskar Oil Engine",14,43,FALSE
+307,2,"Alegaonkar school",14,44,FALSE
+307,2,"Kharki Bazaar",14,45,FALSE
+307,2,"Factory Road",14,46,FALSE
+307,2,"Church",14,47,FALSE
+307,2,"Holkar Water Supply",15,48,FALSE
+307,2,"Holkar Pool corner",15,49,FALSE
+307,2,"Sapras Post",15,50,FALSE
+307,2,"Deccan college",15,51,FALSE
+307,2,"U.P.Hotel",15,52,FALSE
+307,2,"Sadalbaba",16,53,FALSE
+307,2,"Yerawada",16,54,FALSE
+307,2,"Bundgarden",16,55,FALSE
+307,2,"Wadia College",17,56,FALSE
+307,2,"Ruby Hall",17,57,FALSE
+307,2,"Pune Station",17,58,FALSE
+308,1,"Pune Station",1,1,TRUE
+308,1,"Old Bazaar",1,2,TRUE
+308,1,"R.T.O",2,3,TRUE
+308,1,"Eng.College",2,4,TRUE
+308,1,"Simla Office",2,5,TRUE
+308,1,"Mhasoba Gate",3,6,TRUE
+308,1,"Pumping station",3,7,TRUE
+308,1,"Rangehills Corner",3,8,TRUE
+308,1,"Polytechnic College",3,9,TRUE
+308,1,"Chaturshrungi",4,10,TRUE
+308,1,"Rajbhavan",4,11,TRUE
+308,1,"Gol market",4,12,TRUE
+308,1,"Kasturba zopadpatti",5,13,TRUE
+308,1,"Sindha Colony",5,14,TRUE
+308,1,"I.T.I Chowk",5,15,TRUE
+308,1,"Body gate",5,16,TRUE
+308,1,"Aundh Gao",6,17,TRUE
+308,1,"Sangvi Phata",6,18,TRUE
+308,1,"T.B.Hospital",6,19,TRUE
+308,1,"E.S.I. Hospital",6,20,TRUE
+308,1,"Aundh Post",7,21,TRUE
+308,1,"Rakshak Society",7,22,TRUE
+308,1,"Wakad Phata",7,23,TRUE
+308,1,"Jagtap Dairy",8,24,TRUE
+308,1,"15 No.",8,25,TRUE
+308,1,"Rahatani Phata",8,26,TRUE
+308,1,"Kalewadi Phata",8,27,TRUE
+308,1,"Santoshnagar",8,28,TRUE
+308,1,"Laxman Nagar",8,29,TRUE
+308,1,"Dange Chowk",9,30,TRUE
+308,1,"Thergao Phata",9,31,TRUE
+308,1,"Padmaji Mill",9,32,TRUE
+308,1,"Datta Nagar",10,33,TRUE
+308,1,"Birla Hospital",10,34,TRUE
+308,1,"Walhekar wadi Corner",10,35,TRUE
+308,1,"Chinchwad Gao",11,36,TRUE
+308,1,"Chinchwad Gao Corner",11,37,TRUE
+308,1,"Chinchwade Farm",11,38,TRUE
+308,1,"Aher Garden",11,39,TRUE
+308,1,"Walhekar Wadi",12,40,TRUE
+308,1,"D.Y.Patil college Corner",12,41,TRUE
+308,1,"Water Supply",12,42,TRUE
+308,1,"Ravet",13,43,TRUE
+308,1,"Bhondve House",13,44,TRUE
+308,1,"Vitbhatti",13,45,TRUE
+308,1,"Malawale Nagar",14,46,TRUE
+308,1,"Kiwale Phata",14,47,TRUE
+308,1,"Indraprabha",15,48,TRUE
+308,1,"Shitalanagar",15,49,TRUE
+308,1,"Corporation school",15,50,TRUE
+308,1,"Mamurdi",16,51,TRUE
+308,2,"Mamurdi",1,1,FALSE
+308,2,"Corporation school",2,2,FALSE
+308,2,"Shitalanagar",2,3,FALSE
+308,2,"Indraprabha",2,4,FALSE
+308,2,"Kiwale Phata",3,5,FALSE
+308,2,"Malawale Nagar",3,6,FALSE
+308,2,"Vitbhatti",3,7,FALSE
+308,2,"Bhondve House",3,8,FALSE
+308,2,"Ravet",4,9,FALSE
+308,2,"Water Supply",5,10,FALSE
+308,2,"D.Y.Patil college Corner",5,11,FALSE
+308,2,"Walhekar Wadi",5,12,FALSE
+308,2,"Aher Garden",5,13,FALSE
+308,2,"Chinchwade Farm",5,14,FALSE
+308,2,"Chinchwad Gao Corner",5,15,FALSE
+308,2,"Chinchwad Gao",5,16,FALSE
+308,2,"Walhekar wadi Corner",6,17,FALSE
+308,2,"Birla Hospital",6,18,FALSE
+308,2,"Datta Nagar",6,19,FALSE
+308,2,"Padmaji Mill",7,20,FALSE
+308,2,"Thergao Phata",7,21,FALSE
+308,2,"Dange Chowk",7,22,FALSE
+308,2,"Laxman Nagar",8,23,FALSE
+308,2,"Santoshnagar",8,24,FALSE
+308,2,"Kalewadi Phata",8,25,FALSE
+308,2,"Rahatani Phata",8,26,FALSE
+308,2,"15 No.",8,27,FALSE
+308,2,"Jagtap Dairy",8,28,FALSE
+308,2,"Wakad Phata",9,29,FALSE
+308,2,"Rakshak Society",9,30,FALSE
+308,2,"Aundh Pst",9,31,FALSE
+308,2,"E.S.I. Hospital",10,32,FALSE
+308,2,"T.B.Hospital",10,33,FALSE
+308,2,"Sangvi Phata",10,34,FALSE
+308,2,"Aundh Gao",10,35,FALSE
+308,2,"Body gate",11,36,FALSE
+308,2,"I.T.I Chowk",11,37,FALSE
+308,2,"Sindha Colony",11,38,FALSE
+308,2,"Kasturba zopadpatti",11,39,FALSE
+308,2,"Gol market",12,40,FALSE
+308,2,"Rajbhavan",12,41,FALSE
+308,2,"Chaturshrungi",12,42,FALSE
+308,2,"Polytechnic College",13,43,FALSE
+308,2,"Rangehills Corner",13,44,FALSE
+308,2,"Pumping station",13,45,FALSE
+308,2,"Mhasoba Gate",13,46,FALSE
+308,2,"Simla Office",14,47,FALSE
+308,2,"Eng.College",14,48,FALSE
+308,2,"R.T.O",14,49,FALSE
+308,2,"Old Bazaar",15,50,FALSE
+308,2,"Pune Station",15,51,FALSE
+309,1,"Alandi",1,1,TRUE
+309,1,"S.T.Stand",1,2,TRUE
+309,1,"Dehu Phata",1,3,TRUE
+309,1,"Paduka Mandir",2,4,TRUE
+309,1,"Charholi Phata",2,5,TRUE
+309,1,"Chincha",2,6,TRUE
+309,1,"Aamba",3,7,TRUE
+309,1,"Tapkir wasti",3,8,TRUE
+309,1,"Dyaneshwar Old House",3,9,TRUE
+309,1,"Saimandir",3,10,TRUE
+309,1,"Magzine",4,11,TRUE
+309,1,"Gajanan mandir",4,12,TRUE
+309,1,"Dighi Corner(Odha)",4,13,TRUE
+309,1,"Shastri Chowk",4,14,TRUE
+309,1,"Bhosari",5,15,TRUE
+309,1,"Atlas",5,16,TRUE
+309,1,"Century enka Company",5,17,TRUE
+309,1,"Empatronics company",5,18,TRUE
+309,1,"Landewadi",6,19,TRUE
+309,1,"Philips",6,20,TRUE
+309,1,"M.I.D.C",7,21,TRUE
+309,1,"Police Station",7,22,TRUE
+309,1,"C.I.R.T",7,23,TRUE
+309,1,"Nashik Phata",7,24,TRUE
+309,1,"Shankarwadi",7,25,TRUE
+309,1,"Wallabhnagar",8,26,TRUE
+309,1,"Wadilal",8,27,TRUE
+309,1,"Y.C.M",8,28,TRUE
+309,1,"Maheshnagar Corner",8,29,TRUE
+309,1,"Nehrunagar",9,30,TRUE
+309,1,"Zero Boys",9,31,TRUE
+309,1,"Bakery",9,32,TRUE
+309,1,"Wastu Udyog",9,33,TRUE
+309,1,"Masulkar Colony",9,34,TRUE
+309,1,"Morwadi ",9,35,TRUE
+309,1,"Phinolex Company",10,36,TRUE
+309,1,"Chinchwad Station",10,37,TRUE
+309,1,"Jayashri Talkies",10,38,TRUE
+309,1,"Mehta Hospital",10,39,TRUE
+309,1,"Kalbhornagar",10,40,TRUE
+309,1,"Ruston company",11,41,TRUE
+309,1,"Khandoba Mal",11,42,TRUE
+309,1,"Bajaj auto",11,43,TRUE
+309,1,"Nigdi Corner",11,44,TRUE
+309,1,"Nigdi ",12,45,TRUE
+309,1,"Bhakti Shakti ",12,46,TRUE
+309,1,"Transport Nagari",12,47,TRUE
+309,1,"Appughar Corner",12,48,TRUE
+309,1,"Muk-Badhir School",12,49,TRUE
+309,1,"Big India",13,50,TRUE
+309,1,"Sindhunagar",13,51,TRUE
+309,1,"Lokmanya Hospital",13,52,TRUE
+309,1,"Ashoka",13,53,TRUE
+309,1,"Trimurti Hall",13,54,TRUE
+309,1,"Ganganagar",14,55,TRUE
+309,1,"Giriraj",14,56,TRUE
+309,1,"Prachi",14,57,TRUE
+309,1,"Sambhaji Chowk",14,58,TRUE
+309,1,"Akurdi Railway Station",15,59,TRUE
+309,1,"Bijlinagar Pool",15,60,TRUE
+309,1,"Bijlinagar",16,61,TRUE
+309,1,"Chinchawdenagar Corner",16,62,TRUE
+309,1,"Sing Colony",16,63,TRUE
+309,1,"Chinchwad Gao",17,64,TRUE
+309,1,"Walhekar wadi Phata",17,65,TRUE
+309,1,"Chinchawade Corner",17,66,TRUE
+309,1,"Chinchawade Farm",17,67,TRUE
+309,1,"Aher Garden",17,68,TRUE
+309,1,"Walhekarwadi",18,69,TRUE
+309,2,"Walhekarwadi",1,1,FALSE
+309,2,"Aher Garden",2,2,FALSE
+309,2,"Chinchawade Farm",2,3,FALSE
+309,2,"Chinchawade Corner",2,4,FALSE
+309,2,"Walhekar wadi Phata",2,5,FALSE
+309,2,"Chinchwad Gao",2,6,FALSE
+309,2,"Sing Colony",3,7,FALSE
+309,2,"Chinchawdenagar Corner",3,8,FALSE
+309,2,"Bijlinagar",3,9,FALSE
+309,2,"Bijlinagar Pool",4,10,FALSE
+309,2,"Akurdi Railway Station",4,11,FALSE
+309,2,"Sambhaji Chowk",5,12,FALSE
+309,2,"Prachi",5,13,FALSE
+309,2,"Giriraj",5,14,FALSE
+309,2,"Ganganagar",5,15,FALSE
+309,2,"Trimurti Hall",6,16,FALSE
+309,2,"Ashoka",6,17,FALSE
+309,2,"Lokmanya Hospital",6,18,FALSE
+309,2,"Sindhunagar",6,19,FALSE
+309,2,"Big India",6,20,FALSE
+309,2,"Muk-Badhir School",7,21,FALSE
+309,2,"Appughar Corner",7,22,FALSE
+309,2,"Transport Nagari",7,23,FALSE
+309,2,"Bhakti Shakti ",7,24,FALSE
+309,2,"Nigdi ",7,25,FALSE
+309,2,"Nigdi Corner",8,26,FALSE
+309,2,"Bajaj auto",8,27,FALSE
+309,2,"Khandoba Mal",8,28,FALSE
+309,2,"Ruston company",8,29,FALSE
+309,2,"Kalbhornagar",9,30,FALSE
+309,2,"Mehta Hospital",9,31,FALSE
+309,2,"Jayashri Talkies",9,32,FALSE
+309,2,"Chinchwad Station",9,33,FALSE
+309,2,"Phinolex Company",9,34,FALSE
+309,2,"Morwadi ",10,35,FALSE
+309,2,"Masulkar Colony",10,36,FALSE
+309,2,"Wastu Udyog",10,37,FALSE
+309,2,"Bakery",10,38,FALSE
+309,2,"Zero Boys",10,39,FALSE
+309,2,"Nehrunagar",10,40,FALSE
+309,2,"Maheshnagar Corner",11,41,FALSE
+309,2,"Y.C.M",11,42,FALSE
+309,2,"Wadilal",11,43,FALSE
+309,2,"Wallabhnagar",11,44,FALSE
+309,2,"Shankarwadi",12,45,FALSE
+309,2,"Nashik Phata",12,46,FALSE
+309,2,"C.I.R.T",12,47,FALSE
+309,2,"Police Station",12,48,FALSE
+309,2,"M.I.D.C",12,49,FALSE
+309,2,"Philips",13,50,FALSE
+309,2,"Landewadi",13,51,FALSE
+309,2,"Empatronics company",13,52,FALSE
+309,2,"Century enka Company",13,53,FALSE
+309,2,"Atlas",13,54,FALSE
+309,2,"Bhosari",14,55,FALSE
+309,2,"Shastri Chowk",14,56,FALSE
+309,2,"Dighi Corner(Odha)",14,57,FALSE
+309,2,"Gajanan mandir",14,58,FALSE
+309,2,"Magzine",15,59,FALSE
+309,2,"Saimandir",15,60,FALSE
+309,2,"Dyaneshwar Old House",16,61,FALSE
+309,2,"Tapkir wasti",16,62,FALSE
+309,2,"Aamba",16,63,FALSE
+309,2,"Chincha",17,64,FALSE
+309,2,"Charholi Phata",17,65,FALSE
+309,2,"Paduka Mandir",17,66,FALSE
+309,2,"Dehu Phata",17,67,FALSE
+309,2,"S.T.Stand",17,68,FALSE
+309,2,"Alandi",18,69,FALSE
+310,1,"Pimpri gao",1,1,TRUE
+310,1,"Ashok Talkies",1,2,TRUE
+310,1,"Jaihind School",1,3,TRUE
+310,1,"Delux Talkies",2,4,TRUE
+310,1,"Karachi Chowk",2,5,TRUE
+310,1,"Lal Mandir",2,6,TRUE
+310,1,"Bhatnagar",2,7,TRUE
+310,1,"Devi Link",3,8,TRUE
+310,1,"Bakawolf Colony",3,9,TRUE
+310,1,"Manik Colony",3,10,TRUE
+310,1,"Darshan Hall",3,11,TRUE
+310,1,"Kalika Mata Mandir",3,12,TRUE
+310,1,"Chinchwad Gao",4,13,TRUE
+310,1,"Lpro Company",4,14,TRUE
+310,1,"Auditorium",4,15,TRUE
+310,1,"Lokmanya Nagar",5,16,TRUE
+310,1,"Chinchwad Station",5,17,TRUE
+310,1,"Jayashri Talkies",5,18,TRUE
+310,1,"Mehta Hospital",5,19,TRUE
+310,1,"Kalbhornagar",5,20,TRUE
+310,1,"Ruston company",6,21,TRUE
+310,1,"Akurdi",6,22,TRUE
+310,1,"Bajaj auto",6,23,TRUE
+310,1,"Nigdi Corner",6,24,TRUE
+310,1,"Nigdi",7,25,TRUE
+310,1,"Bhakti Shakti ",7,26,TRUE
+310,1,"Transport Nagari",7,27,TRUE
+310,1,"Appughar Corner",7,28,TRUE
+310,1,"Muk-Badhir School",7,29,TRUE
+310,1,"Big India",8,30,TRUE
+310,1,"Sindhunagar",8,31,TRUE
+310,1,"Lokmanya",8,32,TRUE
+310,1,"Ashoka",8,33,TRUE
+310,1,"Trimurti Hall",8,34,TRUE
+310,1,"Ganganagar",9,35,TRUE
+310,1,"Giriraj",9,36,TRUE
+310,1,"Prachi",9,37,TRUE
+310,1,"Sambhaji Chowk",9,38,TRUE
+310,1,"Akurdi Railway Station",10,39,TRUE
+310,2,"Akurdi Railway Station",1,2,FALSE
+310,2,"Sambhaji Chowk",2,3,FALSE
+310,2,"Prachi",2,4,FALSE
+310,2,"Giriraj",2,5,FALSE
+310,2,"Ganganagar",2,6,FALSE
+310,2,"Trimurti Hall",3,7,FALSE
+310,2,"Ashoka",3,8,FALSE
+310,2,"Lokmanya",3,9,FALSE
+310,2,"Sindhunagar",3,10,FALSE
+310,2,"Big India",3,11,FALSE
+310,2,"Muk-Badhir School",4,12,FALSE
+310,2,"Appughar Corner",4,13,FALSE
+310,2,"Transport Nagari",4,14,FALSE
+310,2,"Bhakti Shakti ",4,15,FALSE
+310,2,"Nigdi",4,16,FALSE
+310,2,"Nigdi Corner",5,17,FALSE
+310,2,"Bajaj auto",5,18,FALSE
+310,2,"Akurdi",5,19,FALSE
+310,2,"Ruston company",5,20,FALSE
+310,2,"Kalbhornagar",6,21,FALSE
+310,2,"Mehta Hospital",6,22,FALSE
+310,2,"Jayashri Talkies",6,23,FALSE
+310,2,"Chinchwad Station",6,24,FALSE
+310,2,"Lokmanya Nagar",6,25,FALSE
+310,2,"Auditorium",7,26,FALSE
+310,2,"Lpro Company",7,27,FALSE
+310,2,"Chinchwad Gao",7,28,FALSE
+310,2,"Kalika Mata Mandir",8,29,FALSE
+310,2,"Darshan Hall",8,30,FALSE
+310,2,"Manik Colony",8,31,FALSE
+310,2,"Bakawolf Colony",8,32,FALSE
+310,2,"Devi Link",8,33,FALSE
+310,2,"Bhatnagar",9,34,FALSE
+310,2,"Lal Mandir",9,35,FALSE
+310,2,"Karachi Chowk",9,36,FALSE
+310,2,"Delux Talkies",9,37,FALSE
+310,2,"Jaihind School",10,38,FALSE
+310,2,"Ashok Talkies",10,39,FALSE
+310,2,"Pimpri gao",11,40,FALSE
+311,1,"Pune Station",1,1,TRUE
+311,1,"Gadital",1,2,TRUE
+311,1,"R.T.O",2,3,TRUE
+311,1,"Eng.College",2,4,TRUE
+311,1,"Patil Estate",2,5,TRUE
+311,1,"Labour Office",2,6,TRUE
+311,1,"Wakdewadi",3,7,TRUE
+311,1,"Mariaai Gate",3,8,TRUE
+311,1,"Poultry Farm",3,9,TRUE
+311,1,"Raja Bunglow",3,10,TRUE
+311,1,"Kharki Post",4,11,TRUE
+311,1,"Factory Hospital",4,12,TRUE
+311,1,"Kharki Station",4,13,TRUE
+311,1,"Gopi Chawl",4,14,TRUE
+311,1,"Bopodi",5,15,TRUE
+311,1,"Dapodi",5,16,TRUE
+311,1,"Phugewadi",6,17,TRUE
+311,1,"Sandwik Company",6,18,TRUE
+311,1,"Alpha Laval Company",6,19,TRUE
+311,1,"Marshall Company",6,20,TRUE
+311,1,"Kasarwadi",7,21,TRUE
+311,1,"Nashik Phata",7,22,TRUE
+311,1,"Shankarwadi",7,23,TRUE
+311,1,"Wallabhnagar",8,24,TRUE
+311,1,"Wadilal",8,25,TRUE
+311,1,"Y.C.M",8,26,TRUE
+311,1,"Maheshnagar Corner",8,27,TRUE
+311,1,"D.Y.Patil college",9,28,TRUE
+311,1,"H.A.Company",9,29,TRUE
+311,1,"Kharalwadi",9,30,TRUE
+311,1,"Pimpri Road",9,31,TRUE
+311,1,"Phinolex Company",10,32,TRUE
+311,1,"Shagun Chowk",10,33,TRUE
+311,1,"Delux Chowk",11,34,TRUE
+311,1,"Jaihind School",11,35,TRUE
+311,1,"Shastri Park",11,36,TRUE
+311,1,"Corporation school",11,37,TRUE
+311,1,"Pimpri gao",12,38,TRUE
+311,2,"Pimpri gao",1,1,FALSE
+311,2,"Corporation school",2,2,FALSE
+311,2,"Shastri Park",2,3,FALSE
+311,2,"Jaihind School",2,4,FALSE
+311,2,"Delux Chowk",2,5,FALSE
+311,2,"Shagun Chowk",3,6,FALSE
+311,2,"Phinolex Company",3,7,FALSE
+311,2,"Pimpri Road",4,8,FALSE
+311,2,"Kharalwadi",4,9,FALSE
+311,2,"H.A.Company",4,10,FALSE
+311,2,"D.Y.Patil college",4,11,FALSE
+311,2,"Maheshnagar Corner",5,12,FALSE
+311,2,"Y.C.M",5,13,FALSE
+311,2,"Wadilal",5,14,FALSE
+311,2,"Wallabhnagar",5,15,FALSE
+311,2,"Shankarwadi",6,16,FALSE
+311,2,"Nashik Phata",6,17,FALSE
+311,2,"Kasarwadi",6,18,FALSE
+311,2,"Marshall Company",7,19,FALSE
+311,2,"Alpha Laval Company",7,20,FALSE
+311,2,"Sandwik Company",7,21,FALSE
+311,2,"Phugewadi",7,22,FALSE
+311,2,"Dapodi",8,23,FALSE
+311,2,"Bopodi",8,24,FALSE
+311,2,"Gopi Chawl",9,25,FALSE
+311,2,"Kharki Station",9,26,FALSE
+311,2,"Factory Hospital",9,27,FALSE
+311,2,"Kharki Post",9,28,FALSE
+311,2,"Raja Bunglow",10,29,FALSE
+311,2,"Poultry Farm",10,30,FALSE
+311,2,"Mariaai Gate",10,31,FALSE
+311,2,"Wakdewadi",10,32,FALSE
+311,2,"Labour Office",11,33,FALSE
+311,2,"Patil Estate",11,34,FALSE
+311,2,"Eng.College",11,35,FALSE
+311,2,"R.T.O",11,36,FALSE
+311,2,"Gadital",12,37,FALSE
+311,2,"Pune Station",12,38,FALSE
+312,1,"Pune Station",1,1,TRUE
+312,1,"Ruby Hall",1,2,TRUE
+312,1,"Wadia College",1,3,TRUE
+312,1,"Bundgarden",2,4,TRUE
+312,1,"Yerawada",2,5,TRUE
+312,1,"Sadalbaba",2,6,TRUE
+312,1,"U.P.Hotel",3,7,TRUE
+312,1,"Deccan college",3,8,TRUE
+312,1,"Sapras Post",3,9,TRUE
+312,1,"Holkar pool corner",3,10,TRUE
+312,1,"Holkar Water Supply",3,11,TRUE
+312,1,"Church",4,12,TRUE
+312,1,"Factory Road",4,13,TRUE
+312,1,"Kharki Bazaar",4,14,TRUE
+312,1,"Alegaonkar school",4,15,TRUE
+312,1,"Kirloskar Oil Engine",4,16,TRUE
+312,1,"Bopodi",5,17,TRUE
+312,1,"Dapodi",5,18,TRUE
+312,1,"Phugewadi",6,19,TRUE
+312,1,"Sandwik Company",6,20,TRUE
+312,1," Alpha laval Company",6,21,TRUE
+312,1,"Marshall Company",6,22,TRUE
+312,1,"Kasarwadi",7,23,TRUE
+312,1,"Nashik Phata",7,24,TRUE
+312,1,"Shankarwadi",7,25,TRUE
+312,1,"Wallabhnagar",8,26,TRUE
+312,1,"Wadilal",8,27,TRUE
+312,1,"Y.C.M",8,28,TRUE
+312,1,"Maheshnagar Corner",8,29,TRUE
+312,1,"D.Y.Patil college",9,30,TRUE
+312,1,"H.A.Company",9,31,TRUE
+312,1,"Kharalwadi",9,32,TRUE
+312,1,"Pimpri Road",9,33,TRUE
+312,1,"Phinolex Company",10,34,TRUE
+312,1,"Empire Estate",10,35,TRUE
+312,1,"Chinchwad Station",10,36,TRUE
+312,1,"Lokmanya Hospital",11,37,TRUE
+312,1,"Auditorium",11,38,TRUE
+312,1,"Lpro Company",11,39,TRUE
+312,1,"Chinchwad Gao",12,40,TRUE
+312,2,"Pune Station",1,1,FALSE
+312,2,"Ruby Hall",1,2,FALSE
+312,2,"Wadia College",1,3,FALSE
+312,2,"Bundgarden",2,4,FALSE
+312,2,"Yerawada",2,5,FALSE
+312,2,"Sadalbaba",2,6,FALSE
+312,2,"U.P.Hotel",3,7,FALSE
+312,2,"Deccan college",3,8,FALSE
+312,2,"Sapras Post",3,9,FALSE
+312,2,"Holkar pool corner",3,10,FALSE
+312,2,"Holkar Water Supply",3,11,FALSE
+312,2,"Church",4,12,FALSE
+312,2,"Factory Road",4,13,FALSE
+312,2,"Kharki Bazaar",4,14,FALSE
+312,2,"Alegaonkar school",4,15,FALSE
+312,2,"Kirloskar Oil Engine",4,16,FALSE
+312,2,"Bopodi",5,17,FALSE
+312,2,"Dapodi",5,18,FALSE
+312,2,"Phugewadi",6,19,FALSE
+312,2,"Sandwik Company",6,20,FALSE
+312,2," Alpha laval Company",6,21,FALSE
+312,2,"Marshall Company",6,22,FALSE
+312,2,"Kasarwadi",7,23,FALSE
+312,2,"Nashik Phata",7,24,FALSE
+312,2,"Shankarwadi",7,25,FALSE
+312,2,"Wallabhnagar",8,26,FALSE
+312,2,"Wadilal",8,27,FALSE
+312,2,"Y.C.M",8,28,FALSE
+312,2,"Maheshnagar Corner",8,29,FALSE
+312,2,"D.Y.Patil college",9,30,FALSE
+312,2,"H.A.Company",9,31,FALSE
+312,2,"Kharalwadi",9,32,FALSE
+312,2,"Pimpri Road",9,33,FALSE
+312,2,"Phinolex Company",10,34,FALSE
+312,2,"Empire Estate",10,35,FALSE
+312,2,"Chinchwad Station",10,36,FALSE
+312,2,"Lokmanya Hospital",11,37,FALSE
+312,2,"Auditorium",11,38,FALSE
+312,2,"Lpro Company",11,39,FALSE
+312,2,"Chinchwad Gao",12,40,FALSE
+313,1,"Pune Station",1,1,TRUE
+313,1,"Tadiwala Road",1,2,TRUE
+313,1,"Raja Bahaddur",1,3,TRUE
+313,1,"R.T.O",2,4,TRUE
+313,1,"Eng.College",2,5,TRUE
+313,1,"Patil Estate",2,6,TRUE
+313,1,"Labour Office",2,7,TRUE
+313,1,"Wakdewadi",3,8,TRUE
+313,1,"Mariaai Gate",3,9,TRUE
+313,1,"Poultry Farm",3,10,TRUE
+313,1,"Raja Bunglow",3,11,TRUE
+313,1,"Kharki Post",4,12,TRUE
+313,1,"Factory Hospital",4,13,TRUE
+313,1,"Kharki Station",4,14,TRUE
+313,1,"Gopi Chawl",4,15,TRUE
+313,1,"Bopodi",5,16,TRUE
+313,1,"Dapodi",5,17,TRUE
+313,1,"Phugewadi",6,18,TRUE
+313,1,"Sandwik Company",6,19,TRUE
+313,1,"Alpha Laval Company",6,20,TRUE
+313,1,"Marshall Company",6,21,TRUE
+313,1,"Kasarwadi",7,22,TRUE
+313,1,"Nashik Phata",7,23,TRUE
+313,1,"Shankarwadi",7,24,TRUE
+313,1,"Wallabhnagar",8,25,TRUE
+313,1,"Wadilal",8,26,TRUE
+313,1,"Y.C.M",8,27,TRUE
+313,1,"Maheshnagar Corner",8,28,TRUE
+313,1,"D.Y.Patil college",9,29,TRUE
+313,1,"H.A.Company",9,30,TRUE
+313,1,"Kharalwadi",9,31,TRUE
+313,1,"Pimpri Road",9,32,TRUE
+313,1,"Phinolex Company",10,33,TRUE
+313,1,"Empire Estate",10,34,TRUE
+313,1,"Chinchwad Station",10,35,TRUE
+313,1,"Jayashri Talkies",10,36,TRUE
+313,1,"Mehta Hospital",10,37,TRUE
+313,1,"Kalbhornagar",10,38,TRUE
+313,1,"Ruston Company",11,39,TRUE
+313,1,"Akurdi",11,40,TRUE
+313,1,"Bajaj auto",11,41,TRUE
+313,1,"Nigdi Corner",11,42,TRUE
+313,1,"Nigdi ",12,43,TRUE
+313,1,"Bhakti Shakti ",12,44,TRUE
+313,1,"Transport Nagari",12,45,TRUE
+313,1,"Appughar Corner",12,46,TRUE
+313,1,"Muk-Badhir School",12,47,TRUE
+313,1,"Big India",13,48,TRUE
+313,1,"Sindhunagar",13,49,TRUE
+313,1,"Lokmanya Hospital",13,50,TRUE
+313,1,"Ashoka",13,51,TRUE
+313,1,"Trimurti Hall",13,52,TRUE
+313,1,"Ganganagar",14,53,TRUE
+313,1,"Giriraj",14,54,TRUE
+313,1,"Prachi",14,55,TRUE
+313,1,"Sambhaji Chowk",14,56,TRUE
+313,1,"Akurdi Railway Station",15,57,TRUE
+313,2,"Akurdi Railway Station",1,1,FALSE
+313,2,"Sambhaji Chowk",2,2,FALSE
+313,2,"Prachi",2,3,FALSE
+313,2,"Giriraj",2,4,FALSE
+313,2,"Ganganagar",2,5,FALSE
+313,2,"Trimurti Hall",3,6,FALSE
+313,2,"Ashoka",3,7,FALSE
+313,2,"Lokmanya Hospital",3,8,FALSE
+313,2,"Sindhunagar",3,9,FALSE
+313,2,"Big India",3,10,FALSE
+313,2,"Muk-Badhir School",4,11,FALSE
+313,2,"Appughar Corner",4,12,FALSE
+313,2,"Transport Nagari",4,13,FALSE
+313,2,"Bhakti Shakti ",4,14,FALSE
+313,2,"Nigdi ",5,15,FALSE
+313,2,"Nigdi Corner",5,16,FALSE
+313,2,"Bajaj auto",5,17,FALSE
+313,2,"Akurdi",6,18,FALSE
+313,2,"Ruston Company",6,19,FALSE
+313,2,"Kalbhornagar",7,20,FALSE
+313,2,"Mehta Hospital",7,21,FALSE
+313,2,"Jayashri Talkies",7,22,FALSE
+313,2,"Chinchwad Station",7,23,FALSE
+313,2,"Empire Estate",7,24,FALSE
+313,2,"Phinolex Company",7,25,FALSE
+313,2,"Pimpri Road",8,26,FALSE
+313,2,"Kharalwadi",8,27,FALSE
+313,2,"H.A.Company",8,28,FALSE
+313,2,"D.Y.Patil college",8,29,FALSE
+313,2,"Maheshnagar Corner",9,30,FALSE
+313,2,"Y.C.M",9,31,FALSE
+313,2,"Wadilal",9,32,FALSE
+313,2,"Wallabhnagar",9,33,FALSE
+313,2,"Shankarwadi",10,34,FALSE
+313,2,"Nashik Phata",10,35,FALSE
+313,2,"Kasarwadi",10,36,FALSE
+313,2,"Marshall Company",11,37,FALSE
+313,2,"Alpha Laval Company",11,38,FALSE
+313,2,"Sandwik Company",11,39,FALSE
+313,2,"Phugewadi",11,40,FALSE
+313,2,"Dapodi",12,41,FALSE
+313,2,"Bopodi",12,42,FALSE
+313,2,"Gopi Chawl",13,43,FALSE
+313,2,"Kharki Station",13,44,FALSE
+313,2,"Factory Hospital",13,45,FALSE
+313,2,"Kharki Post",13,46,FALSE
+313,2,"Raja Bunglow",14,47,FALSE
+313,2,"Poultry Farm",14,48,FALSE
+313,2,"Mariaai Gate",14,49,FALSE
+313,2,"Wakdewadi",14,50,FALSE
+313,2,"Labour Office",15,51,FALSE
+313,2,"Patil Estate",15,52,FALSE
+313,2,"Eng.College",15,53,FALSE
+313,2,"R.T.O",15,54,FALSE
+313,2,"Raja Bahaddur",16,55,FALSE
+313,2,"Tadiwala Road",16,56,FALSE
+313,2,"Pune Station",16,57,FALSE
+314,1,"Pune Station",1,1,TRUE
+314,1,"Old Bazaar",1,2,TRUE
+314,1,"R.T.O",2,3,TRUE
+314,1,"Eng.College",2,4,TRUE
+314,1,"Simla Office",2,5,TRUE
+314,1,"Mhasoba Gate",3,6,TRUE
+314,1,"Pumping station",3,7,TRUE
+314,1,"Rangehills Corner",3,8,TRUE
+314,1,"Polytechnic College",3,9,TRUE
+314,1,"Chaturshrungi",4,10,TRUE
+314,1,"Rajbhavan",4,11,TRUE
+314,1,"Gol market",4,12,TRUE
+314,1,"Kasturba zopadpatti",5,13,TRUE
+314,1,"Sindha Colony",5,14,TRUE
+314,1,"I.T.I Chowk",5,15,TRUE
+314,1,"Body gate",5,16,TRUE
+314,1,"Aundh Gao",6,17,TRUE
+314,1,"Sangvi Phata",6,18,TRUE
+314,1,"T.B.Hospital",6,19,TRUE
+314,1,"E.S.I. Hospital",6,20,TRUE
+314,1,"Aundh Pst",7,21,TRUE
+314,1,"Rakshak Society",7,22,TRUE
+314,1,"Wakad Phata",7,23,TRUE
+314,1,"Jagtap Dairy",8,24,TRUE
+314,1,"15 No.",8,25,TRUE
+314,1,"Rahatani Phata",8,26,TRUE
+314,1,"Kalewadi Phata",8,27,TRUE
+314,1,"Santoshnagar",8,28,TRUE
+314,1,"Laxman Nagar",8,29,TRUE
+314,1,"Dange Chowk",9,30,TRUE
+314,1,"Thergao Phata",9,31,TRUE
+314,1,"Padmaji Mill",9,32,TRUE
+314,1,"Datta Nagar",10,33,TRUE
+314,1,"Birla Hospital",10,34,TRUE
+314,1,"Walhekar wadi Corner",10,35,TRUE
+314,1,"Chinchwad Gao",11,36,TRUE
+314,1,"S.K.F Corner",11,37,TRUE
+314,1,"Premlok Park",11,38,TRUE
+314,1,"Bhoir Nagar",11,39,TRUE
+314,1,"Ganesh Vision",12,40,TRUE
+314,1,"Akurdi Khandoba mal",12,41,TRUE
+314,1,"Bajaj auto",12,42,TRUE
+314,1,"Nigdi Corner",12,43,TRUE
+314,1,"Nigdi",13,44,TRUE
+314,1,"Bhakti Shakti ",13,45,TRUE
+314,1,"Cantonment Board",13,46,TRUE
+314,1,"Kohima Line",14,47,TRUE
+314,1,"Vhisab Depo",14,48,TRUE
+314,1,"Kendriya Vidyalaya",14,49,TRUE
+314,1,"Garden city",15,50,TRUE
+314,1,"C.I.S.V",15,51,TRUE
+314,1,"Dehu Gao Phata",15,52,TRUE
+314,1,"Dehu Road Station",16,53,TRUE
+314,1,"Ashoknagar",16,54,TRUE
+314,1,"Chincholi",16,55,TRUE
+314,1,"Paduka Mandir",17,56,TRUE
+314,1,"C.O.D Depo",17,57,TRUE
+314,1,"Zende Mala",17,58,TRUE
+314,1,"Malwadi",18,59,TRUE
+314,1,"Dehugao Grampanchayat",18,60,TRUE
+314,1,"Dehu Gao",19,61,TRUE
+314,2,"Dehu Gao",1,1,FALSE
+314,2,"Dehugao Grampanchayat",2,2,FALSE
+314,2,"Malwadi",2,3,FALSE
+314,2,"Zende Mala",3,4,FALSE
+314,2,"C.O.D Depo",3,5,FALSE
+314,2,"Paduka Mandir",3,6,FALSE
+314,2,"Chincholi",4,7,FALSE
+314,2,"Ashoknagar",4,8,FALSE
+314,2,"Dehu Road Station",4,9,FALSE
+314,2,"Dehu Gao Phata",5,10,FALSE
+314,2,"C.I.S.V",5,11,FALSE
+314,2,"Garden city",5,12,FALSE
+314,2,"Kendriya Vidyalaya",6,13,FALSE
+314,2,"Vhisab Depo",6,14,FALSE
+314,2,"Kohima Line",6,15,FALSE
+314,2,"Cantonment Board",7,16,FALSE
+314,2,"Bhakti Shakti ",7,17,FALSE
+314,2,"Nigdi",7,18,FALSE
+314,2,"Nigdi Corner",8,19,FALSE
+314,2,"Bajaj auto",9,20,FALSE
+314,2,"Akurdi Khandoba mal",10,21,FALSE
+314,2,"Ganesh Vision",10,22,FALSE
+314,2,"Bhoir Nagar",11,23,FALSE
+314,2,"Premlok Park",11,24,FALSE
+314,2,"S.K.F Corner",11,25,FALSE
+314,2,"Chinchwad Gao",11,26,FALSE
+314,2,"Walhekar wadi Corner",12,27,FALSE
+314,2,"Birla Hospital",12,28,FALSE
+314,2,"Datta Nagar",12,29,FALSE
+314,2,"Padmaji Mill",13,30,FALSE
+314,2,"Thergao Phata",13,31,FALSE
+314,2,"Dange Chowk",13,32,FALSE
+314,2,"Laxman Nagar",14,33,FALSE
+314,2,"Santoshnagar",14,34,FALSE
+314,2,"Kalewadi Phata",14,35,FALSE
+314,2,"Rahatani Phata",14,36,FALSE
+314,2,"15 No.",14,37,FALSE
+314,2,"Jagtap Dairy",14,38,FALSE
+314,2,"Wakad Phata",15,39,FALSE
+314,2,"Rakshak Society",15,40,FALSE
+314,2,"Aundh Pst",15,41,FALSE
+314,2,"E.S.I. Hospital",16,42,FALSE
+314,2,"T.B.Hospital",16,43,FALSE
+314,2,"Sangvi Phata",16,44,FALSE
+314,2,"Aundh Gao",16,45,FALSE
+314,2,"Body gate",17,46,FALSE
+314,2,"I.T.I Chowk",17,47,FALSE
+314,2,"Sindha Colony",17,48,FALSE
+314,2,"Kasturba zopadpatti",17,49,FALSE
+314,2,"Gol market",18,50,FALSE
+314,2,"Rajbhavan",18,51,FALSE
+314,2,"Chaturshrungi",18,52,FALSE
+314,2,"Polytechnic College",19,53,FALSE
+314,2,"Rangehills Corner",19,54,FALSE
+314,2,"Pumping station",19,55,FALSE
+314,2,"Mhasoba Gate",19,56,FALSE
+314,2,"Simla Office",20,57,FALSE
+314,2,"Eng.College",20,58,FALSE
+314,2,"R.T.O",20,59,FALSE
+314,2,"Old Bazaar",21,60,FALSE
+314,2,"Pune Station",21,61,FALSE
+315,1,"Pune Station",1,1,TRUE
+315,1,"Ruby Hall",1,2,TRUE
+315,1,"Wadia College",1,3,TRUE
+315,1,"Bundgarden",2,4,TRUE
+315,1,"Yerawada",2,5,TRUE
+315,1,"Sadalbaba",2,6,TRUE
+315,1,"U.P.Hotel",3,7,TRUE
+315,1,"Deccan college",3,8,TRUE
+315,1,"Sapras Post",3,9,TRUE
+315,1,"Holkar pool corner",3,10,TRUE
+315,1,"Holkar Water Supply",3,11,TRUE
+315,1,"Church",4,12,TRUE
+315,1,"Factory Road",4,13,TRUE
+315,1,"Kharki Bazaar",4,14,TRUE
+315,1,"Alegaonkar school",4,15,TRUE
+315,1,"Kirloskar Oil Engine",4,16,TRUE
+315,1,"Bopodi",5,17,TRUE
+315,1,"Dapodi",5,18,TRUE
+315,1,"Phugewadi",6,19,TRUE
+315,1,"Sandwik Company",6,20,TRUE
+315,1," Alpha laval Company",6,21,TRUE
+315,1,"Marshall Company",6,22,TRUE
+315,1,"Kasarwadi",7,23,TRUE
+315,1,"Nashik Phata",7,24,TRUE
+315,1,"C.I.R.T",7,25,TRUE
+315,1,"Bhosari Police Station",7,26,TRUE
+315,1,"M.I.D.C",8,27,TRUE
+315,1,"Philips",8,28,TRUE
+315,1,"Landewadi",9,29,TRUE
+315,1,"Empatronics company",9,30,TRUE
+315,1,"Century enka Company",9,31,TRUE
+315,1,"Atlas",9,32,TRUE
+315,1,"Bhosari",10,33,TRUE
+315,2,"Bhosari",1,1,FALSE
+315,2,"Atlas",2,2,FALSE
+315,2,"Century enka Company",2,3,FALSE
+315,2,"Empatronics company",2,4,FALSE
+315,2,"Landewadi",2,5,FALSE
+315,2,"Philips",3,6,FALSE
+315,2,"M.I.D.C",3,7,FALSE
+315,2,"Bhosari Police Station",4,8,FALSE
+315,2,"C.I.R.T",4,9,FALSE
+315,2,"Nashik Phata",4,10,FALSE
+315,2,"Kasarwadi",4,11,FALSE
+315,2,"Marshall Company",5,12,FALSE
+315,2," Alpha laval Company",5,13,FALSE
+315,2,"Sandwik Company",5,14,FALSE
+315,2,"Phugewadi",5,15,FALSE
+315,2,"Dapodi",6,16,FALSE
+315,2,"Bopodi",6,17,FALSE
+315,2,"Kirloskar Oil Engine",7,18,FALSE
+315,2,"Alegaonkar school",7,19,FALSE
+315,2,"Kharki Bazaar",7,20,FALSE
+315,2,"Factory Road",7,21,FALSE
+315,2,"Church",7,22,FALSE
+315,2,"Holkar Water Supply",8,23,FALSE
+315,2,"Holkar pool corner",8,24,FALSE
+315,2,"Sapras Post",8,25,FALSE
+315,2,"Deccan college",8,26,FALSE
+315,2,"U.P.Hotel",8,27,FALSE
+315,2,"Sadalbaba",9,28,FALSE
+315,2,"Yerawada",9,29,FALSE
+315,2,"Bundgarden",9,30,FALSE
+315,2,"Wadia College",10,31,FALSE
+315,2,"Ruby Hall",10,32,FALSE
+315,2,"Pune Station",10,33,FALSE
+316,1,"Pune Station",1,1,TRUE
+316,1,"Tadiwala Road",1,2,TRUE
+316,1,"Raja Bahaddur",1,3,TRUE
+316,1,"R.T.O",2,4,TRUE
+316,1,"Eng.College",2,5,TRUE
+316,1,"Patil Estate",2,6,TRUE
+316,1,"Labour Office",2,7,TRUE
+316,1,"Wakdewadi",3,8,TRUE
+316,1,"Mariaai Gate",3,9,TRUE
+316,1,"Poultry Farm",3,10,TRUE
+316,1,"Raja Bunglow",3,11,TRUE
+316,1,"Kharki Post",4,12,TRUE
+316,1,"Factory Hospital",4,13,TRUE
+316,1,"Kharki Station",4,14,TRUE
+316,1,"Gopi Chawl",4,15,TRUE
+316,1,"Bopodi",5,16,TRUE
+316,1,"Dapodi",5,17,TRUE
+316,1,"Phugewadi",6,18,TRUE
+316,1,"Sandwik Company",6,19,TRUE
+316,1,"Alpha Laval Company",6,20,TRUE
+316,1,"Marshall Company",6,21,TRUE
+316,1,"Kasarwadi",7,22,TRUE
+316,1,"Nashik Phata",7,23,TRUE
+316,1,"Shankarwadi",7,24,TRUE
+316,1,"Wallabhnagar",8,25,TRUE
+316,1,"Wadilal",8,26,TRUE
+316,1,"Y.C.M",8,27,TRUE
+316,1,"Maheshnagar Corner",8,28,TRUE
+316,1,"D.Y.Patil college",9,29,TRUE
+316,1,"H.A.Company",9,30,TRUE
+316,1,"Kharalwadi",9,31,TRUE
+316,1,"Pimpri Road",9,32,TRUE
+316,1,"Phinolex Company",10,33,TRUE
+316,1,"Empire Estate",10,34,TRUE
+316,1,"Chinchwad Station",10,35,TRUE
+316,1,"Jayashri Talkies",10,36,TRUE
+316,1,"Mehta Hospital",10,37,TRUE
+316,1,"Kalbhornagar",10,38,TRUE
+316,1,"Ruston Company",11,39,TRUE
+316,1,"Akurdi",11,40,TRUE
+316,1,"Bajaj auto",11,41,TRUE
+316,1,"Nigdi Corner",11,42,TRUE
+316,1,"Nigdi ",12,43,TRUE
+316,1,"Bhakti Shakti ",12,44,TRUE
+316,1,"Cantonment Board",12,45,TRUE
+316,1,"Kohima Line",13,46,TRUE
+316,1,"Vhisab Depo",13,47,TRUE
+316,1,"Kendriya Vidyalaya",13,48,TRUE
+316,1,"Garden city",14,49,TRUE
+316,1,"C.I.S.V",14,50,TRUE
+316,1,"Dehu Gao Phata",14,51,TRUE
+316,1,"Bank Of India",14,52,TRUE
+316,1,"Dehu road Bazaar",14,53,TRUE
+316,1,"Gurudwara",15,54,TRUE
+316,1,"Cantonment Hospital",15,55,TRUE
+316,1,"Dehuroad Police Line",15,56,TRUE
+316,1,"Central Restaurant",15,57,TRUE
+316,1,"KrishnaMandir",15,58,TRUE
+316,1,"Indrayani Darshan",16,59,TRUE
+316,1,"Amarjai Mandir",16,60,TRUE
+316,1,"Shankarwadi",16,61,TRUE
+316,1,"Shelarwadi",16,62,TRUE
+316,1,"Poona Poltry",17,63,TRUE
+316,1,"Somatane Phata",17,64,TRUE
+316,1,"Talegao Khind",17,65,TRUE
+316,1,"Talegao Phata",18,66,TRUE
+316,1,"Bhandari Hospital",18,67,TRUE
+316,1,"Maruti Mandir",18,68,TRUE
+316,1,"Talegao",19,69,TRUE
+316,1,"Talegao Nagarparishad",19,70,TRUE
+316,1,"Talegao Station",20,71,TRUE
+316,2,"Talegao Station",1,1,FALSE
+316,2,"Talegao Nagarparishad",2,2,FALSE
+316,2,"Talegao",2,3,FALSE
+316,2,"Maruti Mandir",3,4,FALSE
+316,2,"Bhandari Hospital",3,5,FALSE
+316,2,"Talegao Phata",3,6,FALSE
+316,2,"Talegao Khind",4,7,FALSE
+316,2,"Somatane Phata",4,8,FALSE
+316,2,"Poona Poltry",4,9,FALSE
+316,2,"Shelarwadi",5,10,FALSE
+316,2,"Shankarwadi",5,11,FALSE
+316,2,"Amarjai Mandir",5,12,FALSE
+316,2,"Indrayani Darshan",5,13,FALSE
+316,2,"KrishnaMandir",6,14,FALSE
+316,2,"Central Restaurant",6,15,FALSE
+316,2,"Dehuroad Police Line",6,16,FALSE
+316,2,"Cantonment Hospital",6,17,FALSE
+316,2,"Gurudwara",6,18,FALSE
+316,2,"Dehu road Bazaar",7,19,FALSE
+316,2,"Bank Of India",7,20,FALSE
+316,2,"Dehu Gao Phata",7,21,FALSE
+316,2,"C.I.S.V",7,22,FALSE
+316,2,"Garden city",7,23,FALSE
+316,2,"Kendriya Vidyalaya",8,24,FALSE
+316,2,"Vhisab Depo",8,25,FALSE
+316,2,"Kohima Line",8,26,FALSE
+316,2,"Cantonment Board",9,27,FALSE
+316,2,"Bhakti Shakti ",9,28,FALSE
+316,2,"Nigdi ",10,29,FALSE
+316,2,"Nigdi Corner",10,30,FALSE
+316,2,"Bajaj auto",10,31,FALSE
+316,2,"Akurdi",11,32,FALSE
+316,2,"Ruston Company",11,33,FALSE
+316,2,"Kalbhornagar",12,34,FALSE
+316,2,"Mehta Hospital",12,35,FALSE
+316,2,"Jayashri Talkies",12,36,FALSE
+316,2,"Chinchwad Station",12,37,FALSE
+316,2,"Empire Estate",12,38,FALSE
+316,2,"Phinolex Company",12,39,FALSE
+316,2,"Pimpri Road",13,40,FALSE
+316,2,"Kharalwadi",13,41,FALSE
+316,2,"H.A.Company",13,42,FALSE
+316,2,"D.Y.Patil college",13,43,FALSE
+316,2,"Maheshnagar Corner",14,44,FALSE
+316,2,"Y.C.M",14,45,FALSE
+316,2,"Wadilal",14,46,FALSE
+316,2,"Wallabhnagar",14,47,FALSE
+316,2,"Shankarwadi",15,48,FALSE
+316,2,"Nashik Phata",15,49,FALSE
+316,2,"Kasarwadi",15,50,FALSE
+316,2,"Marshall Company",16,51,FALSE
+316,2,"Alpha Laval Company",16,52,FALSE
+316,2,"Sandwik Company",16,53,FALSE
+316,2,"Phugewadi",16,54,FALSE
+316,2,"Dapodi",17,55,FALSE
+316,2,"Bopodi",17,56,FALSE
+316,2,"Gopi Chawl",18,57,FALSE
+316,2,"Kharki Station",18,58,FALSE
+316,2,"Factory Hospital",18,59,FALSE
+316,2,"Kharki Post",18,60,FALSE
+316,2,"Raja Bunglow",19,61,FALSE
+316,2,"Poultry Farm",19,62,FALSE
+316,2,"Mariaai Gate",19,63,FALSE
+316,2,"Wakdewadi",19,64,FALSE
+316,2,"Labour Office",20,65,FALSE
+316,2,"Patil Estate",20,66,FALSE
+316,2,"Eng.College",20,67,FALSE
+316,2,"R.T.O",20,68,FALSE
+316,2,"Raja Bahaddur",21,69,FALSE
+316,2,"Tadiwala Road",21,70,FALSE
+316,2,"Pune Station",21,71,FALSE
+317,1,"Pune Station",1,1,TRUE
+317,1,"Tadiwala Road",1,2,TRUE
+317,1,"Raja Bahaddur",1,3,TRUE
+317,1,"R.T.O",2,4,TRUE
+317,1,"Eng.College",2,5,TRUE
+317,1,"Patil Estate",2,6,TRUE
+317,1,"Labour Office",2,7,TRUE
+317,1,"Wakdewadi",3,8,TRUE
+317,1,"Mariaai Gate",3,9,TRUE
+317,1,"Poultry Farm",3,10,TRUE
+317,1,"Raja Bunglow",3,11,TRUE
+317,1,"Kharki Post",4,12,TRUE
+317,1,"Factory Hospital",4,13,TRUE
+317,1,"Kharki Station",4,14,TRUE
+317,1,"Gopi Chawl",4,15,TRUE
+317,1,"Bopodi",5,16,TRUE
+317,1,"Dapodi",5,17,TRUE
+317,1,"Phugewadi",6,18,TRUE
+317,1,"Sandwik Company",6,19,TRUE
+317,1,"Alpha Laval Company",6,20,TRUE
+317,1,"Marshall Company",6,21,TRUE
+317,1,"Kasarwadi",7,22,TRUE
+317,1,"Nashik Phata",7,23,TRUE
+317,1,"Shankarwadi",7,24,TRUE
+317,1,"Wallabhnagar",8,25,TRUE
+317,1,"Wadilal",8,26,TRUE
+317,1,"Y.C.M",8,27,TRUE
+317,1,"Maheshnagar Corner",8,28,TRUE
+317,1,"D.Y.Patil college",9,29,TRUE
+317,1,"H.A.Company",9,30,TRUE
+317,1,"Kharalwadi",9,31,TRUE
+317,1,"Pimpri Road",9,32,TRUE
+317,1,"Phinolex Company",10,33,TRUE
+317,1,"Empire Estate",10,34,TRUE
+317,1,"Chinchwad Station",10,35,TRUE
+317,1,"Jayashri Talkies",10,36,TRUE
+317,1,"Mehta Hospital",10,37,TRUE
+317,1,"Kalbhornagar",10,38,TRUE
+317,1,"Ruston Company",11,39,TRUE
+317,1,"Khandoba Mal",11,40,TRUE
+317,1,"Thermax Company",12,41,TRUE
+317,1,"Prashant Society",12,42,TRUE
+317,1,"Kasturi Market",12,43,TRUE
+317,1,"Krishna Nagar Corner",13,44,TRUE
+317,1,"Maruti Mandir",13,45,TRUE
+317,1,"Ganapati Mandir",13,46,TRUE
+317,1,"Sambhaji Nagar",14,47,TRUE
+317,2,"Sambhaji Nagar",1,1,FALSE
+317,2,"Ganapati Mandir",2,2,FALSE
+317,2,"Maruti Mandir",2,3,FALSE
+317,2,"Krishna Nagar Corner",3,4,FALSE
+317,2,"Kasturi Market",4,5,FALSE
+317,2,"Prashant Society",4,6,FALSE
+317,2,"Thermax Company",4,7,FALSE
+317,2,"Khandoba Mal",5,8,FALSE
+317,2,"Ruston Company",5,9,FALSE
+317,2,"Kalbhornagar",6,10,FALSE
+317,2,"Mehta Hospital",6,11,FALSE
+317,2,"Jayashri Talkies",6,12,FALSE
+317,2,"Chinchwad Station",6,13,FALSE
+317,2,"Empire Estate",6,14,FALSE
+317,2,"Phinolex Company",6,15,FALSE
+317,2,"Pimpri Road",7,16,FALSE
+317,2,"Kharalwadi",7,17,FALSE
+317,2,"H.A.Company",7,18,FALSE
+317,2,"D.Y.Patil college",7,19,FALSE
+317,2,"Maheshnagar Corner",8,20,FALSE
+317,2,"Y.C.M",8,21,FALSE
+317,2,"Wadilal",8,22,FALSE
+317,2,"Wallabhnagar",8,23,FALSE
+317,2,"Shankarwadi",9,24,FALSE
+317,2,"Nashik Phata",9,25,FALSE
+317,2,"Kasarwadi",9,26,FALSE
+317,2,"Marshall Company",10,27,FALSE
+317,2,"Alpha Laval Company",10,28,FALSE
+317,2,"Sandwik Company",10,29,FALSE
+317,2,"Phugewadi",10,30,FALSE
+317,2,"Dapodi",11,31,FALSE
+317,2,"Bopodi",11,32,FALSE
+317,2,"Gopi Chawl",12,33,FALSE
+317,2,"Kharki Station",12,34,FALSE
+317,2,"Factory Hospital",12,35,FALSE
+317,2,"Kharki Post",12,36,FALSE
+317,2,"Raja Bunglow",13,37,FALSE
+317,2,"Poultry Farm",13,38,FALSE
+317,2,"Mariaai Gate",13,39,FALSE
+317,2,"Wakdewadi",13,40,FALSE
+317,2,"Labour Office",14,41,FALSE
+317,2,"Patil Estate",14,42,FALSE
+317,2,"Eng.College",14,43,FALSE
+317,2,"R.T.O",14,44,FALSE
+317,2,"Raja Bahaddur",15,45,FALSE
+317,2,"Tadiwala Road",15,46,FALSE
+317,2,"Pune Station",15,47,FALSE
+318,1,"Pune Station",1,1,TRUE
+318,1,"Old Bazaar",1,2,TRUE
+318,1,"R.T.O",2,3,TRUE
+318,1,"Eng.College",2,4,TRUE
+318,1,"Simla Office",2,5,TRUE
+318,1,"Mhasoba Gate",3,6,TRUE
+318,1,"Pumping station",3,7,TRUE
+318,1,"Rangehills Corner",3,8,TRUE
+318,1,"Polytechnic College",3,9,TRUE
+318,1,"Chaturshrungi",4,10,TRUE
+318,1,"Rajbhavan",4,11,TRUE
+318,1,"Gol market",4,12,TRUE
+318,1,"Kasturba zopadpatti",5,13,TRUE
+318,1,"Sindha Colony",5,14,TRUE
+318,1,"I.T.I Chowk",5,15,TRUE
+318,1,"Body gate",5,16,TRUE
+318,1,"Aundh Gao",6,17,TRUE
+318,1,"Sangvi Phata",6,18,TRUE
+318,1,"T.B.Hospital",6,19,TRUE
+318,1,"E.S.I. Hospital",6,20,TRUE
+318,1,"Aundh Pst",7,21,TRUE
+318,1,"Rakshak Society",7,22,TRUE
+318,1,"Wakad Phata",7,23,TRUE
+318,1,"Jagtap Dairy",8,24,TRUE
+318,1,"15 No.",8,25,TRUE
+318,1,"Rahatani Phata",8,26,TRUE
+318,1,"Kalewadi Phata",8,27,TRUE
+318,1,"Santoshnagar",8,28,TRUE
+318,1,"Laxman Nagar",8,29,TRUE
+318,1,"Dange Chowk",9,30,TRUE
+318,1,"Thergao Phata",9,31,TRUE
+318,1,"Padmaji Mill",9,32,TRUE
+318,1,"Datta Nagar",10,33,TRUE
+318,1,"Birla Hospital",10,34,TRUE
+318,1,"Walhekar wadi Corner",10,35,TRUE
+318,1,"Chinchwad Gao",11,36,TRUE
+318,1,"S.K.F Corner",11,37,TRUE
+318,1,"Premlok Park",11,38,TRUE
+318,1,"Bhoir Nagar",11,39,TRUE
+318,1,"Ganesh Vision",12,40,TRUE
+318,1,"Khandoba Mal",12,41,TRUE
+318,1,"Thermax Company",13,42,TRUE
+318,1,"Prashant Society",13,43,TRUE
+318,1,"Kasturi Market",13,44,TRUE
+318,1,"Krishnanagar Corner",13,45,TRUE
+318,1,"Sane Chowk",13,46,TRUE
+318,1,"Mhatre Wasti",13,47,TRUE
+318,1,"Krishnanagar",14,48,TRUE
+318,2,"Krishnanagar",1,1,FALSE
+318,2,"Mhatre Wasti",2,2,FALSE
+318,2,"Sane Chowk",2,3,FALSE
+318,2,"Krishnanagar Corner",2,4,FALSE
+318,2,"Kasturi Market",3,5,FALSE
+318,2,"Prashant Society",3,6,FALSE
+318,2,"Thermax Company",3,7,FALSE
+318,2,"Khandoba Mal",4,8,FALSE
+318,2,"Ganesh Vision",4,9,FALSE
+318,2,"Bhoir Nagar",5,10,FALSE
+318,2,"Premlok Park",5,11,FALSE
+318,2,"S.K.F Corner",5,12,FALSE
+318,2,"Chinchwad Gao",5,13,FALSE
+318,2,"Walhekar wadi Corner",6,14,FALSE
+318,2,"Birla Hospital",6,15,FALSE
+318,2,"Datta Nagar",6,16,FALSE
+318,2,"Padmaji Mill",7,17,FALSE
+318,2,"Thergao Phata",7,18,FALSE
+318,2,"Dange Chowk",7,19,FALSE
+318,2,"Laxman Nagar",8,20,FALSE
+318,2,"Santoshnagar",8,21,FALSE
+318,2,"Kalewadi Phata",8,22,FALSE
+318,2,"Rahatani Phata",8,23,FALSE
+318,2,"15 No.",8,24,FALSE
+318,2,"Jagtap Dairy",8,25,FALSE
+318,2,"Wakad Phata",9,26,FALSE
+318,2,"Rakshak Society",9,27,FALSE
+318,2,"Aundh Pst",9,28,FALSE
+318,2,"E.S.I. Hospital",10,29,FALSE
+318,2,"T.B.Hospital",10,30,FALSE
+318,2,"Sangvi Phata",10,31,FALSE
+318,2,"Aundh Gao",10,32,FALSE
+318,2,"Body gate",11,33,FALSE
+318,2,"I.T.I Chowk",11,34,FALSE
+318,2,"Sindha Colony",11,35,FALSE
+318,2,"Kasturba zopadpatti",11,36,FALSE
+318,2,"Gol market",12,37,FALSE
+318,2,"Rajbhavan",12,38,FALSE
+318,2,"Chaturshrungi",12,39,FALSE
+318,2,"Polytechnic College",13,40,FALSE
+318,2,"Rangehills Corner",13,41,FALSE
+318,2,"Pumping station",13,42,FALSE
+318,2,"Mhasoba Gate",13,43,FALSE
+318,2,"Simla Office",14,44,FALSE
+318,2,"Eng.College",14,45,FALSE
+318,2,"R.T.O",14,46,FALSE
+318,2,"Old Bazaar",15,47,FALSE
+318,2,"Pune Station",15,48,FALSE
+319,1,"Pune Station",1,1,TRUE
+319,1,"Old Bazaar",1,2,TRUE
+319,1,"R.T.O",2,3,TRUE
+319,1,"Eng.College",2,4,TRUE
+319,1,"Simla Office",2,5,TRUE
+319,1,"Mhasoba Gate",3,6,TRUE
+319,1,"Pumping station",3,7,TRUE
+319,1,"Rangehills Corner",3,8,TRUE
+319,1,"Polytechnic College",3,9,TRUE
+319,1,"Chaturshrungi",4,10,TRUE
+319,1,"Rajbhavan",4,11,TRUE
+319,1,"Gol market",4,12,TRUE
+319,1,"Kasturba zopadpatti",5,13,TRUE
+319,1,"Sindha Colony",5,14,TRUE
+319,1,"I.T.I Chowk",5,15,TRUE
+319,1,"Body gate",5,16,TRUE
+319,1,"Aundh Gao",6,17,TRUE
+319,1,"Sangvi Phata",6,18,TRUE
+319,1,"T.B.Hospital",6,19,TRUE
+319,1,"E.S.I. Hospital",6,20,TRUE
+319,1,"Aundh Pst",7,21,TRUE
+319,1,"Rakshak Society",7,22,TRUE
+319,1,"Wakad Phata",7,23,TRUE
+319,1,"Jagtap Dairy",8,24,TRUE
+319,1,"D Ward",8,25,TRUE
+319,1,"Ashoka Society",9,26,TRUE
+319,1,"Corporation Office, Thergao",9,27,TRUE
+319,1,"Tapkirnagar",9,28,TRUE
+319,1,"Morya Complex",10,29,TRUE
+319,1,"Corporation school",10,30,TRUE
+319,1,"Chinchwad Gao",11,31,TRUE
+319,2,"Chinchwad Gao",1,1,FALSE
+319,2,"Corporation school",2,2,FALSE
+319,2,"Morya Complex",2,3,FALSE
+319,2,"Tapkirnagar",3,4,FALSE
+319,2,"Corporation Office, Thergao",3,5,FALSE
+319,2,"Ashoka Society",3,6,FALSE
+319,2,"D Ward",4,7,FALSE
+319,2,"Jagtap Dairy",4,8,FALSE
+319,2,"Wakad Phata",5,9,FALSE
+319,2,"Rakshak Society",5,10,FALSE
+319,2,"Aundh Pst",5,11,FALSE
+319,2,"E.S.I. Hospital",6,12,FALSE
+319,2,"T.B.Hospital",6,13,FALSE
+319,2,"Sangvi Phata",6,14,FALSE
+319,2,"Aundh Gao",6,15,FALSE
+319,2,"Body gate",7,16,FALSE
+319,2,"I.T.I Chowk",7,17,FALSE
+319,2,"Sindha Colony",7,18,FALSE
+319,2,"Kasturba zopadpatti",7,19,FALSE
+319,2,"Gol market",8,20,FALSE
+319,2,"Rajbhavan",8,21,FALSE
+319,2,"Chaturshrungi",8,22,FALSE
+319,2,"Polytechnic College",9,23,FALSE
+319,2,"Rangehills Corner",9,24,FALSE
+319,2,"Pumping station",9,25,FALSE
+319,2,"Mhasoba Gate",9,26,FALSE
+319,2,"Simla Office",10,27,FALSE
+319,2,"Eng.College",10,28,FALSE
+319,2,"R.T.O",10,29,FALSE
+319,2,"Old Bazaar",11,30,FALSE
+319,2,"Pune Station",11,31,FALSE
+320,1,"Alandi",1,1,TRUE
+320,1,"S.T.Stand",1,2,TRUE
+320,1,"Dehu Phata",1,3,TRUE
+320,1,"Paduka Mandir",2,4,TRUE
+320,1,"Charholi Phata",2,5,TRUE
+320,1,"Chincha",2,6,TRUE
+320,1,"Aamba",3,7,TRUE
+320,1,"Tapkir Wasti",3,8,TRUE
+320,1,"Dnyaneshwar Old House",3,9,TRUE
+320,1,"Sai Mandir",3,10,TRUE
+320,1,"Magazine",4,11,TRUE
+320,1,"Gajanan Mandir",4,12,TRUE
+320,1,"Dighi Corner",4,13,TRUE
+320,1,"Shastri Chowk",4,14,TRUE
+320,1,"Bhosari",5,15,TRUE
+320,1,"Atlas",5,16,TRUE
+320,1,"Century enka Company",5,17,TRUE
+320,1,"Empatronics company",5,18,TRUE
+320,1,"Landewadi",6,19,TRUE
+320,1,"Philips",6,20,TRUE
+320,1,"M.I.D.C",7,21,TRUE
+320,1,"Police Station",7,22,TRUE
+320,1,"C.I.R.T",7,23,TRUE
+320,1,"Nashik Phata",7,24,TRUE
+320,1,"Shankarwadi",7,25,TRUE
+320,1,"Wallabhnagar",7,26,TRUE
+320,1,"Indian Card Company",8,27,TRUE
+320,1,"H.A.Company",8,28,TRUE
+320,1,"Kharalwadi",8,29,TRUE
+320,1,"Pimpri Road",8,30,TRUE
+320,1,"Phinolex Company",9,31,TRUE
+320,1,"Chinchwad Station",9,32,TRUE
+320,1,"Lokmanya Hospital",10,33,TRUE
+320,1,"Auditorium",10,34,TRUE
+320,1,"Lpro Company",10,35,TRUE
+320,1,"Chinchwad Gao",11,36,TRUE
+320,1,"Walhekar wadi Corner",11,37,TRUE
+320,1,"Birla Hospital",11,38,TRUE
+320,1,"Datta Nagar",12,39,TRUE
+320,1,"Padmaji Mill",12,40,TRUE
+320,1,"Thergao Corner",12,41,TRUE
+320,1,"Dange Chowk",13,42,TRUE
+320,1,"Vitbhatti",13,43,TRUE
+320,1,"Wakad",14,44,TRUE
+320,1,"Wakad Phata",14,45,TRUE
+320,1,"Stadium",15,46,TRUE
+320,1,"Mhalunge Corner",15,47,TRUE
+320,1,"Mhalunge",16,48,TRUE
+320,2,"Mhalunge",1,1,FALSE
+320,2,"Mhalunge Corner",2,2,FALSE
+320,2,"Stadium",2,3,FALSE
+320,2,"Wakad Phata",3,4,FALSE
+320,2,"Wakad",3,5,FALSE
+320,2,"Vitbhatti",4,6,FALSE
+320,2,"Dange Chowk",4,7,FALSE
+320,2,"Thergao Corner",5,8,FALSE
+320,2,"Padmaji Mill",5,9,FALSE
+320,2,"Datta Nagar",5,10,FALSE
+320,2,"Birla Hospital",6,11,FALSE
+320,2,"Walhekar wadi Corner",6,12,FALSE
+320,2,"Chinchwad Gao",6,13,FALSE
+320,2,"Lpro Company",7,14,FALSE
+320,2,"Auditorium",7,15,FALSE
+320,2,"Lokmanya Hospital",7,16,FALSE
+320,2,"Chinchwad Station",8,17,FALSE
+320,2,"Phinolex Company",8,18,FALSE
+320,2,"Pimpri Road",9,19,FALSE
+320,2,"Kharalwadi",9,20,FALSE
+320,2,"H.A.Company",9,21,FALSE
+320,2,"Indian Card Company",9,22,FALSE
+320,2,"Wallabhnagar",10,23,FALSE
+320,2,"Shankarwadi",10,24,FALSE
+320,2,"Nashik Phata",10,25,FALSE
+320,2,"C.I.R.T",10,26,FALSE
+320,2,"Police Station",10,27,FALSE
+320,2,"M.I.D.C",10,28,FALSE
+320,2,"Philips",11,29,FALSE
+320,2,"Landewadi",11,30,FALSE
+320,2,"Empatronics company",12,31,FALSE
+320,2,"Century enka Company",12,32,FALSE
+320,2,"Atlas",12,33,FALSE
+320,2,"Bhosari",12,34,FALSE
+320,2,"Shastri Chowk",13,35,FALSE
+320,2,"Dighi Corner",13,36,FALSE
+320,2,"Gajanan Mandir",13,37,FALSE
+320,2,"Magazine",13,38,FALSE
+320,2,"Sai Mandir",14,39,FALSE
+320,2,"Dnyaneshwar Old House",14,40,FALSE
+320,2,"Tapkir Wasti",14,41,FALSE
+320,2,"Aamba",14,42,FALSE
+320,2,"Chincha",15,43,FALSE
+320,2,"Charholi Phata",15,44,FALSE
+320,2,"Paduka Mandir",15,45,FALSE
+320,2,"Dehu Phata",16,46,FALSE
+320,2,"S.T.Stand",16,47,FALSE
+320,2,"Alandi",16,48,FALSE
+321,1,"Katraj",1,1,TRUE
+321,1,"Katraj Milk Dairy",1,2,TRUE
+321,1,"Sarpodyan",1,3,TRUE
+321,1,"Bharati Vidyapith",1,4,TRUE
+321,1,"Chaitanyanagar",1,5,TRUE
+321,1,"Balajinagar",2,6,TRUE
+321,1,"Shankar Maharaj Math",2,7,TRUE
+321,1,"Padmavati Corner",2,8,TRUE
+321,1,"NatuBaug",3,9,TRUE
+321,1,"Arenyeshwar Corner",3,10,TRUE
+321,1,"Bhapkar petrol Pump",3,11,TRUE
+321,1,"Adinath Soc",3,12,TRUE
+321,1,"S.T.Colony",3,13,TRUE
+321,1,"LaxmiNarayan",3,14,TRUE
+321,1,"Swargate",4,15,TRUE
+321,1,"Parvati Paytha",4,16,TRUE
+321,1,"Dandekar Pool",5,17,TRUE
+321,1,"Lokmanya Nagar",5,18,TRUE
+321,1,"Ganjvewadi",5,19,TRUE
+321,1,"Deccan Gymkhana",6,20,TRUE
+321,1,"Balgandharva",6,21,TRUE
+321,1,"Modern High School",6,22,TRUE
+321,1,"Jangli Maharaj",6,23,TRUE
+321,1,"Simla Office",7,24,TRUE
+321,1,"Sancheti Hospital",7,25,TRUE
+321,1,"Patil Estate",7,26,TRUE
+321,1,"Labour Office",7,27,TRUE
+321,1,"Wakdewadi",8,28,TRUE
+321,1,"Mariaai Gate",8,29,TRUE
+321,1,"Poultry Farm",8,30,TRUE
+321,1,"Raja Bunglow",8,31,TRUE
+321,1,"Kharki Post",9,32,TRUE
+321,1,"Factory Hospital",9,33,TRUE
+321,1,"Kharki Station",9,34,TRUE
+321,1,"Gopi Chawl",9,35,TRUE
+321,1,"Bopodi",10,36,TRUE
+321,1,"Dapodi",10,37,TRUE
+321,1,"Phugewadi",11,38,TRUE
+321,1,"Sandwik Company",11,39,TRUE
+321,1," Alpha laval Company",11,40,TRUE
+321,1,"Marshall Company",11,41,TRUE
+321,1,"Kasarwadi",12,42,TRUE
+321,1,"Nashik Phata",12,43,TRUE
+321,1,"Shankarwadi",12,44,TRUE
+321,1,"Wallabhnagar",13,45,TRUE
+321,1,"Wadilal",13,46,TRUE
+321,1,"Y.C.M",13,47,TRUE
+321,1,"Maheshnagar Corner",13,48,TRUE
+321,1,"D.Y.Patil college",14,49,TRUE
+321,1,"H.A.Company",14,50,TRUE
+321,1,"Kharalwadi",14,51,TRUE
+321,1,"Pimpri road",14,52,TRUE
+321,1,"Phinolex Company",15,53,TRUE
+321,1,"Empire Estate",15,54,TRUE
+321,1,"Chinchwad Station",15,55,TRUE
+321,1,"Jayashri Talkies",15,56,TRUE
+321,1,"Mehta Hospital",15,57,TRUE
+321,1,"Kalbhornagar",15,58,TRUE
+321,1,"Ruston Company",16,59,TRUE
+321,1,"Akurdi",16,60,TRUE
+321,1,"Bajaj auto",16,61,TRUE
+321,1,"Nigdi Corner",16,62,TRUE
+321,1,"Nigdi",17,63,TRUE
+321,1,"Bhakti Shakti ",17,64,TRUE
+321,1,"Transport Nagar",17,65,TRUE
+321,1,"Appughar Corner",17,66,TRUE
+321,1,"Muk-Badhir School",17,67,TRUE
+321,1,"Big India",18,68,TRUE
+321,1,"Sindhunagar",18,69,TRUE
+321,1,"Lokmanya",18,70,TRUE
+321,1,"Ashoka",18,71,TRUE
+321,1,"Trimurti Hall",18,72,TRUE
+321,1,"Ganganagar",19,73,TRUE
+321,1,"Giriraj",19,74,TRUE
+321,1,"Prachi",19,75,TRUE
+321,1,"Sambhaji Chowk",19,76,TRUE
+321,1,"Akurdi Railway Station",20,77,TRUE
+321,2,"Akurdi Railway Station",1,1,FALSE
+321,2,"Sambhaji Chowk",2,2,FALSE
+321,2,"Prachi",2,3,FALSE
+321,2,"Giriraj",2,4,FALSE
+321,2,"Ganganagar",2,5,FALSE
+321,2,"Trimurti Hall",2,6,FALSE
+321,2,"Ashoka",3,7,FALSE
+321,2,"Lokmanya",3,8,FALSE
+321,2,"Sindhunagar",3,9,FALSE
+321,2,"Big India",3,10,FALSE
+321,2,"Muk-Badhir School",3,11,FALSE
+321,2,"Appughar Corner",4,12,FALSE
+321,2,"Transport Nagar",4,13,FALSE
+321,2,"Bhakti Shakti ",4,14,FALSE
+321,2,"Nigdi",4,15,FALSE
+321,2,"Nigdi Corner",4,16,FALSE
+321,2,"Bajaj auto",5,17,FALSE
+321,2,"Akurdi",5,18,FALSE
+321,2,"Ruston Company",5,19,FALSE
+321,2,"Kalbhornagar",5,20,FALSE
+321,2,"Mehta Hospital",6,21,FALSE
+321,2,"Jayashri Talkies",6,22,FALSE
+321,2,"Chinchwad Station",6,23,FALSE
+321,2,"Empire Estate",6,24,FALSE
+321,2,"Phinolex Company",6,25,FALSE
+321,2,"Pimpri road",6,26,FALSE
+321,2,"Kharalwadi",7,27,FALSE
+321,2,"H.A.Company",7,28,FALSE
+321,2,"D.Y.Patil college",7,29,FALSE
+321,2,"Maheshnagar Corner",7,30,FALSE
+321,2,"Y.C.M",8,31,FALSE
+321,2,"Wadilal",8,32,FALSE
+321,2,"Wallabhnagar",8,33,FALSE
+321,2,"Shankarwadi",8,34,FALSE
+321,2,"Nashik Phata",9,35,FALSE
+321,2,"Kasarwadi",9,36,FALSE
+321,2,"Marshall Company",9,37,FALSE
+321,2," Alpha laval Company",10,38,FALSE
+321,2,"Sandwik Company",10,39,FALSE
+321,2,"Phugewadi",10,40,FALSE
+321,2,"Dapodi",10,41,FALSE
+321,2,"Bopodi",11,42,FALSE
+321,2,"Gopi Chawl",11,43,FALSE
+321,2,"Kharki Station",12,44,FALSE
+321,2,"Factory Hospital",12,45,FALSE
+321,2,"Kharki Post",12,46,FALSE
+321,2,"Raja Bunglow",12,47,FALSE
+321,2,"Poultry Farm",13,48,FALSE
+321,2,"Mariaai Gate",13,49,FALSE
+321,2,"Wakdewadi",13,50,FALSE
+321,2,"Labour Office",14,51,FALSE
+321,2,"Patil Estate",14,52,FALSE
+321,2,"Sancheti Hospital",14,53,FALSE
+321,2,"Simla Office",14,54,FALSE
+321,2,"Jangli Maharaj",15,55,FALSE
+321,2,"Modern High School",15,56,FALSE
+321,2,"Balgandharva",15,57,FALSE
+321,2,"Deccan Gymkhana",15,58,FALSE
+321,2,"Ganjvewadi",16,59,FALSE
+321,2,"Lokmanya Nagar",16,60,FALSE
+321,2,"Dandekar Pool",16,61,FALSE
+321,2,"Parvati Paytha",17,62,FALSE
+321,2,"Swargate",17,63,FALSE
+321,2,"LaxmiNarayan",18,64,FALSE
+321,2,"S.T.Colony",18,65,FALSE
+321,2,"Adinath Soc",18,66,FALSE
+321,2,"Bhapkar petrol Pump",18,67,FALSE
+321,2,"Arenyeshwar Corner",18,68,FALSE
+321,2,"NatuBaug",18,69,FALSE
+321,2,"Padmavati Corner",19,70,FALSE
+321,2,"Shankar Maharaj Math",19,71,FALSE
+321,2,"Balajinagar",19,72,FALSE
+321,2,"Chaitanyanagar",20,73,FALSE
+321,2,"Bharati Vidyapith",20,74,FALSE
+321,2,"Sarpodyan",20,75,FALSE
+321,2,"Katraj Milk Dairy",20,76,FALSE
+321,2,"Katraj",20,77,FALSE
+322,1,"Pune Station",1,1,TRUE
+322,1,"Old Bazaar",1,2,TRUE
+322,1,"R.T.O",2,3,TRUE
+322,1,"Eng.College",2,4,TRUE
+322,1,"Simla Office",2,5,TRUE
+322,1,"Mhasoba Gate",3,6,TRUE
+322,1,"Pumping station",3,7,TRUE
+322,1,"Rangehills Corner",3,8,TRUE
+322,1,"Polytechnic College",3,9,TRUE
+322,1,"Chaturshrungi",4,10,TRUE
+322,1,"Raj Bhavan",4,11,TRUE
+322,1,"Gol market",4,12,TRUE
+322,1,"Kasturba zopadpatti",5,13,TRUE
+322,1,"Sindha Colony",5,14,TRUE
+322,1,"I.T.I Chowk",5,15,TRUE
+322,1,"Body gate",5,16,TRUE
+322,1,"Aundh Gao",6,17,TRUE
+322,1,"Sangvi Phata",6,18,TRUE
+322,1,"Gholap College",6,19,TRUE
+322,1,"Kawade Nagar",7,20,TRUE
+322,1,"Sai corner",7,21,TRUE
+322,1,"KatePuram",8,22,TRUE
+322,1,"Pimple Gurav",9,23,TRUE
+322,1,"Vaidu wasti",9,24,TRUE
+322,1,"Sudarshan nagar",9,25,TRUE
+322,1,"Mithila Nagari",10,26,TRUE
+322,1,"Pimple Saudagar",10,27,TRUE
+322,1,"Nanekar Park",10,28,TRUE
+322,1,"Pimpri Gao",11,29,TRUE
+322,2,"Pimpri Gao",1,1,FALSE
+322,2,"Nanekar Park",2,2,FALSE
+322,2,"Pimple Saudagar",2,3,FALSE
+322,2,"Mithila Nagari",2,4,FALSE
+322,2,"Sudarshan nagar",3,5,FALSE
+322,2,"Vaidu wasti",3,6,FALSE
+322,2,"Pimple Gurav",3,7,FALSE
+322,2,"KatePuram",4,8,FALSE
+322,2,"Sai corner",5,9,FALSE
+322,2,"Kawade Nagar",5,10,FALSE
+322,2,"Gholap College",6,11,FALSE
+322,2,"Sangvi Phata",6,12,FALSE
+322,2,"Aundh Gao",6,13,FALSE
+322,2,"Body gate",7,14,FALSE
+322,2,"I.T.I Chowk",7,15,FALSE
+322,2,"Sindha Colony",7,16,FALSE
+322,2,"Kasturba zopadpatti",7,17,FALSE
+322,2,"Gol market",8,18,FALSE
+322,2,"Raj Bhavan",8,19,FALSE
+322,2,"Chaturshrungi",8,20,FALSE
+322,2,"Polytechnic College",9,21,FALSE
+322,2,"Rangehills Corner",9,22,FALSE
+322,2,"Pumping station",9,23,FALSE
+322,2,"Mhasoba Gate",9,24,FALSE
+322,2,"Simla Office",10,25,FALSE
+322,2,"Eng.College",10,26,FALSE
+322,2,"R.T.O",10,27,FALSE
+322,2,"Old Bazaar",11,28,FALSE
+322,2,"Pune Station",11,29,FALSE
+323,1,"Kothrud",1,1,TRUE
+323,1,"Maruti Mandir",1,2,TRUE
+323,1,"Paud Phata",1,3,TRUE
+323,1,"S.N.D.T",2,4,TRUE
+323,1,"Nal Stop",2,5,TRUE
+323,1,"Petrol Pump",2,6,TRUE
+323,1,"Garware College",2,7,TRUE
+323,1,"Sambhaji Pool",2,8,TRUE
+323,1,"Deccan Gymkhana",3,9,TRUE
+323,1,"Balgandharva",3,10,TRUE
+323,1,"Modern High School",3,11,TRUE
+323,1,"Jangli Maharaj",3,12,TRUE
+323,1,"Simla Office",4,13,TRUE
+323,1,"Sancheti Hospital",4,14,TRUE
+323,1,"Patil Estate",4,15,TRUE
+323,1,"Labour Office",4,16,TRUE
+323,1,"Wakdewadi",5,17,TRUE
+323,1,"Mariaai Gate",5,18,TRUE
+323,1,"Poultry Farm",5,19,TRUE
+323,1,"Raja Bunglow",5,20,TRUE
+323,1,"Kharki Post",6,21,TRUE
+323,1,"Factory Hospital",6,22,TRUE
+323,1,"Kharki Station",6,23,TRUE
+323,1,"Gopi Chawl",6,24,TRUE
+323,1,"Bopodi",7,25,TRUE
+323,1,"Dapodi",7,26,TRUE
+323,1,"Phugewadi",8,27,TRUE
+323,1,"Sandwik Company",8,28,TRUE
+323,1,"Alpha Laval Company",8,29,TRUE
+323,1,"Marshall Company",8,30,TRUE
+323,1,"Kasarwadi",9,31,TRUE
+323,1,"Nashik Phata",9,32,TRUE
+323,1,"Shankarwadi",9,33,TRUE
+323,1,"Wallabhnagar",10,34,TRUE
+323,1,"Wadilal",10,35,TRUE
+323,1,"Y.C.M",10,36,TRUE
+323,1,"Maheshnagar Corner",10,37,TRUE
+323,1,"D.Y.Patil college",11,38,TRUE
+323,1,"H.A.Company",11,39,TRUE
+323,1,"Kaharalwadi",11,40,TRUE
+323,1,"Pimpri Road",11,41,TRUE
+323,1,"Phinolex Company",12,42,TRUE
+323,1,"Empire Estate",12,43,TRUE
+323,1,"Chinchwad Station",12,44,TRUE
+323,1,"Jayashri Talkies",12,45,TRUE
+323,1,"Mehta Hospital",12,46,TRUE
+323,1,"Kalbhornagar",12,47,TRUE
+323,1,"Ruston Company",13,48,TRUE
+323,1,"Akurdi",13,49,TRUE
+323,1,"Bajaj auto",13,50,TRUE
+323,1,"Nigdi Corner",13,51,TRUE
+323,1,"Nigdi",14,52,TRUE
+323,1,"Bhakti Shakti ",14,53,TRUE
+323,1,"Transport Nagar",14,54,TRUE
+323,1,"Appughar Corner",14,55,TRUE
+323,1,"Muk-Badhir School",14,56,TRUE
+323,1,"Big India",15,57,TRUE
+323,1,"Sindhunagar",15,58,TRUE
+323,1,"Lokmanya",15,59,TRUE
+323,1,"Ashoka",15,60,TRUE
+323,1,"Trimurti Hall",15,61,TRUE
+323,1,"Ganganagar",16,62,TRUE
+323,1,"Giriraj",16,63,TRUE
+323,1,"Prachi",16,64,TRUE
+323,1,"Sambhaji Chowk",16,65,TRUE
+323,1,"Akurdi Railway Station",17,66,TRUE
+323,2,"Akurdi Railway Station",1,1,FALSE
+323,2,"Sambhaji Chowk",2,2,FALSE
+323,2,"Prachi",2,3,FALSE
+323,2,"Giriraj",2,4,FALSE
+323,2,"Ganganagar",2,5,FALSE
+323,2,"Trimurti Hall",3,6,FALSE
+323,2,"Ashoka",3,7,FALSE
+323,2,"Lokmanya",3,8,FALSE
+323,2,"Sindhunagar",3,9,FALSE
+323,2,"Big India",3,10,FALSE
+323,2,"Muk-Badhir School",4,11,FALSE
+323,2,"Appughar Corner",4,12,FALSE
+323,2,"Transport Nagar",4,13,FALSE
+323,2,"Bhakti Shakti ",4,14,FALSE
+323,2,"Nigdi",4,15,FALSE
+323,2,"Nigdi Corner",5,16,FALSE
+323,2,"Bajaj auto",5,17,FALSE
+323,2,"Akurdi",5,18,FALSE
+323,2,"Ruston Company",5,19,FALSE
+323,2,"Kalbhornagar",6,20,FALSE
+323,2,"Mehta Hospital",6,21,FALSE
+323,2,"Jayashri Talkies",6,22,FALSE
+323,2,"Chinchwad Station",6,23,FALSE
+323,2,"Empire Estate",6,24,FALSE
+323,2,"Phinolex Company",6,25,FALSE
+323,2,"Pimpri Road",7,26,FALSE
+323,2,"Kaharalwadi",7,27,FALSE
+323,2,"H.A.Company",7,28,FALSE
+323,2,"D.Y.Patil college",7,29,FALSE
+323,2,"Maheshnagar Corner",8,30,FALSE
+323,2,"Y.C.M",8,31,FALSE
+323,2,"Wadilal",8,32,FALSE
+323,2,"Wallabhnagar",8,33,FALSE
+323,2,"Shankarwadi",9,34,FALSE
+323,2,"Nashik Phata",9,35,FALSE
+323,2,"Kasarwadi",9,36,FALSE
+323,2,"Marshall Company",10,37,FALSE
+323,2,"Alpha Laval Company",10,38,FALSE
+323,2,"Sandwik Company",10,39,FALSE
+323,2,"Phugewadi",10,40,FALSE
+323,2,"Dapodi",11,41,FALSE
+323,2,"Bopodi",11,42,FALSE
+323,2,"Gopi Chawl",12,43,FALSE
+323,2,"Kharki Station",12,44,FALSE
+323,2,"Factory Hospital",12,45,FALSE
+323,2,"Kharki Post",12,46,FALSE
+323,2,"Raja Bunglow",13,47,FALSE
+323,2,"Poultry Farm",13,48,FALSE
+323,2,"Mariaai Gate",13,49,FALSE
+323,2,"Wakdewadi",13,50,FALSE
+323,2,"Labour Office",14,51,FALSE
+323,2,"Patil Estate",14,52,FALSE
+323,2,"Sancheti Hospital",14,53,FALSE
+323,2,"Simla Office",14,54,FALSE
+323,2,"Jangli Maharaj",15,55,FALSE
+323,2,"Modern High School",15,56,FALSE
+323,2,"Balgandharva",15,57,FALSE
+323,2,"Deccan Gymkhana",15,58,FALSE
+323,2,"Sambhaji Pool",16,59,FALSE
+323,2,"Garware College",16,60,FALSE
+323,2,"Petrol Pump",16,61,FALSE
+323,2,"Nal Stop",16,62,FALSE
+323,2,"S.N.D.T",16,63,FALSE
+323,2,"Paud Phata",17,64,FALSE
+323,2,"Maruti Mandir",17,65,FALSE
+323,2,"Kothrud",17,66,FALSE
+324,1,"Pune Station",1,1,TRUE
+324,1,"Ruby Hall",1,2,TRUE
+324,1,"Wadia College",1,3,TRUE
+324,1,"Bundgarden",2,4,TRUE
+324,1,"Yearawada",2,5,TRUE
+324,1,"Sadal Baba",2,6,TRUE
+324,1,"U.P.Hotel",3,7,TRUE
+324,1,"Deccan College",3,8,TRUE
+324,1,"Saprus Post",3,9,TRUE
+324,1,"Holkar pool Corner",3,10,TRUE
+324,1,"Holkar Water Supply",3,11,TRUE
+324,1,"Church",4,12,TRUE
+324,1,"Factory Hospital",4,13,TRUE
+324,1,"Kharki Bazaar",4,14,TRUE
+324,1,"Alegaonkar School",4,15,TRUE
+324,1,"Kirloskar Oil Engiene",4,16,TRUE
+324,1,"Bopdi",5,17,TRUE
+324,1,"Ambedkar Nagar",5,18,TRUE
+324,1,"Dapodigao",6,19,TRUE
+324,1,"S.T.Workshop",6,20,TRUE
+324,1,"Vasantdada Putala",6,21,TRUE
+324,1,"Sangvi Gao",7,22,TRUE
+324,1,"M.K.Hotel",7,23,TRUE
+324,1,"KatePuram",8,24,TRUE
+324,2,"KatePuram",1,1,FALSE
+324,2,"M.K.Hotel",2,2,FALSE
+324,2,"Sangvi Gao",2,3,FALSE
+324,2,"Vasantdada Putala",3,4,FALSE
+324,2,"S.T.Workshop",3,5,FALSE
+324,2,"Dapodigao",3,6,FALSE
+324,2,"Ambedkar Nagar",4,7,FALSE
+324,2,"Bopdi",4,8,FALSE
+324,2,"Kirloskar Oil Engiene",5,9,FALSE
+324,2,"Alegaonkar School",5,10,FALSE
+324,2,"Kharki Bazaar",5,11,FALSE
+324,2,"Factory Hospital",5,12,FALSE
+324,2,"Church",5,13,FALSE
+324,2,"Holkar Water Supply",6,14,FALSE
+324,2,"Holkar pool Corner",6,15,FALSE
+324,2,"Saprus Post",6,16,FALSE
+324,2,"Deccan College",6,17,FALSE
+324,2,"U.P.Hotel",6,18,FALSE
+324,2,"Sadal Baba",7,19,FALSE
+324,2,"Yearawada",7,20,FALSE
+324,2,"Bundgarden",7,21,FALSE
+324,2,"Wadia College",8,22,FALSE
+324,2,"Ruby Hall",8,23,FALSE
+324,2,"Pune Station","s",24,FALSE
+325,1,"Pune Station",1,1,TRUE
+325,1,"Gadital",1,2,TRUE
+325,1,"R.T.O",2,3,TRUE
+325,1,"Eng.College",2,4,TRUE
+325,1,"Patil Estate",2,5,TRUE
+325,1,"Labour Office",2,6,TRUE
+325,1,"Wakdewadi",3,7,TRUE
+325,1,"Mariaai Gate",3,8,TRUE
+325,1,"Poultry Farm",3,9,TRUE
+325,1,"Raja Bunglow",3,10,TRUE
+325,1,"Kharki Post",4,11,TRUE
+325,1,"Factory Hospital",4,12,TRUE
+325,1,"Kharki Station",4,13,TRUE
+325,1,"Gopi Chawl",4,14,TRUE
+325,1,"Bopodi",5,15,TRUE
+325,1,"Dapodi",5,16,TRUE
+325,1,"Phugewadi",6,17,TRUE
+325,1,"Sandwik Company",6,18,TRUE
+325,1,"Alpha Laval Company",6,19,TRUE
+325,1,"Marshall Company",6,20,TRUE
+325,1,"Kasarwadi",7,21,TRUE
+325,1,"Nashik Phata",7,22,TRUE
+325,1,"Shankar wadi",7,23,TRUE
+325,1,"Wallbhnagar",8,24,TRUE
+325,1,"Wadilal",8,25,TRUE
+325,1,"Y.C.M",8,26,TRUE
+325,1,"Mahesh Nagar",9,27,TRUE
+325,1,"Nehru Corner",9,28,TRUE
+325,1,"Zero Boys Bakery",9,29,TRUE
+325,1,"Wastu Udyog",10,30,TRUE
+325,1,"Masulkar Colony",11,31,TRUE
+325,2,"Masulkar Colony",1,1,FALSE
+325,2,"Wastu Udyog",2,2,FALSE
+325,2,"Zero Boys Bakery",3,3,FALSE
+325,2,"Nehru Corner",3,4,FALSE
+325,2,"Mahesh Nagar",3,5,FALSE
+325,2,"Y.C.M",4,6,FALSE
+325,2,"Wadilal",4,7,FALSE
+325,2,"Wallbhnagar",4,8,FALSE
+325,2,"Shankar wadi",5,9,FALSE
+325,2,"Nashik Phata",5,10,FALSE
+325,2,"Kasarwadi",5,11,FALSE
+325,2,"Marshall Company",6,12,FALSE
+325,2,"Alpha Laval Company",6,13,FALSE
+325,2,"Sandwik Company",6,14,FALSE
+325,2,"Phugewadi",6,15,FALSE
+325,2,"Dapodi",7,16,FALSE
+325,2,"Bopodi",7,17,FALSE
+325,2,"Gopi Chawl",8,18,FALSE
+325,2,"Kharki Station",8,19,FALSE
+325,2,"Factory Hospital",8,20,FALSE
+325,2,"Kharki Post",8,21,FALSE
+325,2,"Raja Bunglow",9,22,FALSE
+325,2,"Poultry Farm",9,23,FALSE
+325,2,"Mariaai Gate",9,24,FALSE
+325,2,"Wakdewadi",9,25,FALSE
+325,2,"Labour Office",10,26,FALSE
+325,2,"Patil Estate",10,27,FALSE
+325,2,"Eng.College",10,28,FALSE
+325,2,"R.T.O",10,29,FALSE
+325,2,"Gadital",11,30,FALSE
+325,2,"Pune Station",11,31,FALSE
+326,1,"Pimpri Gao",1,1,TRUE
+326,1,"Ashok Theatre",1,2,TRUE
+326,1,"JaiHind School",1,3,TRUE
+326,1,"Deluxe",2,4,TRUE
+326,1,"Karachi Chowk",2,5,TRUE
+326,1,"Lal Mandir",2,6,TRUE
+326,1,"Bhatnagar",2,7,TRUE
+326,1,"Morwadi",2,8,TRUE
+326,1,"Pimpri Nyayalaya",3,9,TRUE
+326,1,"M.I.D.C",3,10,TRUE
+326,1,"K.S.B.Chowk",4,11,TRUE
+326,1,"R.T.O",4,12,TRUE
+326,1,"Kudalwadi Corner",4,13,TRUE
+326,1,"Pawar Wasti",5,14,TRUE
+326,1,"Kudalwadi Corner",5,15,TRUE
+326,1,"Jadhavwadi phata",5,16,TRUE
+326,1,"Bhoi Phata",5,17,TRUE
+326,1,"Chikhali",6,18,TRUE
+326,2,"Chikhali",1,1,FALSE
+326,2,"Bhoi Phata",2,2,FALSE
+326,2,"Jadhavwadi phata",2,3,FALSE
+326,2,"Kudalwadi Corner",2,4,FALSE
+326,2,"Pawar Wasti",2,5,FALSE
+326,2,"Kudalwadi Corner",3,6,FALSE
+326,2,"R.T.O",3,7,FALSE
+326,2,"K.S.B.Chowk",3,8,FALSE
+326,2,"M.I.D.C",4,9,FALSE
+326,2,"Pimpri Nyayalaya",4,10,FALSE
+326,2,"Morwadi",5,11,FALSE
+326,2,"Bhatnagar",5,12,FALSE
+326,2,"Lal Mandir",5,13,FALSE
+326,2,"Karachi Chowk",5,14,FALSE
+326,2,"Deluxe",5,15,FALSE
+326,2,"s",6,16,FALSE
+326,2,"Ashok Theatre",6,17,FALSE
+326,2,"Pimpri Gao",6,18,FALSE
+327,1,"Alandi",1,1,TRUE
+327,1,"S.T.Stand",1,2,TRUE
+327,1,"Dehu Phata",1,3,TRUE
+327,1,"Paduka Mandir",2,4,TRUE
+327,1,"Charholi Phata",2,5,TRUE
+327,1,"Chincha",2,6,TRUE
+327,1,"Aamba",3,7,TRUE
+327,1,"Tapkir wasti",3,8,TRUE
+327,1,"Dyaneshwar Old House",3,9,TRUE
+327,1,"Saimandir",3,10,TRUE
+327,1,"Magzine",4,11,TRUE
+327,1,"Gajanan mandir",4,12,TRUE
+327,1,"Dighi Corner(Odha)",4,13,TRUE
+327,1,"Shastri Chowk",4,14,TRUE
+327,1,"Bhosari",5,15,TRUE
+327,1,"Atlas",5,16,TRUE
+327,1,"Century enka Company",5,17,TRUE
+327,1,"Empatronics company",5,18,TRUE
+327,1,"Landewadi",6,19,TRUE
+327,1,"Philips",6,20,TRUE
+327,1,"M.I.D.C",7,21,TRUE
+327,1,"Police Station",7,22,TRUE
+327,1,"C.I.R.T",7,23,TRUE
+327,1,"Nashik Phata",7,24,TRUE
+327,1,"Shankarwadi",7,25,TRUE
+327,1,"Wallabhnagar",7,26,TRUE
+327,1,"Indian Card Company",8,27,TRUE
+327,1,"H.A.Company",8,28,TRUE
+327,1,"Kharalwadi",8,29,TRUE
+327,1,"Pimpri Road",8,30,TRUE
+327,1,"Phinolex Company",9,31,TRUE
+327,1,"Chinchwad Station",9,32,TRUE
+327,1,"Lokmanya Hospital",10,33,TRUE
+327,1,"Auditorium",10,34,TRUE
+327,1,"Lpro Company",10,35,TRUE
+327,1,"Chinchwad gao",11,36,TRUE
+327,1,"Walhekarwadi Corner",11,37,TRUE
+327,1,"Birla Hospital",11,38,TRUE
+327,1,"Dattanagar",12,39,TRUE
+327,1,"Padmaji Paper Mill",12,40,TRUE
+327,1,"Thergao Corner",12,41,TRUE
+327,1,"Dange Chowk",13,42,TRUE
+327,1,"Vitbhatti",13,43,TRUE
+327,1,"Wakad ",14,44,TRUE
+327,1,"Wakad phata",14,45,TRUE
+327,1,"Sawtamali Mandir",15,46,TRUE
+327,1,"Petrol Pump",15,47,TRUE
+327,1,"Hinjawadi",16,48,TRUE
+327,2,"Hinjawadi",1,1,FALSE
+327,2,"Petrol Pump",2,2,FALSE
+327,2,"Sawtamali Mandir",2,3,FALSE
+327,2,"Wakad phata",3,4,FALSE
+327,2,"Wakad ",3,5,FALSE
+327,2,"Vitbhatti",4,6,FALSE
+327,2,"Dange Chowk",4,7,FALSE
+327,2,"Thergao Corner",5,8,FALSE
+327,2,"Padmaji Paper Mill",5,9,FALSE
+327,2,"Dattanagar",5,10,FALSE
+327,2,"Birla Hospital",6,11,FALSE
+327,2,"Walhekarwadi Corner",6,12,FALSE
+327,2,"Chinchwad gao",6,13,FALSE
+327,2,"Lpro Company",7,14,FALSE
+327,2,"Auditorium",7,15,FALSE
+327,2,"Lokmanya Hospital",7,16,FALSE
+327,2,"Chinchwad Station",8,17,FALSE
+327,2,"Phinolex Company",8,18,FALSE
+327,2,"Pimpri Road",9,19,FALSE
+327,2,"Kharalwadi",9,20,FALSE
+327,2,"H.A.Company",9,21,FALSE
+327,2,"Indian Card Company",9,22,FALSE
+327,2,"Wallabhnagar",10,23,FALSE
+327,2,"Shankarwadi",10,24,FALSE
+327,2,"Nashik Phata",10,25,FALSE
+327,2,"C.I.R.T",10,26,FALSE
+327,2,"Police Station",10,27,FALSE
+327,2,"M.I.D.C",10,28,FALSE
+327,2,"Philips",11,29,FALSE
+327,2,"Landewadi",11,30,FALSE
+327,2,"Empatronics company",12,31,FALSE
+327,2,"Century enka Company",12,32,FALSE
+327,2,"Atlas",12,33,FALSE
+327,2,"Bhosari",12,34,FALSE
+327,2,"Shastri Chowk",13,35,FALSE
+327,2,"Dighi Corner(Odha)",13,36,FALSE
+327,2,"Gajanan mandir",13,37,FALSE
+327,2,"Magzine",13,38,FALSE
+327,2,"Saimandir",14,39,FALSE
+327,2,"Dyaneshwar Old House",14,40,FALSE
+327,2,"Tapkir wasti",14,41,FALSE
+327,2,"Aamba",14,42,FALSE
+327,2,"Chincha",15,43,FALSE
+327,2,"Charholi Phata",15,44,FALSE
+327,2,"Paduka Mandir",15,45,FALSE
+327,2,"Dehu Phata",16,46,FALSE
+327,2,"S.T.Stand",16,47,FALSE
+327,2,"Alandi",16,48,FALSE
+328,1,"Pune Station",1,1,TRUE
+328,1,"Tadiwala Road",1,2,TRUE
+328,1,"Raja Bahaddur",1,3,TRUE
+328,1,"R.T.O",2,4,TRUE
+328,1,"Eng.College",2,5,TRUE
+328,1,"Patil Estate",2,6,TRUE
+328,1,"Labour Office",2,7,TRUE
+328,1,"Wakdewadi",3,8,TRUE
+328,1,"Mariaai Gate",3,9,TRUE
+328,1,"Poultry Farm",3,10,TRUE
+328,1,"Raja Bunglow",3,11,TRUE
+328,1,"Kharki Post",4,12,TRUE
+328,1,"Factory Hospital",4,13,TRUE
+328,1,"Kharki Station",4,14,TRUE
+328,1,"Gopi Chawl",4,15,TRUE
+328,1,"Bopodi",5,16,TRUE
+328,1,"Dapodi",5,17,TRUE
+328,1,"Phugewadi",6,18,TRUE
+328,1,"Sandwik Company",6,19,TRUE
+328,1,"Alpha Laval Company",6,20,TRUE
+328,1,"Marshall Company",6,21,TRUE
+328,1,"Kasarwadi",7,22,TRUE
+328,1,"Nashik Phata",7,23,TRUE
+328,1,"Shankarwadi",7,24,TRUE
+328,1,"Wallabhnagar",8,25,TRUE
+328,1,"Wadilal",8,26,TRUE
+328,1,"Y.C.M",8,27,TRUE
+328,1,"Maheshnagar Corner",8,28,TRUE
+328,1,"D.Y.Patil college",9,29,TRUE
+328,1,"H.A.Company",9,30,TRUE
+328,1,"Kharalwadi",9,31,TRUE
+328,1,"Pimpri Road",9,32,TRUE
+328,1,"Phinolex Company",10,33,TRUE
+328,1,"Empire Estate",10,34,TRUE
+328,1,"Chinchwad Station",10,35,TRUE
+328,1,"Jayashri Talkies",10,36,TRUE
+328,1,"Mehta Hospital",10,37,TRUE
+328,1,"Kalbhornagar",10,38,TRUE
+328,1,"Ruston Company",11,39,TRUE
+328,1,"Akurdi",11,40,TRUE
+328,1,"Bajaj auto",11,41,TRUE
+328,1,"Nigdi Corner",11,42,TRUE
+328,1,"Nigdi ",12,43,TRUE
+328,1,"Bhakti Shakti ",12,44,TRUE
+328,1,"Ambedkar Nagar",12,45,TRUE
+328,1,"Ankush Chowk",13,46,TRUE
+328,1,"Rupee Nagar",14,47,TRUE
+328,2,"Rupee Nagar",1,1,FALSE
+328,2,"Ankush Chowk",2,2,FALSE
+328,2,"Ambedkar Nagar",3,3,FALSE
+328,2,"Bhakti Shakti ",3,4,FALSE
+328,2,"Nigdi ",3,5,FALSE
+328,2,"Nigdi Corner",4,6,FALSE
+328,2,"Bajaj auto",4,7,FALSE
+328,2,"Akurdi",4,8,FALSE
+328,2,"Ruston Company",4,9,FALSE
+328,2,"Kalbhornagar",5,10,FALSE
+328,2,"Mehta Hospital",5,11,FALSE
+328,2,"Jayashri Talkies",5,12,FALSE
+328,2,"Chinchwad Station",5,13,FALSE
+328,2,"Empire Estate",5,14,FALSE
+328,2,"Phinolex Company",5,15,FALSE
+328,2,"Pimpri Road",6,16,FALSE
+328,2,"Kharalwadi",6,17,FALSE
+328,2,"H.A.Company",6,18,FALSE
+328,2,"D.Y.Patil college",6,19,FALSE
+328,2,"Maheshnagar Corner",7,20,FALSE
+328,2,"Y.C.M",7,21,FALSE
+328,2,"Wadilal",7,22,FALSE
+328,2,"Wallabhnagar",7,23,FALSE
+328,2,"Shankarwadi",8,24,FALSE
+328,2,"Nashik Phata",8,25,FALSE
+328,2,"Kasarwadi",8,26,FALSE
+328,2,"Marshall Company",9,27,FALSE
+328,2,"Alpha Laval Company",9,28,FALSE
+328,2,"Sandwik Company",9,29,FALSE
+328,2,"Phugewadi",9,30,FALSE
+328,2,"Dapodi",10,31,FALSE
+328,2,"Bopodi",10,32,FALSE
+328,2,"Gopi Chawl",11,33,FALSE
+328,2,"Kharki Station",11,34,FALSE
+328,2,"Factory Hospital",11,35,FALSE
+328,2,"Kharki Post",11,36,FALSE
+328,2,"Raja Bunglow",12,37,FALSE
+328,2,"Poultry Farm",12,38,FALSE
+328,2,"Mariaai Gate",12,39,FALSE
+328,2,"Wakdewadi",12,40,FALSE
+328,2,"Labour Office",13,41,FALSE
+328,2,"Patil Estate",13,42,FALSE
+328,2,"Eng.College",13,43,FALSE
+328,2,"R.T.O",13,44,FALSE
+328,2,"Raja Bahaddur",14,45,FALSE
+328,2,"Tadiwala Road",14,46,FALSE
+328,2,"Pune Station",14,47,FALSE
+329,1,"Pune Station",1,1,TRUE
+329,1,"Tadiwala Road",1,2,TRUE
+329,1,"Raja Bahaddur",1,3,TRUE
+329,1,"R.T.O",2,4,TRUE
+329,1,"Eng.College",2,5,TRUE
+329,1,"Patil Estate",2,6,TRUE
+329,1,"Labour Office",2,7,TRUE
+329,1,"Wakdewadi",3,8,TRUE
+329,1,"Mariaai Gate",3,9,TRUE
+329,1,"Poultry Farm",3,10,TRUE
+329,1,"Raja Bunglow",3,11,TRUE
+329,1,"Kharki Post",4,12,TRUE
+329,1,"Factory Hospital",4,13,TRUE
+329,1,"Kharki Station",4,14,TRUE
+329,1,"Gopi Chawl",4,15,TRUE
+329,1,"Bopodi",5,16,TRUE
+329,1,"Dapodi",5,17,TRUE
+329,1,"Phugewadi",6,18,TRUE
+329,1,"Sandwik Company",6,19,TRUE
+329,1,"Alpha Laval Company",6,20,TRUE
+329,1,"Marshall Company",6,21,TRUE
+329,1,"Kasarwadi",7,22,TRUE
+329,1,"Nashik Phata",7,23,TRUE
+329,1,"Shankarwadi",7,24,TRUE
+329,1,"Wallabhnagar",8,25,TRUE
+329,1,"Wadilal",8,26,TRUE
+329,1,"Y.C.M",8,27,TRUE
+329,1,"Maheshnagar Corner",8,28,TRUE
+329,1,"D.Y.Patil college",9,29,TRUE
+329,1,"H.A.Company",9,30,TRUE
+329,1,"Kharalwadi",9,31,TRUE
+329,1,"Pimpri Road",9,32,TRUE
+329,1,"Phinolex Company",10,33,TRUE
+329,1,"Empire Estate",10,34,TRUE
+329,1,"Chinchwad Station",10,35,TRUE
+329,1,"Jayashri Talkies",10,36,TRUE
+329,1,"Mehta Hospital",10,37,TRUE
+329,1,"Kalbhornagar",10,38,TRUE
+329,1,"Ruston Company",11,39,TRUE
+329,1,"Akurdi",11,40,TRUE
+329,1,"Bajaj auto",11,41,TRUE
+329,1,"Nigdi Corner",11,42,TRUE
+329,1,"Nigdi ",12,43,TRUE
+329,1,"Bhakti Shakti ",12,44,TRUE
+329,1,"Cantonment Board",12,45,TRUE
+329,1,"Kohima Line",13,46,TRUE
+329,1,"Vhisab Depo",13,47,TRUE
+329,1,"Kendriya Vidyalaya",13,48,TRUE
+329,1,"Garden city",14,49,TRUE
+329,1,"C.I.S.V",14,50,TRUE
+329,1,"Dehu Phata",14,51,TRUE
+329,1,"Dehu Road Station",15,52,TRUE
+329,1,"Ashoknagar",15,53,TRUE
+329,1,"Chincholi",15,54,TRUE
+329,1,"Paduka Mandir",16,55,TRUE
+329,1,"C.O.D. Depo",16,56,TRUE
+329,1,"Zende Mala",16,57,TRUE
+329,1,"Malwadi",17,58,TRUE
+329,1,"Dehugao Grampanchayat",17,59,TRUE
+329,1,"Dehu Gao",18,60,TRUE
+329,2,"Dehu Gao",1,1,FALSE
+329,2,"Dehugao Grampanchayat",2,2,FALSE
+329,2,"Malwadi",2,3,FALSE
+329,2,"Zende Mala",3,4,FALSE
+329,2,"C.O.D. Depo",3,5,FALSE
+329,2,"Paduka Mandir",3,6,FALSE
+329,2,"Chincholi",4,7,FALSE
+329,2,"Ashoknagar",4,8,FALSE
+329,2,"Dehu Road Station",4,9,FALSE
+329,2,"Dehu Phata",5,10,FALSE
+329,2,"C.I.S.V",5,11,FALSE
+329,2,"Garden city",5,12,FALSE
+329,2,"Kendriya Vidyalaya",6,13,FALSE
+329,2,"Vhisab Depo",6,14,FALSE
+329,2,"Kohima Line",6,15,FALSE
+329,2,"Cantonment Board",7,16,FALSE
+329,2,"Bhakti Shakti ",7,17,FALSE
+329,2,"Nigdi ",7,18,FALSE
+329,2,"Nigdi Corner",8,19,FALSE
+329,2,"Bajaj auto",8,20,FALSE
+329,2,"Akurdi",8,21,FALSE
+329,2,"Ruston Company",8,22,FALSE
+329,2,"Kalbhornagar",9,23,FALSE
+329,2,"Mehta Hospital",9,24,FALSE
+329,2,"Jayashri Talkies",9,25,FALSE
+329,2,"Chinchwad Station",9,26,FALSE
+329,2,"Empire Estate",9,27,FALSE
+329,2,"Phinolex Company",9,28,FALSE
+329,2,"Pimpri Road",10,29,FALSE
+329,2,"Kharalwadi",10,30,FALSE
+329,2,"H.A.Company",10,31,FALSE
+329,2,"D.Y.Patil college",10,32,FALSE
+329,2,"Maheshnagar Corner",11,33,FALSE
+329,2,"Y.C.M",11,34,FALSE
+329,2,"Wadilal",11,35,FALSE
+329,2,"Wallabhnagar",11,36,FALSE
+329,2,"Shankarwadi",12,37,FALSE
+329,2,"Nashik Phata",12,38,FALSE
+329,2,"Kasarwadi",12,39,FALSE
+329,2,"Marshall Company",13,40,FALSE
+329,2,"Alpha Laval Company",13,41,FALSE
+329,2,"Sandwik Company",13,42,FALSE
+329,2,"Phugewadi",13,43,FALSE
+329,2,"Dapodi",14,44,FALSE
+329,2,"Bopodi",14,45,FALSE
+329,2,"Gopi Chawl",15,46,FALSE
+329,2,"Kharki Station",15,47,FALSE
+329,2,"Factory Hospital",15,48,FALSE
+329,2,"Kharki Post",15,49,FALSE
+329,2,"Raja Bunglow",16,50,FALSE
+329,2,"Poultry Farm",16,51,FALSE
+329,2,"Mariaai Gate",16,52,FALSE
+329,2,"Wakdewadi",16,53,FALSE
+329,2,"Labour Office",17,54,FALSE
+329,2,"Patil Estate",17,55,FALSE
+329,2,"Eng.College",17,56,FALSE
+329,2,"R.T.O",17,57,FALSE
+329,2,"Raja Bahaddur",18,58,FALSE
+329,2,"Tadiwala Road",18,59,FALSE
+329,2,"Pune Station",18,60,FALSE
+330,1,"Pune Station",1,1,TRUE
+330,1,"Tadiwala Road",1,2,TRUE
+330,1,"Raja Bahaddur",1,3,TRUE
+330,1,"R.T.O",2,4,TRUE
+330,1,"Eng.College",2,5,TRUE
+330,1,"Patil Estate",2,6,TRUE
+330,1,"Labour Office",2,7,TRUE
+330,1,"Wakdewadi",3,8,TRUE
+330,1,"Mariaai Gate",3,9,TRUE
+330,1,"Poultry Farm",3,10,TRUE
+330,1,"Raja Bunglow",3,11,TRUE
+330,1,"Kharki Post",4,12,TRUE
+330,1,"Factory Hospital",4,13,TRUE
+330,1,"Kharki Station",4,14,TRUE
+330,1,"Gopi Chawl",4,15,TRUE
+330,1,"Bopodi",5,16,TRUE
+330,1,"Dapodi",5,17,TRUE
+330,1,"Phugewadi",6,18,TRUE
+330,1,"Sandwik Company",6,19,TRUE
+330,1,"Alpha Laval Company",6,20,TRUE
+330,1,"Marshall Company",6,21,TRUE
+330,1,"Kasarwadi",7,22,TRUE
+330,1,"Nashik Phata",7,23,TRUE
+330,1,"Shankarwadi",7,24,TRUE
+330,1,"Wallabhnagar",8,25,TRUE
+330,1,"Wadilal",8,26,TRUE
+330,1,"Y.C.M",8,27,TRUE
+330,1,"Maheshnagar Corner",8,28,TRUE
+330,1,"D.Y.Patil college",9,29,TRUE
+330,1,"H.A.Company",9,30,TRUE
+330,1,"Kharalwadi",9,31,TRUE
+330,1,"Pimpri Road",9,32,TRUE
+330,1,"Phinolex Company",10,33,TRUE
+330,1,"Empire Estate",10,34,TRUE
+330,1,"Chinchwad Station",10,35,TRUE
+330,1,"M.I.D.C",10,36,TRUE
+330,1,"Mohan Nagar",11,37,TRUE
+330,1,"Morwadi Phata",11,38,TRUE
+330,1,"Sanghvi College",11,39,TRUE
+330,1,"Ekside Battery",11,40,TRUE
+330,1,"K.S.B Chowk",12,41,TRUE
+330,1,"H.D.F.C",13,42,TRUE
+330,1,"D.Y.Patil School",13,43,TRUE
+330,1,"Shahunagar",14,44,TRUE
+330,2,"Shahunagar",1,1,FALSE
+330,2,"D.Y.Patil School",2,2,FALSE
+330,2,"H.D.F.C",2,3,FALSE
+330,2,"K.S.B Chowk",3,4,FALSE
+330,2,"Ekside Battery",4,5,FALSE
+330,2,"Sanghvi College",4,6,FALSE
+330,2,"Morwadi Phata",4,7,FALSE
+330,2,"Mohan Nagar",4,8,FALSE
+330,2,"M.I.D.C",5,9,FALSE
+330,2,"Chinchwad Station",5,10,FALSE
+330,2,"Empire Estate",5,11,FALSE
+330,2,"Phinolex Company",5,12,FALSE
+330,2,"Pimpri Road",6,13,FALSE
+330,2,"Kharalwadi",6,14,FALSE
+330,2,"H.A.Company",6,15,FALSE
+330,2,"D.Y.Patil college",6,16,FALSE
+330,2,"Maheshnagar Corner",7,17,FALSE
+330,2,"Y.C.M",7,18,FALSE
+330,2,"Wadilal",7,19,FALSE
+330,2,"Wallabhnagar",7,20,FALSE
+330,2,"Shankarwadi",8,21,FALSE
+330,2,"Nashik Phata",8,22,FALSE
+330,2,"Kasarwadi",8,23,FALSE
+330,2,"Marshall Company",9,24,FALSE
+330,2,"Alpha Laval Company",9,25,FALSE
+330,2,"Sandwik Company",9,26,FALSE
+330,2,"Phugewadi",9,27,FALSE
+330,2,"Dapodi",10,28,FALSE
+330,2,"Bopodi",10,29,FALSE
+330,2,"Gopi Chawl",11,30,FALSE
+330,2,"Kharki Station",11,31,FALSE
+330,2,"Factory Hospital",11,32,FALSE
+330,2,"Kharki Post",11,33,FALSE
+330,2,"Raja Bunglow",12,34,FALSE
+330,2,"Poultry Farm",12,35,FALSE
+330,2,"Mariaai Gate",12,36,FALSE
+330,2,"Wakdewadi",12,37,FALSE
+330,2,"Labour Office",13,38,FALSE
+330,2,"Patil Estate",13,39,FALSE
+330,2,"Eng.College",13,40,FALSE
+330,2,"R.T.O",13,41,FALSE
+330,2,"Raja Bahaddur",14,42,FALSE
+330,2,"Tadiwala Road",14,43,FALSE
+330,2,"Pune Station",14,44,FALSE
+331,1,"Charholi Gao",1,1,TRUE
+331,1,"Dabhade Wasti",1,2,TRUE
+331,1,"Tapkie Bunglow",2,3,TRUE
+331,1,"Charholi Phata",2,4,TRUE
+331,1,"Chincha",2,5,TRUE
+331,1,"Aamba",3,6,TRUE
+331,1,"Tapkir Wasti",3,7,TRUE
+331,1,"Dnyaneshwar Old House",3,8,TRUE
+331,1,"Sai Mandir",3,9,TRUE
+331,1,"Magazine",4,10,TRUE
+331,1,"Gajanan mandir",4,11,TRUE
+331,1,"Dighi Corner",4,12,TRUE
+331,1,"Shastri Chowk",4,13,TRUE
+331,1,"Bhosari",5,14,TRUE
+331,1,"Gawhane Wasti",5,15,TRUE
+331,1,"Landewadi",6,16,TRUE
+331,1,"Philips",6,17,TRUE
+331,1,"Tulsi Chemical",6,18,TRUE
+331,1,"Jayanand Khira",6,19,TRUE
+331,1,"Abhi Chemical",6,20,TRUE
+331,1,"Nehrunagar",7,21,TRUE
+331,1,"H.A.Company",7,22,TRUE
+331,1,"Kamgar Nagar",7,23,TRUE
+331,1,"Mahendra Company",8,24,TRUE
+331,1,"Pimpri Road",8,25,TRUE
+331,1,"Gokul Hospital",8,26,TRUE
+331,1,"Shagun Chowk",8,27,TRUE
+331,1,"Deluxe",9,28,TRUE
+331,1,"Krishna Mandir Corner",9,29,TRUE
+331,1,"Engahe Hospital",9,30,TRUE
+331,1,"Vijay Nagar",9,31,TRUE
+331,1,"Kalewadi ",10,32,TRUE
+331,1,"Avinash Mangal Karyalaya",10,33,TRUE
+331,1,"Tapkir Nagar",10,34,TRUE
+331,1,"Shrinagar",10,35,TRUE
+331,1,"Kalewadi Phata",11,36,TRUE
+331,1,"Nakhate Wasti",11,37,TRUE
+331,1,"Rahatani Gao",12,38,TRUE
+331,2,"Rahatani Gao",1,1,FALSE
+331,2,"Nakhate Wasti",2,2,FALSE
+331,2,"Kalewadi Phata",2,3,FALSE
+331,2,"Shrinagar",3,4,FALSE
+331,2,"Tapkir Nagar",3,5,FALSE
+331,2,"Avinash Mangal Karyalaya",3,6,FALSE
+331,2,"Kalewadi ",3,7,FALSE
+331,2,"Vijay Nagar",4,8,FALSE
+331,2,"Engahe Hospital",4,9,FALSE
+331,2,"Krishna Mandir Corner",4,10,FALSE
+331,2,"Deluxe",4,11,FALSE
+331,2,"Shagun Chowk",5,12,FALSE
+331,2,"Gokul Hospital",5,13,FALSE
+331,2,"Pimpri Road",5,14,FALSE
+331,2,"Mahendra Company",5,15,FALSE
+331,2,"Kamgar Nagar",6,16,FALSE
+331,2,"H.A.Company",6,17,FALSE
+331,2,"Nehrunagar",6,18,FALSE
+331,2,"Abhi Chemical",7,19,FALSE
+331,2,"Jayanand Khira",7,20,FALSE
+331,2,"Tulsi Chemical",7,21,FALSE
+331,2,"Philips",7,22,FALSE
+331,2,"Landewadi",7,23,FALSE
+331,2,"Gawhane Wasti",8,24,FALSE
+331,2,"Bhosari",8,25,FALSE
+331,2,"Shastri Chowk",9,26,FALSE
+331,2,"Dighi Corner",9,27,FALSE
+331,2,"Gajanan mandir",9,28,FALSE
+331,2,"Magazine",9,29,FALSE
+331,2,"Sai Mandir",10,30,FALSE
+331,2,"Dnyaneshwar Old House",10,31,FALSE
+331,2,"Tapkir Wasti",10,32,FALSE
+331,2,"Aamba",10,33,FALSE
+331,2,"Chincha",11,34,FALSE
+331,2,"Charholi Phata",11,35,FALSE
+331,2,"Tapkie Bunglow",11,36,FALSE
+331,2,"Dabhade Wasti",12,37,FALSE
+331,2,"Charholi Gao",12,38,FALSE
+332,1,"Pune Station",1,1,TRUE
+332,1,"Old Bazaar",1,2,TRUE
+332,1,"R.T.O",2,3,TRUE
+332,1,"Eng.College",2,4,TRUE
+332,1,"Simla Office",2,5,TRUE
+332,1,"Mhasoba Gate",3,6,TRUE
+332,1,"Pumping station",3,7,TRUE
+332,1,"Rangehills Corner",3,8,TRUE
+332,1,"Polytechnic College",3,9,TRUE
+332,1,"Chaturshrungi",4,10,TRUE
+332,1,"Rajbhavan",4,11,TRUE
+332,1,"Gol market",4,12,TRUE
+332,1,"Kasturba zopadpatti",5,13,TRUE
+332,1,"Sindha Colony",5,14,TRUE
+332,1,"I.T.I Chowk",5,15,TRUE
+332,1,"Body gate",5,16,TRUE
+332,1,"Aundh Gao",6,17,TRUE
+332,1,"Sangvi Phata",6,18,TRUE
+332,1,"T.B.Hospital",6,19,TRUE
+332,1,"E.S.I. Hospital",6,20,TRUE
+332,1,"Aundh Pst",7,21,TRUE
+332,1,"Rakshak Society",7,22,TRUE
+332,1,"Wakad Phata",7,23,TRUE
+332,1,"Jagtap Dairy",8,24,TRUE
+332,1,"Happy Thoughts",8,25,TRUE
+332,1,"Rahatani",9,26,TRUE
+332,1,"Nakhate Wasti",9,27,TRUE
+332,1,"Kalewadi Phata",10,28,TRUE
+332,1,"Shrinagar",10,29,TRUE
+332,1,"Tapkir Nagar",10,30,TRUE
+332,1,"Avinash Mangal Karyalaya",10,31,TRUE
+332,1,"Kalewadi",11,32,TRUE
+332,1,"Vijay Nagar",11,33,TRUE
+332,1,"Engle Hospital",11,34,TRUE
+332,1,"Krishna Mandir Corner",11,35,TRUE
+332,1,"Deluxe",12,36,TRUE
+332,1,"Karachi Chowk",12,37,TRUE
+332,1,"Lal Mandir",12,38,TRUE
+332,1,"Bhatnagar",12,39,TRUE
+332,1,"Gokul Hotel",12,40,TRUE
+332,1,"Pimpri Coorporation",13,41,TRUE
+332,2,"Pimpri Coorporation",1,1,FALSE
+332,2,"Gokul Hotel",2,2,FALSE
+332,2,"Bhatnagar",2,3,FALSE
+332,2,"Lal Mandir",2,4,FALSE
+332,2,"Karachi Chowk",2,5,FALSE
+332,2,"Deluxe",2,6,FALSE
+332,2,"Krishna Mandir Corner",3,7,FALSE
+332,2,"Engle Hospital",3,8,FALSE
+332,2,"Vijay Nagar",3,9,FALSE
+332,2,"Kalewadi",3,10,FALSE
+332,2,"Avinash Mangal Karyalaya",4,11,FALSE
+332,2,"Tapkir Nagar",4,12,FALSE
+332,2,"Shrinagar",4,13,FALSE
+332,2,"Kalewadi Phata",4,14,FALSE
+332,2,"Nakhate Wasti",5,15,FALSE
+332,2,"Rahatani",5,16,FALSE
+332,2,"Happy Thoughts",6,17,FALSE
+332,2,"Jagtap Dairy",6,18,FALSE
+332,2,"Wakad Phata",7,19,FALSE
+332,2,"Rakshak Society",7,20,FALSE
+332,2,"Aundh Pst",7,21,FALSE
+332,2,"E.S.I. Hospital",8,22,FALSE
+332,2,"T.B.Hospital",8,23,FALSE
+332,2,"Sangvi Phata",8,24,FALSE
+332,2,"Aundh Gao",8,25,FALSE
+332,2,"Body gate",9,26,FALSE
+332,2,"I.T.I Chowk",9,27,FALSE
+332,2,"Sindha Colony",9,28,FALSE
+332,2,"Kasturba zopadpatti",9,29,FALSE
+332,2,"Gol market",10,30,FALSE
+332,2,"Rajbhavan",10,31,FALSE
+332,2,"Chaturshrungi",10,32,FALSE
+332,2,"Polytechnic College",11,33,FALSE
+332,2,"Rangehills Corner",11,34,FALSE
+332,2,"Pumping station",11,35,FALSE
+332,2,"Mhasoba Gate",11,36,FALSE
+332,2,"Simla Office",12,37,FALSE
+332,2,"Eng.College",12,38,FALSE
+332,2,"R.T.O",12,39,FALSE
+332,2,"Old Bazaar",13,40,FALSE
+332,2,"Pune Station",13,41,FALSE
+333,1,"Pune Station",1,1,TRUE
+333,1,"Old Bazaar",1,2,TRUE
+333,1,"R.T.O",2,3,TRUE
+333,1,"Eng.College",2,4,TRUE
+333,1,"Simla Office",2,5,TRUE
+333,1,"Mhasoba Gate",3,6,TRUE
+333,1,"Pumping station",3,7,TRUE
+333,1,"Rangehills Corner",3,8,TRUE
+333,1,"Polytechnic College",3,9,TRUE
+333,1,"Chaturshrungi",4,10,TRUE
+333,1,"Rajbhavan",4,11,TRUE
+333,1,"Gol market",4,12,TRUE
+333,1,"Kasturba zopadpatti",5,13,TRUE
+333,1,"Sindha Colony",5,14,TRUE
+333,1,"I.T.I Chowk",5,15,TRUE
+333,1,"Body gate",5,16,TRUE
+333,1,"Aundh Gao",6,17,TRUE
+333,1,"Sangvi Phata",6,18,TRUE
+333,1,"T.B.Hospital",6,19,TRUE
+333,1,"E.S.I. Hospital",6,20,TRUE
+333,1,"Aundh Pst",7,21,TRUE
+333,1,"Rakshak Society",7,22,TRUE
+333,1,"Wakad Phata",8,23,TRUE
+333,1,"Vikasnagar",8,24,TRUE
+333,1,"Maruti Mandir",8,25,TRUE
+333,1,"Kaspate Wasti",9,26,TRUE
+333,1,"Shedge Wasti",9,27,TRUE
+333,1,"Wakad ",9,28,TRUE
+333,1,"Wakad Corner",9,29,TRUE
+333,1,"Savta mali Madir",10,30,TRUE
+333,1,"Petrol Pump",10,31,TRUE
+333,1,"Hinjawadi",11,32,TRUE
+333,2,"Hinjawadi",1,1,FALSE
+333,2,"Petrol Pump",2,2,FALSE
+333,2,"Savta mali Madir",2,3,FALSE
+333,2,"Wakad Corner",3,4,FALSE
+333,2,"Wakad ",3,5,FALSE
+333,2,"Shedge Wasti",3,6,FALSE
+333,2,"Kaspate Wasti",3,7,FALSE
+333,2,"Maruti Mandir",4,8,FALSE
+333,2,"Vikasnagar",4,9,FALSE
+333,2,"Wakad Phata",4,10,FALSE
+333,2,"Rakshak Society",5,11,FALSE
+333,2,"Aundh Pst",5,12,FALSE
+333,2,"E.S.I. Hospital",6,13,FALSE
+333,2,"T.B.Hospital",6,14,FALSE
+333,2,"Sangvi Phata",6,15,FALSE
+333,2,"Aundh Gao",6,16,FALSE
+333,2,"Body gate",7,17,FALSE
+333,2,"I.T.I Chowk",7,18,FALSE
+333,2,"Sindha Colony",7,19,FALSE
+333,2,"Kasturba zopadpatti",7,20,FALSE
+333,2,"Gol market",8,21,FALSE
+333,2,"Rajbhavan",8,22,FALSE
+333,2,"Chaturshrungi",8,23,FALSE
+333,2,"Polytechnic College",9,24,FALSE
+333,2,"Rangehills Corner",9,25,FALSE
+333,2,"Pumping station",9,26,FALSE
+333,2,"Mhasoba Gate",9,27,FALSE
+333,2,"Simla Office",10,28,FALSE
+333,2,"Eng.College",10,29,FALSE
+333,2,"R.T.O",10,30,FALSE
+333,2,"Old Bazaar",11,31,FALSE
+333,2,"Pune Station",11,32,FALSE
+334,1,"Katraj",1,1,TRUE
+334,1,"Katraj Milk Dairy",1,2,TRUE
+334,1,"Sarpodyan",1,3,TRUE
+334,1,"Bharati Vidyapith",1,4,TRUE
+334,1,"Chaitanyanagar",1,5,TRUE
+334,1,"Balajinagar",2,6,TRUE
+334,1,"Shankar Maharaj Math",2,7,TRUE
+334,1,"Padmavati Corner",2,8,TRUE
+334,1,"NatuBaug",3,9,TRUE
+334,1,"Arenyeshwar Corner",3,10,TRUE
+334,1,"Bhapkar petrol Pump",3,11,TRUE
+334,1,"Adinath Soc",3,12,TRUE
+334,1,"S.T.Colony",3,13,TRUE
+334,1,"LaxmiNarayan",3,14,TRUE
+334,1,"Swargate",4,15,TRUE
+334,1,"Parvati Paytha",4,16,TRUE
+334,1,"Dandekar Pool",5,17,TRUE
+334,1,"Lokmanya Nagar",5,18,TRUE
+334,1,"Ganjvewadi",5,19,TRUE
+334,1,"Deccan Gymkhana",6,20,TRUE
+334,1,"Balgandharva",6,21,TRUE
+334,1,"Modern High School",6,22,TRUE
+334,1,"Jangli Maharaj",6,23,TRUE
+334,1,"Simla Office",7,24,TRUE
+334,1,"Sancheti Hospital",7,25,TRUE
+334,1,"Patil Estate",7,26,TRUE
+334,1,"Labour Office",7,27,TRUE
+334,1,"Wakdewadi",8,28,TRUE
+334,1,"Mariaai Gate",8,29,TRUE
+334,1,"Poultry Farm",8,30,TRUE
+334,1,"Raja Bunglow",8,31,TRUE
+334,1,"Kharki Post",9,32,TRUE
+334,1,"Factory Hospital",9,33,TRUE
+334,1,"Kharki Station",9,34,TRUE
+334,1,"Gopi Chawl",9,35,TRUE
+334,1,"Bopodi",10,36,TRUE
+334,1,"Dapodi",10,37,TRUE
+334,1,"Phugewadi",11,38,TRUE
+334,1,"Sandwik Company",11,39,TRUE
+334,1," Alpha laval Company",11,40,TRUE
+334,1,"Marshall Company",11,41,TRUE
+334,1,"Kasarwadi",12,42,TRUE
+334,1,"Nashik Phata",12,43,TRUE
+334,1,"Shankarwadi",12,44,TRUE
+334,1,"Wallabhnagar",13,45,TRUE
+334,1,"Wadilal",13,46,TRUE
+334,1,"Y.C.M",13,47,TRUE
+334,1,"Maheshnagar Corner",13,48,TRUE
+334,1,"D.Y.Patil college",14,49,TRUE
+334,1,"H.A.Company",14,50,TRUE
+334,1,"Kharalwadi",14,51,TRUE
+334,1,"Pimpri road",14,52,TRUE
+334,1,"Phinolex Company",15,53,TRUE
+334,1,"Empire Estate",15,54,TRUE
+334,1,"Chinchwad Station",15,55,TRUE
+334,1,"Jayashri Talkies",15,56,TRUE
+334,1,"Mehta Hospital",15,57,TRUE
+334,1,"Kalbhornagar",15,58,TRUE
+334,1,"Ruston Company",16,59,TRUE
+334,1,"Akurdi",16,60,TRUE
+334,1,"Bajaj auto",16,61,TRUE
+334,1,"Nigdi Corner",16,62,TRUE
+334,1,"Nigdi",17,63,TRUE
+334,1,"Bhakti Shakti ",17,64,TRUE
+334,1,"Ambedkar Nagar",17,65,TRUE
+334,1,"Ankush Chowk",18,66,TRUE
+334,1,"Yamunanagar Police Station",18,67,TRUE
+334,1,"Yamunanagar Corner",19,68,TRUE
+334,1,"Ajanthanagar Soc",19,69,TRUE
+334,1,"Thermax Chowk",19,70,TRUE
+334,1,"Kasturi Market",19,71,TRUE
+334,1,"Krishnanagar Corner",20,72,TRUE
+334,1,"Maruti Mandir",20,73,TRUE
+334,1,"Ganpati Mandir",20,74,TRUE
+334,1,"Sambhajinagar",21,75,TRUE
+334,2,"Sambhajinagar",1,1,FALSE
+334,2,"Ganpati Mandir",2,2,FALSE
+334,2,"Maruti Mandir",2,3,FALSE
+334,2,"Krishnanagar Corner",2,4,FALSE
+334,2,"Kasturi Market",3,5,FALSE
+334,2,"Thermax Chowk",3,6,FALSE
+334,2,"Ajanthanagar Soc",3,7,FALSE
+334,2,"Yamunanagar Corner",3,8,FALSE
+334,2,"Yamunanagar Police Station",4,9,FALSE
+334,2,"Ankush Chowk",4,10,FALSE
+334,2,"Ambedkar Nagar",5,11,FALSE
+334,2,"Bhakti Shakti ",5,12,FALSE
+334,2,"Nigdi",5,13,FALSE
+334,2,"Nigdi Corner",6,14,FALSE
+334,2,"Bajaj auto",6,15,FALSE
+334,2,"Akurdi",6,16,FALSE
+334,2,"Ruston Company",6,17,FALSE
+334,2,"Kalbhornagar",7,18,FALSE
+334,2,"Mehta Hospital",7,19,FALSE
+334,2,"Jayashri Talkies",7,20,FALSE
+334,2,"Chinchwad Station",7,21,FALSE
+334,2,"Empire Estate",7,22,FALSE
+334,2,"Phinolex Company",7,23,FALSE
+334,2,"Pimpri road",8,24,FALSE
+334,2,"Kharalwadi",8,25,FALSE
+334,2,"H.A.Company",8,26,FALSE
+334,2,"D.Y.Patil college",8,27,FALSE
+334,2,"Maheshnagar Corner",9,28,FALSE
+334,2,"Y.C.M",9,29,FALSE
+334,2,"Wadilal",9,30,FALSE
+334,2,"Wallabhnagar",9,31,FALSE
+334,2,"Shankarwadi",10,32,FALSE
+334,2,"Nashik Phata",10,33,FALSE
+334,2,"Kasarwadi",10,34,FALSE
+334,2,"Marshall Company",11,35,FALSE
+334,2," Alpha laval Company",11,36,FALSE
+334,2,"Sandwik Company",11,37,FALSE
+334,2,"Phugewadi",11,38,FALSE
+334,2,"Dapodi",12,39,FALSE
+334,2,"Bopodi",12,40,FALSE
+334,2,"Gopi Chawl",13,41,FALSE
+334,2,"Kharki Station",13,42,FALSE
+334,2,"Factory Hospital",13,43,FALSE
+334,2,"Kharki Post",13,44,FALSE
+334,2,"Raja Bunglow",14,45,FALSE
+334,2,"Poultry Farm",14,46,FALSE
+334,2,"Mariaai Gate",14,47,FALSE
+334,2,"Wakdewadi",14,48,FALSE
+334,2,"Labour Office",15,49,FALSE
+334,2,"Patil Estate",15,50,FALSE
+334,2,"Sancheti Hospital",15,51,FALSE
+334,2,"Simla Office",15,52,FALSE
+334,2,"Jangli Maharaj",16,53,FALSE
+334,2,"Modern High School",16,54,FALSE
+334,2,"Balgandharva",16,55,FALSE
+334,2,"Deccan Gymkhana",16,56,FALSE
+334,2,"Ganjvewadi",17,57,FALSE
+334,2,"Lokmanya Nagar",17,58,FALSE
+334,2,"Dandekar Pool",17,59,FALSE
+334,2,"Parvati Paytha",18,60,FALSE
+334,2,"Swargate",18,61,FALSE
+334,2,"LaxmiNarayan",19,62,FALSE
+334,2,"S.T.Colony",19,63,FALSE
+334,2,"Adinath Soc",19,64,FALSE
+334,2,"Bhapkar petrol Pump",19,65,FALSE
+334,2,"Arenyeshwar Corner",19,66,FALSE
+334,2,"NatuBaug",19,67,FALSE
+334,2,"Padmavati Corner",20,68,FALSE
+334,2,"Shankar Maharaj Math",20,69,FALSE
+334,2,"Balajinagar",20,70,FALSE
+334,2,"Chaitanyanagar",21,71,FALSE
+334,2,"Bharati Vidyapith",21,72,FALSE
+334,2,"Sarpodyan",21,73,FALSE
+334,2,"Katraj Milk Dairy",21,74,FALSE
+334,2,"Katraj",21,75,FALSE
+335,1,"Pune Station",1,1,TRUE
+335,1,"Old Bazaar",1,2,TRUE
+335,1,"R.T.O",2,3,TRUE
+335,1,"Eng.College",2,4,TRUE
+335,1,"Simla Office",2,5,TRUE
+335,1,"Mhasoba Gate",3,6,TRUE
+335,1,"Pumping station",3,7,TRUE
+335,1,"Rangehills Corner",3,8,TRUE
+335,1,"Polytechnic College",3,9,TRUE
+335,1,"Chaturshrungi",4,10,TRUE
+335,1,"Rajbhavan",4,11,TRUE
+335,1,"Gol market",4,12,TRUE
+335,1,"Kasturba zopadpatti",5,13,TRUE
+335,1,"Sindha Colony",5,14,TRUE
+335,1,"I.T.I Chowk",5,15,TRUE
+335,1,"Body gate",5,16,TRUE
+335,1,"Aundh Gao",6,17,TRUE
+335,1,"Sangvi Phata",6,18,TRUE
+335,1,"T.B.Hospital",6,19,TRUE
+335,1,"E.S.I. Hospital",6,20,TRUE
+335,1,"Aundh Pst",7,21,TRUE
+335,1,"Rakshak Society",7,22,TRUE
+335,1,"Wakad Phata",7,23,TRUE
+335,1,"Jagtap Dairy",8,24,TRUE
+335,1,"15 No.",8,25,TRUE
+335,1,"Rahatani Phata",8,26,TRUE
+335,1,"Kalewadi Phata",8,27,TRUE
+335,1,"Santoshnagar",8,28,TRUE
+335,1,"Laxman Nagar",8,29,TRUE
+335,1,"Dange Chowk",9,30,TRUE
+335,1,"Dairy Farm",9,31,TRUE
+335,1,"Tathawade",10,32,TRUE
+335,1,"Punawle",11,33,TRUE
+335,2,"Punawle",1,1,FALSE
+335,2,"Tathawade",2,2,FALSE
+335,2,"Dairy Farm",3,3,FALSE
+335,2,"Dange Chowk",3,4,FALSE
+335,2,"Laxman Nagar",4,5,FALSE
+335,2,"Santoshnagar",4,6,FALSE
+335,2,"Kalewadi Phata",4,7,FALSE
+335,2,"Rahatani Phata",4,8,FALSE
+335,2,"15 No.",4,9,FALSE
+335,2,"Jagtap Dairy",4,10,FALSE
+335,2,"Wakad Phata",5,11,FALSE
+335,2,"Rakshak Society",5,12,FALSE
+335,2,"Aundh Pst",5,13,FALSE
+335,2,"E.S.I. Hospital",6,14,FALSE
+335,2,"T.B.Hospital",6,15,FALSE
+335,2,"Sangvi Phata",6,16,FALSE
+335,2,"Aundh Gao",6,17,FALSE
+335,2,"Body gate",7,18,FALSE
+335,2,"I.T.I Chowk",7,19,FALSE
+335,2,"Sindha Colony",7,20,FALSE
+335,2,"Kasturba zopadpatti",7,21,FALSE
+335,2,"Gol market",8,22,FALSE
+335,2,"Rajbhavan",8,23,FALSE
+335,2,"Chaturshrungi",8,24,FALSE
+335,2,"Polytechnic College",9,25,FALSE
+335,2,"Rangehills Corner",9,26,FALSE
+335,2,"Pumping station",9,27,FALSE
+335,2,"Mhasoba Gate",9,28,FALSE
+335,2,"Simla Office",10,29,FALSE
+335,2,"Eng.College",10,30,FALSE
+335,2,"R.T.O",10,31,FALSE
+335,2,"Old Bazaar",11,32,FALSE
+335,2,"Pune Station",11,33,FALSE
+336,1,"Pune Station",1,1,TRUE
+336,1,"Ruby Hall",1,2,TRUE
+336,1,"Wadia College",1,3,TRUE
+336,1,"Bundgarden",2,4,TRUE
+336,1,"Yerawada",2,5,TRUE
+336,1,"Sadalbaba",2,6,TRUE
+336,1,"U.P.Hotel",3,7,TRUE
+336,1,"Deccan college",3,8,TRUE
+336,1,"Sapras Post",3,9,TRUE
+336,1,"Holkar pool corner",3,10,TRUE
+336,1,"Holkar Water Supply",3,11,TRUE
+336,1,"Church",4,12,TRUE
+336,1,"Factory Road",4,13,TRUE
+336,1,"Kharki Bazaar",4,14,TRUE
+336,1,"Alegaonkar school",4,15,TRUE
+336,1,"Kirloskar Oil Engine",4,16,TRUE
+336,1,"Bopodi",5,17,TRUE
+336,1,"Ambedkar Nagar",5,18,TRUE
+336,1,"Dapodigao",6,19,TRUE
+336,1,"Ramkrishna Mangal Karyalaya",7,20,TRUE
+336,1,"Waidu Wasti",7,21,TRUE
+336,1,"Sudarshan Nagar",8,22,TRUE
+336,2,"Sudarshan Nagar",1,1,FALSE
+336,2,"Waidu Wasti",2,2,FALSE
+336,2,"Pimple Gurav",2,3,FALSE
+336,2,"Ramkrishna Mangal Karyalaya",3,4,FALSE
+336,2,"Dapodigao",3,5,FALSE
+336,2,"Ambedkar Nagar",4,6,FALSE
+336,2,"Bopodi",4,7,FALSE
+336,2,"Kirloskar Oil Engine",5,8,FALSE
+336,2,"Alegaonkar school",5,9,FALSE
+336,2,"Kharki Bazaar",5,10,FALSE
+336,2,"Factory Road",5,11,FALSE
+336,2,"Church",5,12,FALSE
+336,2,"Holkar Water Supply",6,13,FALSE
+336,2,"Holkar pool corner",6,14,FALSE
+336,2,"Sapras Post",6,15,FALSE
+336,2,"Deccan college",6,16,FALSE
+336,2,"U.P.Hotel",6,17,FALSE
+336,2,"Sadalbaba",7,18,FALSE
+336,2,"Yerawada",7,19,FALSE
+336,2,"Bundgarden",7,20,FALSE
+336,2,"Wadia College",8,21,FALSE
+336,2,"Ruby Hall",8,22,FALSE
+336,2,"Pune Station",8,23,FALSE
+337,1,"Pune Station",1,1,TRUE
+337,1,"Old Bazaar",1,2,TRUE
+337,1,"R.T.O",2,3,TRUE
+337,1,"Eng.College",2,4,TRUE
+337,1,"Simla Office",2,5,TRUE
+337,1,"Mhasoba Gate",3,6,TRUE
+337,1,"Pumping station",3,7,TRUE
+337,1,"Rangehills Corner",3,8,TRUE
+337,1,"Polytechnic College",3,9,TRUE
+337,1,"Chaturshrungi",4,10,TRUE
+337,1,"Rajbhavan",4,11,TRUE
+337,1,"Gol market",4,12,TRUE
+337,1,"Kasturba zopadpatti",5,13,TRUE
+337,1,"Sindha Colony",5,14,TRUE
+337,1,"I.T.I Chowk",5,15,TRUE
+337,1,"Body gate",5,16,TRUE
+337,1,"Aundh Gao",6,17,TRUE
+337,1,"Sangvi Phata",6,18,TRUE
+337,1,"T.B.Hospital",6,19,TRUE
+337,1,"E.S.I. Hospital",6,20,TRUE
+337,1,"Aundh Pst",7,21,TRUE
+337,1,"Rakshak Society",7,22,TRUE
+337,1,"Millenium Wasti",7,23,TRUE
+337,1,"Kate Wasti",8,24,TRUE
+337,1,"Corporation School",8,25,TRUE
+337,1,"Pimple Saudagar",9,26,TRUE
+337,2,"Pimple Saudagar",1,1,FALSE
+337,2,"Corporation School",2,2,FALSE
+337,2,"Kate Wasti",2,3,FALSE
+337,2,"Millenium Wasti",3,4,FALSE
+337,2,"Rakshak Society",3,5,FALSE
+337,2,"Aundh Pst",3,6,FALSE
+337,2,"E.S.I. Hospital",4,7,FALSE
+337,2,"T.B.Hospital",4,8,FALSE
+337,2,"Sangvi Phata",4,9,FALSE
+337,2,"Aundh Gao",4,10,FALSE
+337,2,"Body gate",5,11,FALSE
+337,2,"I.T.I Chowk",5,12,FALSE
+337,2,"Sindha Colony",5,13,FALSE
+337,2,"Kasturba zopadpatti",5,14,FALSE
+337,2,"Gol market",6,15,FALSE
+337,2,"Rajbhavan",6,16,FALSE
+337,2,"Chaturshrungi",6,17,FALSE
+337,2,"Polytechnic College",7,18,FALSE
+337,2,"Rangehills Corner",7,19,FALSE
+337,2,"Pumping station",7,20,FALSE
+337,2,"Mhasoba Gate",7,21,FALSE
+337,2,"Simla Office",8,22,FALSE
+337,2,"Eng.College",8,23,FALSE
+337,2,"R.T.O",8,24,FALSE
+337,2,"Old Bazaar",9,25,FALSE
+337,2,"Pune Station",9,26,FALSE
+338,1,"Nigdi",1,1,TRUE
+338,1,"Bajaj auto",1,2,TRUE
+338,1,"Akurdi",1,3,TRUE
+338,1,"Ganesh Vision",2,4,TRUE
+338,1,"Bhoirnagar",2,5,TRUE
+338,1,"Premlok Park",2,6,TRUE
+338,1,"Chinchwad Gao",3,7,TRUE
+338,1,"Lpro Company",3,8,TRUE
+338,1,"Auditorium",3,9,TRUE
+338,1,"Lokmanya Hospital",4,10,TRUE
+338,1,"Chinchwad Station",4,11,TRUE
+338,1,"Empire Estate",4,12,TRUE
+338,1,"Phinolex Company",5,13,TRUE
+338,1,"Pimpri road",5,14,TRUE
+338,1,"Kharalwadi",5,15,TRUE
+338,1,"H.A.Company",5,16,TRUE
+338,1,"Indian Card",6,17,TRUE
+338,1,"Wallabhnagar",6,18,TRUE
+338,1,"Daychi",6,19,TRUE
+338,1,"Nashik Phata",6,20,TRUE
+338,1,"C.I.R.T",6,21,TRUE
+338,1,"Bhosari Police Station",6,22,TRUE
+338,1,"Bhosari",7,23,TRUE
+338,1,"Dhawade Wasti",7,24,TRUE
+338,1,"Sadgurunagar / Desai Clinic",7,25,TRUE
+338,1,"Kachara Depo",8,26,TRUE
+338,1,"Panjarpol",8,27,TRUE
+338,1,"Wakhar Mahamandal",8,28,TRUE
+338,1,"Tanna Protex",8,29,TRUE
+338,1,"Old Jakat Naka",8,30,TRUE
+338,1,"Borate Wasti",9,31,TRUE
+338,1,"Bankar Wasti",9,32,TRUE
+338,1,"Chaudhari Dhaba",9,33,TRUE
+338,1,"Moshi Gao",10,34,TRUE
+338,1,"Hood Company",10,35,TRUE
+338,1,"Indrayani Nagar",10,36,TRUE
+338,1,"Moshi Phata / Chimbli Phata",11,37,TRUE
+338,1,"Gayakwad Wasti",11,38,TRUE
+338,1,"Kuruli Gao",12,39,TRUE
+338,1,"Sankesh Model Colony",12,40,TRUE
+338,1,"Alandi Gao Phata",13,41,TRUE
+338,1,"Gite Wasti",13,42,TRUE
+338,1,"Vijay Oil Mill",13,43,TRUE
+338,1,"Petrol Pump",13,44,TRUE
+338,1,"Chakan S.T.Stand",14,45,TRUE
+338,1,"Bank Of India",14,46,TRUE
+338,1,"Mahatma Phule Chowk",14,47,TRUE
+338,1,"Maruti Mandir",14,48,TRUE
+338,1,"Chakan Market Yard",14,49,TRUE
+338,1,"Protacto Company",15,50,TRUE
+338,1,"Vaki Khurd",15,51,TRUE
+338,1,"Rohkal Phata",15,51,TRUE
+338,1,"Bham",16,52,TRUE
+338,1,"Waki Budruk",16,53,TRUE
+338,1,"Kad Wasti",16,54,TRUE
+338,1,"Khadi Machin",17,55,TRUE
+338,1,"Ghata Khali / Poker Wasti",17,56,TRUE
+338,1,"Shiroli Phata",17,57,TRUE
+338,1,"Pite Phata / Shiroli Phata",18,58,TRUE
+338,1,"Bhandari Company / Wadekar Wasti",18,59,TRUE
+338,1,"Kanda-Lasun Sanshodhan Kendra",18,60,TRUE
+338,1,"Kadus Phata",18,61,TRUE
+338,1,"Rajgurunagar Vidyalaya",18,62,TRUE
+338,1,"Old S.T.Stand",18,63,TRUE
+338,1,"Rajgurunagar / Khed",19,64,TRUE
+338,2,"Rajgurunagar / Khed",1,1,FALSE
+338,2,"Old S.T.Stand",2,2,FALSE
+338,2,"Rajgurunagar Vidyalaya",2,3,FALSE
+338,2,"Kadus Phata",2,4,FALSE
+338,2,"Kanda-Lasun Sanshodhan Kendra",2,5,FALSE
+338,2,"Bhandari Company / Wadekar Wasti",2,6,FALSE
+338,2,"Pite Phata / Shiroli Phata",2,7,FALSE
+338,2,"Shiroli Phata",3,8,FALSE
+338,2,"Ghata Khali / Poker Wasti",3,9,FALSE
+338,2,"Khadi Machin",3,10,FALSE
+338,2,"Kad Wasti",4,11,FALSE
+338,2,"Waki Budruk",4,12,FALSE
+338,2,"Bham",4,13,FALSE
+338,2,"Rohkal Phata",5,14,FALSE
+338,2,"Vaki Khurd",5,15,FALSE
+338,2,"Protacto Company",5,16,FALSE
+338,2,"Chakan Market Yard",6,17,FALSE
+338,2,"Maruti Mandir",6,18,FALSE
+338,2,"Mahatma Phule Chowk",6,19,FALSE
+338,2,"Bank Of India",6,20,FALSE
+338,2,"Chakan S.T.Stand",6,21,FALSE
+338,2,"Petrol Pump",7,22,FALSE
+338,2,"Vijay Oil Mill",7,23,FALSE
+338,2,"Gite Wasti",7,24,FALSE
+338,2,"Alandi Gao Phata",7,25,FALSE
+338,2,"Sankesh Model Colony",8,26,FALSE
+338,2,"Kuruli Gao",8,27,FALSE
+338,2,"Gayakwad Wasti",9,28,FALSE
+338,2,"Moshi Phata / Chimbli Phata",9,29,FALSE
+338,2,"Indrayani Nagar",10,30,FALSE
+338,2,"Hood Company",10,31,FALSE
+338,2,"Moshi Gao",10,32,FALSE
+338,2,"Chaudhari Dhaba",11,33,FALSE
+338,2,"Bankar Wasti",11,34,FALSE
+338,2,"Borate Wasti",11,35,FALSE
+338,2,"Old Jakat Naka",12,36,FALSE
+338,2,"Tanna Protex",12,37,FALSE
+338,2,"Wakhar Mahamandal",12,38,FALSE
+338,2,"Panjarpol",12,39,FALSE
+338,2,"Kachara Depo",12,40,FALSE
+338,2,"Sadgurunagar / Desai Clinic",13,41,FALSE
+338,2,"Dhawade Wasti",13,42,FALSE
+338,2,"Bhosari",13,43,FALSE
+338,2,"Bhosari Police Station",14,44,FALSE
+338,2,"C.I.R.T",14,45,FALSE
+338,2,"Nashik Phata",14,46,FALSE
+338,2,"Daychi",14,47,FALSE
+338,2,"Wallabhnagar",14,48,FALSE
+338,2,"Indian Card",14,49,FALSE
+338,2,"H.A.Company",15,50,FALSE
+338,2,"Kharalwadi",15,51,FALSE
+338,2,"Pimpri road",15,51,FALSE
+338,2,"Phinolex Company",15,52,FALSE
+338,2,"Empire Estate",16,53,FALSE
+338,2,"Chinchwad Station",16,54,FALSE
+338,2,"Lokmanya Hospital",16,55,FALSE
+338,2,"Auditorium",17,56,FALSE
+338,2,"Lpro Company",17,57,FALSE
+338,2,"Chinchwad Gao",17,58,FALSE
+338,2,"Premlok Park",18,59,FALSE
+338,2,"Bhoirnagar",18,60,FALSE
+338,2,"Ganesh Vision",18,61,FALSE
+338,2,"Akurdi",19,62,FALSE
+338,2,"Bajaj auto",19,63,FALSE
+338,2,"Nigdi",19,64,FALSE
+339,1,"Pune Station",1,1,TRUE
+339,1,"Gadital",1,2,TRUE
+339,1,"R.T.O",2,3,TRUE
+339,1,"Eng.College",2,4,TRUE
+339,1,"Patil Estate",2,5,TRUE
+339,1,"Labour Office",2,6,TRUE
+339,1,"Wakdewadi",3,7,TRUE
+339,1,"Mariaai Gate",3,8,TRUE
+339,1,"Poultry Farm",3,9,TRUE
+339,1,"Raja Bunglow",3,10,TRUE
+339,1,"Kharki Post",4,11,TRUE
+339,1,"Factory Hospital",4,12,TRUE
+339,1,"Kharki Station",4,13,TRUE
+339,1,"Gopi Chawl",4,14,TRUE
+339,1,"Bopodi",5,15,TRUE
+339,1,"Dapodi",5,16,TRUE
+339,1,"Phugewadi",6,17,TRUE
+339,1,"Sandwik Company",6,18,TRUE
+339,1,"Alpha Laval Company",6,19,TRUE
+339,1,"Marshall Company",6,20,TRUE
+339,1,"Kasarwadi",7,21,TRUE
+339,1,"Nashik Phata",7,22,TRUE
+339,1,"C.I.R.T",7,23,TRUE
+339,1,"Bhosari Police Station",7,24,TRUE
+339,1,"M.I.D.C",8,25,TRUE
+339,1,"Philips",8,26,TRUE
+339,1,"Landewadi",9,27,TRUE
+339,1,"Empatronics company",9,28,TRUE
+339,1,"Century enka Company",9,29,TRUE
+339,1,"Atlas",9,30,TRUE
+339,1,"Bhosari",10,31,TRUE
+339,1,"Dhawade Wasti",10,32,TRUE
+339,1,"Samartha Vidyalay",11,33,TRUE
+339,1,"Indrayani Nagar",12,34,TRUE
+339,2,"Indrayani Nagar",1,1,FALSE
+339,2,"Samartha Vidyalay",2,2,FALSE
+339,2,"Dhawade Wasti",3,3,FALSE
+339,2,"Bhosari",3,4,FALSE
+339,2,"Atlas",4,5,FALSE
+339,2,"Century enka Company",4,6,FALSE
+339,2,"Empatronics company",4,7,FALSE
+339,2,"Landewadi",4,8,FALSE
+339,2,"Philips",5,9,FALSE
+339,2,"M.I.D.C",5,10,FALSE
+339,2,"Bhosari Police Station",6,11,FALSE
+339,2,"C.I.R.T",6,12,FALSE
+339,2,"Nashik Phata",6,13,FALSE
+339,2,"Kasarwadi",6,14,FALSE
+339,2,"Marshall Company",7,15,FALSE
+339,2,"Alpha Laval Company",7,16,FALSE
+339,2,"Sandwik Company",7,17,FALSE
+339,2,"Phugewadi",7,18,FALSE
+339,2,"Dapodi",8,19,FALSE
+339,2,"Bopodi",8,20,FALSE
+339,2,"Gopi Chawl",9,21,FALSE
+339,2,"Kharki Station",9,22,FALSE
+339,2,"Factory Hospital",9,23,FALSE
+339,2,"Kharki Post",9,24,FALSE
+339,2,"Raja Bunglow",10,25,FALSE
+339,2,"Poultry Farm",10,26,FALSE
+339,2,"Mariaai Gate",10,27,FALSE
+339,2,"Wakdewadi",10,28,FALSE
+339,2,"Labour Office",11,29,FALSE
+339,2,"Patil Estate",11,30,FALSE
+339,2,"Eng.College",11,31,FALSE
+339,2,"R.T.O",11,32,FALSE
+339,2,"Gadital",12,33,FALSE
+339,2,"Pune Station",12,34,FALSE
+340,1,"Hadapsar Gadital",1,35,TRUE
+340,1,"Hadapsar Gao",1,36,TRUE
+340,1,"Magarpatta Clinic",1,37,TRUE
+340,1,"Gurushankar Math",2,38,TRUE
+340,1,"Waid Wadi",2,39,TRUE
+340,1,"Ram Tekdi",2,40,TRUE
+340,1,"Kalubai Mandir",2,41,TRUE
+340,1,"Fatima Nagar",2,42,TRUE
+340,1,"Bhairoba Nala Police Station",3,43,TRUE
+340,1,"Race Course",3,44,TRUE
+340,1,"Mahatma Gandhi Bus Stand",4,45,TRUE
+340,1,"Old Pool Gate",4,46,TRUE
+340,1,"Bombay Garriage",4,47,TRUE
+340,1,"Westend",5,48,TRUE
+340,1,"G.P.O",5,49,TRUE
+340,1,"Sasoon Hospital / Collector Office",5,50,TRUE
+340,1,"Gujrathi Dharamshala",5,51,TRUE
+340,1,"Gadital",6,51,TRUE
+340,1,"R.T.O",6,52,TRUE
+340,1,"Eng.College",6,53,TRUE
+340,1,"Patil Estate",6,54,TRUE
+340,1,"Labour Office",6,55,TRUE
+340,1,"Wakdewadi",7,56,TRUE
+340,1,"Mariaai Gate",7,57,TRUE
+340,1,"Poultry Farm",7,58,TRUE
+340,1,"Raja Bunglow",7,59,TRUE
+340,1,"Kharki Post",8,60,TRUE
+340,1,"Factory Hospital",8,61,TRUE
+340,1,"Kharki Station",8,62,TRUE
+340,1,"Gopi Chawl",8,63,TRUE
+340,1,"Bopodi",9,64,TRUE
+340,1,"Dapodi",9,65,TRUE
+340,1,"Phugewadi",10,66,TRUE
+340,1,"Sandwik Company",10,67,TRUE
+340,1,"Alpha Laval Company",10,68,TRUE
+340,1,"Marshall Company",10,69,TRUE
+340,1,"Kasarwadi",11,70,TRUE
+340,1,"Nashik Phata",11,71,TRUE
+340,1,"Shankarwadi",11,72,TRUE
+340,1,"Wallabhnagar",12,73,TRUE
+340,1,"Wadilal",12,74,TRUE
+340,1,"Y.C.M",12,75,TRUE
+340,1,"Maheshnagar Corner",12,76,TRUE
+340,1,"D.Y.Patil college",13,77,TRUE
+340,1,"H.A.Company",13,78,TRUE
+340,1,"Kharalwadi",13,79,TRUE
+340,1,"Pimpri road",13,80,TRUE
+340,1,"Phinolex Company",14,81,TRUE
+340,1,"Empire Estate",14,82,TRUE
+340,1,"Chinchwad Station",14,83,TRUE
+340,1,"Jayashri Talkies",14,84,TRUE
+340,1,"Mehta Hospital",14,85,TRUE
+340,1,"Kalbhornagar",14,86,TRUE
+340,1,"Ruston company",15,87,TRUE
+340,1,"Akurdi",15,88,TRUE
+340,1,"Bajaj auto",15,89,TRUE
+340,1,"Nigdi Corner",15,90,TRUE
+340,1,"Nigdi ",16,91,TRUE
+340,1,"Bhakti Shakti ",16,92,TRUE
+340,1,"Transport Nagari",16,93,TRUE
+340,1,"Appughar Corner",16,94,TRUE
+340,1,"Muk-Badhir School",16,95,TRUE
+340,1,"Big India",17,96,TRUE
+340,1,"Sindhunagar",17,97,TRUE
+340,1,"Lokmanya Hospital",17,98,TRUE
+340,1,"Ashoka",17,99,TRUE
+340,1,"Trimurti Hall",17,100,TRUE
+340,1,"Ganganagar",18,101,TRUE
+340,1,"Giriraj",18,102,TRUE
+340,1,"Prachi",18,103,TRUE
+340,1,"Sambhaji Chowk",18,104,TRUE
+340,1,"Akurdi Railway Station",19,105,TRUE
+340,2,"Akurdi Railway Station",1,1,FALSE
+340,2,"Sambhaji Chowk",2,2,FALSE
+340,2,"Prachi",2,3,FALSE
+340,2,"Giriraj",2,4,FALSE
+340,2,"Ganganagar",2,5,FALSE
+340,2,"Trimurti Hall",3,6,FALSE
+340,2,"Ashoka",3,7,FALSE
+340,2,"Lokmanya Hospital",3,8,FALSE
+340,2,"Sindhunagar",3,9,FALSE
+340,2,"Big India",4,10,FALSE
+340,2,"Muk-Badhir School",4,11,FALSE
+340,2,"Appughar Corner",4,12,FALSE
+340,2,"Transport Nagari",4,13,FALSE
+340,2,"Bhakti Shakti ",4,14,FALSE
+340,2,"Nigdi ",4,15,FALSE
+340,2,"Nigdi Corner",5,16,FALSE
+340,2,"Bajaj auto",5,17,FALSE
+340,2,"Akurdi",5,18,FALSE
+340,2,"Ruston company",5,19,FALSE
+340,2,"Kalbhornagar",6,20,FALSE
+340,2,"Mehta Hospital",6,21,FALSE
+340,2,"Jayashri Talkies",6,22,FALSE
+340,2,"Chinchwad Station",6,23,FALSE
+340,2,"Empire Estate",6,24,FALSE
+340,2,"Phinolex Company",6,25,FALSE
+340,2,"Pimpri road",7,26,FALSE
+340,2,"Kharalwadi",7,27,FALSE
+340,2,"H.A.Company",7,28,FALSE
+340,2,"D.Y.Patil college",7,29,FALSE
+340,2,"Maheshnagar Corner",8,30,FALSE
+340,2,"Y.C.M",8,31,FALSE
+340,2,"Wadilal",8,32,FALSE
+340,2,"Wallabhnagar",8,33,FALSE
+340,2,"Shankarwadi",9,34,FALSE
+340,2,"Nashik Phata",9,35,FALSE
+340,2,"Kasarwadi",9,36,FALSE
+340,2,"Marshall Company",10,37,FALSE
+340,2,"Alpha Laval Company",10,38,FALSE
+340,2,"Sandwik Company",10,39,FALSE
+340,2,"Phugewadi",10,40,FALSE
+340,2,"Dapodi",11,41,FALSE
+340,2,"Bopodi",11,42,FALSE
+340,2,"Gopi Chawl",12,43,FALSE
+340,2,"Kharki Station",12,44,FALSE
+340,2,"Factory Hospital",12,45,FALSE
+340,2,"Kharki Post",12,46,FALSE
+340,2,"Raja Bunglow",13,47,FALSE
+340,2,"Poultry Farm",13,48,FALSE
+340,2,"Mariaai Gate",13,49,FALSE
+340,2,"Wakdewadi",13,50,FALSE
+340,2,"Labour Office",14,51,FALSE
+340,2,"Patil Estate",14,52,FALSE
+340,2,"Eng.College",14,53,FALSE
+340,2,"R.T.O",14,54,FALSE
+340,2,"Gadital",14,55,FALSE
+340,2,"Gujrathi Dharamshala",15,56,FALSE
+340,2,"Sasoon Hospital / Collector Office",15,57,FALSE
+340,2,"G.P.O",15,58,FALSE
+340,2,"Westend",15,59,FALSE
+340,2,"Bombay Garriage",16,60,FALSE
+340,2,"Old Pool Gate",16,61,FALSE
+340,2,"Mahatma Gandhi Bus Stand",16,62,FALSE
+340,2,"Race Course",17,63,FALSE
+340,2,"Bhairoba Nala Police Station",17,64,FALSE
+340,2,"Fatima Nagar",18,65,FALSE
+340,2,"Kalubai Mandir",18,66,FALSE
+340,2,"Ram Tekdi",18,67,FALSE
+340,2,"Waid Wadi",18,68,FALSE
+340,2,"Gurushankar Math",18,69,FALSE
+340,2,"Magarpatta Clinic",19,70,FALSE
+340,2,"Hadapsar Gao",19,71,FALSE
+340,2,"Hadapsar Gadital",19,72,FALSE
+342,1,"Pune Station",1,1,TRUE
+342,1,"Old Bazaar",1,2,TRUE
+342,1,"R.T.O",2,3,TRUE
+342,1,"Eng.College",2,4,TRUE
+342,1,"Simla Office",2,5,TRUE
+342,1,"Mhasoba Gate",3,6,TRUE
+342,1,"Pumping station",3,7,TRUE
+342,1,"Rangehills Corner",3,8,TRUE
+342,1,"Polytechnic College",3,9,TRUE
+342,1,"Chaturshrungi",4,10,TRUE
+342,1,"Rajbhavan",4,11,TRUE
+342,1,"Gol market",4,12,TRUE
+342,1,"Kasturba zopadpatti",5,13,TRUE
+342,1,"Sindha Colony",5,14,TRUE
+342,1,"I.T.I Chowk",5,15,TRUE
+342,1,"Body gate",5,16,TRUE
+342,1,"Aundh Gao",6,17,TRUE
+342,1,"Sangvi Phata",6,18,TRUE
+342,1,"T.B.Hospital",6,19,TRUE
+342,1,"E.S.I. Hospital",6,20,TRUE
+342,1,"Aundh Pst",7,21,TRUE
+342,1,"Rakshak Society",7,22,TRUE
+342,1,"Wakad Phata",7,23,TRUE
+342,1,"Jagtap Dairy",8,24,TRUE
+342,1,"15 No.",8,25,TRUE
+342,1,"Rahatani Phata",8,26,TRUE
+342,1,"Kalewadi Phata",8,27,TRUE
+342,1,"Santoshnagar",8,28,TRUE
+342,1,"Laxman Nagar",8,29,TRUE
+342,1,"Dange Chowk",9,30,TRUE
+342,1,"Thergao Phata",9,31,TRUE
+342,1,"Padmaji Mill",9,32,TRUE
+342,1,"Datta Nagar",10,33,TRUE
+342,1,"Birla Hospital",10,34,TRUE
+342,1,"Walhekar wadi Corner",10,35,TRUE
+342,1,"Chinchwad Gao",11,36,TRUE
+342,1,"S.K.F Colony",11,37,TRUE
+342,1,"Bijlinagar",12,38,TRUE
+342,2,"Bijli Nagar",1,1,FALSE
+342,2,"S.K.F Colony",2,2,FALSE
+342,2,"Chinchwad Gao",2,3,FALSE
+342,2,"Walhekar wadi Corner",3,4,FALSE
+342,2,"Birla Hospital",3,5,FALSE
+342,2,"Datta Nagar",3,6,FALSE
+342,2,"Padmaji Mill",4,7,FALSE
+342,2,"Thergao Phata",4,8,FALSE
+342,2,"Dange Chowk",4,9,FALSE
+342,2,"Laxman Nagar",5,10,FALSE
+342,2,"Santoshnagar",5,11,FALSE
+342,2,"Kalewadi Phata",5,12,FALSE
+342,2,"Rahatani Phata",5,13,FALSE
+342,2,"15 No.",5,14,FALSE
+342,2,"Jagtap Dairy",5,15,FALSE
+342,2,"Wakad Phata",6,16,FALSE
+342,2,"Rakshak Society",6,17,FALSE
+342,2,"Aundh Pst",6,18,FALSE
+342,2,"E.S.I. Hospital",7,19,FALSE
+342,2,"T.B.Hospital",7,20,FALSE
+342,2,"Sangvi Phata",7,21,FALSE
+342,2,"Aundh Gao",7,22,FALSE
+342,2,"Body gate",8,23,FALSE
+342,2,"I.T.I Chowk",8,24,FALSE
+342,2,"Sindha Colony",8,25,FALSE
+342,2,"Kasturba zopadpatti",8,26,FALSE
+342,2,"Gol market",9,27,FALSE
+342,2,"Rajbhavan",9,28,FALSE
+342,2,"Chaturshrungi",9,29,FALSE
+342,2,"Polytechnic College",10,30,FALSE
+342,2,"Rangehills Corner",10,31,FALSE
+342,2,"Pumping station",10,32,FALSE
+342,2,"Mhasoba Gate",10,33,FALSE
+342,2,"Simla Office",11,34,FALSE
+342,2,"Eng.College",11,35,FALSE
+342,2,"R.T.O",11,36,FALSE
+342,2,"Old Bazaar",12,37,FALSE
+342,2,"Pune Station",12,38,FALSE
+344,1,"Alandi",1,1,TRUE
+344,1,"S.T.Stand",1,2,TRUE
+344,1,"Dehu Phata",1,3,TRUE
+344,1,"Paduka Mandir",2,4,TRUE
+344,1,"Charholi Phata",2,5,TRUE
+344,1,"Chincha",2,6,TRUE
+344,1,"Aamba",3,7,TRUE
+344,1,"Tapkir wasti",3,8,TRUE
+344,1,"Dyaneshwar Old House",3,9,TRUE
+344,1,"Saimandir",3,10,TRUE
+344,1,"Magzine",4,11,TRUE
+344,1,"Gajanan mandir",4,12,TRUE
+344,1,"Dighi Corner(Odha)",4,13,TRUE
+344,1,"Shastri Chowk",4,14,TRUE
+344,1,"Bhosari",5,15,TRUE
+344,1,"Gawhane Wasti",5,16,TRUE
+344,1,"Landewadi",6,17,TRUE
+344,1,"Philips",6,18,TRUE
+344,1,"M.I.D.C",6,19,TRUE
+344,1,"Phule Nagar",7,20,TRUE
+344,1,"Y.C.M",7,21,TRUE
+344,1,"Mahesh Nagar",7,22,TRUE
+344,1,"Nehru Corner",7,23,TRUE
+344,1,"H.A Corner",7,24,TRUE
+344,1,"Mahendra Company",8,25,TRUE
+344,1,"Pimpri road",8,26,TRUE
+344,1,"Gokul Hotel",8,27,TRUE
+344,1,"Shagun Chowk",8,28,TRUE
+344,1,"Deluxe",9,29,TRUE
+344,1,"Krishna Mandir Corner",9,30,TRUE
+344,1,"Engahe Hospital",9,31,TRUE
+344,1,"Vijay Nagar",9,32,TRUE
+344,1,"Kalewadi ",10,33,TRUE
+344,1,"Avinash Mangal Karyalaya",10,34,TRUE
+344,1,"Tapkir Nagar",10,35,TRUE
+344,1,"Shrinagar",10,36,TRUE
+344,1,"Kalewadi Phata",11,37,TRUE
+344,1,"Corporation School",11,38,TRUE
+344,1,"Kaspate Wasti",12,39,TRUE
+344,1,"Maruti Mandir",13,40,TRUE
+344,1,"Vikas Nagar Corner",13,41,TRUE
+344,1,"Wakad Phata",13,42,TRUE
+344,1,"Rakshak Society",14,43,TRUE
+344,1,"Military School",14,44,TRUE
+344,1,"Pimple Nilakh",15,45,TRUE
+344,2,"Pimple Nilakh",1,1,FALSE
+344,2,"Military School",2,2,FALSE
+344,2,"Rakshak Society",2,3,FALSE
+344,2,"Wakad Phata",3,4,FALSE
+344,2,"Vikas Nagar Corner",3,5,FALSE
+344,2,"Maruti Mandir",3,6,FALSE
+344,2,"Kaspate Wasti",4,7,FALSE
+344,2,"Corporation School",5,8,FALSE
+344,2,"Kalewadi Phata",5,9,FALSE
+344,2,"Shrinagar",6,10,FALSE
+344,2,"Tapkir Nagar",6,11,FALSE
+344,2,"Avinash Mangal Karyalaya",6,12,FALSE
+344,2,"Kalewadi ",6,13,FALSE
+344,2,"Vijay Nagar",7,14,FALSE
+344,2,"Engahe Hospital",7,15,FALSE
+344,2,"Krishna Mandir Corner",7,16,FALSE
+344,2,"Deluxe",7,17,FALSE
+344,2,"Shagun Chowk",8,18,FALSE
+344,2,"Gokul Hotel",8,19,FALSE
+344,2,"Pimpri road",8,20,FALSE
+344,2,"Mahendra Company",8,21,FALSE
+344,2,"H.A Corner",9,22,FALSE
+344,2,"Nehru Corner",9,23,FALSE
+344,2,"Mahesh Nagar",9,24,FALSE
+344,2,"Y.C.M",9,25,FALSE
+344,2,"Phule Nagar",9,26,FALSE
+344,2,"M.I.D.C",10,27,FALSE
+344,2,"Philips",10,28,FALSE
+344,2,"Landewadi",10,29,FALSE
+344,2,"Gawhane Wasti",11,30,FALSE
+344,2,"Bhosari",11,31,FALSE
+344,2,"Shastri Chowk",12,32,FALSE
+344,2,"Dighi Corner(Odha)",12,33,FALSE
+344,2,"Gajanan mandir",12,34,FALSE
+344,2,"Magzine",12,35,FALSE
+344,2,"Saimandir",13,36,FALSE
+344,2,"Dyaneshwar Old House",13,37,FALSE
+344,2,"Tapkir wasti",13,38,FALSE
+344,2,"Aamba",13,39,FALSE
+344,2,"Chincha",14,40,FALSE
+344,2,"Charholi Phata",14,41,FALSE
+344,2,"Paduka Mandir",14,42,FALSE
+344,2,"Dehu Phata",15,43,FALSE
+344,2,"S.T.Stand",15,44,FALSE
+344,2,"Alandi",15,45,FALSE
+345,1,"Pimpri Gao",1,1,TRUE
+345,1,"Bhairavnath Mandir",1,2,TRUE
+345,1,"Nikam Hospital",1,3,TRUE
+345,1,"Tapovan Mandir",1,4,TRUE
+345,1,"Jamtani Chowk",1,5,TRUE
+345,1,"Deluxe Chowk",2,6,TRUE
+345,1,"Karachi Chowk",2,7,TRUE
+345,1,"Lal Mandir",2,8,TRUE
+345,1,"Bhatnagar",2,9,TRUE
+345,1,"Gokul Hotel",2,10,TRUE
+345,1,"PPRoad",2,11,TRUE
+345,1,"Mahindra Company",3,12,TRUE
+345,1,"Kamgar Nagar",3,13,TRUE
+345,1,"H.A Corner",3,14,TRUE
+345,1,"Nehrunagar",4,15,TRUE
+345,1,"Jyoji School",4,16,TRUE
+345,1,"C Ward",4,17,TRUE
+345,1,"Abhi Chemical",4,18,TRUE
+345,1,"Jayanand Khira",4,19,TRUE
+345,1,"Tulsi Company",4,20,TRUE
+345,1,"Philips",4,21,TRUE
+345,1,"Landewadi",5,22,TRUE
+345,1,"Empatronics company",5,23,TRUE
+345,1,"Century enka Company",5,24,TRUE
+345,1,"Atlas",5,25,TRUE
+345,1,"Bhosari",6,26,TRUE
+345,1,"Shastri Chowk",6,27,TRUE
+345,1,"Dighi Corner(Odha)",6,28,TRUE
+345,1,"Gajanan mandir",6,29,TRUE
+345,1,"Magazine",7,30,TRUE
+345,1,"Datta Nagar",7,31,TRUE
+345,1,"Dighi",8,32,TRUE
+345,1,"Military Chavani",8,33,TRUE
+345,1,"Doorsanchar",9,34,TRUE
+345,1,"Ganesh Nagar corner",9,35,TRUE
+345,1,"Defence Colony",9,36,TRUE
+345,1,"Primary School",9,37,TRUE
+345,1,"Jeevan Hospital",10,38,TRUE
+345,1,"Ramnagar",11,39,TRUE
+345,2,"Ramnagar",1,1,FALSE
+345,2,"Jeevan Hospital",2,2,FALSE
+345,2,"Primary School",3,3,FALSE
+345,2,"Defence Colony",3,4,FALSE
+345,2,"Ganesh Nagar corner",3,5,FALSE
+345,2,"Doorsanchar",3,6,FALSE
+345,2,"Military Chavani",4,7,FALSE
+345,2,"Dighi",4,8,FALSE
+345,2,"Datta Nagar",5,9,FALSE
+345,2,"Magazine",5,10,FALSE
+345,2,"Gajanan mandir",6,11,FALSE
+345,2,"Dighi Corner(Odha)",6,12,FALSE
+345,2,"Shastri Chowk",6,13,FALSE
+345,2,"Bhosari",6,14,FALSE
+345,2,"Atlas",7,15,FALSE
+345,2,"Century enka Company",7,16,FALSE
+345,2,"Empatronics company",7,17,FALSE
+345,2,"Landewadi",7,18,FALSE
+345,2,"Philips",8,19,FALSE
+345,2,"Tulsi Company",8,20,FALSE
+345,2,"Jayanand Khira",8,21,FALSE
+345,2,"Abhi Chemical",8,22,FALSE
+345,2,"C Ward",8,23,FALSE
+345,2,"Jyoji School",8,24,FALSE
+345,2,"Nehrunagar",8,25,FALSE
+345,2,"H.A Corner",9,26,FALSE
+345,2,"Kamgar Nagar",9,27,FALSE
+345,2,"Mahindra Company",9,28,FALSE
+345,2,"PPRoad",10,29,FALSE
+345,2,"Gokul Hotel",10,30,FALSE
+345,2,"Bhatnagar",10,31,FALSE
+345,2,"Lal Mandir",10,32,FALSE
+345,2,"Karachi Chowk",10,33,FALSE
+345,2,"Deluxe Chowk",10,34,FALSE
+345,2,"Jamtani Chowk",11,35,FALSE
+345,2,"Tapovan Mandir",11,36,FALSE
+345,2,"Nikam Hospital",11,37,FALSE
+345,2,"Bhairavnath Mandir",11,38,FALSE
+345,2,"Pimpri Gao",11,39,FALSE
+347,1,"Alandi",1,1,TRUE
+347,1,"S.T.Stand",1,2,TRUE
+347,1,"Dehu Phata",1,3,TRUE
+347,1,"Paduka Mandir",2,4,TRUE
+347,1,"Charholi Phata",2,5,TRUE
+347,1,"Chincha",2,6,TRUE
+347,1,"Aamba",3,7,TRUE
+347,1,"Tapkir wasti",3,8,TRUE
+347,1,"Dyaneshwar Old House",3,9,TRUE
+347,1,"Saimandir",3,10,TRUE
+347,1,"Magazine",4,11,TRUE
+347,1,"Gajanan mandir",4,12,TRUE
+347,1,"Dighi Corner(Odha)",4,13,TRUE
+347,1,"Shastri Chowk",4,14,TRUE
+347,1,"Bhosari",5,15,TRUE
+347,1,"Gawhane Wasti",5,16,TRUE
+347,1,"Landewadi",6,17,TRUE
+347,1,"Philips",6,18,TRUE
+347,1,"Tulsi Company",6,19,TRUE
+347,1,"Jayanand Khira",6,20,TRUE
+347,1,"Abhi Chemical",6,21,TRUE
+347,1,"Nehrunagar",7,22,TRUE
+347,1,"H.A Corner",7,23,TRUE
+347,1,"Kamgar Nagar",7,24,TRUE
+347,1,"Mahendra Company",8,25,TRUE
+347,1,"Pimpri road",8,26,TRUE
+347,1,"Gokul Hotel",8,27,TRUE
+347,1,"Shagun Chowk",8,28,TRUE
+347,1,"Deluxe",9,29,TRUE
+347,1,"Krishna Mandir Corner",9,30,TRUE
+347,1,"Ingle Hospital",9,31,TRUE
+347,1,"Vijaynagar",9,32,TRUE
+347,1,"Kalewadi ",10,33,TRUE
+347,1,"Avinash Mangal Karyalaya",10,34,TRUE
+347,1,"Tapkir Nagar",10,35,TRUE
+347,1,"Shrinagar",10,36,TRUE
+347,1,"Kalewadi Phata",11,37,TRUE
+347,1,"Nakhate Wasti",11,38,TRUE
+347,1,"Rahatani Gao",12,39,TRUE
+347,1,"Happy Thoughts",12,40,TRUE
+347,1,"Shivar Hotel",12,41,TRUE
+347,1,"Jagtap Dairy",13,42,TRUE
+347,1,"Wakad Phata",13,43,TRUE
+347,1,"Rakshak Society",13,44,TRUE
+347,1,"Aundh Post",14,45,TRUE
+347,1,"E.S.I. Hospital",14,46,TRUE
+347,1,"T.B.Hospital",14,47,TRUE
+347,1,"Gholap Vidyalaya",14,48,TRUE
+347,1,"Kavade Nagar",15,49,TRUE
+347,1,"Sangvi Market",15,50,TRUE
+347,1,"Corporation School",15,51,TRUE
+347,1,"Sangvi Gao",16,52,TRUE
+347,1,"S.T.Workshop",16,53,TRUE
+347,1,"Sangvi Gao",17,54,TRUE
+347,2,"Sangvi Gao",1,1,FALSE
+347,2,"S.T.Workshop",2,2,FALSE
+347,2,"Sangvi Gao",2,3,FALSE
+347,2,"Corporation School",3,4,FALSE
+347,2,"Sangvi Market",3,5,FALSE
+347,2,"Kavade Nagar",3,6,FALSE
+347,2,"Gholap Vidyalaya",4,7,FALSE
+347,2,"T.B.Hospital",4,8,FALSE
+347,2,"E.S.I. Hospital",4,9,FALSE
+347,2,"Aundh Post",4,10,FALSE
+347,2,"Rakshak Society",5,11,FALSE
+347,2,"Wakad Phata",5,12,FALSE
+347,2,"Jagtap Dairy",5,13,FALSE
+347,2,"Shivar Hotel",6,14,FALSE
+347,2,"Happy Thoughts",6,15,FALSE
+347,2,"Rahatani Gao",6,16,FALSE
+347,2,"Nakhate Wasti",7,17,FALSE
+347,2,"Kalewadi Phata",7,18,FALSE
+347,2,"Shrinagar",8,19,FALSE
+347,2,"Tapkir Nagar",8,20,FALSE
+347,2,"Avinash Mangal Karyalaya",8,21,FALSE
+347,2,"Kalewadi ",8,22,FALSE
+347,2,"Vijaynagar",9,23,FALSE
+347,2,"Ingle Hospital",9,24,FALSE
+347,2,"Krishna Mandir Corner",9,25,FALSE
+347,2,"Deluxe",9,26,FALSE
+347,2,"Shagun Chowk",10,27,FALSE
+347,2,"Gokul Hotel",10,28,FALSE
+347,2,"Pimpri road",10,29,FALSE
+347,2,"Mahendra Company",10,30,FALSE
+347,2,"Kamgar Nagar",11,31,FALSE
+347,2,"H.A Corner",11,32,FALSE
+347,2,"Nehrunagar",11,33,FALSE
+347,2,"Abhi Chemical",12,34,FALSE
+347,2,"Jayanand Khira",12,35,FALSE
+347,2,"Tulsi Company",12,36,FALSE
+347,2,"Philips",12,37,FALSE
+347,2,"Landewadi",12,38,FALSE
+347,2,"Gawhane Wasti",13,39,FALSE
+347,2,"Bhosari",13,40,FALSE
+347,2,"Shastri Chowk",14,41,FALSE
+347,2,"Dighi Corner(Odha)",14,42,FALSE
+347,2,"Gajanan mandir",14,43,FALSE
+347,2,"Magazine",14,44,FALSE
+347,2,"Saimandir",15,45,FALSE
+347,2,"Dyaneshwar Old House",15,46,FALSE
+347,2,"Tapkir wasti",15,47,FALSE
+347,2,"Aamba",15,48,FALSE
+347,2,"Chincha",16,49,FALSE
+347,2,"Charholi Phata",16,50,FALSE
+347,2,"Paduka Mandir",16,51,FALSE
+347,2,"Dehu Phata",17,52,FALSE
+347,2,"S.T.Stand",17,53,FALSE
+347,2,"Alandi",17,54,FALSE
+348,1,"Pune Station",1,1,TRUE
+348,1,"Old Bazaar",1,2,TRUE
+348,1,"R.T.O",2,3,TRUE
+348,1,"Eng.College",2,4,TRUE
+348,1,"Simla Office",2,5,TRUE
+348,1,"Mhasoba Gate",3,6,TRUE
+348,1,"Pumping station",3,7,TRUE
+348,1,"Rangehills Corner",3,8,TRUE
+348,1,"Polytechnic College",3,9,TRUE
+348,1,"Chaturshrungi",4,10,TRUE
+348,1,"Rajbhavan",4,11,TRUE
+348,1,"Gol market",4,12,TRUE
+348,1,"Kasturba zopadpatti",5,13,TRUE
+348,1,"Sindha Colony",5,14,TRUE
+348,1,"I.T.I Chowk",5,15,TRUE
+348,1,"Body gate",5,16,TRUE
+348,1,"Aundh Gao",6,17,TRUE
+348,1,"Sangvi Phata",6,18,TRUE
+348,1,"T.B.Hospital",6,19,TRUE
+348,1,"E.S.I. Hospital",6,20,TRUE
+348,1,"Aundh Pst",7,21,TRUE
+348,1,"Rakshak Society",7,22,TRUE
+348,1,"Wakad Phata",7,23,TRUE
+348,1,"Jagtap Dairy",8,24,TRUE
+348,1,"15 No.",8,25,TRUE
+348,1,"Rahatani Phata",8,26,TRUE
+348,1,"Kalewadi Phata",8,27,TRUE
+348,1,"Santoshnagar",8,28,TRUE
+348,1,"Laxman Nagar",8,29,TRUE
+348,1,"Dange Chowk",9,30,TRUE
+348,1,"Thergao Phata",9,31,TRUE
+348,1,"Padmaji Mill",9,32,TRUE
+348,1,"Datta Nagar",10,33,TRUE
+348,1,"Birla Hospital",10,34,TRUE
+348,1,"Walhekar wadi Corner",10,35,TRUE
+348,1,"Chinchwad Gao",11,36,TRUE
+348,1,"S.K.F.Company",11,37,TRUE
+348,1,"Premlok Park",11,38,TRUE
+348,1,"Bhoirnagar",11,39,TRUE
+348,1,"Ganesh Vision",12,40,TRUE
+348,1,"Khandoba Mal",12,41,TRUE
+348,1,"Bajaj auto",12,42,TRUE
+348,1,"Nigdi Corner",12,43,TRUE
+348,1,"Nigdi",13,44,TRUE
+348,2,"Nigdi",1,1,FALSE
+348,2,"Nigdi Corner",2,2,FALSE
+348,2,"Bajaj auto",2,3,FALSE
+348,2,"Khandoba Mal",2,4,FALSE
+348,2,"Ganesh Vision",2,5,FALSE
+348,2,"Bhoirnagar",3,6,FALSE
+348,2,"Premlok Park",3,7,FALSE
+348,2,"S.K.F.Company",3,8,FALSE
+348,2,"Chinchwad Gao",3,9,FALSE
+348,2,"Walhekar wadi Corner",4,10,FALSE
+348,2,"Birla Hospital",4,11,FALSE
+348,2,"Datta Nagar",4,12,FALSE
+348,2,"Padmaji Mill",5,13,FALSE
+348,2,"Thergao Phata",5,14,FALSE
+348,2,"Dange Chowk",5,15,FALSE
+348,2,"Laxman Nagar",6,16,FALSE
+348,2,"Santoshnagar",6,17,FALSE
+348,2,"Kalewadi Phata",6,18,FALSE
+348,2,"Rahatani Phata",6,19,FALSE
+348,2,"15 No.",6,20,FALSE
+348,2,"Jagtap Dairy",6,21,FALSE
+348,2,"Wakad Phata",7,22,FALSE
+348,2,"Rakshak Society",7,23,FALSE
+348,2,"Aundh Pst",7,24,FALSE
+348,2,"E.S.I. Hospital",8,25,FALSE
+348,2,"T.B.Hospital",8,26,FALSE
+348,2,"Sangvi Phata",8,27,FALSE
+348,2,"Aundh Gao",8,28,FALSE
+348,2,"Body gate",9,29,FALSE
+348,2,"I.T.I Chowk",9,30,FALSE
+348,2,"Sindha Colony",9,31,FALSE
+348,2,"Kasturba zopadpatti",9,32,FALSE
+348,2,"Gol market",10,33,FALSE
+348,2,"Rajbhavan",10,34,FALSE
+348,2,"Chaturshrungi",10,35,FALSE
+348,2,"Polytechnic College",11,36,FALSE
+348,2,"Rangehills Corner",11,37,FALSE
+348,2,"Pumping station",11,38,FALSE
+348,2,"Mhasoba Gate",11,39,FALSE
+348,2,"Simla Office",12,40,FALSE
+348,2,"Eng.College",12,41,FALSE
+348,2,"R.T.O",12,42,FALSE
+348,2,"Old Bazaar",13,43,FALSE
+348,2,"Pune Station",13,44,FALSE
+349,1,"Pimpri gao",1,1,TRUE
+349,1,"Ashok Talkies",1,2,TRUE
+349,1,"Jaihind School",1,3,TRUE
+349,1,"Delux Talkies",2,4,TRUE
+349,1,"Karachi Chowk",2,5,TRUE
+349,1,"Lal Mandir",2,6,TRUE
+349,1,"Bhatnagar",2,7,TRUE
+349,1,"Gokul",2,8,TRUE
+349,1,"Bombay-Poona road",2,9,TRUE
+349,1,"Mahendra company",3,10,TRUE
+349,1,"Kamgarnagar",3,11,TRUE
+349,1,"H.A.Corner",3,12,TRUE
+349,1,"Nehrunagar",4,13,TRUE
+349,1,"Jyoti school",4,14,TRUE
+349,1,"Abhi chemical",4,15,TRUE
+349,1,"Jayanand Khira",4,16,TRUE
+349,1,"Tulsi Chemical",4,17,TRUE
+349,1,"Philips",4,18,TRUE
+349,1,"Landewadi",5,19,TRUE
+349,1,"Gawhane Wasti",5,20,TRUE
+349,1,"Bhosari",6,21,TRUE
+349,1,"Shastri Chowk",6,22,TRUE
+349,1,"Dighi Corner(Odha)",6,23,TRUE
+349,1,"Gajanan mandir",6,24,TRUE
+349,1,"Magazine",7,25,TRUE
+349,1,"Datta Nagar",7,26,TRUE
+349,1,"Dighi",8,27,TRUE
+349,1,"Military Chavani",8,28,TRUE
+349,1,"Doorsanchar",9,29,TRUE
+349,1,"Mhaske Wasti",10,30,TRUE
+349,1,"Kalas Corner",10,31,TRUE
+349,1,"Kalas",11,32,TRUE
+349,2,"Kalas ",1,1,FALSE
+349,2,"Kalas Corner",2,2,FALSE
+349,2,"Mhaske Wasti",2,3,FALSE
+349,2,"Doorsanchar",3,4,FALSE
+349,2,"Military Chavani",4,5,FALSE
+349,2,"Dighi",4,6,FALSE
+349,2,"Datta Nagar",5,7,FALSE
+349,2,"Magazine",5,8,FALSE
+349,2,"Gajanan mandir",6,9,FALSE
+349,2,"Dighi Corner(Odha)",6,10,FALSE
+349,2,"Shastri Chowk",6,11,FALSE
+349,2,"Bhosari",6,12,FALSE
+349,2,"Gawhane Wasti",7,13,FALSE
+349,2,"Landewadi",7,14,FALSE
+349,2,"Philips",8,15,FALSE
+349,2,"Tulsi Chemical",8,16,FALSE
+349,2,"Jayanand Khira",8,17,FALSE
+349,2,"Abhi chemical",8,18,FALSE
+349,2,"Jyoti school",8,19,FALSE
+349,2,"Nehrunagar",8,20,FALSE
+349,2,"H.A.Corner",9,21,FALSE
+349,2,"Kamgarnagar",9,22,FALSE
+349,2,"Mahendra company",9,23,FALSE
+349,2,"Bombay-Poona road",10,24,FALSE
+349,2,"Gokul",10,25,FALSE
+349,2,"Bhatnagar",10,26,FALSE
+349,2,"Lal Mandir",10,27,FALSE
+349,2,"Karachi Chowk",10,28,FALSE
+349,2,"Delux Talkies",10,29,FALSE
+349,2,"Jaihind School",11,30,FALSE
+349,2,"Ashok Talkies",11,31,FALSE
+349,2,"Pimpri gao",11,32,FALSE
+350,1,"Pune Station",1,1,TRUE
+350,1,"Tadiwala Road",1,2,TRUE
+350,1,"Raja Bahaddur",1,3,TRUE
+350,1,"R.T.O",2,4,TRUE
+350,1,"Eng.College",2,5,TRUE
+350,1,"Patil Estate",2,6,TRUE
+350,1,"Labour Office",2,7,TRUE
+350,1,"Wakdewadi",3,8,TRUE
+350,1,"Mariaai Gate",3,9,TRUE
+350,1,"Poultry Farm",3,10,TRUE
+350,1,"Raja Bunglow",3,11,TRUE
+350,1,"Kharki Post",4,12,TRUE
+350,1,"Factory Hospital",4,13,TRUE
+350,1,"Kharki Station",4,14,TRUE
+350,1,"Gopi Chawl",4,15,TRUE
+350,1,"Bopodi",5,16,TRUE
+350,1,"Dapodi",5,17,TRUE
+350,1,"Phugewadi",6,18,TRUE
+350,1,"Sandwik Company",6,19,TRUE
+350,1,"Alpha Laval Company",6,20,TRUE
+350,1,"Marshall Company",6,21,TRUE
+350,1,"Kasarwadi",7,22,TRUE
+350,1,"Nashik Phata",7,23,TRUE
+350,1,"Shankarwadi",7,24,TRUE
+350,1,"Wallabhnagar",8,25,TRUE
+350,1,"Wadilal",8,26,TRUE
+350,1,"Y.C.M",8,27,TRUE
+350,1,"Maheshnagar Corner",8,28,TRUE
+350,1,"D.Y.Patil college",9,29,TRUE
+350,1,"H.A.Company",9,30,TRUE
+350,1,"Kharalwadi",9,31,TRUE
+350,1,"Pimpri Road",9,32,TRUE
+350,1,"Phinolex Company",10,33,TRUE
+350,1,"Empire Estate",10,34,TRUE
+350,1,"Chinchwad Station",10,35,TRUE
+350,1,"Jayashri Talkies",10,36,TRUE
+350,1,"Mehta Hospital",10,37,TRUE
+350,1,"Kalbhornagar",10,38,TRUE
+350,1,"Ruston Company",11,39,TRUE
+350,1,"Akurdi",11,40,TRUE
+350,1,"Bajaj auto",11,41,TRUE
+350,1,"Nigdi Corner",11,42,TRUE
+350,1,"Nigdi ",12,43,TRUE
+350,1,"Sweet Mart",12,44,TRUE
+350,1,"L.I.C Corner",12,45,TRUE
+350,1,"Yamuna Nagar Corner",12,46,TRUE
+350,1,"Yamuna Nagar",13,47,TRUE
+350,1,"Jyotiba Nagar",14,48,TRUE
+350,1,"Talawade",15,49,TRUE
+350,2,"Talawade",1,1,FALSE
+350,2,"Jyotiba Nagar",2,2,FALSE
+350,2,"Yamuna Nagar",3,3,FALSE
+350,2,"Yamuna Nagar Corner",4,4,FALSE
+350,2,"L.I.C Corner",4,5,FALSE
+350,2,"Sweet Mart",4,6,FALSE
+350,2,"Nigdi ",4,7,FALSE
+350,2,"Nigdi Corner",5,8,FALSE
+350,2,"Bajaj auto",5,9,FALSE
+350,2,"Akurdi",5,10,FALSE
+350,2,"Ruston Company",5,11,FALSE
+350,2,"Kalbhornagar",6,12,FALSE
+350,2,"Mehta Hospital",6,13,FALSE
+350,2,"Jayashri Talkies",6,14,FALSE
+350,2,"Chinchwad Station",6,15,FALSE
+350,2,"Empire Estate",6,16,FALSE
+350,2,"Phinolex Company",6,17,FALSE
+350,2,"Pimpri Road",7,18,FALSE
+350,2,"Kharalwadi",7,19,FALSE
+350,2,"H.A.Company",7,20,FALSE
+350,2,"D.Y.Patil college",7,21,FALSE
+350,2,"Maheshnagar Corner",8,22,FALSE
+350,2,"Y.C.M",8,23,FALSE
+350,2,"Wadilal",8,24,FALSE
+350,2,"Wallabhnagar",8,25,FALSE
+350,2,"Shankarwadi",9,26,FALSE
+350,2,"Nashik Phata",9,27,FALSE
+350,2,"Kasarwadi",9,28,FALSE
+350,2,"Marshall Company",10,29,FALSE
+350,2,"Alpha Laval Company",10,30,FALSE
+350,2,"Sandwik Company",10,31,FALSE
+350,2,"Phugewadi",10,32,FALSE
+350,2,"Dapodi",11,33,FALSE
+350,2,"Bopodi",11,34,FALSE
+350,2,"Gopi Chawl",12,35,FALSE
+350,2,"Kharki Station",12,36,FALSE
+350,2,"Factory Hospital",12,37,FALSE
+350,2,"Kharki Post",12,38,FALSE
+350,2,"Raja Bunglow",13,39,FALSE
+350,2,"Poultry Farm",13,40,FALSE
+350,2,"Mariaai Gate",13,41,FALSE
+350,2,"Wakdewadi",13,42,FALSE
+350,2,"Labour Office",14,43,FALSE
+350,2,"Patil Estate",14,44,FALSE
+350,2,"Eng.College",14,45,FALSE
+350,2,"R.T.O",14,46,FALSE
+350,2,"Raja Bahaddur",15,47,FALSE
+350,2,"Tadiwala Road",15,48,FALSE
+350,2,"Pune Station",15,49,FALSE
+351,1,"Alandi",1,1,TRUE
+351,1,"S.T.Stand",1,2,TRUE
+351,1,"Dehu Phata",1,3,TRUE
+351,1,"Paduka Mandir",2,4,TRUE
+351,1,"Charholi Phata",2,5,TRUE
+351,1,"Chincha",2,6,TRUE
+351,1,"Aamba",3,7,TRUE
+351,1,"Tapkir wasti",3,8,TRUE
+351,1,"Dyaneshwar Old House",3,9,TRUE
+351,1,"Saimandir",3,10,TRUE
+351,1,"Magzine",4,11,TRUE
+351,1,"Gajanan mandir",4,12,TRUE
+351,1,"Dighi Corner(Odha)",4,13,TRUE
+351,1,"Shastri Chowk",4,14,TRUE
+351,1,"Bhosari",5,15,TRUE
+351,1,"Atlas",5,16,TRUE
+351,1,"Century enka Company",5,17,TRUE
+351,1,"Empatronics company",5,18,TRUE
+351,1,"Landewadi",6,19,TRUE
+351,1,"Philips",6,20,TRUE
+351,1,"M.I.D.C",7,21,TRUE
+351,1,"Police Station",7,22,TRUE
+351,1,"C.I.R.T",7,23,TRUE
+351,1,"Nashik Phata",7,24,TRUE
+351,1,"Shankarwadi",7,25,TRUE
+351,1,"Wallabhnagar",7,26,TRUE
+351,1,"Indian card Company",8,27,TRUE
+351,1,"H.A.Company",8,28,TRUE
+351,1,"Kharalwadi",8,29,TRUE
+351,1,"Pimpri Road",8,30,TRUE
+351,1,"Phinolex Company",9,31,TRUE
+351,1,"Chinchwad Station",9,32,TRUE
+351,1,"Lokmanya Hospital",10,33,TRUE
+351,1,"Auditorium",10,34,TRUE
+351,1,"Lpro Company",10,35,TRUE
+351,1,"Chinchwad Gao",11,36,TRUE
+351,1,"Walhekar wadi Corner",11,37,TRUE
+351,1,"Birla Hospital",11,38,TRUE
+351,1,"Datta Nagar",12,39,TRUE
+351,1,"Padmaji Mill",12,40,TRUE
+351,1,"Thergao Corner",12,41,TRUE
+351,1,"Dange Chowk",13,42,TRUE
+351,1,"Transport Nagari",13,43,TRUE
+351,1,"Tathawde",14,44,TRUE
+351,1,"Punawle",15,45,TRUE
+351,1,"Punawle Corner",15,46,TRUE
+351,1,"Tajane Wasti",16,47,TRUE
+351,1,"Nere Phata",16,48,TRUE
+351,1,"Primary School",16,49,TRUE
+351,1,"Jambe",17,50,TRUE
+351,2,"Jambe",1,1,FALSE
+351,2,"Primary School",2,2,FALSE
+351,2,"Nere Phata",2,3,FALSE
+351,2,"Tajane Wasti",2,4,FALSE
+351,2,"Punawle Corner",3,5,FALSE
+351,2,"Punawle",3,6,FALSE
+351,2,"Tathawde",4,7,FALSE
+351,2,"Transport Nagari",5,8,FALSE
+351,2,"Dange Chowk",5,9,FALSE
+351,2,"Thergao Corner",6,10,FALSE
+351,2,"Padmaji Mill",6,11,FALSE
+351,2,"Datta Nagar",6,12,FALSE
+351,2,"Birla Hospital",7,13,FALSE
+351,2,"Walhekar wadi Corner",7,14,FALSE
+351,2,"Chinchwad Gao",7,15,FALSE
+351,2,"Lpro Company",8,16,FALSE
+351,2,"Auditorium",8,17,FALSE
+351,2,"Lokmanya Hospital",8,18,FALSE
+351,2,"Chinchwad Station",9,19,FALSE
+351,2,"Phinolex Company",9,20,FALSE
+351,2,"Pimpri Road",10,21,FALSE
+351,2,"Kharalwadi",10,22,FALSE
+351,2,"H.A.Company",10,23,FALSE
+351,2,"Indian card Company",10,24,FALSE
+351,2,"Wallabhnagar",11,25,FALSE
+351,2,"Shankarwadi",11,26,FALSE
+351,2,"Nashik Phata",11,27,FALSE
+351,2,"C.I.R.T",11,28,FALSE
+351,2,"Police Station",11,29,FALSE
+351,2,"M.I.D.C",11,30,FALSE
+351,2,"Philips",12,31,FALSE
+351,2,"Landewadi",12,32,FALSE
+351,2,"Empatronics company",13,33,FALSE
+351,2,"Century enka Company",13,34,FALSE
+351,2,"Atlas",13,35,FALSE
+351,2,"Bhosari",13,36,FALSE
+351,2,"Shastri Chowk",14,37,FALSE
+351,2,"Dighi Corner(Odha)",14,38,FALSE
+351,2,"Gajanan mandir",14,39,FALSE
+351,2,"Magzine",14,40,FALSE
+351,2,"Saimandir",15,41,FALSE
+351,2,"Dyaneshwar Old House",15,42,FALSE
+351,2,"Tapkir wasti",15,43,FALSE
+351,2,"Aamba",15,44,FALSE
+351,2,"Chincha",16,45,FALSE
+351,2,"Charholi Phata",16,46,FALSE
+351,2,"Paduka Mandir",16,47,FALSE
+351,2,"Dehu Phata",17,48,FALSE
+351,2,"S.T.Stand",17,49,FALSE
+351,2,"Alandi",17,50,FALSE
+352,1,"Pune Station",1,1,TRUE
+352,1,"Gadital",1,2,TRUE
+352,1,"R.T.O",2,3,TRUE
+352,1,"Eng.College",2,4,TRUE
+352,1,"Patil Estate",2,5,TRUE
+352,1,"Labour Office",2,6,TRUE
+352,1,"Wakdewadi",3,7,TRUE
+352,1,"Mariaai Gate",3,8,TRUE
+352,1,"Poultry Farm",3,9,TRUE
+352,1,"Raja Bunglow",3,10,TRUE
+352,1,"Kharki Post",4,11,TRUE
+352,1,"Factory Hospital",4,12,TRUE
+352,1,"Kharki Station",4,13,TRUE
+352,1,"Gopi Chawl",4,14,TRUE
+352,1,"Bopodi",5,15,TRUE
+352,1,"Dapodi",5,16,TRUE
+352,1,"Phugewadi",6,17,TRUE
+352,1,"Sandwik Company",6,18,TRUE
+352,1,"Alpha Laval Company",6,19,TRUE
+352,1,"Marshall Company",6,20,TRUE
+352,1,"Kasarwadi",7,21,TRUE
+352,1,"Nashik Phata",7,22,TRUE
+352,1,"Shankarwadi",7,23,TRUE
+352,1,"Wallabhnagar",8,24,TRUE
+352,1,"Wadilal",8,25,TRUE
+352,1,"Y.C.M",8,26,TRUE
+352,1,"Maheshnagar",9,27,TRUE
+352,1,"Nehrunagar Corner",9,28,TRUE
+352,1,"Zero Boys",9,29,TRUE
+352,1,"Wastu Udyog",10,30,TRUE
+352,1,"Masulkar Colony",11,31,TRUE
+352,1,"Morwadi ",11,32,TRUE
+352,1,"Pimpri Court",12,33,TRUE
+352,1,"M.I.D.C Canteen",12,34,TRUE
+352,1,"K.S.B.Chowk",13,35,TRUE
+352,1,"R.T.O Office",13,36,TRUE
+352,1,"Mercedize Benze Corner",13,37,TRUE
+352,1,"Pawar Wasti",14,38,TRUE
+352,1,"Kudalwadi",14,39,TRUE
+352,1,"Jadhavwadi Phata",14,40,TRUE
+352,1,"Moi Phata",14,41,TRUE
+352,1,"Chikhali",15,42,TRUE
+352,2,"Chikhali",1,1,FALSE
+352,2,"Moi Phata",2,2,FALSE
+352,2,"Jadhavwadi Phata",2,3,FALSE
+352,2,"Kudalwadi",2,4,FALSE
+352,2,"Pawar Wasti",2,5,FALSE
+352,2,"Mercedize Benze Corner",3,6,FALSE
+352,2,"R.T.O Office",3,7,FALSE
+352,2,"K.S.B.Chowk",3,8,FALSE
+352,2,"M.I.D.C Canteen",4,9,FALSE
+352,2,"Pimpri Court",4,10,FALSE
+352,2,"Morwadi ",5,11,FALSE
+352,2,"Masulkar Colony",5,12,FALSE
+352,2,"Wastu Udyog",6,13,FALSE
+352,2,"Zero Boys",7,14,FALSE
+352,2,"Nehrunagar Corner",7,15,FALSE
+352,2,"Maheshnagar",7,16,FALSE
+352,2,"Y.C.M",8,17,FALSE
+352,2,"Wadilal",8,18,FALSE
+352,2,"Wallabhnagar",8,19,FALSE
+352,2,"Shankarwadi",9,20,FALSE
+352,2,"Nashik Phata",9,21,FALSE
+352,2,"Kasarwadi",9,22,FALSE
+352,2,"Marshall Company",10,23,FALSE
+352,2,"Alpha Laval Company",10,24,FALSE
+352,2,"Sandwik Company",10,25,FALSE
+352,2,"Phugewadi",10,26,FALSE
+352,2,"Dapodi",11,27,FALSE
+352,2,"Bopodi",11,28,FALSE
+352,2,"Gopi Chawl",12,29,FALSE
+352,2,"Kharki Station",12,30,FALSE
+352,2,"Factory Hospital",12,31,FALSE
+352,2,"Kharki Post",12,32,FALSE
+352,2,"Raja Bunglow",13,33,FALSE
+352,2,"Poultry Farm",13,34,FALSE
+352,2,"Mariaai Gate",13,35,FALSE
+352,2,"Wakdewadi",13,36,FALSE
+352,2,"Labour Office",14,37,FALSE
+352,2,"Patil Estate",14,38,FALSE
+352,2,"Eng.College",14,39,FALSE
+352,2,"R.T.O",14,40,FALSE
+352,2,"Gadital",15,41,FALSE
+352,2,"Pune Station",15,42,FALSE
+353,1,"Pimprigao",1,1,TRUE
+353,1,"Ashok Talkies",1,2,TRUE
+353,1,"Jaihind School",1,3,TRUE
+353,1,"Delux Talkies",2,4,TRUE
+353,1,"Karachi chowk",2,5,TRUE
+353,1,"Lal Mandir",2,6,TRUE
+353,1,"Bhatnagar",2,7,TRUE
+353,1,"Devi Link",3,8,TRUE
+353,1,"Bakawolf Colony",3,9,TRUE
+353,1,"Manik Colony",3,10,TRUE
+353,1,"Darshan Hall",3,11,TRUE
+353,1,"Kalika Mata Mandir",3,12,TRUE
+353,1,"Chinchwad Gao",4,13,TRUE
+353,1,"Lpro Company",4,14,TRUE
+353,1,"Auditorium",4,15,TRUE
+353,1,"Lokmanya Nagar",5,16,TRUE
+353,1,"Chinchwad Station",5,17,TRUE
+353,1,"Jayashri Talkies",5,18,TRUE
+353,1,"Mehta Hospital",5,19,TRUE
+353,1,"Kalbhornagar",5,20,TRUE
+353,1,"Ruston company",6,21,TRUE
+353,1,"Akurdi",6,22,TRUE
+353,1,"Bajaj auto",6,23,TRUE
+353,1,"Nigdi Corner",6,24,TRUE
+353,1,"Nigdi",7,25,TRUE
+353,1,"Bhakti Shakti ",7,26,TRUE
+353,1,"Transport Nagari",7,27,TRUE
+353,1,"Appughar Corner",7,28,TRUE
+353,1,"Appughar ",8,29,TRUE
+353,2,"Appughar ",1,1,FALSE
+353,2,"Appughar Corner",2,2,FALSE
+353,2,"Transport Nagari",2,3,FALSE
+353,2,"Bhakti Shakti ",2,4,FALSE
+353,2,"Nigdi",2,5,FALSE
+353,2,"Nigdi Corner",3,6,FALSE
+353,2,"Bajaj auto",3,7,FALSE
+353,2,"Akurdi",3,8,FALSE
+353,2,"Ruston company",3,9,FALSE
+353,2,"Kalbhornagar",4,10,FALSE
+353,2,"Mehta Hospital",4,11,FALSE
+353,2,"Jayashri Talkies",4,12,FALSE
+353,2,"Chinchwad Station",4,13,FALSE
+353,2,"Lokmanya Nagar",4,14,FALSE
+353,2,"Auditorium",5,15,FALSE
+353,2,"Lpro Company",5,16,FALSE
+353,2,"Chinchwad Gao",5,17,FALSE
+353,2,"Kalika Mata Mandir",6,18,FALSE
+353,2,"Darshan Hall",6,19,FALSE
+353,2,"Manik Colony",6,20,FALSE
+353,2,"Bakawolf Colony",6,21,FALSE
+353,2,"Devi Link",6,22,FALSE
+353,2,"Bhatnagar",7,23,FALSE
+353,2,"Lal Mandir",7,24,FALSE
+353,2,"Karachi chowk",7,25,FALSE
+353,2,"Delux Talkies",7,26,FALSE
+353,2,"Jaihind School",8,27,FALSE
+353,2,"Ashok Talkies",8,28,FALSE
+353,2,"Pimprigao",8,29,FALSE
+354,1,"Pune Station",1,1,TRUE
+354,1,"Old Bazaar",1,2,TRUE
+354,1,"R.T.O",2,3,TRUE
+354,1,"Eng.College",2,4,TRUE
+354,1,"Simla Office",2,5,TRUE
+354,1,"Mhasoba Gate",3,6,TRUE
+354,1,"Pumping station",3,7,TRUE
+354,1,"Rangehills Corner",3,8,TRUE
+354,1,"Polytechnic College",3,9,TRUE
+354,1,"Chaturshrungi",4,10,TRUE
+354,1,"Rajbhavan",4,11,TRUE
+354,1,"Gol market",4,12,TRUE
+354,1,"Kasturba zopadpatti",5,13,TRUE
+354,1,"Sindha Colony",5,14,TRUE
+354,1,"I.T.I Chowk",5,15,TRUE
+354,1,"Body gate",5,16,TRUE
+354,1,"Aundh Gao",6,17,TRUE
+354,1,"Sangvi Phata",6,18,TRUE
+354,1,"T.B.Hospital",6,19,TRUE
+354,1,"E.S.I. Hospital",6,20,TRUE
+354,1,"Aundh Pst",7,21,TRUE
+354,1,"Rakshak Society",7,22,TRUE
+354,1,"Millitary Wasahat",7,23,TRUE
+354,1,"Pimple Nilakh",8,24,TRUE
+354,2,"Pimple Nilakh",1,1,FALSE
+354,2,"Millitary Wasahat",2,2,FALSE
+354,2,"Rakshak Society",2,3,FALSE
+354,2,"Aundh Pst",2,4,FALSE
+354,2,"E.S.I. Hospital",3,5,FALSE
+354,2,"T.B.Hospital",3,6,FALSE
+354,2,"Sangvi Phata",3,7,FALSE
+354,2,"Aundh Gao",3,8,FALSE
+354,2,"Body gate",4,9,FALSE
+354,2,"I.T.I Chowk",4,10,FALSE
+354,2,"Sindha Colony",4,11,FALSE
+354,2,"Kasturba zopadpatti",4,12,FALSE
+354,2,"Gol market",5,13,FALSE
+354,2,"Rajbhavan",5,14,FALSE
+354,2,"Chaturshrungi",5,15,FALSE
+354,2,"Polytechnic College",6,16,FALSE
+354,2,"Rangehills Corner",6,17,FALSE
+354,2,"Pumping station",6,18,FALSE
+354,2,"Mhasoba Gate",6,19,FALSE
+354,2,"Simla Office",7,20,FALSE
+354,2,"Eng.College",7,21,FALSE
+354,2,"R.T.O",7,22,FALSE
+354,2,"Old Bazaar",8,23,FALSE
+354,2,"Pune Station",8,24,FALSE
+355,1,"Pimprigao",1,1,TRUE
+355,1,"Ashok Talkies",1,2,TRUE
+355,1,"Jaihind School",1,3,TRUE
+355,1,"Delux Talkies",2,4,TRUE
+355,1,"Karachi chowk",2,5,TRUE
+355,1,"Lal Mandir",2,6,TRUE
+355,1,"Bhatnagar",2,7,TRUE
+355,1,"Phinolex Company",3,8,TRUE
+355,1,"Chinchwad Station",3,9,TRUE
+355,1,"Jayashri Talkies",3,10,TRUE
+355,1,"Mehta Hospital",3,11,TRUE
+355,1,"Kalbhornagar",3,12,TRUE
+355,1,"Ruston company",4,13,TRUE
+355,1,"Khandoba Mal",4,14,TRUE
+355,1,"Thermax Company",5,15,TRUE
+355,1,"Ajantha Nagar Corner",5,16,TRUE
+355,1,"Kasturi Market",5,17,TRUE
+355,1,"Krishna Nagar Corner",5,18,TRUE
+355,1,"Sane Chowk",6,19,TRUE
+355,1,"More Wasti",6,20,TRUE
+355,1,"Chikhali Gao",7,21,TRUE
+355,2,"Chikhali Gao",1,1,FALSE
+355,2,"More Wasti",2,2,FALSE
+355,2,"Sane Chowk",2,3,FALSE
+355,2,"Krishna Nagar Corner",3,4,FALSE
+355,2,"Kasturi Market",3,5,FALSE
+355,2,"Ajantha Nagar Corner",3,6,FALSE
+355,2,"Thermax Company",3,7,FALSE
+355,2,"Khandoba Mal",4,8,FALSE
+355,2,"Ruston company",4,9,FALSE
+355,2,"Kalbhornagar",5,10,FALSE
+355,2,"Mehta Hospital",5,11,FALSE
+355,2,"Jayashri Talkies",5,12,FALSE
+355,2,"Chinchwad Station",5,13,FALSE
+355,2,"Phinolex Company",5,14,FALSE
+355,2,"Bhatnagar",6,15,FALSE
+355,2,"Lal Mandir",6,16,FALSE
+355,2,"Karachi chowk",6,17,FALSE
+355,2,"Delux Talkies",6,18,FALSE
+355,2,"Jaihind School",7,19,FALSE
+355,2,"Ashok Talkies",7,20,FALSE
+355,2,"Pimprigao",7,21,FALSE
+357,1,"Pune Station",1,1,TRUE
+357,1,"Gadital",1,2,TRUE
+357,1,"R.T.O",2,3,TRUE
+357,1,"Eng.College",2,4,TRUE
+357,1,"Patil Estate",2,5,TRUE
+357,1,"Labour Office",2,6,TRUE
+357,1,"Wakdewadi",3,7,TRUE
+357,1,"Mariaai Gate",3,8,TRUE
+357,1,"Poultry Farm",3,9,TRUE
+357,1,"Raja Bunglow",3,10,TRUE
+357,1,"Kharki Post",4,11,TRUE
+357,1,"Factory Hospital",4,12,TRUE
+357,1,"Kharki Station",4,13,TRUE
+357,1,"Gopi Chawl",4,14,TRUE
+357,1,"Bopodi",5,15,TRUE
+357,1,"Dapodi",5,16,TRUE
+357,1,"Phugewadi",6,17,TRUE
+357,1,"Sandwik Company",6,18,TRUE
+357,1,"Alpha Laval Company",6,19,TRUE
+357,1,"Marshall Company",6,20,TRUE
+357,1,"Kasarwadi",7,21,TRUE
+357,1,"Nashik Phata",7,22,TRUE
+357,1,"C.I.R.T",7,23,TRUE
+357,1,"Bhosari Police Station",7,24,TRUE
+357,1,"M.I.D.C",8,25,TRUE
+357,1,"Philips",8,26,TRUE
+357,1,"Landewadi",9,27,TRUE
+357,1,"Empatronics company",9,28,TRUE
+357,1,"Century enka Company",9,29,TRUE
+357,1,"Atlas",9,30,TRUE
+357,1,"Bhosari",10,31,TRUE
+357,1,"Dhawade Wasti",10,32,TRUE
+357,1,"Sadgurunagar / Desai Clinic",10,33,TRUE
+357,1,"Kachara Depo",11,34,TRUE
+357,1,"Panjarpol",11,35,TRUE
+357,1,"Wakhar Mahamandal",11,36,TRUE
+357,1,"Tanna Protex",11,37,TRUE
+357,1,"Old Jakat Naka",11,38,TRUE
+357,1,"Borate Wasti",12,39,TRUE
+357,1,"Bankar Wasti",12,40,TRUE
+357,1,"Chaudhari Dhaba",12,41,TRUE
+357,1,"Moshi Gao",13,42,TRUE
+357,1,"Hood Company",13,43,TRUE
+357,1,"Indrayani Nagar",13,44,TRUE
+357,1,"Moshi Phata / Chimbli Phata",14,45,TRUE
+357,1,"Gayakwad Wasti",14,46,TRUE
+357,1,"Kuruli Gao",15,47,TRUE
+357,1,"Sankesh Model Colony",15,48,TRUE
+357,1,"Alandi Gao Phata",16,49,TRUE
+357,1,"Gite Wasti",16,50,TRUE
+357,1,"Vijay Oil Mill",16,51,TRUE
+357,1,"Petrol Pump",16,52,TRUE
+357,1,"Chakan S.T.Stand",17,53,TRUE
+357,1,"Bank Of India",17,54,TRUE
+357,1,"Mahatma Phule Chowk",17,55,TRUE
+357,1,"Maruti Mandir",17,56,TRUE
+357,1,"Chakan Market Yard",17,57,TRUE
+357,1,"Protacto Company",18,58,TRUE
+357,1,"Vaki Khurd",18,59,TRUE
+357,1,"Rohkal Phata",18,60,TRUE
+357,1,"Bham",19,61,TRUE
+357,1,"Waki Budruk",19,62,TRUE
+357,1,"Kad Wasti",19,63,TRUE
+357,1,"Khadi Machin",20,64,TRUE
+357,1,"Ghata Khali / Poker Wasti",20,65,TRUE
+357,1,"Shiroli Phata",20,66,TRUE
+357,1,"Pite Phata / Shiroli Phata",21,67,TRUE
+357,1,"Bhandari Company / Wadekar Wasti",21,68,TRUE
+357,1,"Kanda-Lasun Sanshodhan Kendra",21,69,TRUE
+357,1,"Kadus Phata",21,70,TRUE
+357,1,"Rajgurunagar Vidyalaya",21,71,TRUE
+357,1,"Old S.T.Stand",21,72,TRUE
+357,1,"Rajgurunagar / Khed",22,73,TRUE
+357,2,"Rajgurunagar / Khed",1,1,FALSE
+357,2,"Old S.T.Stand",2,2,FALSE
+357,2,"Rajgurunagar Vidyalaya",2,3,FALSE
+357,2,"Kadus Phata",2,4,FALSE
+357,2,"Kanda-Lasun Sanshodhan Kendra",2,5,FALSE
+357,2,"Bhandari Company / Wadekar Wasti",2,6,FALSE
+357,2,"Pite Phata / Shiroli Phata",2,7,FALSE
+357,2,"Shiroli Phata",3,8,FALSE
+357,2,"Ghata Khali / Poker Wasti",3,9,FALSE
+357,2,"Khadi Machin",3,10,FALSE
+357,2,"Kad Wasti",4,11,FALSE
+357,2,"Waki Budruk",4,12,FALSE
+357,2,"Bham",4,13,FALSE
+357,2,"Rohkal Phata",5,14,FALSE
+357,2,"Vaki Khurd",5,15,FALSE
+357,2,"Protacto Company",5,16,FALSE
+357,2,"Chakan Market Yard",6,17,FALSE
+357,2,"Maruti Mandir",6,18,FALSE
+357,2,"Mahatma Phule Chowk",6,19,FALSE
+357,2,"Bank Of India",6,20,FALSE
+357,2,"Chakan S.T.Stand",6,21,FALSE
+357,2,"Petrol Pump",7,22,FALSE
+357,2,"Vijay Oil Mill",7,23,FALSE
+357,2,"Gite Wasti",7,24,FALSE
+357,2,"Alandi Gao Phata",7,25,FALSE
+357,2,"Sankesh Model Colony",8,26,FALSE
+357,2,"Kuruli Gao",8,27,FALSE
+357,2,"Gayakwad Wasti",9,28,FALSE
+357,2,"Moshi Phata / Chimbli Phata",9,29,FALSE
+357,2,"Indrayani Nagar",10,30,FALSE
+357,2,"Hood Company",10,31,FALSE
+357,2,"Moshi Gao",10,32,FALSE
+357,2,"Chaudhari Dhaba",11,33,FALSE
+357,2,"Bankar Wasti",11,34,FALSE
+357,2,"Borate Wasti",11,35,FALSE
+357,2,"Old Jakat Naka",12,36,FALSE
+357,2,"Tanna Protex",12,37,FALSE
+357,2,"Wakhar Mahamandal",12,38,FALSE
+357,2,"Panjarpol",12,39,FALSE
+357,2,"Kachara Depo",12,40,FALSE
+357,2,"Sadgurunagar / Desai Clinic",13,41,FALSE
+357,2,"Dhawade Wasti",13,42,FALSE
+357,2,"Bhosari",13,43,FALSE
+357,2,"Atlas",14,44,FALSE
+357,2,"Century enka Company",14,45,FALSE
+357,2,"Empatronics company",14,46,FALSE
+357,2,"Landewadi",14,47,FALSE
+357,2,"Philips",15,48,FALSE
+357,2,"M.I.D.C",15,49,FALSE
+357,2,"Bhosari Police Station",16,50,FALSE
+357,2,"C.I.R.T",16,51,FALSE
+357,2,"Nashik Phata",16,52,FALSE
+357,2,"Kasarwadi",16,53,FALSE
+357,2,"Marshall Company",17,54,FALSE
+357,2,"Alpha Laval Company",17,55,FALSE
+357,2,"Sandwik Company",17,56,FALSE
+357,2,"Phugewadi",17,57,FALSE
+357,2,"Dapodi",18,58,FALSE
+357,2,"Bopodi",18,59,FALSE
+357,2,"Gopi Chawl",19,60,FALSE
+357,2,"Kharki Station",19,61,FALSE
+357,2,"Factory Hospital",19,62,FALSE
+357,2,"Kharki Post",19,63,FALSE
+357,2,"Raja Bunglow",20,64,FALSE
+357,2,"Poultry Farm",20,65,FALSE
+357,2,"Mariaai Gate",20,66,FALSE
+357,2,"Wakdewadi",20,67,FALSE
+357,2,"Labour Office",21,68,FALSE
+357,2,"Patil Estate",21,69,FALSE
+357,2,"Eng.College",21,70,FALSE
+357,2,"R.T.O",21,71,FALSE
+357,2,"Gadital",22,72,FALSE
+357,2,"Pune Station",22,73,FALSE
+360,1,"Alandi",1,1,TRUE
+360,1,"S.T.Stand",1,2,TRUE
+360,1,"Dehu Phata",1,3,TRUE
+360,1,"Paduka Mandir",2,4,TRUE
+360,1,"Charholi Phata",2,5,TRUE
+360,1,"Chincha",2,6,TRUE
+360,1,"Aamba",3,7,TRUE
+360,1,"Tapkir wasti",3,8,TRUE
+360,1,"Dyaneshwar Old House",3,9,TRUE
+360,1,"Saimandir",3,10,TRUE
+360,1,"Magzine",4,11,TRUE
+360,1,"Gajanan mandir",4,12,TRUE
+360,1,"Dighi Corner(Odha)",4,13,TRUE
+360,1,"Shastri Chowk",4,14,TRUE
+360,1,"Bhosari",5,15,TRUE
+360,1,"Atlas",5,16,TRUE
+360,1,"Century enka Company",5,17,TRUE
+360,1,"Empatronics company",5,18,TRUE
+360,1,"Landewadi",6,19,TRUE
+360,1,"Philips",6,20,TRUE
+360,1,"M.I.D.C",7,21,TRUE
+360,1,"Police Station",7,22,TRUE
+360,1,"C.I.R.T",7,23,TRUE
+360,1,"Nashik Phata",7,24,TRUE
+360,1,"Shankarwadi",7,25,TRUE
+360,1,"Wallabhnagar",7,26,TRUE
+360,1,"Indian card Company",8,27,TRUE
+360,1,"H.A.Company",8,28,TRUE
+360,1,"Kharalwadi",8,29,TRUE
+360,1,"Pimpri Road",8,30,TRUE
+360,1,"Phinolex Company",9,31,TRUE
+360,1,"Chinchwad Station",9,32,TRUE
+360,1,"Lokmanya Hospital",10,33,TRUE
+360,1,"Auditorium",10,34,TRUE
+360,1,"Lpro Company",10,35,TRUE
+360,1,"Chinchwad Gao",11,36,TRUE
+360,1,"Walhekar wadi Corner",11,37,TRUE
+360,1,"Birla Hospital",11,38,TRUE
+360,1,"Datta Nagar",12,39,TRUE
+360,1,"Padmaji Mill",12,40,TRUE
+360,1,"Thergao Corner",12,41,TRUE
+360,1,"Dange Chowk",13,42,TRUE
+360,1,"Vitbhatti",13,43,TRUE
+360,1,"Wakad",14,44,TRUE
+360,1,"Wakad Phata",14,45,TRUE
+360,1,"Stadium",15,46,TRUE
+360,1,"Mhalunge Phata",15,47,TRUE
+360,1,"Priyanka Park",16,48,TRUE
+360,1,"Baner ",17,49,TRUE
+360,1,"Balewadi",18,50,TRUE
+360,2,"Balewadi",1,1,FALSE
+360,2,"Baner ",2,2,FALSE
+360,2,"Priyanka Park",3,3,FALSE
+360,2,"Mhalunge Phata",4,4,FALSE
+360,2,"Stadium",4,5,FALSE
+360,2,"Wakad Phata",5,6,FALSE
+360,2,"Wakad",5,7,FALSE
+360,2,"Vitbhatti",6,8,FALSE
+360,2,"Dange Chowk",6,9,FALSE
+360,2,"Thergao Corner",7,10,FALSE
+360,2,"Padmaji Mill",7,11,FALSE
+360,2,"Datta Nagar",7,12,FALSE
+360,2,"Birla Hospital",8,13,FALSE
+360,2,"Walhekar wadi Corner",8,14,FALSE
+360,2,"Chinchwad Gao",8,15,FALSE
+360,2,"Lpro Company",9,16,FALSE
+360,2,"Auditorium",9,17,FALSE
+360,2,"Lokmanya Hospital",9,18,FALSE
+360,2,"Chinchwad Station",10,19,FALSE
+360,2,"Phinolex Company",10,20,FALSE
+360,2,"Pimpri Road",11,21,FALSE
+360,2,"Kharalwadi",11,22,FALSE
+360,2,"H.A.Company",11,23,FALSE
+360,2,"Indian card Company",11,24,FALSE
+360,2,"Wallabhnagar",12,25,FALSE
+360,2,"Shankarwadi",12,26,FALSE
+360,2,"Nashik Phata",12,27,FALSE
+360,2,"C.I.R.T",12,28,FALSE
+360,2,"Police Station",12,29,FALSE
+360,2,"M.I.D.C",12,30,FALSE
+360,2,"Philips",13,31,FALSE
+360,2,"Landewadi",13,32,FALSE
+360,2,"Empatronics company",14,33,FALSE
+360,2,"Century enka Company",14,34,FALSE
+360,2,"Atlas",14,35,FALSE
+360,2,"Bhosari",14,36,FALSE
+360,2,"Shastri Chowk",15,37,FALSE
+360,2,"Dighi Corner(Odha)",15,38,FALSE
+360,2,"Gajanan mandir",15,39,FALSE
+360,2,"Magzine",15,40,FALSE
+360,2,"Saimandir",16,41,FALSE
+360,2,"Dyaneshwar Old House",16,42,FALSE
+360,2,"Tapkir wasti",16,43,FALSE
+360,2,"Aamba",16,44,FALSE
+360,2,"Chincha",17,45,FALSE
+360,2,"Charholi Phata",17,46,FALSE
+360,2,"Paduka Mandir",17,47,FALSE
+360,2,"Dehu Phata",18,48,FALSE
+360,2,"S.T.Stand",18,49,FALSE
+360,2,"Alandi",18,50,FALSE
+363,1,"Pune Station",1,1,TRUE
+363,1,"Ruby Hall",1,2,TRUE
+363,1,"Wadia College",1,3,TRUE
+363,1,"Bundgarden",2,4,TRUE
+363,1,"Yerawada",2,5,TRUE
+363,1,"Sadalbaba",2,6,TRUE
+363,1,"U.P.Hotel",3,7,TRUE
+363,1,"Deccan college",3,8,TRUE
+363,1,"Sapras Post",3,9,TRUE
+363,1,"Holkar pool corner",3,10,TRUE
+363,1,"Holkar Water Supply",3,11,TRUE
+363,1,"Church",4,12,TRUE
+363,1,"Factory Road",4,13,TRUE
+363,1,"Kharki Bazaar",4,14,TRUE
+363,1,"Alegaonkar school",4,15,TRUE
+363,1,"Kirloskar Oil Engine",4,16,TRUE
+363,1,"Bopodi",5,17,TRUE
+363,1,"Dapodi",5,18,TRUE
+363,1,"Phugewadi",6,19,TRUE
+363,1,"Sandwik Company",6,20,TRUE
+363,1," Alpha laval Company",6,21,TRUE
+363,1,"Marshall Company",6,22,TRUE
+363,1,"Kasarwadi",7,23,TRUE
+363,1,"Nashik Phata",7,24,TRUE
+363,1,"Shankarwadi",7,25,TRUE
+363,1,"Wallabhnagar",7,26,TRUE
+363,1,"Indian card Company",8,27,TRUE
+363,1,"H.A.Company",8,28,TRUE
+363,1,"Kharalwadi",8,29,TRUE
+363,1,"Pimpri road",8,30,TRUE
+363,1,"Phinolex Company",9,31,TRUE
+363,1,"Empire Estate",9,32,TRUE
+363,1,"Chinchwad Station",9,33,TRUE
+363,1,"Jayashri Talkies",9,34,TRUE
+363,1,"Mehta Hospital",9,35,TRUE
+363,1,"Kalbhornagar",9,36,TRUE
+363,1,"Ruston company",10,37,TRUE
+363,1,"Akurdi, Khandobamal",10,38,TRUE
+363,1,"Bajaj auto",10,39,TRUE
+363,1,"Nigdi Corner",10,40,TRUE
+363,1,"Nigdi",11,41,TRUE
+363,1,"Bhakti Shakti ",11,42,TRUE
+363,1,"Cantonment Board",11,43,TRUE
+363,1,"Kohima Line",12,44,TRUE
+363,1,"Vhisab Depo",12,45,TRUE
+363,1,"Kendriya Vidyalaya",12,46,TRUE
+363,1,"Garden city",13,47,TRUE
+363,1,"C.I.S.V",13,48,TRUE
+363,1,"Dehu Phata",13,49,TRUE
+363,1,"Bank Of India",13,50,TRUE
+363,1,"Dehu road Bazaar",13,51,TRUE
+363,1,"Shitalanagar",14,52,TRUE
+363,1,"Indraprabha / Mamurdi",14,53,TRUE
+363,1,"Kiwale Phata",15,54,TRUE
+363,1,"Shelke Wasti",15,55,TRUE
+363,1,"Kiwale",16,56,TRUE
+363,2,"Kiwale",1,1,FALSE
+363,2,"Shelke Wasti",2,2,FALSE
+363,2,"Kiwale Phata",2,3,FALSE
+363,2,"Indraprabha / Mamurdi",3,4,FALSE
+363,2,"Shitalanagar",3,5,FALSE
+363,2,"Dehu road Bazaar",4,6,FALSE
+363,2,"Bank Of India",4,7,FALSE
+363,2,"Dehu Phata",4,8,FALSE
+363,2,"C.I.S.V",4,9,FALSE
+363,2,"Garden city",4,10,FALSE
+363,2,"Kendriya Vidyalaya",5,11,FALSE
+363,2,"Vhisab Depo",5,12,FALSE
+363,2,"Kohima Line",5,13,FALSE
+363,2,"Cantonment Board",6,14,FALSE
+363,2,"Bhakti Shakti ",6,15,FALSE
+363,2,"Nigdi",6,16,FALSE
+363,2,"Nigdi Corner",7,17,FALSE
+363,2,"Bajaj auto",7,18,FALSE
+363,2,"Akurdi, Khandobamal",7,19,FALSE
+363,2,"Ruston company",7,20,FALSE
+363,2,"Kalbhornagar",8,21,FALSE
+363,2,"Mehta Hospital",8,22,FALSE
+363,2,"Jayashri Talkies",8,23,FALSE
+363,2,"Chinchwad Station",8,24,FALSE
+363,2,"Empire Estate",8,25,FALSE
+363,2,"Phinolex Company",8,26,FALSE
+363,2,"Pimpri road",9,27,FALSE
+363,2,"Kharalwadi",9,28,FALSE
+363,2,"H.A.Company",9,29,FALSE
+363,2,"Indian card Company",9,30,FALSE
+363,2,"Wallabhnagar",10,31,FALSE
+363,2,"Shankarwadi",10,32,FALSE
+363,2,"Nashik Phata",10,33,FALSE
+363,2,"Kasarwadi",10,34,FALSE
+363,2,"Marshall Company",11,35,FALSE
+363,2," Alpha laval Company",11,36,FALSE
+363,2,"Sandwik Company",11,37,FALSE
+363,2,"Phugewadi",11,38,FALSE
+363,2,"Dapodi",12,39,FALSE
+363,2,"Bopodi",12,40,FALSE
+363,2,"Kirloskar Oil Engine",13,41,FALSE
+363,2,"Alegaonkar school",13,42,FALSE
+363,2,"Kharki Bazaar",13,43,FALSE
+363,2,"Factory Road",13,44,FALSE
+363,2,"Church",13,45,FALSE
+363,2,"Holkar Water Supply",14,46,FALSE
+363,2,"Holkar pool corner",14,47,FALSE
+363,2,"Sapras Post",14,48,FALSE
+363,2,"Deccan college",14,49,FALSE
+363,2,"U.P.Hotel",14,50,FALSE
+363,2,"Sadalbaba",15,51,FALSE
+363,2,"Yerawada",15,52,FALSE
+363,2,"Bundgarden",15,53,FALSE
+363,2,"Wadia College",16,54,FALSE
+363,2,"Ruby Hall",16,55,FALSE
+363,2,"Pune Station",16,56,FALSE
+365,1,"Pune Station",1,1,TRUE
+365,1,"Tadiwala Road",1,2,TRUE
+365,1,"Raja Bahaddur",1,3,TRUE
+365,1,"R.T.O",2,4,TRUE
+365,1,"Eng.College",2,5,TRUE
+365,1,"Patil Estate",2,6,TRUE
+365,1,"Labour Office",2,7,TRUE
+365,1,"Wakdewadi",3,8,TRUE
+365,1,"Mariaai Gate",3,9,TRUE
+365,1,"Poultry Farm",3,10,TRUE
+365,1,"Raja Bunglow",3,11,TRUE
+365,1,"Kharki Post",4,12,TRUE
+365,1,"Factory Hospital",4,13,TRUE
+365,1,"Kharki Station",4,14,TRUE
+365,1,"Gopi Chawl",4,15,TRUE
+365,1,"Bopodi",5,16,TRUE
+365,1,"Dapodi",5,17,TRUE
+365,1,"Phugewadi",6,18,TRUE
+365,1,"Sandwik Company",6,19,TRUE
+365,1,"Alpha Laval Company",6,20,TRUE
+365,1,"Marshall Company",6,21,TRUE
+365,1,"Kasarwadi",7,22,TRUE
+365,1,"Nashik Phata",7,23,TRUE
+365,1,"Shankarwadi",7,24,TRUE
+365,1,"Wallabhnagar",8,25,TRUE
+365,1,"Wadilal",8,26,TRUE
+365,1,"Y.C.M",8,27,TRUE
+365,1,"Maheshnagar Corner",8,28,TRUE
+365,1,"D.Y.Patil college",9,29,TRUE
+365,1,"H.A.Company",9,30,TRUE
+365,1,"Kharalwadi",9,31,TRUE
+365,1,"Pimpri Road",9,32,TRUE
+365,1,"Phinolex Company",10,33,TRUE
+365,1,"Empire Estate",10,34,TRUE
+365,1,"Chinchwad Station",10,35,TRUE
+365,1,"Jayashri Talkies",10,36,TRUE
+365,1,"Mehta Hospital",10,37,TRUE
+365,1,"Kalbhornagar",10,38,TRUE
+365,1,"Ruston Company",11,39,TRUE
+365,1,"Akurdi",11,40,TRUE
+365,1,"Bajaj auto",11,41,TRUE
+365,1,"Nigdi Corner",11,42,TRUE
+365,1,"Nigdi ",12,43,TRUE
+365,1,"Bhakti Shakti ",12,44,TRUE
+365,1,"Cantonment Board",12,45,TRUE
+365,1,"Kohima Line",13,46,TRUE
+365,1,"Vhisab Depo",13,47,TRUE
+365,1,"Kendriya Vidyalaya",13,48,TRUE
+365,1,"Garden city",14,49,TRUE
+365,1,"C.I.S.V",14,50,TRUE
+365,1,"Dehu Phata",14,51,TRUE
+365,1,"Bank Of India",14,52,TRUE
+365,1,"Dehu road Bazaar",14,53,TRUE
+365,1,"Gurudwara",15,54,TRUE
+365,1,"Cantonment Hospital",15,55,TRUE
+365,1,"Dehuroad Police Line",15,56,TRUE
+365,1,"Central Restaurant",15,57,TRUE
+365,1,"KrishnaMandir",15,58,TRUE
+365,1,"Indrayani Darshan",16,59,TRUE
+365,1,"Amarjai Mandir",16,60,TRUE
+365,1,"Shankarwadi",16,61,TRUE
+365,1,"Shelarwadi",16,62,TRUE
+365,1,"Poona Poltry",17,63,TRUE
+365,1,"Somatane Phata",17,64,TRUE
+365,1,"Talegao Khind",17,65,TRUE
+365,1,"Talegao Phata",18,66,TRUE
+365,1,"Bhandari Hospital",18,67,TRUE
+365,1,"Maruti Mandir",18,68,TRUE
+365,1,"Talegao",19,69,TRUE
+365,1,"Talegao Nagarparishad",19,70,TRUE
+365,1,"Talegao Station",20,71,TRUE
+365,1,"Eagle Flask",20,72,TRUE
+365,1,"Petrol Pump",20,73,TRUE
+365,1,"Samartha Vidyalay",20,74,TRUE
+365,1,"Paisa Fund",21,75,TRUE
+365,1,"Wadgao Phata",21,76,TRUE
+365,1,"Deccan Poltry",22,77,TRUE
+365,1,"Wadgao Corner",22,78,TRUE
+365,1,"Maruti Mandir",22,79,TRUE
+365,1,"Wadgao Maval",23,80,TRUE
+365,1,"Wireless",23,81,TRUE
+365,1,"Bramhanwadi",23,82,TRUE
+365,1,"Classic Hotel",24,83,TRUE
+365,1,"Sher -e-Punjab",24,84,TRUE
+365,1,"Kane Phata",25,85,TRUE
+365,1,"Sai Dham",25,86,TRUE
+365,1,"Naigao",26,87,TRUE
+365,1,"Kamshet Corner",26,88,TRUE
+365,1,"Bhaji Mandai",26,89,TRUE
+365,1,"Kamshet",27,90,TRUE
+365,2,"Kamshet",1,1,FALSE
+365,2,"Bhaji Mandai",2,2,FALSE
+365,2,"Kamshet Corner",2,3,FALSE
+365,2,"Naigao",2,4,FALSE
+365,2,"Sai Dham",3,5,FALSE
+365,2,"Kane Phata",3,6,FALSE
+365,2,"Sher -e-Punjab",4,7,FALSE
+365,2,"Classic Hotel",4,8,FALSE
+365,2,"Bramhanwadi",5,9,FALSE
+365,2,"Wireless",5,10,FALSE
+365,2,"Wadgao Maval",5,11,FALSE
+365,2,"Maruti Mandir",6,12,FALSE
+365,2,"Wadgao Corner",6,13,FALSE
+365,2,"Deccan Poltry",6,14,FALSE
+365,2,"Wadgao Phata",7,15,FALSE
+365,2,"Paisa Fund",7,16,FALSE
+365,2,"Samartha Vidyalay",8,17,FALSE
+365,2,"Petrol Pump",8,18,FALSE
+365,2,"Eagle Flask",8,19,FALSE
+365,2,"Talegao Station",8,20,FALSE
+365,2,"Talegao Nagarparishad",9,21,FALSE
+365,2,"Talegao",9,22,FALSE
+365,2,"Maruti Mandir",10,23,FALSE
+365,2,"Bhandari Hospital",10,24,FALSE
+365,2,"Talegao Phata",10,25,FALSE
+365,2,"Talegao Khind",11,26,FALSE
+365,2,"Somatane Phata",11,27,FALSE
+365,2,"Poona Poltry",11,28,FALSE
+365,2,"Shelarwadi",12,29,FALSE
+365,2,"Shankarwadi",12,30,FALSE
+365,2,"Amarjai Mandir",12,31,FALSE
+365,2,"Indrayani Darshan",12,32,FALSE
+365,2,"KrishnaMandir",13,33,FALSE
+365,2,"Central Restaurant",13,34,FALSE
+365,2,"Dehuroad Police Line",13,35,FALSE
+365,2,"Cantonment Hospital",13,36,FALSE
+365,2,"Gurudwara",13,37,FALSE
+365,2,"Dehu road Bazaar",14,38,FALSE
+365,2,"Bank Of India",14,39,FALSE
+365,2,"Dehu Phata",14,40,FALSE
+365,2,"C.I.S.V",14,41,FALSE
+365,2,"Garden city",14,42,FALSE
+365,2,"Kendriya Vidyalaya",15,43,FALSE
+365,2,"Vhisab Depo",15,44,FALSE
+365,2,"Kohima Line",15,45,FALSE
+365,2,"Cantonment Board",16,46,FALSE
+365,2,"Bhakti Shakti ",16,47,FALSE
+365,2,"Nigdi ",16,48,FALSE
+365,2,"Nigdi Corner",17,49,FALSE
+365,2,"Bajaj auto",17,50,FALSE
+365,2,"Akurdi",17,51,FALSE
+365,2,"Ruston Company",17,52,FALSE
+365,2,"Kalbhornagar",18,53,FALSE
+365,2,"Mehta Hospital",18,54,FALSE
+365,2,"Jayashri Talkies",18,55,FALSE
+365,2,"Chinchwad Station",18,56,FALSE
+365,2,"Empire Estate",18,57,FALSE
+365,2,"Phinolex Company",18,58,FALSE
+365,2,"Pimpri Road",19,59,FALSE
+365,2,"Kharalwadi",19,60,FALSE
+365,2,"H.A.Company",19,61,FALSE
+365,2,"D.Y.Patil college",19,62,FALSE
+365,2,"Maheshnagar Corner",20,63,FALSE
+365,2,"Y.C.M",20,64,FALSE
+365,2,"Wadilal",20,65,FALSE
+365,2,"Wallabhnagar",20,66,FALSE
+365,2,"Shankarwadi",21,67,FALSE
+365,2,"Nashik Phata",21,68,FALSE
+365,2,"Kasarwadi",21,69,FALSE
+365,2,"Marshall Company",22,70,FALSE
+365,2,"Alpha Laval Company",22,71,FALSE
+365,2,"Sandwik Company",22,72,FALSE
+365,2,"Phugewadi",22,73,FALSE
+365,2,"Dapodi",23,74,FALSE
+365,2,"Bopodi",23,75,FALSE
+365,2,"Gopi Chawl",24,76,FALSE
+365,2,"Kharki Station",24,77,FALSE
+365,2,"Factory Hospital",24,78,FALSE
+365,2,"Kharki Post",24,79,FALSE
+365,2,"Raja Bunglow",25,80,FALSE
+365,2,"Poultry Farm",25,81,FALSE
+365,2,"Mariaai Gate",25,82,FALSE
+365,2,"Wakdewadi",25,83,FALSE
+365,2,"Labour Office",26,84,FALSE
+365,2,"Patil Estate",26,85,FALSE
+365,2,"Eng.College",26,86,FALSE
+365,2,"R.T.O",26,87,FALSE
+365,2,"Raja Bahaddur",27,88,FALSE
+365,2,"Tadiwala Road",27,89,FALSE
+365,2,"Pune Station",27,90,FALSE
+366,1,"Pune Station",1,1,TRUE
+366,1,"Ruby Hall",1,2,TRUE
+366,1,"Wadia College",1,3,TRUE
+366,1,"Bundgarden",2,4,TRUE
+366,1,"Yerawada",2,5,TRUE
+366,1,"Sadalbaba",2,6,TRUE
+366,1,"U.P.Hotel",3,7,TRUE
+366,1,"Deccan college",3,8,TRUE
+366,1,"Sapras Post",3,9,TRUE
+366,1,"Holkar pool corner",3,10,TRUE
+366,1,"Holkar Water Supply",3,11,TRUE
+366,1,"Church",4,12,TRUE
+366,1,"Factory Road",4,13,TRUE
+366,1,"Kharki Bazaar",4,14,TRUE
+366,1,"Alegaonkar school",4,15,TRUE
+366,1,"Kirloskar Oil Engine",4,16,TRUE
+366,1,"Bopodi",5,17,TRUE
+366,1,"Dapodi",5,18,TRUE
+366,1,"Phugewadi",6,19,TRUE
+366,1,"Sandwik Company",6,20,TRUE
+366,1," Alpha laval Company",6,21,TRUE
+366,1,"Marshall Company",6,22,TRUE
+366,1,"Kasarwadi",7,23,TRUE
+366,1,"Nashik Phata",7,24,TRUE
+366,1,"Shankarwadi",7,25,TRUE
+366,1,"Wallabhnagar",7,26,TRUE
+366,1,"Indian card Company",8,27,TRUE
+366,1,"H.A.Company",8,28,TRUE
+366,1,"Kharalwadi",8,29,TRUE
+366,1,"Pimpri road",8,30,TRUE
+366,1,"Phinolex Company",9,31,TRUE
+366,1,"Empire Estate",9,32,TRUE
+366,1,"Chinchwad Station",9,33,TRUE
+366,1,"Jayashri Talkies",9,34,TRUE
+366,1,"Mehta Hospital",9,35,TRUE
+366,1,"Kalbhornagar",9,36,TRUE
+366,1,"Ruston company",10,37,TRUE
+366,1,"Akurdi, Khandobamal",10,38,TRUE
+366,1,"Bajaj auto",10,39,TRUE
+366,1,"Nigdi Corner",10,40,TRUE
+366,1,"Nigdi",11,41,TRUE
+366,1,"Bhakti Shakti ",11,42,TRUE
+366,2,"Bhakti Shakti ",1,1,FALSE
+366,2,"Nigdi",1,2,FALSE
+366,2,"Nigdi Corner",2,3,FALSE
+366,2,"Bajaj auto",2,4,FALSE
+366,2,"Akurdi, Khandobamal",2,5,FALSE
+366,2,"Ruston company",2,6,FALSE
+366,2,"Kalbhornagar",3,7,FALSE
+366,2,"Mehta Hospital",3,8,FALSE
+366,2,"Jayashri Talkies",3,9,FALSE
+366,2,"Chinchwad Station",3,10,FALSE
+366,2,"Empire Estate",3,11,FALSE
+366,2,"Phinolex Company",3,12,FALSE
+366,2,"Pimpri road",4,13,FALSE
+366,2,"Kharalwadi",4,14,FALSE
+366,2,"H.A.Company",4,15,FALSE
+366,2,"Indian card Company",4,16,FALSE
+366,2,"Wallabhnagar",5,17,FALSE
+366,2,"Shankarwadi",5,18,FALSE
+366,2,"Nashik Phata",5,19,FALSE
+366,2,"Kasarwadi",5,20,FALSE
+366,2,"Marshall Company",6,21,FALSE
+366,2," Alpha laval Company",6,22,FALSE
+366,2,"Sandwik Company",6,23,FALSE
+366,2,"Phugewadi",6,24,FALSE
+366,2,"Dapodi",7,25,FALSE
+366,2,"Bopodi",7,26,FALSE
+366,2,"Kirloskar Oil Engine",8,27,FALSE
+366,2,"Alegaonkar school",8,28,FALSE
+366,2,"Kharki Bazaar",8,29,FALSE
+366,2,"Factory Road",8,30,FALSE
+366,2,"Church",8,31,FALSE
+366,2,"Holkar Water Supply",9,32,FALSE
+366,2,"Holkar pool corner",9,33,FALSE
+366,2,"Sapras Post",9,34,FALSE
+366,2,"Deccan college",9,35,FALSE
+366,2,"U.P.Hotel",9,36,FALSE
+366,2,"Sadalbaba",10,37,FALSE
+366,2,"Yerawada",10,38,FALSE
+366,2,"Bundgarden",10,39,FALSE
+366,2,"Wadia College",11,40,FALSE
+366,2,"Ruby Hall",11,41,FALSE
+366,2,"Pune Station",11,42,FALSE
+367,1,"Nigdi ",1,1,TRUE
+367,1,"Sweet Mart",1,2,TRUE
+367,1,"L.I.C Corner",1,3,TRUE
+367,1,"Yamuna Nagar Corner",2,4,TRUE
+367,1,"Ajantha Nagar",2,5,TRUE
+367,1,"Ajantha Nagar Corner",2,6,TRUE
+367,1,"Kamalnayan Bajaj School",2,7,TRUE
+367,1,"Sarpodyan",3,8,TRUE
+367,1,"Balaji Kata Corner",3,9,TRUE
+367,1,"H.D.F.C",3,10,TRUE
+367,1,"K.S.B.Chowk",4,11,TRUE
+367,1,"Telco Company",4,12,TRUE
+367,1,"Telco Hostel",4,13,TRUE
+367,1,"Yashwantnagar",4,14,TRUE
+367,1,"Gawalimatha",5,15,TRUE
+367,1,"Zenith Company",5,16,TRUE
+367,1,"Power House",5,17,TRUE
+367,1,"Century enka Company",5,18,TRUE
+367,1,"Electronic House",5,19,TRUE
+367,1,"Landewadi",6,20,TRUE
+367,1,"Gawhane Wasti",6,21,TRUE
+367,1,"Bhosari",7,22,TRUE
+367,2,"Bhosari",1,1,FALSE
+367,2,"Gawhane Wasti",2,2,FALSE
+367,2,"Landewadi",2,3,FALSE
+367,2,"Electronic House",3,4,FALSE
+367,2,"Century enka Company",3,5,FALSE
+367,2,"Power House",3,6,FALSE
+367,2,"Zenith Company",3,7,FALSE
+367,2,"Gawalimatha",3,8,FALSE
+367,2,"Yashwantnagar",4,9,FALSE
+367,2,"Telco Hostel",4,10,FALSE
+367,2,"Telco Company",4,11,FALSE
+367,2,"K.S.B.Chowk",4,12,FALSE
+367,2,"H.D.F.C",5,13,FALSE
+367,2,"Balaji Kata Corner",5,14,FALSE
+367,2,"Sarpodyan",5,15,FALSE
+367,2,"Kamalnayan Bajaj School",6,16,FALSE
+367,2,"Ajantha Nagar Corner",6,17,FALSE
+367,2,"Ajantha Nagar",6,18,FALSE
+367,2,"Yamuna Nagar Corner",6,19,FALSE
+367,2,"L.I.C Corner",7,20,FALSE
+367,2,"Sweet Mart",7,21,FALSE
+367,2,"Nigdi ",7,22,FALSE
+368,1,"Lonikand Phata",1,1,TRUE
+368,1,"Sahakari Sanstha",2,2,TRUE
+368,1,"Kamaljainagar",3,3,TRUE
+368,1,"Ghodegao Phata",4,4,TRUE
+368,1,"Thakur Wasti",5,5,TRUE
+368,1,"Kailas Wahan Udyog",6,6,TRUE
+368,1,"Alandi",7,7,TRUE
+368,1,"S.T.Stand",7,8,TRUE
+368,1,"Dehu Phata",7,9,TRUE
+368,1,"Paduka Mandir",8,10,TRUE
+368,1,"Charholi Phata",8,11,TRUE
+368,1,"Chincha",8,12,TRUE
+368,1,"Aamba",9,13,TRUE
+368,1,"Tapkir wasti",9,14,TRUE
+368,1,"Dyaneshwar Old House",9,15,TRUE
+368,1,"Saimandir",9,16,TRUE
+368,1,"Magzine",10,17,TRUE
+368,1,"Gajanan mandir",10,18,TRUE
+368,1,"Dighi Corner(Odha)",10,19,TRUE
+368,1,"Shastri Chowk",10,20,TRUE
+368,1,"Bhosari",11,21,TRUE
+368,2,"Bhosari",1,1,FALSE
+368,2,"Shastri Chowk",2,2,FALSE
+368,2,"Dighi Corner(Odha)",2,3,FALSE
+368,2,"Gajanan mandir",2,4,FALSE
+368,2,"Magzine",2,5,FALSE
+368,2,"Saimandir",3,6,FALSE
+368,2,"Dyaneshwar Old House",3,7,FALSE
+368,2,"Tapkir wasti",3,8,FALSE
+368,2,"Aamba",3,9,FALSE
+368,2,"Chincha",4,10,FALSE
+368,2,"Charholi Phata",4,11,FALSE
+368,2,"Paduka Mandir",4,12,FALSE
+368,2,"Dehu Phata",5,13,FALSE
+368,2,"S.T.Stand",5,14,FALSE
+368,2,"Alandi",5,15,FALSE
+368,2,"Kailas Wahan Udyog",6,16,FALSE
+368,2,"Thakur Wasti",7,17,FALSE
+368,2,"Ghodegao Phata",8,18,FALSE
+368,2,"Kamaljainagar",9,19,FALSE
+368,2,"Sahakari Sanstha",10,20,FALSE
+368,2,"Lonikand Phata",11,21,FALSE
+372,1,"Nigdi",1,1,TRUE
+372,1,"Bajaj auto",1,2,TRUE
+372,1,"Akurdi",1,3,TRUE
+372,1,"Ganesh Vision",2,4,TRUE
+372,1,"Bhoirnagar",2,5,TRUE
+372,1,"Premlok Park",2,6,TRUE
+372,1,"S.K.F Corner",2,7,TRUE
+372,1,"Chinchwad Gao",3,8,TRUE
+372,1,"Walhekar wadi Corner",3,9,TRUE
+372,1,"Birla Hospital",3,10,TRUE
+372,1,"Datta Nagar",4,11,TRUE
+372,1,"Padmaji Mill",4,12,TRUE
+372,1,"Thergao Corner",4,13,TRUE
+372,1,"Dange Chowk",5,14,TRUE
+372,1,"Pandit Auto Motive",5,15,TRUE
+372,1,"Kala Khadak",5,16,TRUE
+372,1,"Bhumkar Wasti",6,17,TRUE
+372,1,"Mangal Karyalaya",6,18,TRUE
+372,1,"Hinjawdi",7,19,TRUE
+372,1,"Hinjawdi Police Station",7,20,TRUE
+372,1,"I.T.Park / Hinjawdi",7,21,TRUE
+372,2,"I.T.Park / Hinjawdi",1,1,FALSE
+372,2,"Hinjawdi Police Station",1,2,FALSE
+372,2,"Hinjawdi",1,3,FALSE
+372,2,"Mangal Karyalaya",2,4,FALSE
+372,2,"Bhumkar Wasti",2,5,FALSE
+372,2,"Kala Khadak",3,6,FALSE
+372,2,"Pandit Auto Motive",3,7,FALSE
+372,2,"Dange Chowk",3,8,FALSE
+372,2,"Thergao Corner",4,9,FALSE
+372,2,"Padmaji Mill",4,10,FALSE
+372,2,"Datta Nagar",4,11,FALSE
+372,2,"Birla Hospital",5,12,FALSE
+372,2,"Walhekar wadi Corner",5,13,FALSE
+372,2,"Chinchwad Gao",5,14,FALSE
+372,2,"S.K.F Corner",6,15,FALSE
+372,2,"Premlok Park",6,16,FALSE
+372,2,"Bhoirnagar",6,17,FALSE
+372,2,"Ganesh Vision",6,18,FALSE
+372,2,"Akurdi",7,19,FALSE
+372,2,"Bajaj auto",7,20,FALSE
+372,2,"Nigdi",7,21,FALSE
+373,1,"Pune Station",1,1,TRUE
+373,1,"Old Bazaar",1,2,TRUE
+373,1,"R.T.O",2,3,TRUE
+373,1,"Eng.College",2,4,TRUE
+373,1,"Simla Office",2,5,TRUE
+373,1,"Mhasoba Gate",3,6,TRUE
+373,1,"Pumping station",3,7,TRUE
+373,1,"Rangehills Corner",3,8,TRUE
+373,1,"Polytechnic College",3,9,TRUE
+373,1,"Chaturshrungi",4,10,TRUE
+373,1,"Rajbhavan",4,11,TRUE
+373,1,"Gol market",4,12,TRUE
+373,1,"Kasturba zopadpatti",5,13,TRUE
+373,1,"Sindha Colony",5,14,TRUE
+373,1,"I.T.I Chowk",5,15,TRUE
+373,1,"Body gate",5,16,TRUE
+373,1,"Aundh Gao",6,17,TRUE
+373,1,"Sangvi Phata",6,18,TRUE
+373,1,"T.B.Hospital",6,19,TRUE
+373,1,"E.S.I. Hospital",6,20,TRUE
+373,1,"Aundh Post",7,21,TRUE
+373,1,"Rakshak Society",7,22,TRUE
+373,1,"Wakad Phata",7,23,TRUE
+373,1,"Jagtap Dairy",8,24,TRUE
+373,1,"15 No.",8,25,TRUE
+373,1,"Rahatani Phata",8,26,TRUE
+373,1,"Kalewadi Phata",8,27,TRUE
+373,1,"Santoshnagar",8,28,TRUE
+373,1,"Laxman Nagar",8,29,TRUE
+373,1,"Dange Chowk",9,30,TRUE
+373,1,"Thergao Phata",9,31,TRUE
+373,1,"Padmaji Mill",9,32,TRUE
+373,1,"Datta Nagar",10,33,TRUE
+373,1,"Birla Hospital",10,34,TRUE
+373,1,"Walhekar wadi Corner",10,35,TRUE
+373,1,"Chinchwad Gao",11,36,TRUE
+373,1,"S.K.F.Company",11,37,TRUE
+373,1,"Premlok Park",11,38,TRUE
+373,1,"Bhoirnagar",11,39,TRUE
+373,1,"Ganesh Vision",12,40,TRUE
+373,1,"Khandoba Mal",12,41,TRUE
+373,1,"Thermax Company",13,42,TRUE
+373,1,"Ajantha Nagar Corner",13,43,TRUE
+373,1,"Kasturi Market",13,44,TRUE
+373,1,"Krishna Nagar Corner",14,45,TRUE
+373,1,"Maruti Mandir",14,46,TRUE
+373,1,"Market",14,47,TRUE
+373,1,"Shivaji Park",14,48,TRUE
+373,1,"Sambhaji Nagar",15,49,TRUE
+373,2,"Sambhaji Nagar",1,1,FALSE
+373,2,"Shivaji Park",2,2,FALSE
+373,2,"Market",2,3,FALSE
+373,2,"Maruti Mandir",2,4,FALSE
+373,2,"Krishna Nagar Corner",2,5,FALSE
+373,2,"Kasturi Market",3,6,FALSE
+373,2,"Ajantha Nagar Corner",3,7,FALSE
+373,2,"Thermax Company",3,8,FALSE
+373,2,"Khandoba Mal",4,9,FALSE
+373,2,"Ganesh Vision",4,10,FALSE
+373,2,"Bhoirnagar",5,11,FALSE
+373,2,"Premlok Park",5,12,FALSE
+373,2,"S.K.F.Company",5,13,FALSE
+373,2,"Chinchwad Gao",5,14,FALSE
+373,2,"Walhekar wadi Corner",6,15,FALSE
+373,2,"Birla Hospital",6,16,FALSE
+373,2,"Datta Nagar",6,17,FALSE
+373,2,"Padmaji Mill",7,18,FALSE
+373,2,"Thergao Phata",7,19,FALSE
+373,2,"Dange Chowk",7,20,FALSE
+373,2,"Laxman Nagar",8,21,FALSE
+373,2,"Santoshnagar",8,22,FALSE
+373,2,"Kalewadi Phata",8,23,FALSE
+373,2,"Rahatani Phata",8,24,FALSE
+373,2,"15 No.",8,25,FALSE
+373,2,"Jagtap Dairy",8,26,FALSE
+373,2,"Wakad Phata",9,27,FALSE
+373,2,"Rakshak Society",9,28,FALSE
+373,2,"Aundh Post",9,29,FALSE
+373,2,"E.S.I. Hospital",10,30,FALSE
+373,2,"T.B.Hospital",10,31,FALSE
+373,2,"Sangvi Phata",10,32,FALSE
+373,2,"Aundh Gao",10,33,FALSE
+373,2,"Body gate",11,34,FALSE
+373,2,"I.T.I Chowk",11,35,FALSE
+373,2,"Sindha Colony",11,36,FALSE
+373,2,"Kasturba zopadpatti",11,37,FALSE
+373,2,"Gol market",12,38,FALSE
+373,2,"Rajbhavan",12,39,FALSE
+373,2,"Chaturshrungi",12,40,FALSE
+373,2,"Polytechnic College",13,41,FALSE
+373,2,"Rangehills Corner",13,42,FALSE
+373,2,"Pumping station",13,43,FALSE
+373,2,"Mhasoba Gate",13,44,FALSE
+373,2,"Simla Office",14,45,FALSE
+373,2,"Eng.College",14,46,FALSE
+373,2,"R.T.O",14,47,FALSE
+373,2,"Old Bazaar",15,48,FALSE
+373,2,"Pune Station",15,49,FALSE
+"Shuttle",1,"Alandi",1,1,TRUE
+"Shuttle",1,"S.T.Stand",1,2,TRUE
+"Shuttle",1,"Dehu Phata",1,3,TRUE
+"Shuttle",1,"Paduka Mandir",2,4,TRUE
+"Shuttle",1,"Charholi Phata",2,5,TRUE
+"Shuttle",1,"Chincha",2,6,TRUE
+"Shuttle",1,"Aamba",3,7,TRUE
+"Shuttle",1,"Tapkir wasti",3,8,TRUE
+"Shuttle",1,"Dyaneshwar Old House",3,9,TRUE
+"Shuttle",1,"Saimandir",3,10,TRUE
+"Shuttle",1,"Magzine",4,11,TRUE
+"Shuttle",1,"Gajanan mandir",4,12,TRUE
+"Shuttle",1,"Dighi Corner(Odha)",4,13,TRUE
+"Shuttle",1,"Shastri Chowk",4,14,TRUE
+"Shuttle",1,"Bhosari",5,15,TRUE
+"Shuttle",2,"Alandi",1,1,FALSE
+"Shuttle",2,"S.T.Stand",1,2,FALSE
+"Shuttle",2,"Dehu Phata",1,3,FALSE
+"Shuttle",2,"Paduka Mandir",2,4,FALSE
+"Shuttle",2,"Charholi Phata",2,5,FALSE
+"Shuttle",2,"Chincha",2,6,FALSE
+"Shuttle",2,"Aamba",3,7,FALSE
+"Shuttle",2,"Tapkir wasti",3,8,FALSE
+"Shuttle",2,"Dyaneshwar Old House",3,9,FALSE
+"Shuttle",2,"Saimandir",3,10,FALSE
+"Shuttle",2,"Magzine",4,11,FALSE
+"Shuttle",2,"Gajanan mandir",4,12,FALSE
+"Shuttle",2,"Dighi Corner(Odha)",4,13,FALSE
+"Shuttle",2,"Shastri Chowk",4,14,FALSE
+"Shuttle",2,"Bhosari",5,15,FALSE
