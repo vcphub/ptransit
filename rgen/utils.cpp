@@ -7,6 +7,7 @@
 #include <iostream>
 #include <cassert>
 #include <cctype>
+#include <cstdlib>
 #include "utils.h"
 
 using namespace std;

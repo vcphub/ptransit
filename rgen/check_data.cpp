@@ -8,6 +8,7 @@
 #include <string>
 #include <iomanip>
 #include <cassert>
+#include <cstdlib>
 #include "route.h"
 
 using namespace std;

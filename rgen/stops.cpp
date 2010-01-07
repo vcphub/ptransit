@@ -8,6 +8,7 @@
 #include <sstream>
 #include <ostream>
 #include <cassert>
+#include <cstdlib>
 
 #include "stop.h"
 #include "route.h"
