@@ -66,7 +66,8 @@ void Route::add_depot(std::string depot_name)
 	depot_list.push_back(depot_name);
 }
 
-// Add stop
+// Given stop name, find existing stop object or create new one.
+// Add to stops list.
 void Route::add_stop(std::string stop_name)
 {
 	Stop * stop = NULL;
@@ -161,8 +162,10 @@ int count_shuttle_routes()
 	return count;
 }
 
-// Read routes data file in CSV format.
-// “route-number”, “bus-id”, “stop-name”, “stage-number”, “stop-sequence”, “up-direction”
+/* 
+ * Read routes data file in CSV format.
+ * Format : “route-number”, “bus-id”, “stop-name”, “stage-number”, “stop-sequence”, “up-direction”
+ */
 void read_routes_file(string filename)
 {
 	ifstream fin(filename.c_str());
@@ -223,15 +226,13 @@ void read_routes_file(string filename)
 
 			// Add stop name to existing route object
 			assert(route != NULL);
-			//route->stop_list.push_back(tokenlist[2]);
 			route->add_stop(tokenlist[2]);
 
 		} else {
-			// Create new route
+			// Create new route object, populate using tokenlist.
 			route = new Route();
 			route->short_name = tokenlist[0];
 			route->bus_id = tokenlist[1];
-			//route->stop_list.push_back(tokenlist[2]);
 			route->add_stop(tokenlist[2]);
 
 			// Add object to global array.

@@ -35,11 +35,12 @@ void check_trip_tokenlist(string& filename, int linecnt, vector<string> tokenlis
 	if(tokenlist[4].length() == 0)	
 		ferr<<filename<<": line "<<linecnt<<" missing estimated time."<<endl;
 }
-	
-// # Description: Read trips data file in CSV format.
-// “route-number”, “bus-id”, “no-of-stops”, “distance”, “estimated-time”, “start-times”
-// # Arguments: trip data file name
-// # Return value: void
+
+/* 
+ * # Description: Read trips data file in CSV format.
+ * “route-number”, “bus-id”, “no-of-stops”, “distance”, “estimated-time”, “start-times”
+ * # Arguments: trip data file name
+ */
 void read_trips_file(string filename, string depot_name)
 {
 	ifstream fin(filename.c_str());
@@ -82,7 +83,7 @@ void read_trips_file(string filename, string depot_name)
 		// trips data check
 		check_trip_tokenlist(filename, linecnt, tokenlist);
 
-		// Use short name and bus id to find route object.
+		// Given short name and bus id find correct route object.
 		route = NULL;
 		route = find_route(tokenlist[0], tokenlist[1]);
 
