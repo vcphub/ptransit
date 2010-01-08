@@ -46,6 +46,70 @@ void Route::add_tripgroup(TripGroup * tg)
         tripgroup_list.push_back(tg);
 }
 
+// Print basic information for route timetable.
+void Route::print_timetable_info(ofstream& fout)
+{
+	fout<<"<center><span style='font-size: 20px; font-weight:bold; font-family:Verdana'>";
+        fout <<"Route = " << short_name << endl;
+	fout<<"</span></center>"<<endl;
+}
+
+// Print basic information for TripGroup timetable.
+void TripGroup::print_timetable_info(ofstream& fout)
+{
+	int stop_count = stop_list.size();
+	assert(stop_count > 0);
+
+        fout<< "Direction : ";
+	fout<< stop_list[0] << " -- to --> ";
+	fout<< stop_list[stop_count-1] << endl;
+
+	fout<<"<h5> Depot = ";
+	for(size_t i = 0; i < depot_list.size(); i++) {
+		fout<< depot_list[i] <<", ";
+	}
+	fout<<"</h5>"<<endl;
+
+	fout<<"<h5> Number of stops = "<<stop_count; 
+	if(start_time_list.empty())
+		fout<<", Number of trips = Not Available </h5>"<<endl;
+	else 
+		fout<<", Number of trips = "<< start_time_list.size() <<"</h5>"<<endl;
+
+	if(estimated_time == 0)
+		fout<<"<h5> Estimated time = Not Available </h5>"<< endl;
+	else
+		fout<<"<h5> Estimated time = "<< estimated_time <<" Minutes </h5>"<<endl;
+
+        // Display stop names of this trip group.
+	fout << "<table border=1px bordercolor=gray cellpadding=1px cellspacing=0px >" << endl;
+	for(size_t i = 0; i < stop_list.size(); i++)  {
+	        fout<<"<tr align='center' style='color:blue; font-family:Verdana; font-size:12px'>"<<endl;
+		fout<<"<th>"<< (i+1) << "</th>" << endl;
+		fout<<"<th>"<< stop_list[i] << "</th>" << endl;
+	        fout<<"</tr>"<<endl;
+        }
+        fout << "</table>" <<endl;
+
+        // Display trip start times for this trip group.
+	fout << "<table border=1px bordercolor=gray cellpadding=1px cellspacing=0px >" << endl;
+        for(size_t trip_cnt = 0; trip_cnt < start_time_list.size(); trip_cnt++) {
+		fout<<"<tr align='center' style='font-family:Verdana; font-size:12px'>"<<endl;
+
+		double time_mins = start_time_list[trip_cnt];
+		fout<<"\t<td nowrap=nowrap>"<< time_mins_to_hhmm((int)time_mins) <<"</td>"<<endl;
+
+		fout<<"</tr>"<<endl;
+        }
+        fout << "</table>" <<endl;
+
+	// Shuttle may not have trip information.
+	if(start_time_list.empty()) {
+	        fout<<"<h5>We are sorry, trips times for this route are not available.</h5>";
+	        fout<<"<h5>We are trying our best to make it available to passengers.</h5>";
+	}
+}
+
 // TripGroup Constructor
 TripGroup::TripGroup()
 {

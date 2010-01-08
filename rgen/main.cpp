@@ -58,7 +58,7 @@ int main(int argc, char * argv[])
 	check_data();
 
 	// Generate useful output.
-	//print_html();
+	print_html();
 
 	// Clean up
 	ferr.close();

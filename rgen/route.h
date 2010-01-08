@@ -4,6 +4,7 @@
 
 #include <string>
 #include <vector>
+#include <fstream>
 #include "stop.h"
 
 // Forward declaration
@@ -42,6 +43,7 @@ class TripGroup
 		void add_stop(std::string stop_name);
 		int get_stop_index(Stop * pstop);
                 void get_direction();
+                void print_timetable_info(std::ofstream& fout);
 };
 
 typedef std::vector<TripGroup*> TripGroupContainer;
@@ -66,6 +68,7 @@ class Route
 		// Member functions.
 		std::string get_route_id() { return route_id; }
 		void add_tripgroup(TripGroup * tg);
+                void print_timetable_info(std::ofstream& fout);
 };
 
 typedef std::vector<Route*> RouteContainer;

@@ -131,7 +131,7 @@ void Stop::print_trip_times()
 {
 	// Create output file name for this bus stop.
 	ostringstream ss;
-	ss<< stop_id <<".html";
+	ss<< "en-" << stop_id <<".html";
 	string filename = "html/" + ss.str();
 	ofstream fout;
 	file_open_write(filename.c_str(), fout);

@@ -1,7 +1,6 @@
 
 CFLAGS = -Wall -g
-#OBJS = main.o stops.o routes.o trips.o check_data.o output_html.o utils.o 
-OBJS = main.o stops.o routes.o trips.o check_data.o utils.o 
+OBJS = main.o stops.o routes.o trips.o check_data.o output_html.o utils.o 
 
 run: $(OBJS)
 	g++ $(CFLAGS) $(OBJS) -o rgen.exe
@@ -30,4 +29,4 @@ check_data.o: check_data.cpp
 PHONY:
 
 clean:
-	rm $(OBJS) rgen.exe html/r*.html html/compact-r*.html html/s*.html 
+	rm $(OBJS) rgen.exe html/en-r*.html html/r*.html html/compact-r*.html html/s*.html html/en-s*.html
