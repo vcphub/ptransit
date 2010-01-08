@@ -7,15 +7,16 @@
 #include <map>
 #include "utils.h"
 
-class Route;
+// Forward declaration.
+class TripGroup;
 class Stop 
 {
 	public:
-		std::string stop_id;	// Unique stop id.
-		std::string stop_name;		// Bus stop name 
+		std::string stop_id;    // Unique stop id.
+		std::string stop_name;  // Bus stop name 
 
-		std::vector<Route*> route_list;	// Associated routes.
-		static int stop_count;		// For generating unique keys.
+		std::vector<TripGroup*> tripgroup_list;	// Tripgroups visiting the stop.
+		static int stop_count;                  // For generating unique keys.
 		Stop(std::string stop_name);
 		void print_trip_times();
 };

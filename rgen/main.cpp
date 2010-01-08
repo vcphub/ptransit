@@ -16,7 +16,7 @@ using namespace std;
 
 // Global objects
 extern RouteContainer RoutesList;
-extern RouteContainer MissingRoutesList;
+extern RouteContainer MissingTripGroupsList;
 ofstream ferr;
 ofstream fwarn;
 extern int missing_route_count;
@@ -51,14 +51,14 @@ int main(int argc, char * argv[])
 	read_trips_file("../data/pmpml/fixed-trips-swargate.csv", "Swargate");
 	read_trips_file("../data/pmpml/fixed-trips-tukaramnagar-pimpri.csv", "Tukaramnagar");
 
-	cout << "Missing route count = " << MissingRoutesList.size() << endl;
+	cout << "Missing trip group count = " << MissingTripGroupsList.size() << endl;
 
 	// process and check data. Report errors.
 	process_data();
 	check_data();
 
 	// Generate useful output.
-	print_html();
+	//print_html();
 
 	// Clean up
 	ferr.close();

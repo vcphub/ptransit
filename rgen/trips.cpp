@@ -15,8 +15,8 @@
 using namespace std;
 
 // Global objects
-extern RouteContainer RoutesList;
-RouteContainer MissingRoutesList;
+extern TripGroupContainer TripGroupsList;
+TripGroupContainer MissingTripGroupsList;
 extern ofstream ferr;
 extern ofstream fwarn;
 
@@ -55,7 +55,7 @@ void read_trips_file(string filename, string depot_name)
 		size_t prev_pos = 0, curr_pos = 0;
 		vector<string> tokenlist;
 		string token;
-		Route * route = NULL;
+		TripGroup * tripgroup = NULL;
 
 		linecnt++;
 		// check string
@@ -83,17 +83,17 @@ void read_trips_file(string filename, string depot_name)
 		// trips data check
 		check_trip_tokenlist(filename, linecnt, tokenlist);
 
-		// Given short name and bus id find correct route object.
-		route = NULL;
-		route = find_route(tokenlist[0], tokenlist[1]);
+		// Given short name and bus id find correct tripgroup object.
+		tripgroup = NULL;
+		tripgroup = find_tripgroup(tokenlist[0], tokenlist[1]);
 
-		if(route != NULL) {
-			//  Correct Route found, set its properties.
-			route->add_depot(depot_name);
+		if(tripgroup != NULL) {
+			//  Correct TripGroup found, set its properties.
+			tripgroup->add_depot(depot_name);
 
-			route->stop_count = atoi(tokenlist[2].c_str());
-			route->distance = atof(tokenlist[3].c_str());
-			route->estimated_time = atoi(tokenlist[4].c_str());
+			tripgroup->stop_count = atoi(tokenlist[2].c_str());
+			tripgroup->distance = atof(tokenlist[3].c_str());
+			tripgroup->estimated_time = atoi(tokenlist[4].c_str());
 
 			// Read start times
 			int last_start_time = 0, correction = 0;
@@ -124,18 +124,18 @@ void read_trips_file(string filename, string depot_name)
 					exit(-1);
 				}
 
-				route->start_time_list.push_back(start_time);
+				tripgroup->start_time_list.push_back(start_time);
 				last_start_time = start_time;
 			}
 		} else {
 			// report error
 			Route * miss_route = new Route();
-			miss_route->add_depot(depot_name);
 			miss_route->short_name = tokenlist[0];
-			miss_route->bus_id = tokenlist[1];
-			MissingRoutesList.push_back(miss_route);
-
-			//ferr<<filename<<": route not found, "<<tokenlist[0]<<", "<<tokenlist[1]<<endl;
+			TripGroup * miss_tripgroup = new TripGroup();
+                        miss_tripgroup->route = miss_route;
+			miss_tripgroup->add_depot(depot_name);
+			miss_tripgroup->bus_id = tokenlist[1];
+			MissingTripGroupsList.push_back(miss_tripgroup);
 		}
 
 		// get next line
