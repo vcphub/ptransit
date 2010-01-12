@@ -55,53 +55,63 @@ void Route::print_timetable_info(ofstream& fout)
 }
 
 // Print basic information for TripGroup timetable.
-void TripGroup::print_timetable_info(ofstream& fout)
+void TripGroup::print_basic_info(ofstream& fout)
 {
-	int stop_count = stop_list.size();
-	assert(stop_count > 0);
+        // Display basic trip group information.
+        fout<< "<div>";
+        fout<< "<b>Direction : </b>";
+	fout<< get_direction();
+        fout<< "<br />";
 
-        fout<< "Direction : ";
-	fout<< stop_list[0] << " -- to --> ";
-	fout<< stop_list[stop_count-1] << endl;
-
-	fout<<"<h5> Depot = ";
+	fout<<"<b>Depot(s) : </b>";
 	for(size_t i = 0; i < depot_list.size(); i++) {
 		fout<< depot_list[i] <<", ";
 	}
-	fout<<"</h5>"<<endl;
+        fout<< "<br />";
 
-	fout<<"<h5> Number of stops = "<<stop_count; 
-	if(start_time_list.empty())
-		fout<<", Number of trips = Not Available </h5>"<<endl;
-	else 
-		fout<<", Number of trips = "<< start_time_list.size() <<"</h5>"<<endl;
-
+        fout<<"<b>Estimated time : </b>";
 	if(estimated_time == 0)
-		fout<<"<h5> Estimated time = Not Available </h5>"<< endl;
+		fout << "Not Available" << endl;
 	else
-		fout<<"<h5> Estimated time = "<< estimated_time <<" Minutes </h5>"<<endl;
+		fout << estimated_time << " Minutes."<<endl;
+        fout<< "<br />";
 
+        fout<< "</div>";
+}
+
+// Print stops information for TripGroup timetable.
+void TripGroup::print_stops_info(ofstream& fout)
+{
         // Display stop names of this trip group.
-	fout << "<table border=1px bordercolor=gray cellpadding=1px cellspacing=0px >" << endl;
+	fout << "<table align=center border=1px bordercolor=gray cellpadding=1px cellspacing=0px >" << endl;
+        fout << "<caption>Bus Stops</caption>" << endl; 
 	for(size_t i = 0; i < stop_list.size(); i++)  {
-	        fout<<"<tr align='center' style='color:blue; font-family:Verdana; font-size:12px'>"<<endl;
-		fout<<"<th>"<< (i+1) << "</th>" << endl;
-		fout<<"<th>"<< stop_list[i] << "</th>" << endl;
+	        fout<<"<tr style='color:black; font-family:Verdana; font-size:12px'>"<<endl;
+		fout<<"<td>"<< (i+1) << "</td>" << endl;
+		fout<<"<td>"<< stop_list[i] << "</td>" << endl;
 	        fout<<"</tr>"<<endl;
         }
-        fout << "</table>" <<endl;
+        fout << "</table><p>" <<endl;
+}
 
+// Print stops information for TripGroup timetable.
+void TripGroup::print_trips_info(ofstream& fout)
+{
         // Display trip start times for this trip group.
-	fout << "<table border=1px bordercolor=gray cellpadding=1px cellspacing=0px >" << endl;
+	fout << "<table align=center border=1px bordercolor=gray cellpadding=1px cellspacing=0px >" << endl;
+        fout << "<caption>Trip Start Times</caption>" << endl; 
         for(size_t trip_cnt = 0; trip_cnt < start_time_list.size(); trip_cnt++) {
-		fout<<"<tr align='center' style='font-family:Verdana; font-size:12px'>"<<endl;
+
+                if(trip_cnt != 0 && (trip_cnt % 5 == 0))
+		        fout<<"</tr>"<<endl;
+                if(trip_cnt % 5 == 0)
+		        fout<<"<tr align='center' style='font-family:Verdana; font-size:12px'>"<<endl;
 
 		double time_mins = start_time_list[trip_cnt];
 		fout<<"\t<td nowrap=nowrap>"<< time_mins_to_hhmm((int)time_mins) <<"</td>"<<endl;
 
-		fout<<"</tr>"<<endl;
         }
-        fout << "</table>" <<endl;
+        fout << "</table><p>" <<endl;
 
 	// Shuttle may not have trip information.
 	if(start_time_list.empty()) {
@@ -120,15 +130,20 @@ TripGroup::TripGroup()
 	this->tripgroup_id = ss.str();
 
         this->route = NULL;
-	this->stop_count = 0;
 	this->distance = 0.0; // kms
 	this->estimated_time = 0; // mins
 }
 
 // Get trip group direction.
-void TripGroup::get_direction()
+string TripGroup::get_direction()
 {
-       // TODO : make use of first and last stop names. 
+	ostringstream ss;
+        int stop_count = stop_list.size();
+        ss << stop_list[0];
+        ss << "  to  ";
+        ss << stop_list[stop_count-1];
+
+        return ss.str();
 }
 
 // Sort container start_time_list.

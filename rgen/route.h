@@ -24,7 +24,7 @@ class TripGroup
 
                 Route * route;                  // Route object.
 		std::string bus_id;		// indicates UP/DOWN/Extended direction
-		int stop_count;			// Bus stop count
+                int stop_count;                 // Bus stop count.
 		double distance; 		// In Kms (start to end bus stop).
 		int estimated_time;		// in minutes		
 		double interval;
@@ -42,8 +42,11 @@ class TripGroup
 		void add_depot(std::string depot_name);
 		void add_stop(std::string stop_name);
 		int get_stop_index(Stop * pstop);
-                void get_direction();
-                void print_timetable_info(std::ofstream& fout);
+                std::string get_direction();
+                // Timetable related methods.
+                void print_basic_info(std::ofstream& fout);
+                void print_stops_info(std::ofstream& fout);
+                void print_trips_info(std::ofstream& fout);
 };
 
 typedef std::vector<TripGroup*> TripGroupContainer;

@@ -34,8 +34,9 @@ void print_html()
 }
 
 /* 
- * Print PMPML timetable index page in English. TODO : Marathi.
+ * Print PMPML timetable index page in English. 
  * Index page lists all routes and has links to route pages.
+ * TODO : Marathi.
  * */
 void print_index_page()
 {
@@ -49,31 +50,56 @@ void print_index_page()
 	fout<<"<html>"<<endl;
 	print_head(fout);
 	fout<<"<body>"<<endl;
+	fout << "<table align=center border=1px bordercolor=gray cellpadding=1px cellspacing=0px >" << endl;
+        fout << "<tr>" << endl;
+        fout << "<th>Route No.</th>" << endl;
+        fout << "<th>Route Name (Trips Directions)</th>" << endl;
+        fout << "<th>Remark</th>" << endl;
+        fout << "</tr>" << endl;
 
 	// For each route in RoutesList.
-	RouteIterator iter = RoutesList.begin();
-	for(; iter != RoutesList.end(); iter++) {
+	RouteIterator route_iter = RoutesList.begin();
+	for(; route_iter != RoutesList.end(); route_iter++) {
 
 		ostringstream ss;
 		string filename;
-		Route * route = (*iter);
+		Route * route = (*route_iter);
+                bool trips_flag = false; // Assume no trips.
 
 		// construct output file name for this route.
 		ss<< "en-" << route->get_route_id() <<".html";
 		filename = ss.str();
 
-		// Create a link to another page which has route details.
+		// Print Route Number. 
+		// Create a link to route timetable HTML page.
+                fout << "<tr>" << endl;
+                
+                fout << "<td nowrap=nowrap>" << endl;
 		fout<<"<a href=\""<< filename <<"\" target=\"_blank\">";
 		fout<<"Route "<< route->short_name <<" ";
 		fout<<"</a>";
+                fout << "</td>" << endl;
 
-                /*
-		if(route->start_time_list.empty())
-			fout<<"  <font color=\"#FF0000\">(Trips times not available.)</font>" << endl;
-                */
-		fout<<"<br />"<<endl;
+                fout << "<td>" << endl;
+                TripGroupIterator tg_iter = route->tripgroup_list.begin();
+                for(; tg_iter != route->tripgroup_list.end(); tg_iter++) {
+                        TripGroup * tg = *(tg_iter);
+                        fout<< tg->get_direction() <<", " ; 
+		        if(!tg->start_time_list.empty())
+                                trips_flag = true;
+                }
+                fout << "</td>" << endl;
+
+                if(trips_flag == false) {
+                        fout << "<td>" << endl;
+		        fout<<"  <font color=\"#FF0000\">(Trip sart times un-available.)</font>" << endl;
+                        fout << "</td>" << endl;
+                }
+
+                fout << "</tr>" << endl;
 	}
 
+        fout << "</table>" << endl; 
 	fout<<"<h5> One link for route.</h5>"<<endl;
 	fout<<"<h5> Note: Not all PMPML routes are displayed.</h5>"<<endl;
 
@@ -93,10 +119,10 @@ void print_route_pages()
 	cout << "Generating table for each route ...";
 	// For each route in RoutesList.
 	int empty_count = 0;
-	RouteIterator iter = RoutesList.begin();
-	for(; iter != RoutesList.end(); iter++) {
+	RouteIterator route_iter = RoutesList.begin();
+	for(; route_iter != RoutesList.end(); route_iter++) {
 
-		Route * route = (*iter);
+		Route * route = (*route_iter);
 
 		// construct output file name (in dir html) for this route. 
 		ostringstream ss;
@@ -113,27 +139,50 @@ void print_route_pages()
 		print_head(fout);
 		fout<<"<body>"<<endl;
 
-		print_disclaimer(fout);
-
 		// Part 1: Print basic information about route.
 		route->print_timetable_info(fout);
 
 		// Part 2: Print all tripgroups.
 		fout << "<table align=center border=1px bordercolor=gray cellpadding=1px cellspacing=0px>";
                 fout << endl;
+
+                // Print basic trip group info.
                 fout << "<tr>" << endl;
-
-                // Print trip group information as a table column.
-                TripGroupIterator iter = route->tripgroup_list.begin();
-                for(; iter != route->tripgroup_list.end(); iter++) {
-                        TripGroup * tg = (*iter);
-                        fout << "<th>" << endl;
-                        tg->print_timetable_info(fout); 
-                        fout << "</th>" << endl;
+                TripGroupIterator tg_iter = route->tripgroup_list.begin();
+                for(; tg_iter != route->tripgroup_list.end(); tg_iter++) {
+                        TripGroup * tg = (*tg_iter);
+                        fout << "<td valign=top>" << endl;
+                        tg->print_basic_info(fout); 
+                        fout << "</td>" << endl;
                 }
-
                 fout << "</tr>" << endl;
+
+                // Print trip group stops information.
+                fout << "<tr>" << endl;
+                tg_iter = route->tripgroup_list.begin();
+                for(; tg_iter != route->tripgroup_list.end(); tg_iter++) {
+                        TripGroup * tg = (*tg_iter);
+                        fout << "<td valign=top>" << endl;
+                        tg->print_stops_info(fout); 
+                        fout << "</td>" << endl;
+                }
+                fout << "</tr>" << endl;
+
+                // Print trip group trips information.
+                fout << "<tr>" << endl;
+                tg_iter = route->tripgroup_list.begin();
+                for(; tg_iter != route->tripgroup_list.end(); tg_iter++) {
+                        TripGroup * tg = (*tg_iter);
+                        fout << "<td valign=top>" << endl;
+                        tg->print_trips_info(fout); 
+                        fout << "</td>" << endl;
+                }
+                fout << "</tr>" << endl;
+
                 fout << "</table>" << endl;
+
+                // Finally print disclaimer.
+		print_disclaimer(fout);
 
 		fout<<"</body>"<<endl;
 		fout<<"</html>"<<endl;
@@ -148,10 +197,15 @@ void print_route_pages()
 // Utility function: Print disclaimer used in all route HTML pages.
 void print_disclaimer(ofstream& fout)
 {
-	fout<<"<h6> Disclaimer: About stop time accuracy. ";
+	fout<<"<h6 align=center> Disclaimer: Schedule data. ";
+        fout<<"This timetable is generated using PMPML schedule in December 2008. \
+        Latest schedule & timetable is likely to be differ. \
+        </h6>"<< endl;
+        /*
 	fout<< "Actual stop times depend on many uncontrollable factors like \
 	bus breakdowns, traffic conditions etc. \
 	We will try our best to provide you most accurate schedule. </h6>"<< endl;
+        */
 }
 
 // Utility function: Print common head used in all HTML pages.
