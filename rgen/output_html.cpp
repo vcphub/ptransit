@@ -50,6 +50,9 @@ void print_index_page()
 	fout<<"<html>"<<endl;
 	print_head(fout);
 	fout<<"<body>"<<endl;
+
+        print_top_navbar(fout);
+
 	fout << "<table align=center border=1px bordercolor=gray cellpadding=1px cellspacing=0px >" << endl;
         fout << "<tr>" << endl;
         fout << "<th>Route No.</th>" << endl;
@@ -80,7 +83,8 @@ void print_index_page()
 		fout<<"</a>";
                 fout << "</td>" << endl;
 
-                fout << "<td>" << endl;
+                // Print route description.
+                fout << "<td style='font-size:10px'>" << endl;
                 TripGroupIterator tg_iter = route->tripgroup_list.begin();
                 for(; tg_iter != route->tripgroup_list.end(); tg_iter++) {
                         TripGroup * tg = *(tg_iter);
@@ -90,9 +94,10 @@ void print_index_page()
                 }
                 fout << "</td>" << endl;
 
+                // Print trip start status.
                 if(trips_flag == false) {
-                        fout << "<td>" << endl;
-		        fout<<"  <font color=\"#FF0000\">(Trip sart times un-available.)</font>" << endl;
+                        fout << "<td style='font-size:10px'>" << endl;
+		        fout<<"  <font color=\"#FF0000\">(No trip start times.)</font>" << endl;
                         fout << "</td>" << endl;
                 }
 
@@ -100,8 +105,9 @@ void print_index_page()
 	}
 
         fout << "</table>" << endl; 
-	fout<<"<h5> One link for route.</h5>"<<endl;
-	fout<<"<h5> Note: Not all PMPML routes are displayed.</h5>"<<endl;
+
+        // Finally print disclaimer.
+	print_disclaimer(fout);
 
 	fout << "</body>" << endl;
 	fout << "</html>" << endl;
@@ -139,6 +145,9 @@ void print_route_pages()
 		print_head(fout);
 		fout<<"<body>"<<endl;
 
+		// Part 0: Top navigation bar.
+                print_top_navbar(fout);
+	
 		// Part 1: Print basic information about route.
 		route->print_timetable_info(fout);
 
@@ -181,7 +190,7 @@ void print_route_pages()
 
                 fout << "</table>" << endl;
 
-                // Finally print disclaimer.
+                // Part 3 : Finally print disclaimer.
 		print_disclaimer(fout);
 
 		fout<<"</body>"<<endl;
@@ -194,12 +203,20 @@ void print_route_pages()
    	cout<<"Start times not available for " << pcnt << " % routes."<<endl;
 }
 
+// Print navigation bar at the top of each HTML page.
+void print_top_navbar(ofstream& fout)
+{
+        fout<< "<a href=en-index.html>Index Page</a> | ";
+	fout<< "<a href=\"http://www.pmpml.org\" target=\"_blank\">PMPML Official Website</a>" << endl;
+        fout<< "<hr>" << endl;
+}
+	
 // Utility function: Print disclaimer used in all route HTML pages.
 void print_disclaimer(ofstream& fout)
 {
-	fout<<"<h6 align=center> Disclaimer: Schedule data. ";
+	fout<<"<h6 align=center> Disclaimer: This is unofficial PMPML timetable.";
         fout<<"This timetable is generated using PMPML schedule in December 2008. \
-        Latest schedule & timetable is likely to be differ. \
+        Latest schedule & timetable is likely to be differ. Please contact PMPML. \
         </h6>"<< endl;
         /*
 	fout<< "Actual stop times depend on many uncontrollable factors like \

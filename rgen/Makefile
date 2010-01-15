@@ -29,4 +29,4 @@ check_data.o: check_data.cpp
 PHONY:
 
 clean:
-	rm $(OBJS) rgen.exe html/en-r*.html html/r*.html html/compact-r*.html html/s*.html html/en-s*.html
+	rm $(OBJS) rgen.exe html/en-index.html html/en-r*.html html/en-s*.html 

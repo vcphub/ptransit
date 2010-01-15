@@ -30,14 +30,15 @@ StopMap StopLookUpTable;
 int Route::route_count = 0;
 int TripGroup::tripgroup_count = 0;
 
-// TripGroup Constructor
-Route::Route()
+// class Route Constructor
+Route::Route(string short_name)
 {
 	ostringstream ss;
 
 	Route::route_count++;
 	ss << "r" << route_count;
 	this->route_id = ss.str();
+        this->short_name = short_name;
 }
 
 // Add tripgroups belonging to this route.
@@ -121,7 +122,7 @@ void TripGroup::print_trips_info(ofstream& fout)
 }
 
 // TripGroup Constructor
-TripGroup::TripGroup()
+TripGroup::TripGroup(Route * route)
 {
 	ostringstream ss;
 
@@ -129,7 +130,7 @@ TripGroup::TripGroup()
 	ss << "t" << tripgroup_count;
 	this->tripgroup_id = ss.str();
 
-        this->route = NULL;
+        this->route = route;
 	this->distance = 0.0; // kms
 	this->estimated_time = 0; // mins
 }
@@ -368,21 +369,19 @@ void read_routes_file(string filename)
 		} else { 
 		        // Case 2 : Different route short name.
                         if(string_compare(last_route_name, tokenlist[0])) {
-			        // Create new route object, populate using tokenlist.
-			        route = new Route();
-			        route->short_name = tokenlist[0];
+			        // Create new route object by passing route number.
+			        route = new Route(tokenlist[0]);
 			        // Add object to global array.
 			        RoutesList.push_back(route);
 		        }
 
 		        // Case 3 : Same route short name, different bus id.
 			// Create new tripgroup object, populate using tokenlist.
-			tripgroup = new TripGroup();
-			tripgroup->route = route;
+			tripgroup = new TripGroup(route);
 			tripgroup->bus_id = tokenlist[1];
 			tripgroup->add_stop(tokenlist[2]);
 
-                        // TripGroup object belongs to a route.
+                        // TripGroup object belongs to the route.
                         route->add_tripgroup(tripgroup);
 
 			// Add object to global array.

@@ -19,7 +19,7 @@ using namespace std;
 extern ofstream ferr;
 int Stop::stop_count = 0;
 
-// Constructor
+// class Stop Constructor
 Stop::Stop(string stop_name) 
 {
 	ostringstream ss; 

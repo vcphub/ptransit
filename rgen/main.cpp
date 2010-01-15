@@ -21,7 +21,7 @@ ofstream ferr;
 ofstream fwarn;
 extern int missing_route_count;
 
-// TODO: Sort start times.
+// Program entry point.
 int main(int argc, char * argv[])
 {
 	string stop_name;
@@ -39,7 +39,7 @@ int main(int argc, char * argv[])
 
 	// Read trips file(s) from 'data' directory.
 	// For PMPML trips data was collected and stored depot wise. 
-	// There are 10 depots, hence 10 different files.
+	// There are 10 PMPML depots, hence 10 different files.
 	read_trips_file("../data/pmpml/fixed-trips-bhakti-shakti-nigdi.csv", "Bhakti-Shakti");
 	read_trips_file("../data/pmpml/fixed-trips-hadapsar.csv", "Hadapsar");
 	read_trips_file("../data/pmpml/fixed-trips-katraj.csv", "Katraj");

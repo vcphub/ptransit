@@ -129,10 +129,8 @@ void read_trips_file(string filename, string depot_name)
 			}
 		} else {
 			// report error
-			Route * miss_route = new Route();
-			miss_route->short_name = tokenlist[0];
-			TripGroup * miss_tripgroup = new TripGroup();
-                        miss_tripgroup->route = miss_route;
+			Route * miss_route = new Route(tokenlist[0]);
+			TripGroup * miss_tripgroup = new TripGroup(miss_route);
 			miss_tripgroup->add_depot(depot_name);
 			miss_tripgroup->bus_id = tokenlist[1];
 			MissingTripGroupsList.push_back(miss_tripgroup);

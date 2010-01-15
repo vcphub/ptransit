@@ -17,7 +17,7 @@ class TripGroup
 		std::string tripgroup_id;	// unique
 
 	public:
-		TripGroup();
+		TripGroup(Route * route);
 
 		// TripGroup belongs to one or more depots.
 		std::vector<std::string> depot_list;	
@@ -63,10 +63,10 @@ class Route
 		std::string route_id;	// unique
 
 	public:
-		Route();
-		std::string short_name;                 // Route number
+		Route(std::string short_name);
+		std::string short_name;                 // Short names means route number.
                 TripGroupContainer tripgroup_list;      // UP & DOWN tripgroups.
-		static int route_count;                 // to generate id.
+		static int route_count;                 // Use for generating unique id.
 
 		// Member functions.
 		std::string get_route_id() { return route_id; }
