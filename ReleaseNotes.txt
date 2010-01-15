@@ -1,7 +1,27 @@
 
 ---------------------------------------------------------------------
-					Release Notes :: ptransit project
+Release Notes :: ptransit project
+Vijay Patil
 ---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+Date: Friday, 15 January 2010. Version 0.6 Released.
+
+Its been a year since last release. This release has some new features
+and more importantly source code quality is improved a lot.
+
+1. Route timetable format is now simple. Only trip start times are printed, 
+bus arrival times at intermediate stops are not provided. This makes
+timetable page compact and still useful.
+
+2. Concept of Trip Group (group of trips of a route in same direction)
+is introduced in the source code. Code is improved and now easy to understand.
+
+3. PMPML schedule input data in CSV format is not available with the source code.
+
+4. All route timetable pages for PMPML are now available with the source code.
+PMPML timetable index page is can be accessed from :  
+http://ptransit.googlecode.com/svn/trunk/rgen/html/en-index.html
 
 ---------------------------------------------------------------------
 Date: Wednesday, 21 January 2009. Version 0.5 Released.
